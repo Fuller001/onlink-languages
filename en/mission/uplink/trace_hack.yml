@@ -1,0 +1,25 @@
+---
+Subject: Trace a hacker who recently broke into our systems
+Body: |
+    Our computer systems were recently compromised by a computer hacker. Find this hacker and send the name to us. We would like to deal with this person in our own way.
+    
+    The compromised system is:
+    {{ computer_name }}
+    IP : {{ computer_ip }}
+    
+    The hack occurred around {{ date_short }}.
+    
+    {% if code_provided %}
+    We have provided you with level 3 clearance to our system.
+    
+    USER : {{ misc_string }}
+    CODE : {{ misc_string2 }}
+    {% endif %}
+    
+    Once completed, send the name of the hacker to {{ employer_email }} and payment will be delivered.
+    
+    END
+
+WhoIsTheTarget: That is for you to determine.
+WhySoMuchMoney: The hacker will certainly have covered their tracks.
+HowSecure: You may have to hack several targets.

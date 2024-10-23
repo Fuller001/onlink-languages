@@ -1,0 +1,81 @@
+---
+Date:
+    Text: Date
+    Tooltip: This column shows the date the message was submitted
+
+Payment:
+    Text: Payment
+    Tooltip: This column shows the amount promised by the client
+
+Tier:
+    Text: Tier
+    Tooltip: This column shows the mission tier
+
+Difficulty:
+    Text: Difficulty
+    Tooltip: This column shows the estimated mission difficulty
+
+Subject:
+    Text: Subject
+    Tooltip: This column shows the subject of the message
+        
+Accept:
+    Text: Accept
+    Tooltip: Accept this mission
+
+Contact:
+    Text: Contact
+    Tooltip: Contact the employer of this mission
+
+Exit:
+    Text: Exit BBS
+    Tooltip: Exit
+
+ConferenceInit: |
+    Secure online communication channel established, Port 80"
+    Running SCi V2.6, copyright Frontier Communications Ltd
+    Conference online
+
+EnterChat: User "{{ misc_string }}" has entered the conference
+
+EmployerIntro: |
+    Thank you for your time, agent.
+    How can we help?
+
+WhySoMuch: Why so much money?
+WhoIsTarget: Who is the target?
+HowSecure: How secure is the target?
+MoreMoney: I want more money
+HalfMoney: I want half the money now
+AllMoney: I want all the money now
+
+AcceptMission: OK, agreed.
+RejectMission: No thanks.
+
+HowSecureVeryLow: |
+    The security will be non-existent.
+    We don't anticipate you experiencing much resistance.
+HowSecureLow: |
+    The security will be low.
+    You may encounter proxy servers or firewalls.
+HowSecureModerate: |
+    There will be some defense in action.
+    You will likely run into proxies or firewalls.
+HowSecureHigh: |
+    We expect security to be high.
+    You will certainly find some counter-measures in use.
+HowSecureVeryHigh: |
+    Security will be very tight.
+    You will encounter multiple upgraded countermeasures.
+HowSecureExtreme: |
+    Security will be extremely high.
+    You will be working against several advanced countermeasures.");
+HowSecureExperimental: |
+    Security will be state-of-the-art.
+    You will probably find experimental countermeasures not publicly available.
+
+MissionExpired: The mission is not available anymore.
+
+RejectedCriminal: I'm sorry, but we were looking for someone with a cleaner criminal history.
+
+RejectedConfirm: OK, Fine

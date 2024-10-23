@@ -1,0 +1,37 @@
+---
+Subject: Help bring the CEO of a major company into custody
+Body: |
+    We have recently been co-operating with Federal Agents in an attempt to bring the CEO of Andromeda Research Corporation into custody for questioning. Unfortunately, for various legal and political reasons, the Feds are refusing to arrest the man due to a lack of evidence against him. We are going to provide that evidence.
+    
+    Unfortunately for ARC, everyone now knows they are developing the Revelation virus. Equally unfortunately, we have a copy of an early version of Revelation, thanks to an earlier mission.
+    
+    Your first task is to connect to our File Server and retrieve Revelation.
+    
+    You must then break into OUR Internal Services System (shown below), disable the security and run Revelation on that system. Finally, cover your tracks to make sure the source can't be traced.
+    
+    This attack will give the Federal Agents a good enough reason to arrest the CEO of ARC, and we can start questioning him.
+    
+    It is important to note that nobody else knows of this attack - even the system administrators at our Internal Services System. They will still try to trace you, and if you are caught we will not be coming to rescue you.
+    
+    Codename: TakeMeToYourLeader
+    
+    Our FileServer: {{ target_ip }}
+    Username: {{ misc_string }}
+    Password: {{ misc_string2 }}
+    
+    Filename: Revelation
+    Target system: {{ computer_name }}
+    Target IP: {{ computer_ip }}
+
+OnCompleted:
+    Subject: Congratulations
+    Body: |
+        That looks like a total success to us. We'll have to keep quiet for a while, but it looks like the Feds are getting ready to arrest the CEO of Andromeda Research Corporation tomorrow.
+        
+        It also looks like we are going to be able to question him about Revelation. This is going to help our cause.
+        
+        We believe that the CEO of Andromeda Corporation is not actually the man in charge of the Revelation project - since ARC is actually owned by the Andromeda group, and their leader is currently unknown. However, he undoubtedly has a strong impact on their progress.
+        
+        If we are very lucky, this man will help us find the leader of Andromeda.
+        
+        It is also likely that our funding will be increased due to this outbreak. The Government is getting quite desperate at the moment - they think their entire infrastructure may be destroyed, and we are the only people who can offer them a solution.

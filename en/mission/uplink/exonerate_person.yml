@@ -1,0 +1,16 @@
+---
+Subject: Skilled Agent required to free fellow agent
+Body: |
+    One of our Agents has had the misfortune to get {[him|her]}self arrested. Since {[he|she]} has knowledge of our operations, we would like {[him|her]} released as soon as possible. Break into the global criminal database and authorise {[his|her]} release.
+    
+    TARGET : {{ person_name }}
+    
+    Once you have completed the task, send a mail to {{ employer_email }} and we will determine if you have been successful.
+    
+    END
+
+WhoIsTheTarget: A high ranking Uplink agent.
+WhySoMuchMoney: This agent has sensitive information.
+HowSecure: The GCD has a proxy and uses an elliptic curve cypher.
+
+OnNotCompleted: {[He|She]} doesn't appear to have been released yet.

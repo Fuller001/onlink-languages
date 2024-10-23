@@ -1,0 +1,18 @@
+---
+Subject: Help us track down some people we wish to speak with
+Body: |
+    We have recently heard a rumour going around that says the complete Uplink Agent List was stolen from their very own Internal Services System, and that this list includes a mapping of agent Handles to real-world name. If true, this data would be of extreme interest to us and our operations.
+    
+    We have also heard a rumour, totally unsubstantiated of course, that you might be the Agent who stole the data. Certainly there are only a handful of agents capable, and you are indeed one.
+    
+    We have set up a file Server at the address below, and supplied you with a login. If the rumour is true, we will be willing to pay you {{ mission_payment }}c for all of the data files and the Agent List program. Payment will be up to the amount specified - if we don't receive all of the data we will reduce payment accordingly.
+    
+    If we have made a mistake and you are not the person with whom we should be talking, then we apologise. Your ratings will not change if you choose to abandon this mission - it is completely optional.
+    
+    Our fileserver:
+    {{ computer_name }}
+    IP : {{ computer_ip }}
+    USER : {{ misc_string }}
+    CODE : {{ misc_string2 }}
+    
+    [END]

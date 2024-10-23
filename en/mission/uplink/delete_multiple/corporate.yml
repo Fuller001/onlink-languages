@@ -1,0 +1,17 @@
+---
+Subject: Destroy corporate data of a rival company
+Body: |
+    We are becoming tired of the competition provided by a rival firm and we have decided to put an end to their activities.
+    
+    Break into their main computer system and destroy ALL files on their system.
+    
+    It would be in your interests to remove any traces of your actions, as the company will not be pleased when they discover what you have done.
+    
+    TARGET COMPUTER :
+      LOCATION : {{ computer_name }}
+      IP : {{ computer_ip }}
+    
+    Send a notice of completion to:
+    {{ employer_email }}
+    
+    END

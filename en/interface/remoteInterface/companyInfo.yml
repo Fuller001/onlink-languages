@@ -1,0 +1,20 @@
+---
+DetailsTitle:
+    Text: Contact details
+
+Director:
+    Text: MANAGING DIRECTOR
+
+Admin:
+    Text: ADMINISTRATOR
+
+AddButton:
+    Tooltip: Add this phone number to your contact list
+    
+Exit:
+    Text: {{ generic_back }}
+    Tooltip: Return to the main menu
+
+Unlisted: Unlisted
+
+PhoneNumber: tel. {{ misc_string }}

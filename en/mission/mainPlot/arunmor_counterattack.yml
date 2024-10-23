@@ -1,0 +1,18 @@
+---
+Subject: Prevent the outbreak of Revelation
+Body: |
+    Our tracer programs have just informed us that Revelation has been released into the wild by Andromeda Research Corporation. Only a small number of systems are currently infected but more will certainly follow. This is what we have been planning for.
+    
+    Revelation will infect a system, wait for a few minutes, then spread to two other systems. The original infected system will then be shut down. If two many systems get infected, we won't be able to stop it.
+    
+    Connect to our File Server and download the Revelation Tracker program. This will keep you updated when systems become infected with Revelation, so you can connect and disinfect them.
+    
+    You will also need to download Faith - our counter-virus. This is run by copying it into the databanks of the infected systems, dropping into a command prompt, and running it.
+    
+    There isn't much time. You have only minutes until Revelation spreads beyond control. Get moving.
+    
+    Codename: CounterAttack
+    
+    Our FileServer: {{ computer_ip }}
+    Username: {{ misc_string }}
+    Password: {{ misc_string2 }}

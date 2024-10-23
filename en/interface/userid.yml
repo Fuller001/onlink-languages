@@ -1,0 +1,8 @@
+
+Title: User authorisation required
+
+UserHint: Name
+PasswordHint: Code
+
+UserTooltip: Enter your userID here
+PasswordTooltip: Enter your access code here

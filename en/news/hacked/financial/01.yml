@@ -1,0 +1,12 @@
+Subject: {{computer_name}} hacked
+
+Body: |
+    The financial computer system {{computer_name}} has been penetrated from an unknown source.
+    
+    This is the first incident of its kind for the owner, {{company_name}}.
+    
+    This occurred on {{date_time}}.
+    
+    Hackers gaining access to this system could perform any number of fund transfers.
+    
+    {{company_name}} are investigating the incident.

@@ -1,0 +1,28 @@
+---
+Owner:
+    Text: Name
+
+Number:
+    Text: Social Security Number
+
+Birth:
+    Text: Date of Birth
+
+Marital:
+    Text: Marital Status
+
+Vital:
+    Text: Personal Status
+
+Accessing:
+    Text: Accessing...
+
+Commit:
+    Text: Commit
+    Tooltip: Commit all changes made
+
+Exit:
+    Text: Done
+    Tooltip: Close this screen
+
+LoanRate: {{ misc_numeric }}% apr

@@ -1,0 +1,18 @@
+---
+Subject: Help to discredit one of our rivals
+Body: |
+    Break into the Global Criminal Database:
+    
+    TARGET COMPUTER DATA :
+      LOCATION : {{ computer_name }}
+      IP : {{ computer_ip }}
+    
+    We need {{ person_name }} discredited so that any future checks on {[his|her]} background will come up positive. Open {[his|her]} Criminal Record and give {[him|her]} a conviction for {{ misc_string }}.
+    
+    Send a notice of completion to:
+    {{ employer_email }}
+    
+    END
+
+WhoIsTheTarget: We wouldn't want to give the name out just yet.
+WhySoMuchMoney: The target may have friends.

@@ -1,0 +1,40 @@
+
+DebugInfo: Push hardware information to the clipboard
+DebugDraw: Draw Debug Mode
+Refresh: Refresh screen
+DecreaseFontDpi: Decrease PPI
+IncreaseFontDpi: Increase PPI
+ScreenShot: Take a screenshot
+Exit: Exit the game
+
+ToggleWorldMap: Toggle large map
+Disconnect: Disconnect
+
+Pause: Pause
+NormalSpeed: Normal Speed
+FastSpeed: Fast Speed
+VeryFastSpeed: Very Fast Speed
+
+WorkspacePanel: Workspace Panel
+AdminPanel: Administration Panel
+StatusPanel: Agent Status
+AnalyserPanel: Connection Analyser
+ConnectionManagerPanel: Connection Manager
+InboxPanel: Email Inbox
+FinancePanel: Finance Panel
+HardwarePanel: Hardware Status
+IrcClientPanel: IRC Client
+KeymapPanel: Key Mapper
+LanViewPanel: LAN Viewer
+MemoryPanel: Memory Bank
+TodoPanel: Mission Inbox
+MusicPanel: Music Panel
+NotepadPanel: Notepad
+BiometricsPanel: Biometrics Panel
+TerminalPanel: Terminal Panel
+ServiceInjectorPanel: Service Injector Panel
+PCSecurePanel: PC Secure Panel
+
+ExecutableFileCallback: Execute {{ misc_string }}
+
+IpCallback: Connect {{ misc_string }}

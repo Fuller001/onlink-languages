@@ -1,0 +1,21 @@
+---
+Subject: Acquire the voice sample of an individual
+Body: |
+    Due to a recent development, we find ourselves in need of obtaining a voice recording from {{ person_name }}.
+    
+    We want you to acquire the voice pattern of this person and provide it in your reply.
+    
+    You may find the Telephone Database to be of help.
+    
+    Send a notice of completion to:
+    {{ employer_email }}
+    			
+    END
+
+WhoIsTheTarget: {[He|She]} is not anyone you would recognise.
+WhySoMuchMoney: Recording devices are difficult for the public to acquire.
+
+OnNotCompleted:
+    FileMissing: There is no voice sample attached to your reply.
+    FileUnreadable: We cannot read this voice sample. Did you send an encryptd file?
+    FileIncorrect: This is not the correct voice sample.

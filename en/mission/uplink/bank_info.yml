@@ -1,0 +1,26 @@
+---
+Description: >
+    {% if mission_type == AccountNumber %}
+    bank_info/accountNumber.yml
+    {% elif mission_type == BankBalance %}
+    bank_info/balance.yml
+    {% elif mission_type == LoanSize %}
+    bank_info/loan.yml
+    {% elif mission_type == TransferRecipient %}
+    bank_info/recipient.yml
+    {% else %}
+    {% abort %}
+    {% endif %}
+
+WhoIsTheTarget: No one you know.
+WhySoMuchMoney: The data is highly personal, and well protected.
+
+OnNotCompleted:
+    InvalidConfirmed: The information you have provided appears to be invalid.
+    InvalidSuspected: Could you please verify your results? We have reason to believe they are not accurate.
+
+OnFailure:
+    AccountClosed: |
+        Now that the account has been closed, it will take us time to find the new account of that person and the information we want. Our target will also likely be more careful which will complicate the task.
+        
+        We are sure you had your reasons, but we urge you to refrain that behavior in the future.

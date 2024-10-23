@@ -1,0 +1,10 @@
+Subject: Top agent working for ARC found dead
+
+Body: |
+    Agent {{agent_handle}}, whose name has been released by authorities as {{person_name}}, has been found dead in {[his|her]} house after an apparent suicide.
+    
+    Preliminary forensic analysis suggests {[he|she]} overdosed on sleeping pills.
+    
+    {[He|She]} was at the top of the Agent leaderboard and made the news recently after commenting on the actions of Andromeda Research Corporation (ARC). {[He|She]} had been working for them on their latest product which is currently shrouded in mystery. This latest development will no doubt add to the mystery surrounding the project.
+    
+    ARC released a statement earlier today, stating "Agent {{agent_handle}} was the best programmer we had ever seen and was a lead player in the project. For something like this happen is a tragedy of the greatest order. Our thoughts go out to {[his|her]} family and friends."

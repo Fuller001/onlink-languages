@@ -1,0 +1,14 @@
+---
+Subject: Improve our associates' academic standing
+Body: |
+    This person requires a first class degree.
+    
+    TARGET INDIVIDUAL :
+      NAME : {{ person_name }}
+    
+    Send a notice of completion to:
+    {{ employer_email }}
+    
+    END
+
+WhySoMuchMoney: This qualification will be very useful to us.

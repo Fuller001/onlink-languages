@@ -1,0 +1,20 @@
+---
+Subject: Find financial details of one of our associates
+Body: |
+    Break into the following well known financial institute:
+    
+    TARGET COMPUTER DATA :
+      LOCATION : {{ computer_name }}
+      IP : {{ computer_ip }}
+    				
+    We are interested in this person's bank balance.
+    
+    Open {[his|her]} account and send {[his|her]} balance to us.
+    
+    NAME : {{ account_name }}
+    ACCNO : {{ account_number }}
+    
+    Send a notice of completion to:
+    {{ employer_email }}
+    
+    END

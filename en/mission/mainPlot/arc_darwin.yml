@@ -1,0 +1,44 @@
+---
+Subject: Steal vital Research into Digital Life Forms
+Body: |
+    The results of our recent test have been extremely encouraging. Revelation is easily destructive enough to take out most of the Internet when it is finally released. Unfortunately, it is not particularly virulent. In other words, it doesn't spread very fast. We need to fix this.
+    
+    We've looked around and we have found a company called Darwin Research Associates. They are currently working on research into digital life forms that exist and breed on the Internet. Since they have refused to sell any of their technology to us, we have decided instead to steal it.
+    
+    Break into their Local Area Network system shown below, and steal any files relating to the Darwin project. Try to copy as much data as possible. You will need to decrypt the data before we can make any use of it. We have determined that over 80Gqs of their research is stored on this system.
+    
+    Once you have stolen the research, copy it onto the File Server that we have set up for you, detailed below.
+    
+    We are confident we will be able to use their artificial life code to make Revelation spread like wildfire. You will be paid {{ mission_payment }}c for this mission.
+    
+    Codename: Darwin
+    
+    Target computer : {{ computer_name }}
+    IP : {{ computer_ip }}
+    
+    Once complete, dump the files you have to this computer:
+    {{ target_name }}
+    IP : {{ target_ip }}
+    
+    USERNAME : {{ misc_string }}
+    PASSWORD : {{ misc_string2 }}
+    
+    Reply to this mail when you have finished.
+    
+    END
+
+OnNotCompleted:
+    Subject: Mission NOT completed
+    Body: |
+        We don't see any useful files on the File Server we specified.
+        
+        Have you copied the files onto the file server?  Have you remembered to decrypt the files so we can read them?
+
+OnCompleted:
+    Subject: Congratulations
+    Body: |
+        Congratulations on your success Agent {{ agent_handle }}.
+        
+        We can see {{ misc_numeric }} Gigaquads of useful data which will help us perfect Revelation.
+        
+        At the moment the virus does not spread particularly well - if the security systems of the local machine are still running, the virus has trouble getting out of the system at all. We are planning on using the research that Darwin has conducted to make the virus mutate and evolve, in order to combat any defense systems it comes up against.

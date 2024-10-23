@@ -1,0 +1,43 @@
+Description: uplink_mole_description.yml
+
+PaymentDetail: Services Rendered
+
+OnNotCompleted: |
+    {% if mission_mole_has_program == false %} We don't see any data on our fileserver that contains the names of any Uplink Agents. Did you upload and decrypt the data?
+    {% else %}
+    Looks like you've uploaded the Uplink Agent List program, but we don't see any data on our fileserver that contains the names of any Uplink Agents. The program is useless without the data.
+    
+    Did you upload and decrypt the data?
+    {% endif %}
+
+OnFailure:
+    Subject: Your recent mission
+    Body: |
+        We've reviewed your recent mission to copy data files.
+        It looks like you got most of the files but some are missing.
+        We've decided to reduce your total payment to {{ mission_adjusted_payment }}c.
+
+OnCompleted:
+    Subject: Mission completed
+    Body: |
+        We've just checked our fileserver, and we can see lots of data containing the handles of Agents and their real-world names. This data will come in very handy
+        {% if mission_full_completion == true %} In the end we were able to achieve almost all of the Uplink Agent names.
+        {% else %} In the end we were able to achieve roughly {{ misc_numeric }} percent of the Uplink Agent names.
+        {% endif %}
+        {% if mission_mole_has_program == true %} We also noticed you uploaded the List program used by Uplink Corporation.
+        {% else %} Unfortunately you didn't upload the List program used to access the data. This will make recovery of the source data more difficult.
+        {% endif %}
+        {% if mission_full_completion == true %} We will therefore be paying you the full {{ mission_payment }} credits.
+        {% else %} Based on this, we will only be paying you {{ mission_adjusted_payment }} credits for the mission, out of an available {{ mission_payment }}.
+        {% endif %}
+        
+        Once again, congratulations on an incredible hack.
+        
+        END
+
+OnAlreadyCompleted:
+    Subject: Mission withdrawn
+    Body: |
+        It appears you have already sold the information.
+        
+        Since it is now in the public domain, we have withdrawn the mission offer.

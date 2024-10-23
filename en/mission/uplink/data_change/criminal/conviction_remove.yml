@@ -1,0 +1,20 @@
+---
+Subject: Clear a criminal record
+Body: |
+    Break into the Global Criminal Database:
+    
+    TARGET COMPUTER DATA :
+      LOCATION : {{ computer_name }}
+      IP : {{ computer_ip }}
+    
+    One of our friends in the industry is having some trouble finding employment, due to {[his|her]} criminal record. We would be grateful if you could remove all record of {[his|her]} criminal past.
+    
+    Target individual : {{ person_name }}
+    
+    Send a notice of completion to:
+    {{ employer_email }}
+    
+    END
+
+WhoIsTheTarget: Just a friend of ours who needs help.
+WhySoMuchMoney: The police may come after you.

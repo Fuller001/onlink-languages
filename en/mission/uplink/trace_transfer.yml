@@ -1,0 +1,33 @@
+---
+Subject: Trace an unauthorised money transfer
+Body: |
+    One of our bank accounts was recently hacked, and funds were transferred to an unknown account.
+    
+    Use any methods necessary to trace this hacker.
+    
+    Our compromised account is at:
+    
+    {{ computer_name }}
+     IP : {{ computer_ip }}
+     ACCNO : {{ account_number }}
+     PASSWORD : {{ account_password }}
+    
+    The amount transferred was {{ misc_numeric }} credits.
+    This occurred around {{ date_short }}
+    
+    You are authorised to access the compromised account.
+    
+    Once you have traced the hacker, send {[ his|her ]} name to us at {{ employer_email }} and we will take matters further if necessary.
+    
+    END
+
+WhoIsTheTarget: That's for you to find out.
+WhySoMuchMoney: Bank records are notoriously hard to crack.
+HowSecure: Banks are always well defended.
+
+OnNotCompleted:
+    Misunderstanding: |
+        We've determined that the money was transferred into an account owned by that person, but we do not believe he was personally responsible.
+        
+        We want the name of the Hacker who performed the transfer.
+    NotResponsible: This person was not responsible.

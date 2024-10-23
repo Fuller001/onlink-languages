@@ -1,0 +1,60 @@
+---
+Subject:
+    - Steal important data from a rival company's file server
+    - Access a remote system and copy important data files
+    - Gain access to a rival system and steal research files
+Body: |
+    Thank you for working for {{ employer_name }}.
+    
+    TARGET COMPUTER DATA :
+       LOCATION : {{ computer_name }}
+       IP : {{ computer_ip }}
+       FILENAME : {{ misc_string }}
+       FILESIZE : {{ misc_numeric }} GigaQuads
+    
+    {% if has_heavy_encryption %}
+    The file will be heavily encrypted.
+    {% elif has_encryption %}
+    The file will be encrypted.
+    {% endif %}
+    {% if has_heavy_compression %}
+    The file will be heavily compressed.
+    {% elif has_compression %}
+    The file will be compressed.
+    {% endif %}
+    
+    Return the file via email to:
+    {{ employer_email }}
+    
+    END
+
+Details: |
+    {{ Details }}
+    You will need around {{ misc_numeric }} GigaQuads of space.
+
+WhySoMuchMoney: |
+    {% if mission_is_difficult %}
+    The files contain sensitive data.
+    {% else %}
+    {{ WhySoMuchMoney }}
+    {% endif %}
+
+OnNotCompleted:
+    MissingFile: You don't appear to have attached the file.
+    WrongFile: This is not the file we are looking for.
+    IsEncrypted: |
+        Your mission is not yet complete.
+        
+        The data you sent us is encrypted with a level {{ file_encryption }} encryption, which we are unable to break.
+        
+        Please break the encryption on the file and send it to us again.";
+        {% if mission_payment != 0 %}
+        
+        You will not be paid until this has been accomplished.
+        {% endif %}
+    IsCorrupt: |
+        Your mission is not yet complete.
+        
+        The data you sent us is corrupt and we are unable to read any data.
+        
+        Please try to redownload the file and send it to us again.

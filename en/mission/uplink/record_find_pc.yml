@@ -1,0 +1,19 @@
+---
+Subject: Find the Personal Computer of our rival
+Body: |
+    This person has been eluding us for some time. We wish you to provide us with the current IP of {{ person_name }}
+    
+    We already determined that {[his|her]} current Internet contract is with {{ company_name }}. This should be enough information to find our target.
+    
+    TARGET : {{ person_name }}
+    ISP : {{ company_name }}
+    
+    Once you have completed the task, send a mail to {{ employer_email }} with the data we requested and we will determine if you have been successful.
+    
+    END
+
+WhoIsTheTarget: No one you know.
+WhySoMuchMoney: We need to make sure the job is done.
+HowSecure: There will be some protections in place.
+
+OnNotCompleted: The information you have provided appears to be invalid.

@@ -1,0 +1,22 @@
+---
+Subject: Falsify a Social Security document
+Body: |
+    Break into the {{ computer_name }}:
+    
+    TARGET COMPUTER DATA :
+      LOCATION : {{ computer_name }}
+      IP : {{ computer_ip }}
+    
+    The person below is living too easily. Change {[his|her]} Personal Status to read '{{ misc_string }}'.
+    
+    TARGET INDIVIDUAL :
+       NAME : {{ person_name }}
+    
+    Send a notice of completion to:
+    {{ employer_email }}
+    
+    END
+
+WhoIsTheTarget: You wouldn't recognise the name.
+WhySoMuchMoney: We need to take advantage the the opportunity this will give us very soon.
+HowSecure: You will need to bypass the Proxy server.

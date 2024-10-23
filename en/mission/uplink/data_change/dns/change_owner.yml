@@ -1,0 +1,17 @@
+---
+Subject: Change the DNS record for a server
+Body: |
+    Gain access to {{ computer_name }}:
+    
+    TARGET COMPUTER DATA :
+      LOCATION : {{ computer_name }}
+      IP : Unknown
+    
+    Access the DNS record for the following IP and change the registered owner.
+      IP : {{ target_ip }}
+      New Owner : {{ misc_string }}
+    
+    Send a notice of completion to:
+    {{ employer_email }}
+    
+    END

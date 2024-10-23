@@ -1,0 +1,17 @@
+---
+Subject: Destroy scientific research currently in progress
+Body: |
+    One of our competitors has unfortunately gained a lead and has nearly completed some scientific research which will be damaging to our corporate agenda.
+    
+    Break into the computer system below and destroy ALL files you find on their file server. You must also ensure all backups are totally wiped out.
+    
+    It would be in your interests to remove any traces of your actions, as the company will not be pleased when they discover what you have done.
+    
+    TARGET COMPUTER :
+      LOCATION : {{ computer_name }}
+      IP : {{ computer_ip }}
+    
+    Send a notice of completion to:
+    {{ employer_email }}
+    
+    END

@@ -1,0 +1,18 @@
+---
+Subject: Client interested in financial data on an enemy
+Body: |
+    Break into the following well known financial institute:
+    
+    TARGET COMPUTER DATA :
+      LOCATION : {{ computer_name }}
+      IP : {{ computer_ip }}
+    				
+    We are interested in this person's financial situation. Open {[his|her]} account and determine the size of {[his|her]} loan. Send this information to us.
+    
+    NAME : {{ account_name }}
+    ACCNO : {{ account_number }}
+    
+    Send a notice of completion to:
+    {{ employer_email }}
+    
+    END

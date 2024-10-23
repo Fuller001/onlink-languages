@@ -1,0 +1,21 @@
+---
+NameColumn:
+    Text: Company name
+PriceColumn:
+    Text: Price per share
+ChangeColumn:
+    Text: Change (Qtr)
+NameColumn:
+
+Thing1: View this share in more detail
+
+Filter:
+    Text: Filter
+    Tooltip: Click here to apply the filter
+
+FilterTextbox:
+    Tooltip: Enter filter pattern here
+
+Exit:
+    Text: Close
+    Tooltip: Close this screen

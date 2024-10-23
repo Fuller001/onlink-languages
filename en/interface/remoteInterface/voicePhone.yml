@@ -1,0 +1,12 @@
+---
+Ringing: Ringing...
+
+PickUp: |
+    Connected
+    Voice channel open
+
+HangUp: |
+    Connection lost
+    (Receiver hung up)
+
+NoAnswer: No answer

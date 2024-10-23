@@ -1,0 +1,22 @@
+---
+Subject: Frame a user for destruction of data.
+Body: |
+    Our corporation has recently found a way to kill two birds with one proverbial stone. We wish to destroy some valuable research data, whilst at the same time incriminating one of our long standing enemies for the crime.
+    
+    Break into the computer below and destroy all data files. Then modify the logs so that this {[man|woman]} is charged with the crime and sent to jail.
+    
+    TARGET COMPUTER : 
+      NAME : {{ computer_name }}
+      IP : {{ computer_ip }}
+    
+    TARGET INDIVIDUAL :
+      NAME : {{ person_name }}
+      IP : {{ person_ip }}
+    
+    Once you have completed your mission and {[his|her]} arrest is in the news, send a mail to {{ employer_email }} and we will transfer the payment.
+    
+    You will only receive payment if {[he|she]} is charged for the crime we have outlined.
+    
+    Good luck.
+    
+    END

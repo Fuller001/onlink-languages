@@ -1,0 +1,15 @@
+---
+Subject: Help us prove a fellow employee is over-rated
+Body: |
+    We feel this person scored slightly too highly at {[his|her]} degree. Give {[him|her]} a 3rd class replacement.
+    
+    TARGET INDIVIDUAL :
+      NAME : {{ person_name }}
+    
+    Send a notice of completion to:
+    {{ employer_email }}
+    
+    END
+
+WhoIsTheTarget: Just a "friend" of ours.
+WhySoMuchMoney: We really don't like the target.

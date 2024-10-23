@@ -1,0 +1,21 @@
+Bailout: |
+    有时，我们发现用户将屏幕分辨率设置得过高，导致无法重置。因此，
+    紧急退出开关。再次点击此按钮将把您的选项重置为 800x600 窗口模式，
+    并强制关闭 Onlink。
+
+Login_Tooltip: 以此账户登陆
+
+NewGame_Caption: 新建用户
+NewGame_Tooltip: 创建一个新的用户帐户
+
+Retire_Caption: 删除用户
+Retire_Tooltip: 从名册中删除黑客
+
+MultiMonitor_Caption: 多显示器
+MultiMonitor_Tooltip: 多显示器
+
+Options_Caption: 游戏选项
+Options_Tooltip: 高级选项
+
+Exit_Caption: 退出
+Exit_Tooltip: 退出 Onlink

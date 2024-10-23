@@ -1,0 +1,129 @@
+---
+None: None
+
+# File utilities
+FileCopier: File Copier
+FileDeleter: File Deleter
+FileCompressor: File Compressor
+FileBinaryCompressor: File Binary Compressor
+FileDecompressor: File Decompressor
+FileEncrypter: File Encrypter
+FileDecrypter: File Decrypter
+FileRecover: File Recover
+Defrag: Defrag
+FileSystemScanner: File System Scanner
+FileCatalogue: File Catalogue
+
+#Hardware Drivers
+DriverNuke: Driver Nuke
+DriverMotionSensor: Driver Motion Sensor
+
+#Security
+LogDeleter: Log Deleter
+LogModifier: Log Modifier
+LogUnDeleter: Log UnDeleter
+TraceTracker: Trace Tracker
+
+#Crackers
+PasswordBreaker: Password Breaker
+DictionaryHacker: Dictionary Hacker
+Decypher: Decypher
+VDPINCracker: VDPIN Cracker
+
+#Bypass tools
+MonitorBypass: Monitor Bypass
+ProxyBypass: Proxy Bypass
+FirewallBypass: Firewall Bypass
+E2EEBypass: E2EE Bypass
+SentryBypass: Sentry Bypass
+LimiterBypass: Limiter Bypass
+
+#Disablers
+ProxyDisable: Proxy Disable
+FirewallDisable: Firewall Disable
+E2EEDisable: E2EE Disable
+SentryDisable: Sentry Disable
+LimiterDisable: Limiter Disable
+
+#Killers
+ProxyKiller: Proxy Killer
+FirewallKiller: Firewall Killer
+E2EEKiller: E2EE Killer
+SentryKiller: Sentry Killer
+LimiterKiller: Limiter Killer
+
+#LAN tools
+LANAgent: LAN Agent
+LANBridge: LAN Bridge
+LANForce: LAN Force
+LANProbe: LAN Probe
+LANScan: LAN Scan
+LANSpike: LAN Spike
+LANSpoof: LAN Spoof
+
+#Install kits
+InstallerBiometics: Installer Biometics
+InstallerTerminalServices: Installer Terminal Services
+InstallerIRCClient: Installer IRC Client
+InstallerConnectionAnalyser: Installer Connection Analyser
+InstallerLANView: Installer LAN View
+InstallerServiceInjector: Installer Service Injector
+InstallerPCSecure: Installer PC Secure
+InstallerDevelopmentSuite: Installer Development Suite
+
+#"Other"
+IPLookup: IP Lookup
+IPProbe: IP Probe
+VoiceAnalyser: Voice Analyser
+Denial: Denial
+
+Tutorial: Tutorial
+UplinkAgentList: Uplink Agent List
+DarwinMonitor: Darwin Monitor
+
+Faith: Faith
+Revelation: Revelation
+RevelationTracker: Revelation Tracker
+
+#Service injector packages
+ServiceAdmin: Service Admin
+ServiceAuth: Service Auth
+ServiceCommon: Service Common
+ServiceConsole: Service Console
+
+#Special
+AddressDecoder: Address Decoder
+Notepad: Notepad
+
+#C++ Compiler Tools
+DevelopmentLibTool: Development Lib Tool
+DevelopmentDependencyTool: Development Dependency Tool
+DevelopmentCompilerTool: Development Compiler Tool
+DevelopmentLinkTool: Development Link Tool
+DevelopmentPatchTool: Development Patch Tool
+
+#Misc Viruses
+VirusFormat: Virus Format
+VirusPornFlood: Virus Porn Flood
+VirusButtonClick: Virus Button Click
+VirusTaskCancel: Virus Task Cancel
+VirusBankRobber: Virus Bank Robber
+
+#Non-task types, used for sales
+HUD_Biometics: HUD Biometics
+HUD_TerminalServices: HUD Terminal Services
+HUD_IRCClient: HUD IRC Client
+HUD_ConnectionAnalyser: HUD Connection Analyser
+HUD_LANView: HUD LAN View
+HUD_ServiceInjector: HUD Service Injector
+HUD_PCSecure: HUD PC Secure
+HUD_DevelopmentSuite: HUD Development Suite
+
+SYS_MapShowsTrace: SYS Map Shows Trace
+SYS_VDPINView: SYS VDPIN View
+SYS_ChaosLibrary: SYS Chaos Library
+SYS_MasterKey: SYS Master Key
+SYS_ZFS: SYS ZFS
+SYS_NanoDriver: SYS Nano Driver
+SYS_HyperDriver: SYS Hyper Driver
+SYS_NetworkStack: SYS Network Stack

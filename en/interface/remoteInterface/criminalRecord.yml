@@ -1,0 +1,37 @@
+---
+Clear:
+    Text: Clear
+    Tooltip: Click here to clear this record
+
+Save:
+    Text: Save
+    Tooltip: Click here to save your changes to this record
+
+Arrest:
+    Text: Authorise Arrest
+    Tooltip: Click here to authorise an arrest
+    
+Number:
+    Text: Social Security Number
+
+Birth:
+    Text: Date of Birth
+
+Marital:
+    Text: Marital Status
+
+Vital:
+    Text: Personal Status
+
+Accessing:
+    Text: Accessing...
+
+Commit:
+    Text: Commit
+    Tooltip: Commit all changes made
+
+Exit:
+    Text: Done
+    Tooltip: Close this screen
+
+LoanRate: {{ misc_numeric }}% apr

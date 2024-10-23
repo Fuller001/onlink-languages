@@ -1,0 +1,35 @@
+---
+Subject: Perform a covert installation of a Tracer
+Body: |
+    One of our sources within Andromeda Research Corporation has discovered that ARC are planning on launching Revelation from three primary systems. When the time is right, their Agents will enter these systems and begin running Revelation.
+    
+    We already have two of the systems covered, but the third is wide open. We need you to get inside that system, and install a Tracer program covertly which will send us routine updates, and will give us early warning when Revelation is launched.
+    
+    First, you'll need to download the program from our File Server. Addresses and log-in details are shown below.
+    		
+    Second, break into the target system (ARC Internal Services) and compromise all their security systems. This includes Proxies, Monitors, Firewalls etc. You have to stop them from seeing what you are doing.
+    		
+    Copy the Tracer into place, then drop into a console. You can run the tracer from there. Once it is running it will immediately start hiding itself. Check you can't see it from the File Server screen - this will ensure nobody else can see it.
+    		
+    Cover your tracks and get out. Reply to this email when you are done.
+    		
+    Codename: Tracer
+    
+    Payment will be {{ mission_payment }}.
+    
+    Our FileServer: {{ target_ip }}
+    Target system: {{ computer_name }}
+    Target IP: {{ computer_ip }}
+
+OnNotCompleted:
+    Subject: Failure
+    Body: We haven't received any ping signals from our Tracer yet. You can't have installed it right.
+
+OnCompleted:
+    Subject: Congratulations
+    Body: |
+        We just started receiving ping signals from our Tracer Software. This means it is set up correctly and working. Time will tell if they managed to spot what you are doing.
+        
+        We have made the full mission payment into your account.
+        
+        When the time comes, well send you some Tracer software that you can run on your local system. This will list all of the computers that have been infected with the Revelation virus.

@@ -1,0 +1,12 @@
+---
+Subject: Find the bank account of an individual
+Body: |
+    This person managed to hide some information from us until now. In order to increase our influence over {[him|her]}, we need you to find {[his|her]} bank account and its location.
+    
+    TARGET : {{ person_name }}
+    
+    Once you have completed the task, send a mail to {{ employer_email }} with the data we requested and we will determine if you have been successful.
+    
+    END
+
+HowSecure: You'll need to get access to a personal computer.

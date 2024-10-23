@@ -1,0 +1,47 @@
+---
+mission_base_details: |
+    Payment for this job is {{ mission_payment }} credits.
+    This job has been assigned an Uplink difficulty of {{ mission_difficulty }}.
+    {% if can_auto_accept %}
+    An Uplink rank of {{ mission_uplink_rank_accept }} or above will be sufficient for automatic acceptance.
+    {% else %}
+    This mission cannot be auto-accepted.
+    {% endif %}
+
+Details: {{ mission_base_details }}
+   
+PaymentDetail: Anonymous benefactor
+
+WhoIsTheTarget: We'd rather not reveal that at this time.
+WhySoMuchMoney: No particular reason - it's a standard mission.
+
+OnCompleted:
+    Subject: Mission completed
+    Body: |
+        Congratulations on your success.
+        {% if mission_adjusted_payment > 0 %} Remaining funds transferred : {{ mission_adjusted_payment }}c
+        {% elif mission_payment > 0 %} Funds transferred : {{ mission_payment }}c
+        {% endif %}
+        
+        Thank you for working for {{ employer_name }}.
+        
+        THIS IS AN AUTOMATED RESPONSE. PLEASE DO NOT REPLY.
+
+OnNotCompleted:
+    Subject: Mission NOT completed
+    Body: |
+        {{ misc_string }}
+        
+        THIS IS AN AUTOMATED RESPONSE. PLEASE DO NOT REPLY.
+
+OnFailure:
+    Subject: Mission FAILED
+    Body: |
+        You have failed the following mission:
+        {{ misc_string2 }}
+        
+        {{ misc_string }}
+        
+        In future we will employ someone more qualified.
+        
+        THIS IS AN AUTOMATED RESPONSE. PLEASE DO NOT REPLY.

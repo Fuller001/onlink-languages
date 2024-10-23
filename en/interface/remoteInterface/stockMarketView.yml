@@ -1,0 +1,24 @@
+---
+Graph:
+    Text: Share value graph
+Table:
+    Text: Share values
+Buy:
+    Text: Buy
+    Tooltip: Click to buy shares in this company
+Sell:
+    Text: Sell
+    Tooltip: Click to sell shares in this company
+Exit:
+    Text: Close
+    Tooltip: Return to the share listing
+
+ViewTitle: Viewing {{ company_name }} shares
+TimeAxis: Time
+Owned: You own {{ misc_numeric }} shares.
+
+# These are a little special; the colon is used to seperate
+# into two parts, the second part being aligned right.
+Paid: Paid:{{ money_format }}
+Value: Value:{{ money_format }}
+Profit: Profit:{{ money_format }}

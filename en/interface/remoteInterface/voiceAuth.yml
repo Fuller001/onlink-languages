@@ -1,0 +1,11 @@
+---
+Title:
+    MainTitle: {{ company_name }}
+    Subtitle: Authorisation required
+
+Instructions: Please read the following sentence into your voice device.
+
+PassPhrase: |
+    Hello. I am the system administrator.
+    My voice is my passport.
+    Verify me.

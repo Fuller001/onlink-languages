@@ -1,0 +1,21 @@
+
+# Gov't systems
+CriminalDatabase: Global Criminal Database
+SocialDatabase: International Social Security Database
+AcademicDatabase: International Academic Database
+InterNIC: InterNIC
+PhoneDatabase: International Telephone Database
+PhoneExchange: International Telephone Exchange
+StockMarket: International Stock Market
+
+# Uplink and related
+UplinkInternal: Uplink Internal Services System
+UplinkTest: Uplink Test Machine
+UplinkCredit: Uplink Credits Machine
+OnlinkCredit: Onlink Credits Machine
+
+# Special systems
+ProtovisionGames: Protovision Game Server
+OCPSystem: OCP remote monitoring system
+StevenJackson: Steve Jackson Games Server
+IntroversionSoftware: Introversion Software

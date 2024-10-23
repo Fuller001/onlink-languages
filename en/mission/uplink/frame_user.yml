@@ -1,0 +1,17 @@
+---
+Description: >
+    {% if mission_type == AnyHacking %}
+    frame_user/hacking.yml
+    {% elif mission_type == DataDestruction %}
+    frame_user/destruction.yml
+    {% elif mission_type == FinancialFraud %}
+    frame_user/financial.yml
+    {% else %}
+    {% abort %}
+    {% endif %}
+
+WhoIsTheTarget: Someone we don't like very much
+WhySoMuchMoney: The employer and friends may come after you.
+
+OnNotCompleted: That person has not yet been arrested. We will not make payment until then.
+OnFailure: The person was arrested but not for the crimes we specifically asked for. As such we will not be making payment.

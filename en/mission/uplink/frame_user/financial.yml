@@ -1,0 +1,24 @@
+---
+Subject: Frame a user for bank fraud
+Body: |
+    We need this person to be arrested and charged for breaking into a bank and attempting some kind of financial fraud. We would like you to use the bank server specified below.
+    
+    Perform some form of illegal operation (such as disabling some of their security systems and making sure they notice you) then modify the records so that {[he|she]} is incriminated.
+    
+    TARGET BANK :
+      NAME : {{ computer_name }}
+      IP : {{ computer_ip }}
+    
+    TARGET INDIVIDUAL :
+      NAME : {{ person_name }}
+      IP : {{ person_ip }}
+    
+    Once you have completed your mission and {[his|her]} arrest is in the news, send a mail to {{ employer_email }} and we will transfer the payment.
+    
+    You will only receive payment if {[he|she]} is charged for the crime we have outlined.
+    
+    Good luck.
+    
+    END
+
+HowSecure: Banks always have very high security.

@@ -1,0 +1,42 @@
+---
+Subject: Pay a {{ misc_numeric }}c fine
+# misc_string is the reason for the fine
+Body: |
+    {{ misc_string }}
+    
+    As a result of this action you are legally required to pay a fine to the following account. Failure to pay this fine before the due date could result in imprisonment.
+    
+    BANK : {{ computer_name }}
+    IP : {{ computer_ip }}
+    ACCNO : {{ account_number }}
+    FINE : {{ misc_numeric }} credits
+    BEFORE : {{ date_time }}
+    
+    To pay this fine, access your financial screen and click on the account you wish to transfer from.
+    This will connect you to that account.
+    Then select 'transfer' from the menu and fill in the details as above.
+    
+    Once you have paid this fine, send a mail to {{ employer_email }} to confirm receipt.
+    
+    END
+
+OnCompleted:
+    Subject: Fine paid
+    Body: |
+        Payment of your fine has been received for the following offence:
+        {{ misc_string }}
+
+OnNotCompleted:
+    Subject: Outstanding fine still not paid
+    Body: |
+        We have still not received payment for the following fine: 
+        {{ misc_string }}
+        
+        Please ensure this payment reaches us soon to avoid further action.
+
+OnFailure:
+    Subject: Failure to pay fine
+    Body: |
+        You have chosen not to pay a fine. As such, legal proceedings will begin against you shortly.
+        
+        You are advised to seek legal assistance.

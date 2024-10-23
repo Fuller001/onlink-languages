@@ -1,0 +1,20 @@
+---
+Subject: Trace a recent balance transfer
+Body: |
+    Break into the following well known financial institute:
+    
+    TARGET COMPUTER DATA :
+      LOCATION : {{ computer_name }}
+      IP : {{ computer_ip }}
+    				
+    This individual is the subject of an internal investigation into corruption:
+    
+    NAME : {{ account_name }}
+    ACCNO : {{ account_number }}
+    
+    {[He|She]} recently transferred a sizable amount of money to another account. Trace this account and find the name of the receiver of this money.
+    
+    Send a notice of completion to:
+    {{ employer_email }}
+    
+    END

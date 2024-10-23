@@ -1,0 +1,15 @@
+---
+Subject: Break into High Security System and steal customer records
+Body: |
+    It has come to our attention that one of our competitors has amassed an extensive customer database which would prove to be of great help to our market research team. We want you to compromise the security of the system below, copy all of the customer data and decrypt it. Then copy the files onto our own temporary file server.
+    
+    Target computer : {{ computer_name }}
+      IP : {{ computer_ip }}
+    
+    Once complete, dump the files you have to this computer:
+    {{ target_name }}
+      IP : {{ target_ip }}
+      USERNAME : {{ misc_string }}
+      PASSWORD : {{ misc_string2 }}
+    
+    END

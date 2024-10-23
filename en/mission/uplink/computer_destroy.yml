@@ -1,0 +1,49 @@
+---
+Subject: Elite agent required for destruction of computer system
+Body: |
+    One of our competitors has made the critical mistake of becoming over dependent on one of their primary computer systems, and we intend to take advantage of this oversight.
+    
+    We want you to put the computer system below out of action, permanently.
+    
+    Use any means necessary, including virus attacks or system resets, but all data must be destroyed and the system itself must be shut down.
+    
+    Target : {{ computer_name }}
+    IP : {{ computer_ip }}
+    
+    Once you have completed the task, send a mail to {{ employer_email }} and we will determine if you have been successful.
+    
+    END
+
+Details: |
+    {{ Details }}
+    {% if computer_type == LAN %}
+    
+    The data is stored on a LAN.
+    {% endif %}
+
+WhoIsTheTarget: The system is owned by {{ company_name }}
+WhySoMuchMoney: The computer system will be heavily defended.
+
+OnNotCompleted: We have not heard word yet that the system has been destroyed.
+OnFailure:
+    MailSubject: Problems with mission completion
+    Payout: |
+        {% if mission_payment_type == HalfAtStart %}
+        
+        As such, we will not be paying out any additional money.
+        
+        {% elif mission_payment_type == NoneAtStart %}
+        
+        As such, we will only be paying you half the contract's value.
+        
+        {% endif %}
+    BackupIntact: |
+        It appears the target system was shut down, but the backup was kept intact.
+        This means the company will be able to recover all of the data.
+        {{ Payout }}
+        In future, you should make sure all files are deleted before shutting the system down.
+    FilesExist: |
+        It appears the target system was shut down, but the files were not deleted.
+        This means the company will most likely be able to recover the data.
+        {{ Payout }}        
+        In future, you should delete all files before shutting the system down.

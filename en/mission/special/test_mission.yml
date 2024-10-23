@@ -1,0 +1,10 @@
+---
+Subject: Uplink Test Mission - Steal data from a file server
+Body: |
+    Gain access to the Uplink Test Machine by breaking the outer security layer.
+    
+    Access the fileserver and download the target file 'Uplink Test Data'.
+    
+    Remove any traces of your hack.
+    
+    Return the data to us at address {{ employer_email }}

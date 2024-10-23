@@ -1,0 +1,80 @@
+---
+HelpIntro:
+    Menu: Introduction
+    MenuTip: What this section is about
+    MainTitle: {{company_header}} Help
+    Subtitle: Help/Getting Started/Introduction
+    Text: |
+        This section of the help documents is designed to help new Uplink agents with their first few hours online.
+        
+        We will start with the Uplink Test Mission. If you are far enough in the tutorial, this mission will be given to you and you can read the details by clicking on the todo list at the bottom left of the screen, then on the mission to the right. This mission is the perfect opportunity to test yourself against real computer defenses, without risking jail time.
+        
+        We will go over the basic equipment needed, how to do the mission, and how to acquire more missions afterwards.
+
+HelpTools:
+    Menu: Basic Tools
+    MenuTip: Information on the first software tools to buy
+    MainTitle: {{company_header}} Help
+    Subtitle: Help/Getting Started/Basic Tools
+    Text: |
+        The basic tools that you will require for the Uplink Test mission will also be required for almost every other type of mission, so you will not be wasting your money when you buy these. We recommend you purchase these tools immediately as they will be essential.
+        
+        Password Breaker (V1.0) - You will need this to break through password protection screens.
+        Log Deleter (V1.0) - For removing traces of your actions.
+        Trace Tracker (V2.0) - Will allow you to monitor your communication lines, so you will know when you are about to be traced. We recommend version 2.0 for beginners as it will show you the percentage of your connection that has been traced.
+        
+        You can purchase all of these items with your starting loan, from the 'Software Sales' section of this site.
+
+HelpConnection:
+    Menu: The Connection
+    MenuTip: Information on opening a connection to a target
+    MainTitle: {{company_header}} Help
+    Subtitle: Help/Getting Started/The Connection
+    Text: |
+        The Uplink Test Mission requires you to connect to the Uplink Test Machine and steal a file. You should not connect directly to it - they would be able to trace you very quickly. Instead, you should bounce our call around the world.
+        
+        Open the Communications map by clicking on the world map, top right. Click on a few other nodes to bounce through them. Bounce through at least 3 other nodes before the Uplink Test Machine. Click on the connect button to connect to the target computer.
+        
+        Now would be a good time to start up your TraceTracker (click on the software menu bottom left). This tool will tell you if you are being traced. Once you start hacking, you'll have a couple of minutes before they trace you and cut you off. In the real world, this would get you in trouble.
+
+HelpBreaking:
+    Menu: Password Breaking
+    MenuTip: Information on breaking the opening password
+    MainTitle: {{company_header}} Help
+    Subtitle: Help/Getting Started/Password Breaking
+    Text: |
+        Once connected to the Uplink Test Machine, you will see the main login screen. Since you do not have security clearance to use this machine, you will need to hack through this screen. Passwords can be broken in one of two ways - either using a dictionary hacker (which tries every English word from a large dictionary) or a password cracker, which takes longer but can break non-English-word passwords.
+        
+        Run your Password Breaker and target the password box. It will take around 10 seconds to break this password (security is low) and they will begin tracing you immediately.
+
+HelpStealing:
+    Menu: Stealing
+    MenuTip: Information on stealing the files you need
+    MainTitle: {{company_header}} Help
+    Subtitle: Help/Getting Started/Stealing the File
+    Text: |
+        Once you are in the system, you should have no trouble accessing the file server and downloading the file you need (Use the File Copier and download the file 'uplink test data' into your memory banks). In many cases this might not be so easy - you may find that Firewall or Proxy systems are running, which will prevent you from just copying files easily. You will learn to bypass these in time.
+        
+        Once you've got the file, disconnect from the system as soon as possible.
+        
+        You can now send it to the employer (by clicking on 'reply' in the mission screen) and receive your payment, which in this case will be zero (it was only a test after all).
+
+HelpHiding:
+    Menu: Hide
+    MenuTip: Information on covering your tracks
+    MainTitle: {{company_header}} Help
+    Subtitle: Help/Getting Started/Covering Your Tracks
+    Text: |
+        The final step in any hack is to cover your tracks.
+        
+        Access the log banks and run your log deleter. Remember to keep an eye on the trace tracker. Locate the logs that you have created from your actions (especially the ones that detail where your connection came from) and target your log deleter on them. The logs will be deleted but will leave a clear marker behind. More advanced versions of the log deleter can cover your tracks better, but this will be sufficient for now.
+        
+        In the real world of hacking, you would probably not delete the logs on the target machine - you would not have time. Instead, you would bounce your connection through a system on which you have admin access. After the hack, you would connect to that system and remove those logs in safety - breaking the chain of logs between yourself and the target.
+
+HelpMissions:
+    Menu: Missions
+    MenuTip: Information on getting new mission contracts
+    MainTitle: {{company_header}} Help
+    Subtitle: Help/Getting Started/Future Missions
+    Text: |
+        The Uplink test mission is the easiest mission you will ever attempt. Once you feel good enough, connect to the Uplink Internal Services Machine and go to the Missions section. You will see some missions that are already available. You may be able to auto-accept some of them, and you will need to contact the employer to accept others. As your rating increases, more and more missions will appear here. You will find that you will need to upgrade your hardware and software before the more complex missions can be attempted.

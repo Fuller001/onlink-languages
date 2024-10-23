@@ -1,0 +1,15 @@
+---
+Subject: Highly skilled Agent required for removal job
+Body: |
+    Recently this person has become quite an annoyance and we would like {[him|her]} removed. We do not care how you do it, as long as {[his|her]} life is destroyed by the time you have finished.
+    
+    TARGET : {{ person_name }}
+    
+    Once you have completed the task, send a mail to {{ employer_email }} and we will determine if you have been successful.
+    
+    END
+
+WhySoMuchMoney: A great deal of skill will be required.
+HowSecure: That depends on the method you use.
+
+OnNotCompleted: We don't believe you have done sufficient damage yet.

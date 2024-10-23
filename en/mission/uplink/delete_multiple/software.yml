@@ -1,0 +1,15 @@
+---
+Subject: Destroy rival software in development
+Body: |
+    As you may be aware we are trying to promote our new software system but another corporation has developed a rival tool which we feel may harm our sales. Gain access to their main development server (below) and destroy ALL files you find. You must also ensure all backups are totally destroyed.
+    
+    It would be in your interests to remove any traces of your actions, as the company will not be pleased when they discover what you have done.
+    
+    TARGET COMPUTER :
+      LOCATION : {{ computer_name }}
+      IP : {{ computer_ip }}
+    
+    Send a notice of completion to:
+    {{ employer_email }}
+    
+    END

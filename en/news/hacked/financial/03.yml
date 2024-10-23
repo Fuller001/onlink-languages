@@ -1,0 +1,10 @@
+Subject: {{computer_name}} hacked for the third time
+
+Body: |
+    {{company_name}} are at a loss today as their online trading system, {{computer_name}} was hacked for the third time in less than a month.
+    
+    This occurred on {{date_time}}.
+    
+    Funds are being illegally transferred but {{company_name}} are unable to provide any further details at this time.
+    
+    Earlier today they issued a statement, saying that Federal Agents had been brought in to try to catch these hackers before they cause serious damage.

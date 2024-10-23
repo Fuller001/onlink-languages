@@ -1,0 +1,29 @@
+---
+Menu: View Account
+MenuTip: View Account
+Subtitle: View Account 
+
+Owner:
+    Text: Account Name
+    Tooltip: Shows the name your account is in
+
+Number:
+    Text: Account No.
+    Tooltip: Shows your account number
+
+Balance:
+    Text: Balance
+    Tooltip: Shows your bank balance
+
+Loan:
+    Text: Loan
+    Tooltip: Shows your the size of your loan
+
+Exit:
+    Text: {{ generic_ok }}
+    Tooltip: Return to the account management screen
+
+Accessing:
+    Text: Accessing...
+
+LoanRate: {{ misc_numeric }}% apr

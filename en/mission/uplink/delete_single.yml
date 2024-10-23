@@ -1,0 +1,31 @@
+---
+Subject: 
+    - Find and destroy crucial data on a mainframe
+    - Break into a rival computer system and sabotage files
+    - Hack into a computer and delete key files
+Body: |
+    Thank you for working for {{ employer_name }}.
+    
+    TARGET COMPUTER DATA :
+       LOCATION : {{ computer_name }}
+       IP : {{ computer_ip }}
+       FILENAME : {{ misc_string }}
+       FILESIZE : {{ misc_numeric }} GigaQuads
+    
+    Destroy this data and all backups.
+    
+    Send a notice of completion to:
+    {{ employer_email }}
+    
+    END
+
+WhySoMuchMoney: |
+    {% if mission_is_difficult %}
+    The data will be well protected.
+    {% else %}
+    {{ WhySoMuchMoney }}
+    {% endif %}
+
+OnNotCompleted:
+    FileExists: According to our sources, the file has not yet been deleted.
+    BackupIntact: According to our sources, the file still available on the registry. Have you checked all the system's backups?

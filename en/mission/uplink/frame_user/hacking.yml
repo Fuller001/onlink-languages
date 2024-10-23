@@ -1,0 +1,18 @@
+---
+Subject: Frame a user for computer crimes
+Body: |
+    A member of the public has been interfering with our plans recently and we believe {[his|her]} arrest and conviction for computer crimes will put {[his|her]} operation at an end. Perform a break in on a high-priority computer system and ensure that this {[man|woman]} is charged with the crime. {[He|She]} must be jailed for several years.
+    
+    TARGET INDIVIDUAL :
+      NAME : {{ person_name }}
+      IP : {{ person_ip }}
+    
+    Once you have completed your mission and {[his|her]} arrest is in the news, send a mail to {{ employer_email }} and we will transfer the payment.
+    
+    You will only receive payment if {[he|she]} is charged for the crime we have outlined.
+    
+    Good luck.
+    
+    END
+
+HowSecure: That depends on what you frame our friend for.

@@ -1,0 +1,17 @@
+---
+Subject: Steal valuable scientific research documents
+Body: |
+    Due to a lack of enthusiasm on the part of our recruitment department, one of our market competitors has pulled several months ahead with their research program. Given our current situation, we have concluded that the best way to close this gap is for us to steal the research data they have gathered. This will be your mission.
+    
+    Their research files are stored on the system below, and will be heavily protected. You will need to copy the files, break the security on them in any way you see fit, then copy the files onto our own file server.
+    
+    Target computer : {{ computer_name }}
+      IP : {{ computer_ip }}
+    
+    Once complete, dump the files you have to this computer:
+    {{ target_name }}
+      IP : {{ target_ip }}
+      USERNAME : {{ misc_string }}
+      PASSWORD : {{ misc_string2 }}
+    
+    END

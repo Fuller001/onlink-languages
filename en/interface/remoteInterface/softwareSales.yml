@@ -1,0 +1,62 @@
+---
+NameColumn:
+    Text: Name
+    Tooltip: This column shows the name of the item for sale
+VersionColumn:
+    Text: Version
+    Tooltip: This column shows the version number of the software
+CostColumn:
+    Text: Cost
+    Tooltip: This column shows the cost of the item in credits
+SizeColumn:
+    Text: Size
+    Tooltip: This column shows the space required for this item
+RAMColumn:
+    Text: RAM
+    Tooltip: This column shows the RAM required for this item per execution, if applicable
+
+Purchase:
+    Text: Purchase
+    Tooltip: Purchase this item
+Download:
+    Text: Download
+    Tooltip: Download this version
+NextVersion:
+    Text: Next Version
+    Tooltip: View next version
+PrevVersion:
+    Text: Previous Version
+    Tooltip: View previous version
+ShowAll:
+    Text: Show All
+    Tooltip: Display all available software
+Exit:
+    Text: Exit Market
+    Tooltip: Close the screen and return to the main menu
+
+OwnedPrice: Owned
+
+Upgrade: Upgrade
+AlreadyOwned: Already Owned
+SendInstaller: Send Email
+ResendInstaller: Resend Email
+
+SoftwarePurchased: Item purchased
+HUDPurchased: HUD upgrade installed.
+InstallerPurchased: Item purchased. Check your email for your software.
+InstallerResent: Installer has been sent to your email
+OldVersionDownloaded: Version downloaded
+
+NotEnoughMoney: You do not have enough credits to purchase this program.
+NotEnoughMemory: You do not have enough memory to store this program.
+NotEnoughRAM: You do not have enough RAM for this upgrade.
+
+HUDMissingAnalyser: You require a HUD_ConnectionAnalysis upgrade before purchasing any bypassing tools
+HUDMissingLAN: You require a HUD_LanView upgrade before purchasing any LAN tools.
+HUDMissingInjector: You require a HUD_ServiceInjector upgrade before purchasing any terminal service suites.
+
+PrePatchFirst: You must patch nano-drive abilities prior to purchasing this item.
+SYSUpgradeInstalled: You already have this driver.
+
+OSNotEnoughMemory: Your system does not have enough RAM to support this OS.
+OSPurchased: Item purchased. You will need to re-login to your gateway before changes are made.

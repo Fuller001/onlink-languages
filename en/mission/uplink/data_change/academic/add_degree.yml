@@ -1,0 +1,17 @@
+---
+Subject: Generate a University Degree for a friend
+Body: |
+    Provide this person with the following University Degree:
+    UNIVERSITY DEGREE :
+      SUBJECT : {{ misc_string }}
+      CLASS   : {{ misc_numeric }}
+    
+    TARGET INDIVIDUAL :
+      NAME : {{ person_name }}
+    
+    Send a notice of completion to:
+    {{ employer_email }}
+    
+    END
+
+WhySoMuchMoney: We really need this qualification.

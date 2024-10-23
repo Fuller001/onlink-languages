@@ -1,0 +1,44 @@
+---
+Subject: Take advantage of an amazing opportunity
+Body: |
+    As you may be aware, ARC are storing most of their Research on their Local Area Network system. However, what is not commonly known is that the critical data (ie the research files themselves) are actually stored on a Stand-Alone file server, which is physically disconnected from the rest of the Internet. When the file server is connected for use, the ARC LAN itself is disconnected, meaning their data is always totally isolated from public access. This has made it impossible for us to steal their research until now.
+    
+    A member of ARCs team who wishes to remain anonymous has come forward and offered to help us. You will need to break in to the system first. Once inside, you should be able to find the restricted file area. Our man on the inside will then install a remote radio modem on the file server, which will give you access. You can then copy the files.
+    
+    Once done, decrypt the files and dump them onto our File Server - details below.
+    
+    You may also have noticed that the CEO of ARC was recently arrested and questioned by Federal Agents in connection with Revelation. We believe ARC are planning to launch Revelation early due to this. This makes the success of this mission Super critical.
+    		
+    You will be paid {{ mission_payment }}c for this mission.
+    		
+    Codename: ARCInfiltration
+    
+    Target computer : {{ computer_name }}
+    IP : {{ computer_ip }}
+    		
+    Once complete, dump the files you have to this computer:
+    {{ target_name }}
+    IP : {{ target_ip }}
+    		
+    USERNAME : {{ misc_string }}
+    PASSWORD : {{ misc_string2 }}
+    
+    Reply to this mail when you have finished.
+    
+    END
+
+OnNotCompleted:
+    Subject: Mission NOT completed
+    Body: |
+        We don't see any useful files on the File Server we specified.
+        
+        Have you copied the files onto the file server?  Have you remembered to decrypt the files so we can read them?
+
+OnCompleted:
+    Subject: Congratulations
+    Body: |
+        Congratulations on your success Agent {{ agent_handle }}.
+        
+        We can see {{ misc_numeric }} Gigaquads of useful data which will help us perfect Faith. We are still not entirely confident that we can stop an outbreak of Revelation, but this data will certainly improve our chances.
+        
+        We have managed to determine that the reproductive systems in the Revelation virus are based on data and code stolen from Darwin Research Associates a few weeks ago. The virus mutates, multiplies and evolves, much like a real life form. We believe the way to defeat it is to attack it with another virus that it cannot evolve against.

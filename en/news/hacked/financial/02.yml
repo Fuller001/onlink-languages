@@ -1,0 +1,10 @@
+Subject: {{computer_name}} comes under attack again
+
+Body: |
+    The {{computer_name}} computer system has been hacked for the second time.
+    
+    This occurred on {{date_time}}.
+    
+    It is believed that some unauthorised money transfers were performed by the hackers.
+    
+    This incident has lead to a fall in investor trust, and the Bank is currently searching for clues as to the identity of the hackers responsible.

@@ -1,0 +1,61 @@
+
+# Base strings
+FullServerName: {{ owner_name }} {{ suffix }}
+FullServerPossessiveName: {{ owner_name }}'s {{ suffix }}
+
+# Computer Type
+PublicAccessServer:
+    Name: Public Access Server
+
+PublicNetworkServer:
+    Name: Network Access Server
+
+AccessTerminal:
+    Alias: Access Terminal
+
+InternalServices:
+    Name: Internal Services Machine
+
+Mainframe:
+    Name: Central Mainframe
+
+BankServer:
+    Name: International Bank
+
+FileServer:
+    Name: File Server
+
+BackupServer:
+    Name: Backup Server
+
+CorporateGateway:
+    Name: Gateway System
+    LongName: Gateway Security System
+
+LiftingServer:
+    Name: Lifting Server
+
+LiftingServer2:
+    Name: Lifting Server_
+    Alias: Lifting Server
+
+AclServer:
+    Name: Access Control System
+
+NameServer:
+    Name: Name Server
+
+ProjectServer:
+    Name: Project Server
+
+LanSystem:
+    Name: Local Area Network
+
+LanDialUp:
+    Name: LAN Dial Up access
+
+PersonalComputer:
+    Name: Personal Computer
+
+PersonalPhone:
+    Name: Phone Number

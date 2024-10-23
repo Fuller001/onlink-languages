@@ -1,0 +1,17 @@
+---
+Subject: Copy proprietary source code database
+Body: |
+    As you may be aware we are currently in direct competition with another rival corporation to develop a software product which will no doubt dominate the market once released. Unfortunately, due to circumstances beyond our control, they have managed to pull several months ahead. We believe the best course of action is for us to copy their program source code and use it to help our product provide adequate competition.
+    
+    Break into the computer system below, copy anything that looks like source code and break any security systems in place on the data files. Then copy those files onto our own file server.
+    
+    Target computer : {{ computer_name }}
+      IP : {{ computer_ip }}
+    
+    Once complete, dump the files you have to this computer:
+    {{ target_name }}
+      IP : {{ target_ip }}
+      USERNAME : {{ misc_string }}
+      PASSWORD : {{ misc_string2 }}
+    
+    END

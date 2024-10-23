@@ -1,0 +1,48 @@
+---
+Date:
+    Text: Date
+    Tooltip: This column shows the date the message was submitted
+
+Payment:
+    Text: Payment
+    Tooltip: This column shows the amount promised by the client
+
+Tier:
+    Text: Tier
+    Tooltip: This column shows the mission tier
+
+Difficulty:
+    Text: Difficulty
+    Tooltip: This column shows the estimated mission difficulty
+
+Subject:
+    Text: Subject
+    Tooltip: This column shows the subject of the message
+        
+Accept:
+    Text: Accept
+    Tooltip: Accept this mission
+
+Contact:
+    Text: Contact
+    Tooltip: Contact the employer of this mission
+
+Exit:
+    Text: Exit BBS
+    Tooltip: Exit
+        
+MessageTip: Read this Bulletin Board message
+
+EncryptedDate: {{ generic_unknown }}
+EncryptedPayment: {{ generic_unknown }}
+Encrypted: Encrypted (Insufficient Uplink Rating)
+EncryptedDetails: You do not have a sufficient Uplink Rating to view this message.
+
+NoAutoSet: This mission cannot be auto-accepted. You must contact the employers to accept this mission.
+NoAutoLowLevel: You do not have a sufficient Uplink Rating to auto-accept this mission. You must first contact the employers.
+EmployerRefused: We cannot allow you to accept this mission, on the specific instructions of the employer.
+
+ContactLowLevel: You do not have a sufficient Uplink Rating to contact this employer.
+ContactRefused: We cannot allow you to contact this employer, on their specific instructions.
+
+NoMissions: No Mission available.

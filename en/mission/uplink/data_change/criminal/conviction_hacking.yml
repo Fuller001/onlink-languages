@@ -1,0 +1,20 @@
+---
+Subject: Help to stop a hacker from ever working again
+Body: |
+    Break into the Global Criminal Database:
+    
+    TARGET COMPUTER DATA :
+      LOCATION : {{ computer_name }}
+      IP : {{ computer_ip }}
+    
+    We have suspected that {{ person_name }} was guilty of hacking one of our systems for some time now, but have been unable to acquire sufficient proof.
+    We wish to discredit {[him|her]} by giving {[him|her]} a computer related criminal record, preventing {[him|her]} from ever working in the industry again.
+    Open {[his|her]} Criminal Record and give {[him|her]} a new conviction for {{ misc_string }}.
+    
+    Send a notice of completion to:
+    {{ employer_email }}
+    
+    END
+
+WhoIsTheTarget: A hacker who has attacked us before.
+WhySoMuchMoney: The target may have friends.

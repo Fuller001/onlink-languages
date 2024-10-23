@@ -1,0 +1,14 @@
+---
+Subject: Qualifications required for wealthy professional
+Body: |
+    This individual urgently requires a "{{ misc_string }}" Qualification added to {[his|her]} record.
+    
+    TARGET INDIVIDUAL :
+      NAME : {{ person_name }}
+    
+    Send a notice of completion to:
+    {{ employer_email }}
+    
+    END
+
+WhySoMuchMoney: This qualification is needed to gain entry to a target industry.
