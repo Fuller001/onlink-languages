@@ -1,0 +1,31 @@
+---
+Subject: |
+    {% if success_level == 0 %}
+    MISSION NOT COMPLETE
+    {% else %}
+    CONGRATULATIONS
+    {% endif %}
+Body: |
+    {% if success_level == 3 %}
+    We've just heard the news about Arunmor's research - congratulations!
+    
+    It looks like you performed the job with your usual style and skill. Well done.
+    
+    Faith is certain to take a major blow from this. We are planning on releasing Revelation very shortly...there are just a few more things to take care of first.
+    
+    It is likely that Arunmor had some backups of the counter-virus somewhere, so we will have to move quickly to take advantage of their loss.
+    {% elif success_level == 2 %}
+    Congratulations on deleting the data on Arunmor's Local Area Network. It appears you didn't quite manage to shut down the system, but that's ok. We've dealt them a nasty blow. We are planning on releasing Revelation very shortly...there are just a few more things to take care of first.
+    {% elif success_level == 1 %}
+    Well done for attempting the Arunmor crash mission. It appears you shut down the system, which will cause them problems. But it appears they have recovered the data from back-ups.
+    
+    You should have deleted all the files before you shut the system down.
+    
+    Still, this will hurt Arunmor. We are planning on releasing Revelation very shortly...there are just a few more things to take care of first.
+    {% else %}
+    You don't appear to have damaged the Arunmor Local Area Network very much. Try again.
+    {% endif %}
+    {% if success_level > 0 %}
+        
+    We will contact you soon.
+    {% endif %}

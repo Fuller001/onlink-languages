@@ -14,35 +14,3 @@ Body: |
     You will encounter severe resistance. We are prepared to pay you {{ mission_payment }} credits for completion of this mission. If you succeed, we believe we will be able to take advantage of their momentary confusion and launch Revelation successfully.
     
     Be patient...the time is near.
-
-OnNotCompleted:
-    Subject: Mission NOT completed
-    Body: You don't appear to have damaged the Arunmor Local Area Network very much. Try again.
-    
-OnCompleted:
-    Subject: Congratulations
-    FullDestruction:
-        Body: |
-            We've just heard the news about Arunmor's research - congratulations!
-            
-            It looks like you performed the job with your usual style and skill. Well done.
-            
-            Faith is certain to take a major blow from this. We are planning on releasing Revelation very shortly...there are just a few more things to take care of first.
-            
-            It is likely that Arunmor had some backups of the counter-virus somewhere, so we will have to move quickly to take advantage of their loss.
-            
-            We will contact you soon.
-    FilesDestroyed:
-        Body: |
-            Congratulations on deleting the data on Arunmor's Local Area Network. It appears you didn't quite manage to shut down the system, but that's ok. We've dealt them a nasty blow. We are planning on releasing Revelation very shortly...there are just a few more things to take care of first.
-                         
-            We will contact you soon.
-    SystemDestroyed:
-        Body: |
-            Well done for attempting the Arunmor crash mission. It appears you shut down the system, which will cause them problems. But it appears they have recovered the data from their main system.
-            
-            You should have deleted all the files before you shut the system down.
-            
-            Still, this will hurt Arunmor. We are planning on releasing Revelation very shortly...there are just a few more things to take care of first.
-            
-            We will contact you soon.

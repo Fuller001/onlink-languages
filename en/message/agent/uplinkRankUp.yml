@@ -1,0 +1,6 @@
+---
+Subject: Congratulations
+Body: |
+    Congratulations Agent {{ agent_handle }} - you have reached the next Uplink Rating.
+    
+    Your rating is now {{ misc_string }}.

@@ -1,0 +1,8 @@
+---
+Subject: Your license - {{ misc_string2 }}
+Body: |
+    Thank you for purchasing a Volume License for this software. An installer is attached to this email. Running this program will immediately install the software, provided your system specifications support it.
+    
+    Please keep this email for your records. If you need to re-download this software, you may click the Save button near the subject.
+    
+    Should you lose this email, please visit the Software Market and select "Show All" to have the option to resend this email.

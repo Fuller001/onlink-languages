@@ -8,9 +8,6 @@ Welcome:
         
         All data on this site is strictly confidential.
 
-ProjectUplink2Menu:
-    Subtitle: Project Uplink2 : TERMINAL
-
 Intro:
     Subtitle: Introduction
     Text: |
@@ -67,3 +64,6 @@ HolyGrail:
         
         It is not clear what the legal situation would be - could anyone actually be prosecuted under this system?
     Affirmation: Dream on
+
+ProjectUplink2Menu:
+    Subtitle: Project Uplink2 : TERMINAL

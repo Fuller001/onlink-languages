@@ -1,0 +1,32 @@
+---
+Subject: An offer you can't refuse
+Body: |
+    Agent {{ agent_handle }},
+    
+    {% if success_level == 3 %}
+    We have been tidying up some of our loose ends recently and we couldn't help but notice that you seem to have done us a very large favour. It appears that Agent {{ misc_string }} was quite resourceful and would have sent a warning mail to all agents about us, almost from beyond the grave.
+    
+    We didn't find out about this until it would have been too late, but we were very surprised to see that you stopped this from happening yourself.
+    
+    We're not sure on your motives but would like to offer you some more work if you are interested. We will reward you if you decide to accept of course.
+    
+    Why are we offering this to you? You managed to trace back to his computer system several days before any of our guys could get there. You obviously have talent. And your motives appear to be good as well.
+    {% elif success_level == 2 %}
+    We couldn't help but notice that you have been poking into our business recently, and if our backup logs are correct, you are now in possession of something that is very important to us.
+    
+    Of course, you could make use of this data. You could probably get quite a lot of money for it. Or you could come and work for us.
+    
+    You obviously have the talent. We were amazed when we realised what you had done.
+    
+    We believe you will find that we can offer huge rewards for successful applicants.
+    {% else %}
+    We couldn't help but notice that you have recently been poking around in some of our computer systems, presumably attempting to determine what is happening with our company at the moment. We feel we should warn you at this time that any attempt to gain unauthorised access to our systems will result in SEVERE consequences.
+    
+    Pleasantries aside, You may have heard that we have been hiring a number of Uplink Agents recently for a yet-to-be-announced project. Your recent activities caused us to run a background check on you, and you seem to be the kind of agent we are looking for.
+    
+    If you would be interested in doing some work for us, we'd love to hear from you. Reply to this email or send one to internal@arc.net, and we will see what we can do. We think you will find that ARC offer the best rates for freelance agents in the business.
+    {% endif %}
+    
+    Reply to this email (or send one to internal@arc.net) if you are interested in discussing this further.
+    
+    We look forward to hearing from you.

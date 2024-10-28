@@ -1,0 +1,9 @@
+---
+
+
+ErrorAuth: Authentication required
+ErrorDecode: Decode required
+ErrorHook: Missing prior hook
+ErrorIdent: Unable to identify
+ErrorPackage: Package not installed
+ErrorUnknown: Unknown Error

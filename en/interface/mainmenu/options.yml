@@ -1,0 +1,277 @@
+
+GraphicOptions:
+    text: Graphics
+    tooltip: Edit GRAPHICS options.
+
+SoundOptions:
+    text: Sound
+    tooltip: Edit SOUND options.
+
+GameplayOptions:
+    text: Gameplay
+    tooltip: Edit GAMEPLAY options.
+
+UIOptions:
+    text: UI
+    tooltip: Edit User Interface options.
+
+MainMenu:
+    text: Main menu
+    tooltip: Return to the main menu.
+
+# Graphics
+
+SafeMode:
+    text: Safe Mode
+    tooltip: Enables graphical safe mode for troubleshooting.
+    
+SoftwareMouse:
+    text: Software Mouse
+    tooltip: Disable/Enable the software mouse.
+
+Display:
+    text: Display Monitor
+    tooltip: Select the monitor you wish to use.
+
+DisplayItemID:
+    text: Monitor {{ misc_numeric }}
+    tooltip: Select this Monitor.
+    
+DisplayItem:
+    text: {{ misc_string }}
+    tooltip: Select this Monitor.
+
+ScreenMode:
+    text: Screen Mode
+    tooltip: Select your desired screen resolution.
+
+ScreenModeWindowed:
+    text: Windowed
+    tooltip: Run the game in a window.
+
+ScreenModeFullScreen:
+    text: Full Screen
+    ooltip: Run the game in full screen mode.
+
+ScreenModeBorderless:
+    text: Borderless
+    tooltip: Run the game in a borderless full screen window.
+
+Resolution:
+    text: Resolution
+    tooltip: Select your desired screen resolution.
+    
+ResolutionItem:
+    text: {{ misc_numeric }}x{{ misc_numeric2 }} ({{ misc_string }})
+    tooltip: Select this resolution.
+
+RefreshRate:
+    text: Refresh Rate
+    tooltip: Select your desired refresh rate.
+    
+RefreshRateItem:
+    text: {{misc_numeric}}
+    tooltip: Select this refresh rate.
+
+VSync:
+    text: VSync
+    tooltip: Select the vertical Synchronization mode.
+
+VSyncDisable:
+    text: Disable
+    tooltip: Disable VSync
+
+VSyncEnable:
+    text: Enable
+    tooltip: Enable VSync
+
+VSyncAdaptive:
+    text: Adaptive
+    tooltip: Adaptive VSync
+    
+ApplyChanges:
+    text: Apply Changes
+    tooltip: Apply option changes.
+
+# Audio
+
+CoreTitle:
+    text: Core Songs
+    
+UserTitle:
+    text: User Songs
+    
+Rewind:
+    tooltip: Click to replay last track
+    
+Play:
+    tooltip: Click to play the music
+    
+Forward:
+    tooltip: Click to skip to next track
+    
+Stop:
+    tooltip: Click to stop the music
+    
+Repeat:
+    tooltip: Click to repeat current track
+    
+Randomize:
+    tooltip: Click to randomize the music playlist
+    
+Seek:
+    tooltip: Click to seek in the track
+  
+PlaylistDefaultTitle: Select Playlist
+    
+PlaylistItem:
+    text: {{ misc_string }}
+    tooltip: Adjust the master volume
+
+MasterVolume:
+    text: Master Volume
+    tooltip: Adjust the master volume
+
+MusicVolume:
+    text: Music Volume
+    tooltip: Adjust the music volume
+
+SoundEffectVolume:
+    text: Sound Effect Volume
+    tooltip: Adjust the sound effect volume
+
+# Gameplay
+
+OriginalExperience:
+    text: Original Uplink Experience
+    tooltip: The next new user will resemble the original Uplink, but with Onlink's ui enhancements.
+
+UplinkOS:
+    text: UplinkOS Engine
+    tooltip: Restart the game and launch as Uplink OS
+
+EnhancedTaskManager:
+    text: Enhance Task Manager
+    tooltip: Removes/Adds more buttons to the task manager
+
+LessMoneyTransfered:
+    text: Missions generate less money
+    tooltip: Trace a Balance Transfer mission will generates less money when on
+
+MinimalAmoutOfMissions:
+    text: Forced minimal amount of missions
+    tooltip: Force a minimal amount of missions for each tier at the start of the game.
+
+AutoAttach:
+    text: Auto-attach mission file to emails
+    tooltip: When replying to a mission email, the associated mission file will be attached.
+
+CustomSeed:
+    text: Custom seed
+    tooltip: Hide/Show the number generator seed input screen at the start of a new game
+
+# UI
+
+ShortcutTitle:
+    text: Shortcuts
+    
+shortcutKeyBind:
+    text: {{ misc_string }}
+    tooltip: Click to change the key binding
+    
+ShortcutItem:
+    text: {{ misc_string }}
+    tooltip: Bind This action to the shortcut
+
+ShortcutPrevious:
+    tooltip: Display the previous shortcut page
+    
+ShortcutAdd:
+    text: Add Shortcut
+    tooltip: Click to add a shortcut
+    
+ShortcutNext:
+    tooltip: Display the next shortcut page
+
+ThemeTitle:
+    text: Theme Selection
+    tooltip: Select the UI theme you wish to use
+    
+ThemeItem:
+    text: {{ theme_name }}
+    tooltip: Select {{ theme_name }} by {{ theme_author }} {{ theme_comment }}
+
+WorldMapSelection:
+    text: World Map Selection
+    tooltip: Select the world map you wish to use in game
+
+WorldMapSelectionAuto:
+    text: Auto
+    tooltip: Select this world map
+
+WorldMapSelectionItem:
+    text: {{ misc_string }}
+    tooltip: Select this world map
+
+WorldMapSelectionCurrent:
+    tooltip: This is the world map that will be used in game
+
+LanguageSelection:
+    text: Language
+    tooltip: Select the language
+    
+LanguageSelectionItem:
+    text: {{ misc_string }}
+    tooltip: Select {{ misc_string }}, By {{ misc_string2 }}
+
+ColourBlindSelection:
+    text: Colour Blind Mode
+    tooltip: Select the colour blind mode
+
+ColourBlind_Disabled:
+    text: Disabled
+    tooltip: Disable ColourBlind mode.
+    
+ColourBlind_RedGreen:
+    text: Red / Green
+    tooltip: Select this mode.
+    
+ColourBlind_YellowBlue:
+    text: Yellow / Blue
+    tooltip: Select this mode.
+    
+ColourBlind_Full:
+    text: Full
+    tooltip: Select this mode.
+
+FontScale:
+    text: Font Scale
+    tooltip: Set the Font Scale
+
+HighlightColour:
+    text: Link Highlight Colour
+    hint: "#00000000"
+    tooltip: Type in the default highlight colour for links
+    
+HighlightColourItem:
+    tooltip: This colour will be used to highlight links
+
+MissionColour:
+    text: Link With Mission Colour
+    hint: "#00000000"
+    tooltip: Type in the default mission colour for links
+    
+MissionColourItem:
+    tooltip: This colour will be used on links with missions
+
+EnableAnimation:
+    text: Enable Animation
+    tooltip: Disable/Enable the game animations
+
+FastAnimation:
+    text: Faster Animation
+    tooltip: Increase the animation speed
+
+BorderOnButton:
+    text: Border on buttons
+    tooltip: Add a border on every buttons

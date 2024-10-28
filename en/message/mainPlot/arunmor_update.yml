@@ -1,0 +1,18 @@
+---
+Subject: Your recent submission
+Body: |
+    {% if success_level == 1 %}
+    Let us be the first to congratulate you Agent - we have been totally unable to recover Revelation from our damaged machines and we had been hoping that somebody out there would have a copy of it.
+    
+    Of course, we won't ask where you got it, nor will we let it become known who sent it too us.
+    
+    Thanks to your submission, we will now be able to pull several weeks ahead of Revelation. We have already deposited the full reward of {{ misc_numeric }}c into your account.
+    
+    We may have some more work for you in future.
+    
+    Once again thank you for your contribution to project Faith.
+    {% else %}
+    Thank you for your recent submission of the Revelation virus, and congratulations on finding such a rare item. Unfortunately, we already have a copy of this version of the virus, so what you have sent is will not prove useful.
+    
+    As such, we are unable to pay you any reward. If you find any newer versions, please send them to us.
+    {% endif %}

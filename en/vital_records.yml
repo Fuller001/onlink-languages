@@ -15,48 +15,48 @@ PersonalStatus:
     SelfEmployed: Self-Employed
     Deceased: Deceased
 
-AcademicQualifications:
-    - Science
-    - Maths
-    - Physics
-    - Biology
-    - Art
-    - History 
-    - Psychology
-    - Electronics
-    - Computing
-    - Media studies
-    - Sociology
+AcademicSubjects:
+  - Science
+  - Maths
+  - Physics
+  - Biology
+  - Art
+  - History 
+  - Psychology
+  - Electronics
+  - Computing
+  - Media studies
+  - Sociology
     
 ValidGrades:
-    - A
-    - B
-    - C
-    - D
-    - E
-    - F
-    - G
+  - A
+  - B
+  - C
+  - D
+  - E
+  - F
+  - G
 
 AcademicDegrees:
-    - Computing
-    - Physics
-    - Electrical Engineering
-    - Mechanical Engineering
-    - Software Engineering
-    - Systems Engineering
-    - Management
-    - Artificial Intelligence
-    - Philosophy
-    - Media studies
+  - Computing
+  - Physics
+  - Electrical Engineering
+  - Mechanical Engineering
+  - Software Engineering
+  - Systems Engineering
+  - Management
+  - Artificial Intelligence
+  - Philosophy
+  - Media studies
     
 AcademicDegreeClassification: {{ AcademicDegrees }}, class {{ degree_class }}
 
 OtherQualifications:
-    - Diploma in Computing 
-    - IEEE Accreditation
-    - Certified systems engineer
-    - Btec in IT     
-    - Systems Engineering diploma
+  - Diploma in Computing 
+  - IEEE Accreditation
+  - Certified systems engineer
+  - Btec in IT     
+  - Systems Engineering diploma
 
 UplinkQualification: Registered Uplink Agent
 

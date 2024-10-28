@@ -1,0 +1,29 @@
+---
+TitleBar:
+    Text: CONNECTION ANALYSER
+    Tooltip: Remove this screen
+
+LocalHost:
+    Text: Localhost
+
+LocalHostIcon:
+    Tooltip: Shows your home computer
+
+RemoteHost:
+    Text: Remote Host
+
+RemoteHostIcon:
+    Tooltip: Shows the remote computer target
+
+SecSystem:
+    Text: Analysing
+
+SecSystemIcon:
+    Tooltip: Shows a security system
+
+PleaseWait: Analysing
+RunningGateway: Default Gateway Detectedso bear that in mind
+RunningEBS: Link to Backup Server Detected
+UnknownFilesystem: WARNING: Unfamiliar Filesystem
+
+

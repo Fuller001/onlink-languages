@@ -1,0 +1,10 @@
+---
+Subject: Congratulations
+Body: |
+    {% if success_level == 1 %}
+    Congratulations on your recent success agent - we are very pleased with the way things turned out. We have made the appropriate payment into your account.
+    {% else %}
+    Congratulations on your recent success agent - we are very pleased with the way things turned out. Unfortunately, it appears that Arunmor was running a backup server, so they will be able to recover all their files. Nevertheless, we have made the appropriate payment into your account.    
+    {% endif %}
+    
+    No doubt this event will manage a lot of media coverage so it is probably best if you keep a low profile for a short while. We will contact you again soon with some more work.

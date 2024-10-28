@@ -2,8 +2,8 @@
 DebugInfo: Push hardware information to the clipboard
 DebugDraw: Draw Debug Mode
 Refresh: Refresh screen
-DecreaseFontDpi: Decrease PPI
-IncreaseFontDpi: Increase PPI
+DecreaseFontScale: Decrease Font Scale
+IncreaseFontScale: Increase Font Scale
 ScreenShot: Take a screenshot
 Exit: Exit the game
 

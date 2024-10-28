@@ -1,0 +1,6 @@
+---
+Subject: Neuromancer rating change
+Body: |
+    It appears your neuromancer rating has changed, in view of your recent actions.
+    
+    Your new rating is {{ misc_string }}.

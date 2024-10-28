@@ -1,0 +1,21 @@
+---
+Subject: |
+    {% if success_level == 0 %}
+    Failure to complete mission
+    {% elif success_level == 1 %}
+    The wrong person has been framed
+    {% else %}
+    Congratulations
+    {% endif %}
+Body: |
+    {% if success_level >= 2 %}
+    Well done Agent - we have checked the systems ourselves and have determined that enough evidence has been planted to convict the man. Police will soon be receiving an anonymous tip, which should end his work at Arunmor.
+    
+    We are planning on using this instance to cast doubt over the actions of Arunmor Corporation. Currently they are receiving a great deal of funding from the Government and are making very fast progress on their Faith counter-virus. This has become something of an arms race. Hopefully the Government will be less willing to fund such an operation when they hear about this financial scandal.
+    {% elif success_level == 1 %}
+    We've looked at the systems involved, and we can see that you have performed the hack.
+    
+    However, it doesn't appear that the logs lead back to his home computer. You must fix this before somebody traces the wrong person.
+    {% else %}
+    You don't appear to have done the hack or framed the man in question.
+    {% endif %}

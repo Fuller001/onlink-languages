@@ -21,15 +21,6 @@ Body: |
     Target system: {{ computer_name }}
     Target IP: {{ computer_ip }}
 
-OnNotCompleted:
-    Subject: Failure
-    Body: We haven't received any ping signals from our Tracer yet. You can't have installed it right.
-
-OnCompleted:
-    Subject: Congratulations
-    Body: |
-        We just started receiving ping signals from our Tracer Software. This means it is set up correctly and working. Time will tell if they managed to spot what you are doing.
-        
-        We have made the full mission payment into your account.
-        
-        When the time comes, well send you some Tracer software that you can run on your local system. This will list all of the computers that have been infected with the Revelation virus.
+SetWhoIsTheTarget: Andromeda Research Corporation.
+SetWhySoMuchMoney: The mission is extremely important.
+SetHowSecure: The target will be very secure.

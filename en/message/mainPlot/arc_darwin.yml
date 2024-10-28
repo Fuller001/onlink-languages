@@ -1,0 +1,17 @@
+---
+Subject: |
+    {% if success_level == 0 %}
+    No files found
+    {% else %}
+    Congratulations
+    {% endif %}
+Body: |
+    {% if success_level == 1 %}
+    Congratulations on your success Agent {{ agent_handle }}.
+    
+    We can see {{ misc_nummeric }} Gigaquads of useful data which will help us perfect Revelation. At the moment the virus does not spread particularly well - if the security systems of the local machine are still running, the virus has trouble getting out of the system at all. We are planning on using the research that Darwin Research Associates have conducted to make the virus mutate and evolve, in order to combat any defense systems it comes up against.
+    {% else %}
+    We don't see any useful files on the File Server we specified.
+    
+    Have you copied the files onto the file server?  Have you remembered to decrypt the files so we can read them?
+    {% endif %}

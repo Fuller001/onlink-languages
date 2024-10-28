@@ -23,15 +23,6 @@ Body: |
     Target system: {{ computer_name }}
     Target IP: {{ computer_ip }}
 
-OnCompleted:
-    Subject: Congratulations
-    Body: |
-        That looks like a total success to us. We'll have to keep quiet for a while, but it looks like the Feds are getting ready to arrest the CEO of Andromeda Research Corporation tomorrow.
-        
-        It also looks like we are going to be able to question him about Revelation. This is going to help our cause.
-        
-        We believe that the CEO of Andromeda Corporation is not actually the man in charge of the Revelation project - since ARC is actually owned by the Andromeda group, and their leader is currently unknown. However, he undoubtedly has a strong impact on their progress.
-        
-        If we are very lucky, this man will help us find the leader of Andromeda.
-        
-        It is also likely that our funding will be increased due to this outbreak. The Government is getting quite desperate at the moment - they think their entire infrastructure may be destroyed, and we are the only people who can offer them a solution.
+WhoIsTheTarget: The CEO of Andromeda Research Corporation.
+WhySoMuchMoney: It involves very important people.
+HowSecure: It won't be a problem.

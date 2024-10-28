@@ -1,0 +1,14 @@
+---
+Subject: Counter offer from a friend
+Body: |
+    Agent {{ agent_handle }},
+    
+    Firstly let us congratulate you on scoring such a lucrative deal with the Andromeda Research Corporation. Secondly, let us warn you that you are making a big mistake.
+    
+    You must have read the headlines, and by now you have probably guessed what ARC are up to. Our sources tell us you are about to test run ARCs secret project on OUR computer systems. We can only pray this message reaches you before you go ahead.
+    
+    Whatever ARC have offered you, we can do better. We have a vested interest in stopping ARC, so we would like to offer you a counter-proposal. Send us a copy of whatever ARC sent you, and we'll reward you with {{ misc_numeric }}c. You can work for us full time.
+    
+    Simply reply to this email with the ARC data attached.
+    
+    Before you answer, think about the moral implications of what you are about to do. Can you really trust ARC, who recently made the news by murdering two of their best Uplink Agents?

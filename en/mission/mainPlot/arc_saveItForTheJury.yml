@@ -20,21 +20,3 @@ Body: |
     Target individual :
     {{ person_name }}
     {[His|Her]} personal computer: {{ target_ip }}
-
-OnFailure:
-    Subject: Failure to complete mission
-    Body: You don't appear to have done the hack or framed the man in question.
-
-OnNotCompleted:
-    Subject: The wrong person has been framed
-    Body: |
-        We've looked at the systems involved, and we can see that you have performed the hack.
-        
-        However, it doesn't appear that the logs lead back to his home computer. You must fix this before somebody traces the wrong person.
-
-OnCompleted:
-    Subject: Congratulations
-    Body: |
-        Well done Agent - we have checked the systems ourselves and have determined that enough evidence has been planted to convict the man. Police will soon be receiving an anonymous tip, which should end his work at Arunmor.
-        
-        We are planning on using this instance to cast doubt over the actions of Arunmor Corporation. Currently they are receiving a great deal of funding from the Government and are making very fast progress on their Faith counter-virus. This has become something of an arms race. Hopefully the Government will be less willing to fund such an operation when they hear about this financial scandal.

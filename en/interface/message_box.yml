@@ -19,6 +19,15 @@ RetireNotValid:
     type: Simple
     subject: Retire
     body: "{{ misc_string }}" is not currently on the roster.
+    
+# Options
+
+ScreenChanged:
+    type: Confirmation
+    subject: Keep Changes ?
+    body: |
+        Do you wish to keep the current Changes ?
+        The changes will be reverted in {{misc_numeric}} seconds.
 
 # Pause
 UplinkPaused:

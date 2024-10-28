@@ -11,3 +11,6 @@ Commit:
 Exit:
     Text: Close
     Tooltip: Close the records screen
+
+GenericLoginType: Username
+BankLoginType: Account

@@ -1,0 +1,10 @@
+---
+Subject: Uplink WARNING
+Body: |
+    This is a warning Agent {{ agent_handle }} - your performance recently has been unsatisfactory.
+    
+    As such we have been forced to review your case, and have decided to decrease your Uplink rating.
+    
+    Your rating is now {{ misc_string }}. We hope this is sufficient punishment to make our point clear.
+    
+    Uplink Corporation will not tolerate failure.

@@ -1,0 +1,33 @@
+---
+Subject: {{ company_name }} Security Update
+Body: |
+    Dear {{ person_name }},
+    
+    We wish to inform you that we have recently updated our security codes for our systems. Your new credentials are as follow:
+    
+    {% if gateway_computer %}
+    Gateway Security System:
+      Your VDPIN: {{ gateway_vdpin }}
+      Your Vsec: {{ gateway_vsec }}
+    
+    {% endif %}
+    {% if primary_lifter %}
+    Main Lifting Server:
+      Your VDPIN: {{ primary_lifter_vdpin }}
+    
+    {% endif %}
+    {% if secondary_lifter %}
+    Backup Lifting Server:
+      Your VDPIN: {{ secondary_lifter_vdpin }}
+    
+    {% endif %}
+    {% if access_control %}
+    Access Control System:
+      Your VDPIN: {{ acs_vdpin }}
+      Your Vsec: {{ acs_vsec }}
+    
+    {% endif %}
+    Regards,
+    {{ company_name }}
+    
+    DO NOT share this information with anyone.

@@ -1,0 +1,6 @@
+---
+Subject: Neuromancer rating change
+Body: |
+    Agent {{ agent:handle }} - your Neuromancer rating appears to have changed.
+    
+    Your rating is now {{ misc_string }}.

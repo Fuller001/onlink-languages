@@ -8,6 +8,12 @@ generic_unknown: Unknown
 generic_success: Success
 generic_error: Error
 
+generic_connect: Connect
+generic_disconnect: Disconnect
+
+generic_name: Name
+generic_ip: IP
+
 account_admin: admin
 account_readwrite: readwrite
 account_readonly: readonly
