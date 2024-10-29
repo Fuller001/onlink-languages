@@ -3,7 +3,7 @@ Subject: Test run Revelation Version 1.0
 Body: |
     Our corporation has been developing a software product known as Revelation for some time now, and Version 1.0 is finally ready. In order to test and refine this program, we need to test it in the real world. Your mission will be to install and run Revelation for us.
     
-    The target system is the Arunmor Internal Services System. You will need to first locate this computer. No doubt Arunmor will not be too pleased if they catch you on their system.
+    The target system is the {{ target_name }}. You will need to first locate this computer. No doubt Arunmor will not be too pleased if they catch you on their system.
     
     You will find that we have sent you Version 1.0 of Revelation in an email. Once you are inside The Arunmor system, copy the program into their memory banks and disrupt all of their security systems. The more security you disable, the better this product will operate. In order to activate the program you will need to enter a command prompt and run it from there.
     

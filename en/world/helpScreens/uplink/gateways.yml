@@ -1,0 +1,44 @@
+---
+HelpGatewayIntro:
+    Menu: Introduction
+    MenuTip: Introduction to the use of Gateway computers
+    MainTitle: {{company_header}} Help
+    Subtitle: Help/Gateway Computers/Introduction
+    Text: |
+        When an Uplink agent logs on to his local machine, the Uplink software on his computer establishes a direct connection to his Gateway computer and runs the Uplink Operating System on that Gateway. This allows each agent to retain a safe distance from his jumping off point onto the Web and provides virtual anonymity in the world - there is no way to trace an agent from a Gateway.
+        
+        A gateway also provides the processing power, storage and high bandwidth connection necessary for an Uplink agent to complete his tasks.
+        
+        Gateway computers are rented to Uplink agents as part of the contract and are stored in secure server rooms around the world.
+
+HelpGatewayReason:
+    Menu: Why Use Gateways
+    MenuTip: Info on the purpose of the Gateway
+    MainTitle: {{company_header}} Help
+    Subtitle: Help/Gateway Computers/Why Use Gateways
+    Text: |
+        A gateway computer gives total physical anonymity to all Uplink agents who use them. A gateway computer is programmed to automatically disconnect any connection that has been traced back to the Gateway, thus ensuring that an agent's physical location can never be determined. Gateway computers keep no logs of access identifying the user.
+        
+        Furthermore, there is no record of which real person uses which username. This means that, in a worst case scenario when a connection is traced back to a Gateway, any federal agents inspecting the Gateway will be able to determine the username but not the real person using it.
+        
+        Unfortunately, when this happens it is often necessary for Uplink Corporation to disavow the agent in question, in order to avoid any legal consequences. That user's account and rating will be deleted, and his gateway will be given to another agent.
+
+HelpGatewaySpec:
+    Menu: Physical specs
+    MenuTip: Info on the physical specifications of a Gateway computer
+    MainTitle: {{company_header}} Help
+    Subtitle: Help/Gateway Computers/Physical Specifications
+    Text: |
+        Uplink Corporation owns several large offices around the world, which are used to house hundreds of Gateway computers. These computers are openly connected to the phone network, allowing agents to connect to them from any local computer. The buildings are under 24 hour guard. Engineering teams from Uplink Corporation routinely service the computers inside, installing new hardware when requested.
+        
+        As such, the physical specifications of each machine can vary drastically. With enough money, an Uplink agent could upgrade his Gateway to enormous power. Typically a Gateway contains an inbound modem (to allow the agent to dial in), a high speed processor and large quantities of memory storage, and a high speed broadband connection to the Net.
+
+HelpGatewayUpgrade:
+    Menu: Upgrading Your Gateway
+    MenuTip: Info on how to maintain your Gateway computer
+    MainTitle: {{company_header}} Help
+    Subtitle: Help/Gateway Computers/Upgrading Your Gateway
+    Text: |
+        You can order new hardware upgrades for your Gateway from the Hardware menu on the Uplink Internal Services System. All hardware will be installed within 24 hours by a certified Uplink technician. Available upgrades include faster processors, more memory capacity, higher speed connections to the Net, and many more.
+        
+        You can also add extra security to your Gateway by buying security cameras, laser trip wires, etc. These tools will inform you if your Gateway is about to be seized by Federal Agents. This can give you warning, allowing you to destroy any incriminating evidence. You can even fit your Gateway to self-destruct on your command. In this case, Federal Agents have no way of finding out who was using the Gateway - allowing you to keep your username and established reputation.

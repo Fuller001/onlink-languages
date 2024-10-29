@@ -1,0 +1,117 @@
+---
+HelpAsyncProc:
+    Menu: ASYNC Processors
+    MenuTip: Read about the asynchronous processor
+    Page1:
+        Subtitle: Viewing Asynchronous Processor Information
+        Text: |
+            Asynchronous CPUs are an experimental architecture based on recent research breakthroughs from Darwin Research Associates. Fabricated by Ferrous Moon and sold exclusively by Uplink Laboratories, this new architecture is reverse-compatible with most existing hardware, and supports advanced predictive instruction handling, aiding in many tasks that modern synchronized processors struggle with.
+            
+            In general, you will not find much of a performance boost with single threaded duties, but tasks with multiple logical paths, such as found in cryptographical research, have seen threefold performance increases, on average.
+    Page2:
+        Subtitle: Disclaimer
+        Text: |
+            It is important to note that since asynchronous processors lack a clocking mechanism, clock speeds found on marketing materials are only an approximation of performance under unideal loads. In short, you can expect an async CPU marketed as 150 GHz to perform about as well as a typical 150 GHz CPU under mundane workloads. By purchasing this experimental hardware, you agree to hold harmless the manufacturer Ferrous Moon as well as the reseller Uplink Laboratories from any and all claims, lawsuits, demands, causes of action, liability, loss, damage and/or injury, of any kind whatsoever, including without limitation all claims for monetary loss, property damage, equitable relief, personal injury and/or wrongful death that may result as a consequence of using this product.
+
+HelpSatellite:
+    Menu: Satellite Modems
+    MenuTip: Read about satellite modems
+    Subtitle: Viewing Satellite Modem Information
+    Text: |
+        Satellite modems, alongside standard cable link modems, have been in use since the turn of the century. However, they proved to be too slow for productive use amongst large corporations and were passed over in favour of fiber optic lines, which more than met the needs of the general public at the time. However, soon even fiber optic lines were found to have a limit on the amount of data they could carry.
+        
+        Satellite modems came back to the forefront of data transfer technology soon after, brought back by companies that still needed even more bandwidth per line. By projecting multiple streams of data at varying frequencies to satellite relays orbiting Earth, recently developed satellite modems are able to boost transfer rates. The proliferation of this technology has made the production of satellite link technology far cheaper than it was at the turn of the century.
+        
+        With the advent of q-bit technology, satellite modems have seen a drop in cost. Coupled with their already-prolific nature in most corporations, satellite modems provide decently high transfer rates and bandwidth size for comparatively low prices.
+        
+        Like all other non-standard modems, satellite modems are, by federal regulations, backwards compatible with cable link modems in case one is installed into a machine without a corresponding receiver, or in case the receiver is somehow damaged.
+
+HelpQBit:
+    Menu: qBit Modems
+    MenuTip: Read about the qBit modem
+    Page1:
+        Subtitle: Viewing qBit Informational Material - The need for the qBit
+        Text: |
+            Cable link and satellite modems have been around since the turn of the century, and have continued to prove reliable for humanity's data needs. However, it was noted when the qBit idea was formed that there was a limit to the amount of information that can be put into a burst per second before the signal becomes very difficult to decode on the receiving end. Advances in fiber optic technology proved very useful for a time, and became the new standard, reaching speeds up to 10 Gq/s.
+            
+            However, even fiber optics technology has a limit, and so the resurgence of the satellite modem came about amongst companies that needed more bandwidth per line. The satellite modems of recent days project multiple streams at differing frequencies to boost transfer rate.
+            
+            There are, however, many limits to these modems, mostly due to regulations put in place to prevent massive interference. We are now reaching a technological epoch where the demand for information is exceeding what we are currently able to transmit. With this in mind, the q-Bit protocol was formed.
+    Page2:
+        Subtitle: Viewing qBit Informational Material - qBit Fundamentals
+        NextPage: Calculation
+        Text: |
+            q-Bits in their most basic form act much like any other bits; 1 and 0. However, q-Bits are not energy pulses, but rather subatomic particles with a spin; that is to say, they spin.
+            
+            The value of any given q-Bits is determined by its rotation. If you are to consider a q-Bit like a ball you were looking at from a top-down perspective, a 1 would be spinning clockwise and a 0 would be spinning counter-clockwise. This is the basic idea of the q-Bit.
+            
+            q-Bits hold more than just binary information, however. Based on the orientation of the q-Bit, we can extract a nearly infinite amount of data, if our decoders could handle such fine details.
+            
+            In theory, one could encapsulate an infinite amount of data in a single q-Bit. In development, however, this is quite impractical. Since the technology is new, it is also quite primitive in the grand scale of its theory; to date, q-Bits can only be processed to a few orders of accuracy. Nevertheless, sending even a full byte of data in the frame size of a bit has proven extremely advantageous.
+    Page3:
+        Subtitle: Viewing qBit Informational Material - How it Works
+        Text: |
+            To determine the binary value y of a q-Bit, two variables must be known:
+            
+            The angle "x" measured in degrees, of the axis of clockwise rotation of the q-Bit and the order "z" of maximum accuracy (or "resolution") where 0 ≤ x ≤ 180, x∈R and z∈N.
+            
+            If x < 180 - (180 / 2^1), y[1] = 1
+            If x > 180 - (180 / 2^1), y[1] = 0
+            If x = 180 - (180 / 2^1), y[1] = Does Not Exist, no further calculations are made
+            
+            If x < 180 - (180 / 2^1 * y[1]) - (180 / 2^2), y[2] = 1
+            If x > 180 - (180 / 2^1 * y[1]) - (180 / 2^2), y[2] = 0
+            If x = 180 - (180 / 2^1 * y[1]) - (180 / 2^2), y[2] = DNE, no further calculations are made
+            
+            ...
+            
+            If x < 180 - (180 / 2^1 * y[1]) - (180 / 2^2 * y[2]) - ... - (180 / 2^z), y[z] = 1
+            If x > 180 - (180 / 2^1 * y[1]) - (180 / 2^2 * y[2]) - ... - (180 / 2^z), y[z] = 0
+            If x = 180 - (180 / 2^1 * y[1]) - (180 / 2^2 * y[2]) - ... - (180 / 2^z), y[z] = DNE
+            
+            The binary value would then be created from greatest resolution to least; i.e., y[z] ... y[3] y[2] y[1].
+    Page4:
+        Subtitle: Viewing qBit Informational Material - Practical Example
+        Text: |
+            Consider Earth as if it were a q-Bit. The earth rotates counter-clockwise at a 23.45 degree angle to its orbit. Therefore, it can also be said that it spins clockwise at a 156.55 degree angle to its orbit. This would mean that if the earth were a q-Bit, it would have a value of approximately binary 00000100 at a resolution of 8.
+            
+            x = 156.55
+            z = 8
+            
+            156.55 > 180 - (180 / 2^1), y[1] = 0
+            
+            156.55 > 180 - (180 / 2^1 * y[1]) - (180 / 2^2), y[2] = 0
+            
+            156.55 < 180 - (180 / 2^1 * y[1]) - (180 / 2^2 * y[2]) - (180 / 2^3), y[3] = 1
+            
+            156.55 > 180 - (180 / 2^1 * y[1]) - (180 / 2^2 * y[2]) - (180 / 2^3 * y[3]) - (180 / 2^4), y[4] = 0
+            
+            156.55 > 180 - (180 / 2^1 * y[1]) - (180 / 2^2 * y[2]) - (180 / 2^3 * y[3]) - (180 / 2^4 * y[4]) - (180 / 2^5), y[5] = 0
+            
+            156.55 > 180 - (180 / 2^1 * y[1]) - (180 / 2^2 * y[2]) - (180 / 2^3 * y[3]) - (180 / 2^4 * y[4]) - (180 / 2^5 * y[5]) - (180 / 2^6), y[6] = 0
+            
+            156.55 > 180 - (180 / 2^1 * y[1]) - (180 / 2^2 * y[2]) - (180 / 2^3 * y[3]) - (180 / 2^4 * y[4]) - (180 / 2^5 * y[5]) - (180 / 2^6 * y[6]) - (180 / 2^7), y[7] = 0
+            
+            156.55 > 180 - (180 / 2^1 * y[1]) - (180 / 2^2 * y[2]) - (180 / 2^3 * y[3]) - (180 / 2^4 * y[4]) - (180 / 2^5 * y[5]) - (180 / 2^6 * y[6]) - (180 / 2^7 * y[7]) - (180 / 2^8), y[8] = 0
+            
+            y[8] y[7] y[6] y[5] y[4] y[3] y[2] y[1] = 00000100
+    Page5:
+        Subtitle: Viewing qBit Informational Material - Pseudocode
+        Text: |
+            unsigned long long qProcess(long double angle, int resolution = 8);
+            
+            // Please note the following pseudocode does not detect DNE
+            
+            unsigned long long qProcess(long double angle, int resolution)
+            {
+	            long double bisection = 180.0;
+	            unsigned long int data = 0;
+	            for ( int i = 0; i < resolution; ++i )
+	                bisection /= 2;
+	            double position = 180;
+	            while ( position-bisection > angle ) {
+	                position -= bisection;
+	                ++data;
+	            }
+	            return data;
+	        }
