@@ -1,0 +1,50 @@
+---
+Subject: A tribute to Musana
+Body: |
+    We've noticed your progress here at Uplink, and would like to offer you a 
+    private contract directly from us.
+    
+    As you've undoubtedly seen, shortly after your arrival at Uplink, one of our 
+    very best former agents took his own life for reasons that we cannot explain. 
+    To put it simply, we're not entirely satisfied with the federal investigation's 
+    conclusion citing financial problems. Wilson was employed through Ferrous Moon, 
+    which has a history of looking after their own in situations like this, and 
+    we're certain that they would have looked after Wilson given his expertise and 
+    background with their directing staff.
+    
+    What we are about to ask you to do will put both you and ourselves at risk. 
+    While you are not the highest ranking agent within our association, you are the 
+    highest ranking agent that would have no reason to inform our target. Simply put, 
+    you do not have the personal ties that most of our otherwise-qualified agents have.
+    
+    As you are probably aware, Miah Taylor was the Vice Director of Uplink before 
+    resigning to found and manage his company Ferrous Moon. Many of our agents that 
+    choose to transfer to the safer public sector find themselves working with Ferrous 
+    Moon, either permanently or until other employment makes itself available. Wilson 
+    was no exception; At the height of his career, he was receiving missions directly 
+    from Taylor on behalf of our board of directors.
+    
+    Shortly after Wilson's death, federal agents sought to obtain a warrant to search 
+    the Ferrous Moon corporate headquarters. They were unsuccessful after one of Ferrous 
+    Moon's legal team was, as we understand, "very persuasive" with the presiding 
+    judge. The warrant request was subsequently denied.
+    
+    This strikes us as peculiar. While the denial of the warrant was not exactly 
+    unexpected, the fact that one of the Ferrous Moon legal team showed up was. 
+    Throughout countless such requests, even those potentially more damning, they have 
+    never bothered to send their legal team to stop it in this force before.
+    
+    What we ask of you is no small task. We want you to break into the former Vice 
+    Director's personal computer and see if you can find anything that may seem out of 
+    place. Please note that Taylor has developed a number of proprietary systems to protect 
+    important data, and you may find yourself in for a hell of a trip. Just remember this 
+    from the old spy's manual: sometimes the best place to hide something is in plain sight.
+    
+    This mission is entirely up to you. We have laid all of our cards down. It's time to 
+    make your move. We will not reprimand you if you refuse. Certainly you would be putting 
+    yourself at grave risk if you are caught, but we will offer {{ misc_numeric }}c up front if you accept, 
+    and an additional {{ misc_string }}c upon completion. Due to the sensitive nature of this operation, 
+    we will be watching you while you execute this contract, in case you miss something. We will 
+    not monitor you until you respond, if you choose to do so.
+    
+    We hope to hear from you.
