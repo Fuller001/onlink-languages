@@ -1,0 +1,5 @@
+---
+Name: Z+FS Filesystem Upgrade
+Type: SystemUpgrade
+
+Description: A filesystem upgrade that permits reading of all files while compressed. Compressed programs take additional RAM to run, but file dependencies of programs read as if uncompressed, and with nearly zero additional overhead. This filesystem upgrade is done via lazy provisioning, so no downtime will result with this upgrade.

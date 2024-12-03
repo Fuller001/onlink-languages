@@ -2,17 +2,12 @@
 Name: Trace Tracker
 Type: Security
 
-Description:
- - |
-   Informs you on the progress of any traces on your connection
-   (No trace detected, Trace in progress, Trace complete).
- - |
-   Informs you on the progress of any traces on your connection
-   (No trace detected, Percentage of trace complete, Trace complete).
- - |
-   Informs you on the progress of any traces on your connection
-   (No trace detected, Time remaining before trace, Trace complete).
- - |
-   Informs you on the progress of any traces on your connection
-   (No trace detected, Time remaining before trace, Trace complete)
-   Including an estimate of the exact time remaining.
+Description: |
+  Informs you on the progress of any traces on your connection
+  {% if version == 1.0 %} (No trace detected, Trace in progress, Trace complete).
+  {% elif version == 2.0 %} (No trace detected, Percentage of trace complete, Trace complete).
+  {% elif version == 3.0 %} (No trace detected, Time remaining before trace, Trace complete).
+  {% else %}
+  (No trace detected, Time remaining before trace, Trace complete)
+  Including an estimate of the exact time remaining.
+  {% endif %}

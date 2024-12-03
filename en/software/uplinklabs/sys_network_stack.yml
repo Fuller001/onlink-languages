@@ -1,0 +1,5 @@
+---
+Name: Network Enhancement Patch
+Type: HUDPatch
+
+Description: This patch enhances the current network protocols to allow more complex data collection. the Connection Analysis will display the level of each securities, and the Trace Tracker will be able to monitor Admin trace on LANs.

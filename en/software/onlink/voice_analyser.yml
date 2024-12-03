@@ -1,0 +1,8 @@
+---
+Name: Voice Analyser
+Type: Other
+
+Description: |
+   Records and analyses voice patterns for reproduction.
+   Can store and load voice data to and from gateway memory.
+   Can be used to simulate voice authorisations.

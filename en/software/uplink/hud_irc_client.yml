@@ -2,7 +2,6 @@
 Name: IRC Client
 Type: HUDUpgrade
 
-Description:
- - |
+Description: |
    Upgrades your HUD with a new screen, in which you can participate in Internet Relay Chat. This allows you to talk to other hackers for help.
    You will also need an Internet Connection on your local machine.

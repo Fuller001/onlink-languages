@@ -2,7 +2,4 @@
 Name: LAN Probe
 Type: LAN
 
-Description:
- - Scans a single system on a LAN, and the links running from it.
- - Scans a single system on a LAN, and the links running from it.
- - Scans a single system on a LAN, and the links running from it.
+Description: Scans a single system on a LAN, and the links running from it.

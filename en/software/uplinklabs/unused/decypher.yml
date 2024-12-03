@@ -1,0 +1,6 @@
+---
+Name: Decypher
+Type: Cracker
+
+Description: |
+   This version adds the ability to analyse the Savant Cypher. This algorithm is not likely to perfectly relock the set, so user interaction will be required. A database of cypher collisions is packaged with the program to show possible solutions. ChaosLib and MasterKey are required.

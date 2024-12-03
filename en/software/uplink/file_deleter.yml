@@ -2,7 +2,6 @@
 Name: File Deleter
 Type: FileUtility
 
-Description:
- - |
+Description: |
    Deletes programs and data from a databank.
    Standard software tool given free to all Agents.

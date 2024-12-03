@@ -1,0 +1,9 @@
+---
+Name: Sentry Disable
+Type: Disabler
+
+Description: |
+  {% if version == 1.0 %} Disables a sentry with a security level of 1.
+  {% else %} Disables a sentry with a security level of {{ level }} or below.
+  {% endif %}
+  This action will be detected immediately.

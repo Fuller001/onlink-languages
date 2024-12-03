@@ -1,0 +1,8 @@
+---
+Name: Muhard's Chaos Library Extension Pack
+Type: SystemUpgrade
+
+Description: |
+   A kernel extension which allows very fast complex number calculation that would otherwise in a stand alone program be too slow to allow call-and-response systems.
+   
+   This extension also enables a random bounce point generator in your connection map.

@@ -2,7 +2,6 @@
 Name: Dictionary Hacker
 Type: Cracker
 
-Description:
- - |
+Description: |
    A cheap and fast method of breaking passwords.
    This software tool tries every word in a ten-thousand word dictionary as a password. It is faster than a Password Breaker, but not guaranteed to find an answer.

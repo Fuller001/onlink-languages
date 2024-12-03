@@ -1,0 +1,7 @@
+---
+Name: Binary Packer
+Type: FileUtility
+
+Description: |
+   Compresses any binary file as much as 50%. This version comes with a new packing algorithm to allow compression of binary formats. Due to the natural of such formats, binary files will not be be able to be natively run while compressed.
+   Non-binary data may be packed with this program, but is not efficient for that purpose.

@@ -1,0 +1,5 @@
+---
+Name: Administration services suite
+Type: TerminalService
+
+Description: A suite of services for use with the Terminal Service Injector. This suite contains services meant for system maintenance as well as tools for memory address lookup and binding for those services.

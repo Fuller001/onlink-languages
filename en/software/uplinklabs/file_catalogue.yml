@@ -1,0 +1,8 @@
+---
+Name: File Catalogue
+Type: FileUtility
+
+Description: |
+   Allows the creation and storage of file names.
+   It can be used to upload or download a collection of data from a loaded list.
+

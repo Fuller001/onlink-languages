@@ -1,0 +1,8 @@
+---
+Name: Terminal Services Injector
+Type: Installer
+
+Description: |
+   Upgrades your HUD with a pane that allows remote execution of modular services. This upgrade is generally used to explore weaknesses on systems that normally do not have any externally facing services such as authentication and file browsing services.
+   This upgrade is required before you can install and run any services software.
+   This is a Volume License Installer, able to be run on multiple systems.

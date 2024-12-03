@@ -1,0 +1,8 @@
+---
+Name: LAN Bridge
+Type: LAN
+
+Description: |
+   This tool forces a terminal to establish a connection to another system, creating a virtual starting point on the lan.
+   
+   This program will only work on a terminal or a modem of a LAN system.

@@ -2,17 +2,18 @@
 Name: Log Deleter
 Type: Security
 
-Description:
- - |
-   Deletes the contents of an access log from a computer.
-   Leaves an empty log behind.
- - |
-   Deletes an access-log from a computer.
-   Leaves a distinctive blank space behind.
- - |
-   Copies another user's legitimate access log over the top of your own.
-   Very difficult to detect.
- - |
-   Deletes an access-log from a computer.
-   Moves other logs up to cover empty space.
-   Impossible to detect.
+Description: |
+  {% if version == 1.0 %}
+  Deletes the contents of an access log from a computer.
+  Leaves an empty log behind.
+  {% elif version == 2.0 %}
+  Deletes an access-log from a computer.
+  Leaves a distinctive blank space behind.
+  {% elif version == 3.0 %}
+  Copies another user's legitimate access log over the top of your own.
+  Very difficult to detect.
+  {% else %}
+  Deletes an access-log from a computer.
+  Moves other logs up to cover empty space.
+  Impossible to detect.
+  {% endif %}

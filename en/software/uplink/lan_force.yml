@@ -2,7 +2,9 @@
 Name: LAN Force
 Type: LAN
 
-Description:
- - This tool will force open a low level lock system you might encounter on a LAN system. The sysadmin will probably notice this.
- - This tool will force open a low level lock system you might encounter on a LAN system. The sysadmin will probably notice this.
- - This tool will force open a low level lock system you might encounter on a LAN system. The sysadmin will probably notice this.
+Description: |
+  {% if version == 1.0 %} This tool will force open a low level lock system you might encounter on a LAN system.
+  {% elif version == 2.0 %} This tool will force open most lock system you might encounter on a LAN system.
+  {% else %} This tool will force open nearly any lock system you might encounter on a LAN system.
+  {% endif %}
+  The sysadmin will probably notice this.

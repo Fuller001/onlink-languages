@@ -1,0 +1,5 @@
+---
+Name: LAN Agent
+Type: LAN
+
+Description: Allows handshaking of session VPN keys with LAN networks.

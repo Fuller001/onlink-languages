@@ -1,0 +1,8 @@
+---
+Name: LAN Spike
+Type: LAN
+
+Description: |
+   This tool creates a data storm in LAN systems that may cause administrators to lose their progress.
+   
+   This program will freeze the LAN for a few seconds upon use.

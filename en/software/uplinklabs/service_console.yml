@@ -1,0 +1,5 @@
+---
+Name: Console services suite
+Type: TerminalService
+
+Description: A console service for use with the Terminal Service Injector. This suite also contains tools for memory address lookup and binding for this service.

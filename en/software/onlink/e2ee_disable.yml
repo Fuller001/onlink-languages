@@ -1,0 +1,9 @@
+---
+Name: Active Server Encryption Disable
+Type: Disabler
+
+Description: |
+  {% if version == 1.0 %} Disables an Active Server Encryption System with a security level of 1.
+  {% else %} Disables an Active Server Encryption System with a security level of {{ level }} or below.
+  {% endif %}
+  This action will be detected immediately.

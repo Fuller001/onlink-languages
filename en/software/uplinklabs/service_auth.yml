@@ -1,0 +1,5 @@
+---
+Name: Authentication services suite
+Type: TerminalService
+
+Description: A suite of services for use with the Terminal Service Injector. This suite contains services meant to allow authentication as well as tools for memory address lookup and binding for those services. You will need to authenticate in order to use any other suite's services.

@@ -1,0 +1,9 @@
+---
+Name: Bandwidth Monitor Disable
+Type: Disabler
+
+Description: |
+  {% if version == 1.0 %} Disables a bandwidth monitor with a security level of 1.
+  {% else %} Disables a bandwidth monitor with a security level of {{ level }} or below.
+  {% endif %}
+  This action will be detected immediately.

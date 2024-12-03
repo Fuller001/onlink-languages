@@ -1,0 +1,8 @@
+---
+Name: Hyper Drive Support
+Type: SystemUpgrade
+
+Description: |
+   Upgrades your system so that you are able to use hyper-drive CPUs.
+   
+   This patch requires nano drive support.

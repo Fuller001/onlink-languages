@@ -2,6 +2,7 @@
 Name: Log Modifier
 Type: Security
 
-Description:
- - Allows you to make modifications to an existing log.
- - Allows you to make modifications to an existing log, and create new logs in blank spaces.
+Description: |
+  {% if version == 1.0 %} Allows you to make modifications to an existing log.
+  {% else %} Allows you to make modifications to an existing log, and create new logs in blank spaces.
+  {% endif %}

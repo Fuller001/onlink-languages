@@ -2,19 +2,8 @@
 Name: Proxy Bypass
 Type: BypassTool
 
-Description:
- - |
-   Actively bypasses a proxy server with a security level of 1.
-   All bypass tools require a 'HUD:ConnectionAnalysis' upgrade first.
- - |
-   Actively bypasses a proxy server with a security level of 2 or below.
-   All bypass tools require a 'HUD:ConnectionAnalysis' upgrade first.
- - |
-   Actively bypasses a proxy server with a security level of 3 or below.
-   All bypass tools require a 'HUD:ConnectionAnalysis' upgrade first.
- - |
-   Actively bypasses a proxy server with a security level of 4 or below.
-   All bypass tools require a 'HUD:ConnectionAnalysis' upgrade first.
- - |
-   Actively bypasses a proxy server with a security level of 5 or below.
-   All bypass tools require a 'HUD:ConnectionAnalysis' upgrade first.
+Description: |
+  {% if version == 1.0 %} Actively bypasses a proxy server with a security level of 1.
+  {% else %} Actively bypasses a proxy server with a security level of {{ level }} or below.
+  {% endif %}
+  All bypass tools require a 'HUD:ConnectionAnalysis' upgrade first.

@@ -2,5 +2,4 @@
 Name: Log UnDeleter
 Type: Security
 
-Description:
- - Recovers previously deleted logs.
+Description: Recovers previously deleted logs.

@@ -1,0 +1,10 @@
+---
+Name: VDPIN Cracker
+Type: Cracker
+
+Description: |
+  Attempts to bypass the VDPIN login screen.
+  {% if version == 2.0 %} This version works on all tri-state systems.
+  {% elif version > 2.0 %} This version works on all tri-state systems and quint-state systems.
+  {% endif %}
+  Requires the VDPIN View kernel extension.
