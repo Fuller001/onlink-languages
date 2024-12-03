@@ -1,0 +1,6 @@
+---
+Name: Log UnDeleter
+Type: Security
+
+Description:
+ - Recovers previously deleted logs.

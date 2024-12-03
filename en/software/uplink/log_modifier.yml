@@ -1,0 +1,7 @@
+---
+Name: Log Modifier
+Type: Security
+
+Description:
+ - Allows you to make modifications to an existing log.
+ - Allows you to make modifications to an existing log, and create new logs in blank spaces.

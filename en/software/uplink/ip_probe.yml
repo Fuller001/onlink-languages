@@ -1,0 +1,8 @@
+---
+Name: IP Probe
+Type: Other
+
+Description:
+ - Scans a given IP address for security systems and reports the types in use.
+ - Scans a given IP address for security systems and reports the types in use and their version information.
+ - Scans a given IP address for security systems and reports the types in use, their version information and their status.

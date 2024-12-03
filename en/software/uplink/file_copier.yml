@@ -1,0 +1,8 @@
+---
+Name: File Copier
+Type: FileUtility
+
+Description:
+ - |
+   Copies programs and data from one databank to another.
+   Standard software tool given free to all Agents.

@@ -1,0 +1,12 @@
+---
+Name: Decrypter
+Type: FileUtility
+
+Description:
+ - Decrypts any file encrypted with an Encrypter V1.0.
+ - Decrypts any file encrypted with an Encrypter V2.0 or V1.0.
+ - Decrypts any file encrypted with an Encrypter V3.0 or lesser.
+ - Decrypts any file encrypted with an Encrypter V4.0 or lesser.
+ - Decrypts any file encrypted with an Encrypter V5.0 or lesser.
+ - Decrypts any file encrypted with an Encrypter V6.0 or lesser.
+ - Decrypts any file encrypted with an Encrypter V7.0 or lesser.

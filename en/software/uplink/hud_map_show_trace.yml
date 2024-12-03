@@ -1,0 +1,8 @@
+---
+Name: Map Show Trace
+Type: SystemUpgrade
+
+Description:
+ - |
+   Upgrades your system so that your map shows the progress of any trace on your connection.
+   Replaces the Trace Tracker.

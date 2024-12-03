@@ -1,0 +1,8 @@
+---
+Name: Voice Analyser
+Type: Other
+
+Description:
+ - |
+   Records and analyses voice patterns for reproduction.
+   Can be used to simulate voice authorisations.

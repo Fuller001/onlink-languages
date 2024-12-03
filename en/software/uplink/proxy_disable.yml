@@ -1,0 +1,20 @@
+---
+Name: Proxy Disable
+Type: Disabler
+
+Description:
+ - |
+   Disables a proxy with a security level of 1.
+   This action will be detected immediately.
+ - |
+   Disables a proxy with a security level of 2 or below.
+   This action will be detected immediately.
+ - |
+   Disables a proxy with a security level of 3 or below.
+   This action will be detected immediately.
+ - |
+   Disables a proxy with a security level of 4 or below.
+   This action will be detected immediately.
+ - |
+   Disables a proxy with a security level of 5 or below.
+   This action will be detected immediately.

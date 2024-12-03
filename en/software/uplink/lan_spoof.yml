@@ -1,0 +1,15 @@
+---
+Name: LAN Spoof
+Type: LAN
+
+Description:
+ - |
+   Spoofs a system on the network, fooling the network itself into believing you are that system.
+   Works on level 1 systems only.
+ - |
+   Spoofs a system on the network, fooling the network itself into believing you are that system.
+   Works on level 1 and 2 systems.
+ - |
+   Spoofs a system on the network, fooling the network itself into believing you are that system.
+   Works on all LAN systems.
+ 

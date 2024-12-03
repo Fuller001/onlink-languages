@@ -1,0 +1,14 @@
+---
+Name: Decypher
+Type: Cracker
+
+Description:
+ - |
+   Breaks through Encryption Cyphers.
+   Uses a Quadratic Decryption Algorithm to force crack an Elliptic-curve Encryption Cypher.
+ - |
+   Breaks through Encryption Cyphers.
+   This is a faster implementation of the Quadratic Decryption Algorithm.
+ - |
+   Breaks through Encryption Cyphers.
+   This is the fastest version of this item of Software.
