@@ -1,0 +1,5 @@
+---
+Name: DECOMPRESSOR
+Type: FileUtility
+
+Description: Decompresses any compressed file

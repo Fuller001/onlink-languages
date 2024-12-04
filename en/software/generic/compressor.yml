@@ -1,0 +1,10 @@
+---
+Name: Compressor
+Type: FileUtility
+
+Description: |
+  {% if version == 1.0 %} Compresses any file as much as 33%
+  {% elif version == 2.0 %} Compresses any file as much as 55%
+  {% elif version == 3.0 %} Compresses any file as much as 70%
+  {% else %} Compresses any file as much as 80%
+  {% endif %}

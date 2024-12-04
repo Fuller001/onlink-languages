@@ -1,0 +1,5 @@
+---
+Name: Encrypter
+Type: FileUtility
+
+Description: Encrypts any file to a level {{ level }} encryption
