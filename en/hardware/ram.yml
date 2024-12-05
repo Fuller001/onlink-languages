@@ -1,0 +1,6 @@
+---
+ram_capacity_unit: Gq
+
+Name: RAM ( {{ capacity }} {{ ram_capacity_unit }} )
+
+Description: {{ capacity }} Gigaquads of RAM

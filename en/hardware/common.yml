@@ -1,0 +1,5 @@
+---
+hardware_description: |
+  {{ Name }}
+  
+  {{ Description }}

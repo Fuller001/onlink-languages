@@ -1,0 +1,6 @@
+---
+Name: Gateway Motion Sensor
+
+Description: |
+  An ultra-sonic based motion sensor, which can detect when people are near your gateway.
+  Often used together with a Self Destruct device.

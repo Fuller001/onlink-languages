@@ -1,0 +1,5 @@
+---
+Name: Virtual Coprocessor
+DescriptionName: Envision Virtual Coprocessor
+
+Description: A processing node made to allow low priority threads to run in the background without needing to consider task scheduling on your main processing stack.

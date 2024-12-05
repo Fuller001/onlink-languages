@@ -1,0 +1,30 @@
+---
+modem_speed_unit: Gq / s
+
+modem_tag: {% if tag == Fibre %} Dual Channel Fibre {% elif tag == Satellite %} Satellite {% endif %}
+
+modem_name_raw: Modem ( {{ speed }} {{ modem_speed_unit }} )
+
+Name: {% if tag %} {{ modem_tag }} {% endif %} {{ modem_name_raw }}
+
+modem_speed_1: An entry level modem with a low transfer rate, fitted as standard in all new Gateway systems.
+modem_speed_2: An low speed modem with a fairly low transfer rate.
+modem_speed_4: A reasonable speed modem at a good price.
+modem_speed_6: A fast modem, normally sufficient for all but the highest bandwidth requirements.
+modem_speed_8: A very fast modem for large files and fast access times.
+modem_speed_10: A blindingly fast modem which will take full advantage of the network bandwidth available.
+modem_speed_12: A standard satellite modem.
+modem_speed_16: A very fast satellite modem developed for critical fileservers.
+modem_speed_20: A dual channel satellite modem that with maximize your connection speed to the satellite network.
+
+Description: |
+  {% if speed == 1 %} {{ modem_speed_1 }}
+  {% elif speed == 2 %} {{ modem_speed_2 }}
+  {% elif speed == 4 %} {{ modem_speed_4 }}
+  {% elif speed == 6 %} {{ modem_speed_6 }}
+  {% elif speed == 8 %} {{ modem_speed_8 }}
+  {% elif speed == 10 %} {{ modem_speed_10 }}
+  {% elif speed == 12 %} {{ modem_speed_12 }}
+  {% elif speed == 16 %} {{ modem_speed_16 }}
+  {% elif speed == 20 %} {{ modem_speed_20 }}
+  {% endif %}

@@ -1,0 +1,43 @@
+---
+cpu_speed_unit: Ghz
+
+cpu_tag: {% if tag == Hyper %} Hyper {% elif tag == Nano %} Nano {% elif tag == Turbo %} Turbo {% endif %}
+
+name_tagged: CPU ( {{ cpu_tag }} {{ speed }} {{ cpu_speed_unit }} )
+name_untagged: CPU ( {{ speed }} {{ cpu_speed_unit }} )
+
+Name: |
+  {% if tag %} {{ name_tagged }}
+  {% else %} {{ name_untagged }}
+  {% endif %}
+
+cpu_speed_20: A slow and simple processor designed for use in parallel with many others, in large scale super-computers.
+
+cpu_speed_60: An entry level processor, fitted as standard to all agent computers.
+
+cpu_speed_80: A low budget, low speed processor.
+
+cpu_speed_100: A reasonably fast processor, and a good upgrade choice for new agents.
+
+cpu_speed_120: A faster processor with onboard MPU instruction handling for faster instruction execution.
+
+cpu_speed_150: An entry level processor, fitted as standard to all agent computers.
+
+cpu_speed_200: A high-speed accelerated processor with unique preemptive instruction handling, for use in high-priority critical systems.
+
+cpu_speed_200+: A new processor from Darwin Research with nano-drive technology, allowing multiple processing components to fit in a single slot.
+
+cpu_speed_500+: A new prototypical processor with enhanced nano-drive technology.
+
+
+Description: |
+  {% if speed == 20 %} {{ cpu_speed_20 }}
+  {% elif speed == 60 %} {{ cpu_speed_60 }}
+  {% elif speed == 80 %} {{ cpu_speed_80 }}
+  {% elif speed == 100 %} {{ cpu_speed_100 }}
+  {% elif speed == 120 %} {{ cpu_speed_120 }}
+  {% elif speed == 150 %} {{ cpu_speed_150 }}
+  {% elif speed == 200 %} {{ cpu_speed_200 }}
+  {% elif speed >= 500 %} {{ cpu_speed_500+ }}
+  {% elif speed > 200 %} {{ cpu_speed_200+ }}
+  {% endif %}

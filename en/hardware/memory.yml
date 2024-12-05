@@ -1,0 +1,6 @@
+---
+memory_capacity_unit: Gq
+
+Name: Memory ( {{ quantity }}x{{ capacity }} {{ memory_capacity_unit }} )
+
+Description: {{ total }} Gigaquads of storage space

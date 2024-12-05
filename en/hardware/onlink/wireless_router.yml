@@ -1,0 +1,6 @@
+---
+Name: Wireless Router
+
+Description: |
+  This wireless router diverts your modem connection, meaning that most attempts to trace your connection will end at the router, not your gateway.
+  This device is considered better than the self-destruct since it leaves the gateway intact.

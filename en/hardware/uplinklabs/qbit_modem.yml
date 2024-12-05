@@ -1,0 +1,30 @@
+---
+modem_speed_unit: Gq / s
+
+modem_name_raw: qBit Modem ( {{ speed }} {{ modem_speed_unit }} )
+modem_name_z12: qBit Modem Z-12 ( {{ speed }} {{ modem_speed_unit }} )
+
+modem_description_name_raw: q-Bit Modem ( {{ speed }} {{ modem_speed_unit }} )
+modem_description_name_z12: q-Bit Modem Z-12 ( {{ speed }} {{ modem_speed_unit }} )
+
+Name: |
+  {% if speed == 40 %} {{ modem_name_z12 }}
+  {% else %} {{ modem_name_raw }}
+  {% endif %}
+  
+DescriptionName: |
+  {% if speed == 40 %} {{ modem_description_name_z12 }}
+  {% else %} {{ modem_description_name_raw }}
+  {% endif %}
+
+modem_speed_16: The standard line qBit modem.
+modem_speed_24: A faster qBit modem for that extra edge.
+modem_speed_32: A super-fast model of qBit modem for the speedoholic.
+modem_speed_40: The first qBit modem type to run at a resolution (z) of 12. This is a prototype model.
+
+Description: |
+  {% if speed == 16 %} {{ modem_speed_16 }}
+  {% elif speed == 24 %} {{ modem_speed_24 }}
+  {% elif speed == 32 %} {{ modem_speed_32 }}
+  {% elif speed == 40 %} {{ modem_speed_40 }}
+  {% endif %}
