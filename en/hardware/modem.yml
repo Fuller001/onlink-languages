@@ -1,11 +1,11 @@
 ---
 modem_speed_unit: Gq / s
 
-modem_tag: {% if tag == Fibre %} Dual Channel Fibre {% elif tag == Satellite %} Satellite {% endif %}
+modem_subType: {% if subType == Fibre %} Dual Channel Fibre {% elif subType == Satellite %} Satellite {% endif %}
 
 modem_name_raw: Modem ( {{ speed }} {{ modem_speed_unit }} )
 
-Name: {% if tag %} {{ modem_tag }} {% endif %} {{ modem_name_raw }}
+Name: {% if subType %} {{ modem_subType }} {% endif %} {{ modem_name_raw }}
 
 modem_speed_1: An entry level modem with a low transfer rate, fitted as standard in all new Gateway systems.
 modem_speed_2: An low speed modem with a fairly low transfer rate.

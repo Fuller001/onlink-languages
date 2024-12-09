@@ -1,13 +1,13 @@
 ---
 cpu_speed_unit: Ghz
 
-cpu_tag: {% if tag == Hyper %} Hyper {% elif tag == Nano %} Nano {% elif tag == Turbo %} Turbo {% endif %}
+cpu_subType: {% if subType == Hyper %} Hyper {% elif subType == Nano %} Nano {% elif subType == Turbo %} Turbo {% endif %}
 
-name_tagged: CPU ( {{ cpu_tag }} {{ speed }} {{ cpu_speed_unit }} )
+name_tagged: CPU ( {{ cpu_subType }} {{ speed }} {{ cpu_speed_unit }} )
 name_untagged: CPU ( {{ speed }} {{ cpu_speed_unit }} )
 
 Name: |
-  {% if tag %} {{ name_tagged }}
+  {% if subType %} {{ name_tagged }}
   {% else %} {{ name_untagged }}
   {% endif %}
 
