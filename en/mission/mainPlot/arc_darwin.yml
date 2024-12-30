@@ -13,15 +13,15 @@ Body: |
     
     Codename: Darwin
     
-    Target computer : {{ computer_name }}
-    IP : {{ computer_ip }}
-    
-    Once complete, dump the files you have to this computer:
-    {{ target_name }}
+    Target computer : {{ target_name }}
     IP : {{ target_ip }}
     
-    USERNAME : {{ misc_string }}
-    PASSWORD : {{ misc_string2 }}
+    Once complete, dump the files you have to this computer:
+    {{ computer_name }}
+    IP : {{ computer_ip }}
+    
+    USERNAME : {{ credential_username }}
+    PASSWORD : {{ credential_password }}
     
     Reply to this mail when you have finished.
     

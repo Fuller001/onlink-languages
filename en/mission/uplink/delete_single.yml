@@ -7,8 +7,8 @@ Body: |
     Thank you for working for {{ employer_name }}.
     
     TARGET COMPUTER DATA :
-       LOCATION : {{ computer_name }}
-       IP : {{ computer_ip }}
+       LOCATION : {{ target_name }}
+       IP : {{ target_ip }}
        FILENAME : {{ misc_string }}
        FILESIZE : {{ misc_numeric }} GigaQuads
     
@@ -26,6 +26,6 @@ WhySoMuchMoney: |
     {{ WhySoMuchMoney }}
     {% endif %}
 
-OnNotCompleted:
+OnNotCompletedDetails:
     FileExists: According to our sources, the file has not yet been deleted.
     BackupIntact: According to our sources, the file still available on the registry. Have you checked all the system's backups?

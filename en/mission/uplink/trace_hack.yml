@@ -4,13 +4,13 @@ Body: |
     Our computer systems were recently compromised by a computer hacker. Find this hacker and send the name to us. We would like to deal with this person in our own way.
     
     The compromised system is:
-    {{ computer_name }}
-    IP : {{ computer_ip }}
+    {{ target_name }}
+    IP : {{ target_ip }}
     
     The hack occurred around {{ date_short }}.
     
     {% if code_provided %}
-    We have provided you with level 3 clearance to our system.
+    We have provided you with maintenance access to our system.
     
     USER : {{ misc_string }}
     CODE : {{ misc_string2 }}

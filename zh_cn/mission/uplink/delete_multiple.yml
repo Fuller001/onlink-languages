@@ -15,7 +15,7 @@ Description: >
 Details: |
     {{ Details }}
     
-    {% if computer_type == LAN %}
+    {% if target_type == LAN %}
     数据存储在局域网上。
     {% endif %}
 
@@ -34,7 +34,7 @@ OnFailure: |
 WhoIsTheTarget: 数据归 {{ company_name }} 所有。
 WhySoMuchMoney: 数据将得到很好的保护。
 HowSecure: >
-    {% if computer_type == LAN %}
+    {% if target_type == LAN %}
     目标在一个局域网，将受到良好的保护。
     {% else %}
     {{ HowSecure }}

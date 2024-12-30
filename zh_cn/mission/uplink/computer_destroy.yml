@@ -17,7 +17,7 @@ Body: |
 
 Details: |
     {{ Details }}
-    {% if computer_type == LAN %}
+    {% if target_type == LAN %}
     
     数据存储在局域网上。
     {% endif %}

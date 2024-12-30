@@ -7,7 +7,7 @@ Body: |
     
     Your first task is to connect to our File Server and retrieve Revelation.
     
-    You must then break into OUR Internal Services System (shown below), disable the security and run Revelation on that system. Finally, cover your tracks to make sure the source can't be traced.
+    You must then break into OUR Mainframe system (shown below), disable the security and run Revelation on that system. Finally, cover your tracks to make sure the source can't be traced.
     
     This attack will give the Federal Agents a good enough reason to arrest the CEO of ARC, and we can start questioning him.
     
@@ -15,13 +15,13 @@ Body: |
     
     Codename: TakeMeToYourLeader
     
-    Our FileServer: {{ target_ip }}
-    Username: {{ misc_string }}
-    Password: {{ misc_string2 }}
+    Our FileServer: {{ computer_ip }}
+    Username: {{ credential_username }}
+    Password: {{ credential_password }}
     
     Filename: Revelation
-    Target system: {{ computer_name }}
-    Target IP: {{ computer_ip }}
+    Target system: {{ target_name }}
+    Target IP: {{ target_ip }}
 
 WhoIsTheTarget: The CEO of Andromeda Research Corporation.
 WhySoMuchMoney: It involves very important people.

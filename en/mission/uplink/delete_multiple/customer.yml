@@ -6,8 +6,8 @@ Body: |
     It would be in your interests to remove any traces of your actions, as the company will not be pleased when they discover what you have done.
     
     TARGET COMPUTER :
-      LOCATION : {{ computer_name }}
-      IP : {{ computer_ip }}
+      LOCATION : {{ target_name }}
+      IP : {{ target_ip }}
     
     Send a notice of completion to:
     {{ employer_email }}

@@ -6,8 +6,8 @@ Body: |
     
     As a result of this action you are legally required to pay a fine to the following account. Failure to pay this fine before the due date could result in imprisonment.
     
-    BANK : {{ computer_name }}
-    IP : {{ computer_ip }}
+    BANK : {{ target_name }}
+    IP : {{ target_ip }}
     ACCNO : {{ account_number }}
     FINE : {{ misc_numeric }} credits
     BEFORE : {{ date_time }}

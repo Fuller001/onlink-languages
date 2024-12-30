@@ -2,7 +2,7 @@ Description: uplink_mole_description.yml
 
 PaymentDetail: Services Rendered
 
-OnNotCompleted: |
+OnNotCompletedDetails: |
     {% if mission_mole_has_program == false %} We don't see any data on our fileserver that contains the names of any Uplink Agents. Did you upload and decrypt the data?
     {% else %}
     Looks like you've uploaded the Uplink Agent List program, but we don't see any data on our fileserver that contains the names of any Uplink Agents. The program is useless without the data.

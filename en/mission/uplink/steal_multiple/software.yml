@@ -5,13 +5,13 @@ Body: |
     
     Break into the computer system below, copy anything that looks like source code and break any security systems in place on the data files. Then copy those files onto our own file server.
     
-    Target computer : {{ computer_name }}
-      IP : {{ computer_ip }}
+    Target computer : {{ target_name }}
+      IP : {{ target_ip }}
     
     Once complete, dump the files you have to this computer:
-    {{ target_name }}
-      IP : {{ target_ip }}
-      USERNAME : {{ misc_string }}
-      PASSWORD : {{ misc_string2 }}
+    {{ computer_ip }}
+      IP : {{ computer_ip }}
+      USERNAME : {{ credential_username }}
+      PASSWORD : {{ credential_password }}
     
     END

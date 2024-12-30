@@ -17,9 +17,9 @@ Body: |
     
     Payment will be {{ mission_payment }}.
     
-    Our FileServer: {{ target_ip }}
-    Target system: {{ computer_name }}
-    Target IP: {{ computer_ip }}
+    Our FileServer: {{ computer_ip }}
+    Target system: {{ target_name }}
+    Target IP: {{ target_ip }}
 
 SetWhoIsTheTarget: Andromeda Research Corporation.
 SetWhySoMuchMoney: The mission is extremely important.

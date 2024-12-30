@@ -1,0 +1,27 @@
+---
+
+DeletingFiles: Deleting all files in {{ misc_string }}...
+
+Commands:
+  ChangeDirectory:
+    HelpText: Change your current directory
+    Invocation:
+      - cd
+  DirectoryListing:
+    HelpText: List all files in the current directory
+    Invocation:
+      - ls
+      - dir
+  DeleteFiles:
+    HelpArgs: filename|*
+    HelpText: Delete all files in the current directory
+    Invocation:
+      - rm
+      - delete
+      - del
+  RenameFile:
+    HelpArgs: src dest
+    HelpText: Rename a file
+    Invocation:
+      - rename
+      - mv

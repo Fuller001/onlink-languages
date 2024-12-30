@@ -13,4 +13,4 @@ WhoIsTheTarget: A high ranking Uplink agent.
 WhySoMuchMoney: This agent has sensitive information.
 HowSecure: The GCD has a proxy and uses an elliptic curve cypher.
 
-OnNotCompleted: {[He|She]} doesn't appear to have been released yet.
+OnNotCompletedDetails: {[He|She]} doesn't appear to have been released yet.

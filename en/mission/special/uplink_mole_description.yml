@@ -10,9 +10,9 @@ Body: |
     If we have made a mistake and you are not the person with whom we should be talking, then we apologise. Your ratings will not change if you choose to abandon this mission - it is completely optional.
     
     Our fileserver:
-    {{ computer_name }}
-    IP : {{ computer_ip }}
-    USER : {{ misc_string }}
-    CODE : {{ misc_string2 }}
+    {{ target_name }}
+    IP : {{ target_ip }}
+    USER : {{ credential_username }}
+    CODE : {{ credential_password }}
     
     [END]

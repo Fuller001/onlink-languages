@@ -12,4 +12,4 @@ Description: >
     {% abort %}
     {% endif %}
 
-OnNotCompleted: You haven't changed the data yet.
+OnNotCompletedDetails: You haven't changed the data yet.
