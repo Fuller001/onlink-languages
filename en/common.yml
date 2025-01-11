@@ -5,6 +5,10 @@ generic_back: Back
 generic_next: Next
 generic_unknown: Unknown
 
+generic_cancel: Cancel
+generic_continue: Continue
+generic_done: Done
+
 generic_success: Success
 generic_error: Error
 
