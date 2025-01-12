@@ -7,8 +7,8 @@ Body: |
     
     Use any means necessary, including virus attacks or system resets, but all data must be destroyed and the system itself must be shut down.
     
-    Target : {{ computer_name }}
-    IP : {{ computer_ip }}
+    Target : {{ target_name }}
+    IP : {{ target_ip }}
     
     Once you have completed the task, send a mail to {{ employer_email }} and we will determine if you have been successful.
     
@@ -16,7 +16,7 @@ Body: |
 
 Details: |
     {{ Details }}
-    {% if computer_type == LAN %}
+    {% if target_type == LAN %}
     
     The data is stored on a LAN.
     {% endif %}
@@ -24,7 +24,7 @@ Details: |
 WhoIsTheTarget: The system is owned by {{ company_name }}
 WhySoMuchMoney: The computer system will be heavily defended.
 
-OnNotCompleted: We have not heard word yet that the system has been destroyed.
+OnNotCompletedDetails: We have not heard word yet that the system has been destroyed.
 OnFailure:
     MailSubject: Problems with mission completion
     Payout: |

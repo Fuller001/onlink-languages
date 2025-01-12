@@ -5,13 +5,13 @@ Body: |
     
     These files will be well protected and encrypted - you will need to break this security, before copying the stolen database to our own file server, location below.
     
-    Target computer : {{ computer_name }}
-      IP : {{ computer_ip }}
+    Target computer : {{ target_name }}
+      IP : {{ target_ip }}
     
     Once complete, dump the files you have to this computer:
-    {{ target_name }}
-      IP : {{ target_ip }}
-      USERNAME : {{ misc_string }}
-      PASSWORD : {{ misc_string2 }}
+    {{ computer_ip }}
+      IP : {{ computer_ip }}
+      USERNAME : {{ credential_username }}
+      PASSWORD : {{ credential_password }}
     
     END

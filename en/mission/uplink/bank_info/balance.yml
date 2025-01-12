@@ -4,8 +4,8 @@ Body: |
     Break into the following well known financial institute:
     
     TARGET COMPUTER DATA :
-      LOCATION : {{ computer_name }}
-      IP : {{ computer_ip }}
+      LOCATION : {{ target_name }}
+      IP : {{ target_ip }}
     				
     We are interested in this person's bank balance.
     

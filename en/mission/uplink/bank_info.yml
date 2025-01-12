@@ -19,7 +19,7 @@ OnNotCompleted:
     InvalidConfirmed: The information you have provided appears to be invalid.
     InvalidSuspected: Could you please verify your results? We have reason to believe they are not accurate.
 
-OnFailure:
+OnFailureDetails:
     AccountClosed: |
         Now that the account has been closed, it will take us time to find the new account of that person and the information we want. Our target will also likely be more careful which will complicate the task.
         

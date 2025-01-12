@@ -7,8 +7,8 @@ Body: |
     
     Our compromised account is at:
     
-    {{ computer_name }}
-     IP : {{ computer_ip }}
+    {{ target_name }}
+     IP : {{ target_ip }}
      ACCNO : {{ account_number }}
      PASSWORD : {{ account_password }}
     
@@ -25,7 +25,7 @@ WhoIsTheTarget: That's for you to find out.
 WhySoMuchMoney: Bank records are notoriously hard to crack.
 HowSecure: Banks are always well defended.
 
-OnNotCompleted:
+OnNotCompletedDetails:
     Misunderstanding: |
         We've determined that the money was transferred into an account owned by that person, but we do not believe he was personally responsible.
         

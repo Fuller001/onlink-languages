@@ -13,5 +13,5 @@ Description: >
 WhoIsTheTarget: Someone we don't like very much
 WhySoMuchMoney: The employer and friends may come after you.
 
-OnNotCompleted: That person has not yet been arrested. We will not make payment until then.
-OnFailure: The person was arrested but not for the crimes we specifically asked for. As such we will not be making payment.
+OnNotCompletedDetails: That person has not yet been arrested. We will not make payment until then.
+OnFailureDetails: The person was arrested but not for the crimes we specifically asked for. As such we will not be making payment.

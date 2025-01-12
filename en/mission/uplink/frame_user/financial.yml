@@ -6,8 +6,8 @@ Body: |
     Perform some form of illegal operation (such as disabling some of their security systems and making sure they notice you) then modify the records so that {[he|she]} is incriminated.
     
     TARGET BANK :
-      NAME : {{ computer_name }}
-      IP : {{ computer_ip }}
+      NAME : {{ target_name }}
+      IP : {{ target_ip }}
     
     TARGET INDIVIDUAL :
       NAME : {{ person_name }}

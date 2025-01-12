@@ -1,5 +1,5 @@
 ---
-MainTitle: {{company_header}}
+MainTitle: {{ owner_name }}
 
 MainMenu:
     Subtitle: Main Menu

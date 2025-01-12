@@ -8,6 +8,8 @@ mission_base_details: |
     This mission cannot be auto-accepted.
     {% endif %}
 
+mission_automatic_reply: THIS IS AN AUTOMATED RESPONSE. PLEASE DO NOT REPLY.
+
 Details: {{ mission_base_details }}
    
 PaymentDetail: Anonymous benefactor
@@ -25,14 +27,14 @@ OnCompleted:
         
         Thank you for working for {{ employer_name }}.
         
-        THIS IS AN AUTOMATED RESPONSE. PLEASE DO NOT REPLY.
+        {{ mission_automatic_reply }}
 
 OnNotCompleted:
     Subject: Mission NOT completed
     Body: |
-        {{ misc_string }}
+        {{ OnNotCompletedDetails }}
         
-        THIS IS AN AUTOMATED RESPONSE. PLEASE DO NOT REPLY.
+        {{ mission_automatic_reply }}
 
 OnFailure:
     Subject: Mission FAILED
@@ -40,8 +42,8 @@ OnFailure:
         You have failed the following mission:
         {{ misc_string2 }}
         
-        {{ misc_string }}
+        {{ OnFailureDetails }}
         
         In future we will employ someone more qualified.
         
-        THIS IS AN AUTOMATED RESPONSE. PLEASE DO NOT REPLY.
+        {{ mission_automatic_reply }}

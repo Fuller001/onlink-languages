@@ -5,13 +5,13 @@ Body: |
     
     Their research files are stored on the system below, and will be heavily protected. You will need to copy the files, break the security on them in any way you see fit, then copy the files onto our own file server.
     
-    Target computer : {{ computer_name }}
-      IP : {{ computer_ip }}
+    Target computer : {{ target_name }}
+      IP : {{ target_ip }}
     
     Once complete, dump the files you have to this computer:
-    {{ target_name }}
-      IP : {{ target_ip }}
-      USERNAME : {{ misc_string }}
-      PASSWORD : {{ misc_string2 }}
+    {{ computer_ip }}
+      IP : {{ computer_ip }}
+      USERNAME : {{ credential_username }}
+      PASSWORD : {{ credential_password }}
     
     END

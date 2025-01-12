@@ -15,12 +15,12 @@ Description: >
 Details: |
     {{ Details }}
     
-    {% if computer_type == LAN %}
+    {% if target_type == LAN %}
     The data is stored on a LAN.
     {% endif %}
 
-OnNotCompleted: We have not heard word yet that the damage has been done.
-OnFailure: |
+OnNotCompletedDetails: We have not heard word yet that the damage has been done.
+OnFailureDetails: |
     A rather spectacular failure, agent. Not only did you fail to delete all of the backups, but you managed to prompt the company into storing all their current data off-site.
     
     {% if mission_payment_type == FullAtStart %}
@@ -34,7 +34,7 @@ OnFailure: |
 WhoIsTheTarget: The data is owned by {{ company_name }}
 WhySoMuchMoney: The data will be well protected.
 HowSecure: >
-    {% if computer_type == LAN %}
+    {% if target_type == LAN %}
     The target is a LAN and will be well protected.
     {% else %}
     {{ HowSecure }}

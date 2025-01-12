@@ -1,0 +1,64 @@
+---
+AboutUs:
+  Subtitle: About us
+  Text: |
+    Welcome to the Uplink Public Access Server.
+    
+    Uplink Corporation maintains the largest list of freelance agents in the world, and we have operated for the last decade with a flawless record of satisfied customers and successful agents. Our company acts as an anonymous job centre, bringing corporations together with agents who can work for them.
+  
+    Our company also provides rental of essential gateway computers to all agents, which allow unparalleled security in a high risk environment.
+  
+    You are here because you wish to join this company.
+  Previous: {{ generic_ok }}
+
+MainMenu:
+  Subtitle: Public server Main Menu
+
+  AboutUs: Find out who we are and what we do.
+  Information:
+    Text: Register as an Agent
+    Tooltip: Click to register yourself as a new Uplink Agent.
+
+Information:
+  Subtitle: Registration
+  Text: "Your Uplink membership package includes :
+    
+    - A Gateway computer at a secure location. You will connect to this machine from your home computer when you are working for Uplink. You can have it upgraded at a later stage if necessary.
+    
+    - A low interest loan of {{ misc_numeric }} credits with Uplink International Bank, to get you started.
+    
+    - Access to our Bulletin Board system - the usual place for Uplink Agents to find work.
+    
+    - You will be officially rated as an Uplink Agent, and we will monitor your progress. As your rating increases you will find new avenues of work become available."
+  
+  Previous:
+    Text: {{ generic_cancel }}
+    Tooltip: Cancel registration.
+  
+  Next:
+    Text: {{ generic_continue }}
+    Tooltip: Continue registration.
+
+UserRegistration:
+  MainTitle: Uplink Registration
+  SubTitle: Create your agent profile
+  Text: Uplink Corporation will not ask for any more personal details. In the event of you being charged with illegal operations, our corporation will be forced to disavow all knowledge of your actions, however you will be safe from arrest as your real world address will never be stored.
+
+GatewayLocation:
+  SubTitle: Local gateway selection
+
+FinalizeRegistration:
+  MainTitle: Uplink Registration
+  SubTitle: Your Gateway computer
+  Text: |
+    Registration is now taking place.
+
+    As part of your membership, we will assign you a Gateway computer system in your chosen server room. This will act as your jumping off point to the rest of the Net. When you next log in you will connect directly from your home computer to this gateway machine, and from there to the rest of the world.
+
+    Should any of your actions be traced back to your Gateway, Uplink Corporation will disavow any knowledge of your actions and will destroy your account. Your Gateway machine will also be destroyed.
+
+    Rental of your Gateway computer will cost {{ misc_numeric2 }} credits a month.
+
+  Next:
+    Text: {{ generic_done }}
+    Tooltip: Click here when finished.

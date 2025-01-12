@@ -9,14 +9,20 @@ Body: |
     
     Break in to the bank below, and start messing around. Make sure they notice you. Then break in to one of your relay systems and modify the logs so that {{ person_name }} is incriminated.
     
-    To do this, you'll need to make the log point back to {[his|her]} home computer - address below.
+    {% if original_experience == true %}
+    To do this, you'll need to make the log point back to {[his|her]} home computer. We have provided the address below.
+    {% else %}
+    To do this, you'll need to locate {[his|her]} home computer and make the log point back to it.
+    {% endif %}
     
     Codename: SaveItForTheJury
     
     TARGET BANK :
-    {{ computer_name }}
-    IP: {{ computer_ip }}
+    {{ target_name }}
+    IP: {{ target_ip }}
     
     Target individual :
     {{ person_name }}
-    {[His|Her]} personal computer: {{ target_ip }}
+    {% if original_experience == true %}
+    {[His|Her]} personal computer: {{ person_ip }}
+    {% endif %}

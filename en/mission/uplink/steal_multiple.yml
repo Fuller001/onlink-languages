@@ -16,11 +16,11 @@ Details: |
     {{ Details }}
     
     You will need around {{ misc_numeric }} GigaQuads of space.
-    {% if computer_type == LAN %}
+    {% if target_type == LAN %}
     The data is stored on a LAN.
     {% endif %}
 
-OnNotCompleted:
+OnNotCompletedDetails:
     AllEncrypted: We can see some files on the fileserver but they appear to be encrypted. You need to decrypt them before we make payment.
     Encrypted: You haven't recovered very much data and a lot of it is encrypted - please copy more and decrypt all of it.
     AllCorrupt: We can see some files on the fileserver but they appear to be corrupted. You'll need to fix or redownload them before we make payment.

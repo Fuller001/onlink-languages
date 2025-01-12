@@ -16,7 +16,7 @@ Details: |
     {{ Details }}
     
     您需要大约 {{ misc_numeric }} GigaQuads 的储存空间。
-    {% if computer_type == LAN %}
+    {% if target_type == LAN %}
     数据存储在局域网中。
     {% endif %}
 

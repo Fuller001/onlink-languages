@@ -41,6 +41,10 @@ DisplayItem:
     text: {{ misc_string }}
     tooltip: Select this Monitor.
 
+Renderer:
+    text: Renderer
+    tooltip: Select the rendering backend.
+
 ScreenMode:
     text: Screen Mode
     tooltip: Select your desired screen resolution.

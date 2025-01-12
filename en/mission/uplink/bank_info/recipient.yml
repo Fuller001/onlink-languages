@@ -4,8 +4,8 @@ Body: |
     Break into the following well known financial institute:
     
     TARGET COMPUTER DATA :
-      LOCATION : {{ computer_name }}
-      IP : {{ computer_ip }}
+      LOCATION : {{ target_name }}
+      IP : {{ target_ip }}
     				
     This individual is the subject of an internal investigation into corruption:
     

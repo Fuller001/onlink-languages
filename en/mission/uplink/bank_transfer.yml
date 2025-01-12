@@ -4,14 +4,14 @@ Body: |
     Break into the following well known financial institute:
     
     TARGET COMPUTER DATA :
-      LOCATION : {{ computer_name }}
-      IP : {{ computer_ip }}
+      LOCATION : {{ target_name }}
+      IP : {{ target_ip }}
     
     Gain access to account number {{ account_number }}, which is in the name of {{ account_name }}.
     
     Transfer {{ misc_numeric }} credits to the following account:
-      LOCATION : {{ target_name }}
-      IP : {{ target_ip }}
+      LOCATION : {{ computer_name }}
+      IP : {{ computer_ip }}
       ACCNO : {{ target_account_number }}
     
     Send a notice of completion to:
@@ -22,6 +22,6 @@ Body: |
 WhySoMuchMoney: Financial systems are always well guarded.
 HowSecure: The bank will be using Proxys and Monitors.
 
-OnNotCompleted:
+OnNotCompletedDetails:
     NoTransfer: The transfer has not occurred.
     InvalidTransfer: A transfer seem to have occurred, but not the correct amount.

@@ -1,0 +1,34 @@
+---
+Subject: |
+    {% if num_uses == 1 %}
+    Unknown virus outbreak at {{ company_name }}
+    {% elif num_uses == 2 %}
+    Revelation seen for second time at {{ company_name }}
+    {% else %}
+    Revelation outbreak yet again
+    {% endif %}
+
+Body: |
+    {{ company_name }} has been attacked by a computer virus. The virus first infected the {{ computer_name }}.
+    
+    {% if success == Success %}
+    The virus destroyed most of the data and logs on the computer but the company was able to stop the virus from spreading to other systems.
+    {% elif success == GreatSuccess %}
+    The {{ computer_name }} was totally destroyed and the virus spread to many neighbouring systems, causing a great deal of damage.
+    {% elif success == TotalSuccess %}
+    It appears that the entire corporate computer network owned by {{ company_name }} was severely damaged by the virus.
+    {% else %}
+    System administrators were able to contain the virus before it managed any serious damage. It appears the virus was totally contained.
+    {% endif %}
+    
+    {% if num_uses == 1 %}
+    This is the first time that this virus has been seen in the wild, but experts who analysed it say it has incredible power. After analysing the virus in detail, it has been determined that the name of the virus is "Revelation".
+    {% elif num_uses == 2 %}
+    Upon closer inspection, industry experts have been able to determine that the Revelation computer virus is responsible. This is the second time that Revelation has been deployed on the internet.
+    {% else %}
+    Once again Revelation has been found responsible for this destruction.
+    {% endif %}
+    
+    {% if recovery_possible %}
+    Backup systems for the {{ computer_name }} were thankfully left unaffected, and the company has been able to salvage all of the data. {{ company_name }} has taken steps to storing their backup data off-site.
+    {% endif %}

@@ -14,5 +14,5 @@ Body: |
     Codename: CounterAttack
     
     Our FileServer: {{ computer_ip }}
-    Username: {{ misc_string }}
-    Password: {{ misc_string2 }}
+    Username: {{ credential_username }}
+    Password: {{ credential_password }}

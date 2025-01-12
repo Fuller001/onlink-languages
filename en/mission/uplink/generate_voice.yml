@@ -15,7 +15,7 @@ Body: |
 WhoIsTheTarget: {[He|She]} is not anyone you would recognise.
 WhySoMuchMoney: Recording devices are difficult for the public to acquire.
 
-OnNotCompleted:
+OnNotCompletedDetails:
     FileMissing: There is no voice sample attached to your reply.
     FileUnreadable: We cannot read this voice sample. Did you send an encryptd file?
     FileIncorrect: This is not the correct voice sample.

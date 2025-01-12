@@ -1,0 +1,41 @@
+---
+Subject: Assist an investigration into property theft
+Body: |
+    One of our rivals recently recruited a former employee who was critical to some of our major projects. Due to recent industry rumblings, we suspect this former employee of selling our intellectual property to this rival, and seek to make a case against both parties.
+    
+    To faciliate this, we would like you to install a lightweight tracker on one of their critical systems to monitor for specific keywords in their traffic.
+    
+    Start by connecting to our file server and download the tracking software, named {{ misc_string }}.
+    
+    {{ computer_name }}
+      IP : {{ computer_name_ip }}
+      USERNAME : {{ credential_username }}
+      PASSWORD : {{ credential_password }}
+    
+    Once retrieved, we need you to run the process on their {{ target_type }} and cover your tracks once done.
+    
+    TARGET COMPUTER :
+      LOCATION : {{ target_name }}
+      IP : {{ target_ip }}
+    
+    Please give us three hours to confirm functionality before requesting payment.
+    
+    Send a notice of completion to:
+    {{ employer_email }}
+    
+    END
+
+OnNotCompletedDetails:
+    NotInstalled: Our investigation team reports that there has been no indication from the tracker that it is listening for data. Please verify that the tracker was appropiately installed and give them a few hours to collate the needed data.
+    NotEnoughTime: Our investigation team managing the tracker has not yet reported back to us yet. Please give them at least three hours to collate needed data.
+
+OnFailureDetails:
+    EvidenceRemains: |
+        Our investigation team reports that they lost contact with our tracking software. According to available information, you appear to have left the tracking software in their databanks after running it and someone on their system administration team discovered it and purged both it and the running process.
+        
+        News stories have already broken about this and an investigation has been opened. Now we need to work overtime to cover our tracks, since you failed to cover yours.
+        
+        Since you have opened us up to legal peril and possible relatiation, we will not be making payment of any kind.
+
+WhoIsTheTarget: One of our rivals in the industry.
+WhySoMuchMoney: We need this done without any obvious attachment to us.

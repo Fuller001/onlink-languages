@@ -6,10 +6,10 @@ Body: |
     The person in question has managed to alter logs to cover their traces. We want you to access our system and restore the logs that have been modified. In order to access our system, we will be providing you with an access code.
     				
     TARGET DETAILS :
-    {{ computer_name }}
-      IP : {{ computer_ip }}
-      NAME : {{ misc_string }}
-      CODE : {{ misc_string2 }}
+    {{ target_name }}
+      IP : {{ target_ip }}
+      NAME : {{ credential_username }}
+      CODE : {{ credential_password }}
     
     Send a notice of completion to:
     {{ employer_email }}
@@ -19,4 +19,4 @@ Body: |
 WhoIsTheTarget: It is one of our systems.
 WhySoMuchMoney: We require this investigation to be discreet and tools requires to do it ourselves are not publically available.
 
-OnNotCompleted: We don't believe all the logs have been restored yet.
+OnNotCompletedDetails: We don't believe all the logs have been restored yet.
