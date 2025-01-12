@@ -1,0 +1,21 @@
+---
+NameColumn:
+    Text: 公司名
+PriceColumn:
+    Text: 每股价格
+ChangeColumn:
+    Text: 变化 (季度)
+NameColumn:
+
+Thing1: 更详细的查看此股票
+
+Filter:
+    Text: 过滤器
+    Tooltip: 按下此处以应用过滤器
+
+FilterTextbox:
+    Tooltip: 在此处输入过滤规则
+
+Exit:
+    Text: 关闭
+    Tooltip: 关闭此界面

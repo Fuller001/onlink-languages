@@ -1,0 +1,29 @@
+---
+Menu: 查看账户
+MenuTip: 查看账户
+Subtitle: 查看账户
+
+Owner:
+    Text: 账户名称
+    Tooltip: 显示您账户当前的名称
+
+Number:
+    Text: 账户号码
+    Tooltip: 显示您的账户号码
+
+Balance:
+    Text: 余额
+    Tooltip: 显示您的银行余额
+
+Loan:
+    Text: 贷款
+    Tooltip: 显示您的贷款金额
+
+Exit:
+    Text: {{ generic_ok }}
+    Tooltip: 返回账户管理界面
+
+Accessing:
+    Text: 正在访问...
+
+LoanRate: {{ misc_numeric }}% apr

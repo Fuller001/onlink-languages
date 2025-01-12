@@ -1,0 +1,37 @@
+---
+Clear:
+    Text: 清除
+    Tooltip: 按下此处以清除此纪录
+
+Save:
+    Text: 保存
+    Tooltip: 按下此处以保存此纪录
+
+Arrest:
+    Text: 准许逮捕
+    Tooltip: 按下此处以准许逮捕
+    
+Number:
+    Text: 社会安全号码
+
+Birth:
+    Text: 出生日期
+
+Marital:
+    Text: 婚姻情况
+
+Vital:
+    Text: 个人状况
+
+Accessing:
+    Text: 正在访问...
+
+Commit:
+    Text: 提交
+    Tooltip: 提交所有更改
+
+Exit:
+    Text: 完成
+    Tooltip: 关闭此界面
+
+LoanRate: {{ misc_numeric }}% apr

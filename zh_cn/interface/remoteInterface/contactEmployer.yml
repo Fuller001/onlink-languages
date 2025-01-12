@@ -1,0 +1,81 @@
+---
+Date:
+    Text: 日期
+    Tooltip: 此栏显示消息提交的日期
+
+Payment:
+    Text: 款项
+    Tooltip: 此栏显示客户承诺的款项
+
+Tier:
+    Text: 等级
+    Tooltip: 此栏显示任务的等级
+
+Difficulty:
+    Text: 难度
+    Tooltip: 此栏显示任务预估难度
+
+Subject:
+    Text: 主题
+    Tooltip: 此栏显示消息的主题
+        
+Accept:
+    Text: 接受
+    Tooltip: 接受这个任务
+
+Contact:
+    Text: 联络
+    Tooltip: 联络任务雇主
+
+Exit:
+    Text: 退出 BBS
+    Tooltip: 退出
+
+ConferenceInit: |
+    安全在线交流频道在 80 端口上建立"
+    正运行 SCi V2.6, Frontier Communications Ltd 版权所有
+    在线会议
+
+EnterChat: 用户 "{{ misc_string }}" 加入了会议
+
+EmployerIntro: |
+    感谢你抽出时间，探员
+    我们能帮上什么?
+
+WhySoMuch: 佣金为什么这么高?
+WhoIsTarget: 谁是目标?
+HowSecure: 目标的安全程度如何?
+MoreMoney: 我想要更多佣金
+HalfMoney: 我现在就想要一半的佣金
+AllMoney: 我现在就想要全部的佣金
+
+AcceptMission: OK, 同意。
+RejectMission: 抱歉，算了。
+
+HowSecureVeryLow: |
+    没有安全措施。
+    我们觉得您不会碰到太多障碍。
+HowSecureLow: |
+    安全程度很低。
+    您可能会碰到代理服务器或者防火墙。
+HowSecureModerate: |
+    会有一些实时安全措施。
+    您很有可能会碰到代理服务器或者防火墙。
+HowSecureHigh: |
+    我们预计安全程度很高。
+    您肯定会碰到一些反击措施。
+HowSecureVeryHigh: |
+    安全程度会非常严密。
+    您会遇到多种的反击措施。
+HowSecureExtreme: |
+    安全程度极高。
+    您将会面对多种高级反击措施。");
+HowSecureExperimental: |
+    最先进的安保系统。
+    您可能会发现一些非公开的实验性对策。
+
+MissionExpired: 此任务不再可用。
+
+RejectedCriminal: 抱歉，但我们需要的是没有犯罪记录的人。
+
+RejectedConfirm: OK, 好的

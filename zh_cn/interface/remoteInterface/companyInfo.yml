@@ -1,0 +1,20 @@
+---
+DetailsTitle:
+    Text: 详细联络方式
+
+Director:
+    Text: 总经理
+
+Admin:
+    Text: 系统管理员
+
+AddButton:
+    Tooltip: 将此号码添加到你的联系人名单中
+    
+Exit:
+    Text: {{ generic_back }}
+    Tooltip: 返回主菜单
+
+Unlisted: 未列出
+
+PhoneNumber: 号码 {{ misc_string }}
