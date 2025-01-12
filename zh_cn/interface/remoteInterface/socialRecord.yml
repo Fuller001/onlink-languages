@@ -1,0 +1,28 @@
+---
+Owner:
+    Text: 名字
+
+Number:
+    Text: 社会安全号码
+
+Birth:
+    Text: 出生日期
+
+Marital:
+    Text: 婚姻状况
+
+Vital:
+    Text: 个人状况
+
+Accessing:
+    Text: 正在访问...
+
+Commit:
+    Text: 提交
+    Tooltip: 提交所有更改
+
+Exit:
+    Text: 完成
+    Tooltip: 关闭此界面
+
+LoanRate: {{ misc_numeric }}% 年化利率

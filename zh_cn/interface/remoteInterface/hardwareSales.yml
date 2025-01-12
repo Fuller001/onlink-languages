@@ -1,0 +1,97 @@
+---
+Components:
+    CPU: CPU
+    RAM: 内存
+    Modem: 调制解调器
+    Memory: 存储
+    Security: 安全
+    Upgrade: 升级
+    Cooler: 冷却
+
+    PowerSupplyUnit: 电源
+
+    Generic: {{ hardware_name }}
+    GenericInstallation: {{ hardware_name }} (等待安装)
+    GenericPurchase: {{ hardware_name }} (等待购买)
+    GenericEmpty: 空的 {{ hardware_type }} 槽位
+    CPUCooled: {{ hardware_name }} (使用 {{ cooler_name }} 辅助超频)
+    CPUCooledInstallation: {{ GenericInstallation }} (使用 {{ cooler_name }} 辅助超频)
+    CPUCooledPurchase: {{ GenericPurchase }} (使用 {{ cooler_name }} 辅助超频)
+
+
+    MemoryDescription: |
+        {{ hardware_name }}
+        
+        {{ memory_amount }} Gq 的存储空间
+
+HardwareMenu:
+    Info: 选择这个硬件的选项
+    CPUList: 显示 CPU 列表
+    CoolerList: 显示散热器列表
+    RAMList: 显示内存列表
+    ModemList: 显示调制解调器列表
+    MemoryList: 显示存储芯片列表
+    SecurityList: 显示安全硬件列表
+    UpgradeList: 显示升级列表
+    Background: 没有可用硬件
+
+Deselect: 取消选择
+
+Cancel: 取消
+CancelTooltip: 按下此处以退出此列表
+    
+Buy:
+    CompleteOrder: 完成订单
+    CompleteOrderInfo: 按下此处以完成您的购买
+
+    ClearOrder: 清除订单
+    ClearOrderInfo: 按下此处以清除预定的更改
+
+    PaymentDescription: "{{ company_name }} 售卖的硬件: {{ hardware_name }}"
+
+Replace:
+    Generic: 替换
+    Info:
+        Generic: 按下此处以替换一个部件。在维护完成后将会发送一笔退款。
+        
+        NoReplacementNeeded: 无需替换
+        Planned: 计划的替换
+
+        ReplaceModem: 先替换调制解调器
+        ReplaceCooler: 先替换散热器
+
+Add:
+    Generic: 添加
+    Info:
+        Generic: 按下此处以在订单中添加一个部件
+
+        Added: 已添加到订单
+
+        NoSatelliteReceiver: 您的网关缺少此升级所需的卫星接收器。
+        NoQBitReceiver: 您的网关缺少此升级所需的 Q-bit 接收器。
+        NoEnoughBandwidth: 您的网关没有足够的带宽来运行这个速度的调制解调器。
+    
+        NanoPatchMissing: 所有的纳米 CPU 都需要一个 {{ misc_numeric }} Gq 的软件升级补丁。
+        HyperPatchMissing: 此 CPU 需要一个 {{ misc_numeric }} Gq 针对 boot.sys 的补丁来防止过热。
+    
+        PatchMissingSource: 您可以在软件升级找到 {{ patch_info }}。
+        PatchMissingRemoteSource: 您可以在 {{ company_name }} 的软件升级找到 {{ patch_info }}。
+    
+        MemoryFull: 您的网关无法容纳这么多的存储。
+        DeviceAlreadyOwned: 您已经安装了这个设备。
+    
+        HardwareNotSupported: 您的网关没有支持此升级的硬件。
+
+        SecurityDeviceNoMemory: 您不能在网关上安装这个安全设备，您至少拥有 {{ misc_numeric }} Gq 的存储空间来安装驱动。
+
+Remove:
+    Generic: 移除
+    Info:
+        Generic: 按下此处以在订单完成后出售此部件。
+
+        RemoveCooler: 先移除散热器
+        Planned: 计划的移除
+
+        NoComponent: 不允许网关不存在 {{ hardware_type }} 部件
+        UpgradeNeededModem: 该硬件因被当前调制解调器依赖而不能出售
+        UpgradeNeededCooling: 该硬件因被当前调制解调器依赖而不能出售

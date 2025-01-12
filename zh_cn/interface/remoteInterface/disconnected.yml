@@ -1,0 +1,6 @@
+---
+Exit:
+    Text: {{ generic_ok }}
+    Tooltip: 按下此处以关闭界面
+
+RevokedListStart: 您的用户名和密码已在这些系统上被吊销:

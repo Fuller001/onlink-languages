@@ -1,0 +1,11 @@
+---
+Title:
+    MainTitle: {{ company_name }}
+    Subtitle: 需要授权
+
+Instructions: 请对着你的语音设备阅读下列句子。
+
+PassPhrase: |
+    你好。我是系统管理员.
+    我的声音就是我的密码。
+    验证我的身份。

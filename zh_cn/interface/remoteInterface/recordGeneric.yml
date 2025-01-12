@@ -1,0 +1,16 @@
+---
+Previous:
+    Text: 上一个
+    Tooltip: 滚动到上一个记录
+Next:
+    Text: 下一个
+    Tooltip: 滚动到下一个记录
+Commit:
+    Text: 提交
+    Tooltip: 提交所有更改
+Exit:
+    Text: 关闭
+    Tooltip: 关闭此纪录的界面
+
+GenericLoginType: 用户名
+BankLoginType: 账户

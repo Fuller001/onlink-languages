@@ -1,0 +1,24 @@
+---
+Graph:
+    Text: 股票价格图表
+Table:
+    Text: 股票价格
+Buy:
+    Text: 买入
+    Tooltip: 按下此处以买入该公司的股票
+Sell:
+    Text: 卖出
+    Tooltip: 按下此处以卖出该公司的股票
+Exit:
+    Text: 关闭
+    Tooltip: 回到股票列表
+
+ViewTitle: {{ company_name }} 股票
+TimeAxis: 时间
+Owned: 你拥有 {{ misc_numeric }} 股。
+
+# These are a little special; the colon is used to seperate
+# into two parts, the second part being aligned right.
+Paid: 付出:{{ money_format }}
+Value: 价值:{{ money_format }}
+Profit: 获利:{{ money_format }}

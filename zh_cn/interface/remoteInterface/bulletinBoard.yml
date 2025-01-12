@@ -1,0 +1,48 @@
+---
+Date:
+    Text: 日期
+    Tooltip: 此栏显示消息提交的日期
+
+Payment:
+    Text: 款项
+    Tooltip: 此栏显示客户承诺的款项
+
+Tier:
+    Text: 等级
+    Tooltip: 此栏显示任务的等级
+
+Difficulty:
+    Text: 难度
+    Tooltip: 此栏显示任务预估难度
+
+Subject:
+    Text: 主题
+    Tooltip: 此栏显示消息的主题
+        
+Accept:
+    Text: 接受
+    Tooltip: 接受这个任务
+
+Contact:
+    Text: 联络
+    Tooltip: 联络任务雇主
+
+Exit:
+    Text: 退出 BBS
+    Tooltip: 退出
+        
+MessageTip: 阅读此公告栏信息
+
+EncryptedDate: {{ generic_unknown }}
+EncryptedPayment: {{ generic_unknown }}
+Encrypted: 加密 (Uplink 评级不足)
+EncryptedDetails: 您没有足够的 Uplink 评级来查看此信息。
+
+NoAutoSet: 此任务无法自动接受。您必须联络雇主来接受此任务。
+NoAutoLowLevel: 您没有足够的 Uplink 评级来自动接受此任务。您必须联络雇主来接受此任务。
+EmployerRefused: 根据雇主的特别指示，我们不能让你接受此任务。
+
+ContactLowLevel: 您没有足够的 Uplink 评级来联络雇主。
+ContactRefused: 根据雇主的特别指示，我们不能让你联络雇主。
+
+NoMissions: 无可用任务。

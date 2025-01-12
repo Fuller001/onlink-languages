@@ -1,0 +1,15 @@
+---
+Date:
+    Text: 发布日期
+    ToolTip: 此栏显示文章的发布日期
+
+Subject:
+    Text: 主题
+    ToolTip: 此栏显示文章的主题
+
+NewsLine:
+    ToolTip: 阅读此新闻
+
+Exit:
+    Text: 退出新闻界面
+    ToolTip: 退出新闻界面并返回主界面

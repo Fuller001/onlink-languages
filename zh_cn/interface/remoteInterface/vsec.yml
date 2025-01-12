@@ -1,0 +1,8 @@
+---
+Attempts:
+    Text: |
+        {% if misc_numeric > 1 %}
+        剩余可尝试次数: {{ misc_numeric }}
+        {% else %}
+        剩余可尝试次数: {{ misc_numeric }}
+        {% endif %}

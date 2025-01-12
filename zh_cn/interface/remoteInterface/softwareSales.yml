@@ -1,0 +1,62 @@
+---
+NameColumn:
+    Text: 名称
+    Tooltip: 此栏显示了售卖物品的名称
+VersionColumn:
+    Text: 版本
+    Tooltip: 此栏显示了软件的版本
+CostColumn:
+    Text: 售价
+    Tooltip: 此栏显示了物品的售价
+SizeColumn:
+    Text: 大小
+    Tooltip: 此栏显示了物品所需的大小
+RAMColumn:
+    Text: 内存
+    Tooltip: 此栏显示了运行此软件所需的内存 (如果适用)
+
+Purchase:
+    Text: 购买
+    Tooltip: 购买此物品
+Download:
+    Text: 下载
+    Tooltip: 下载此版本
+NextVersion:
+    Text: 下个版本
+    Tooltip: 查看下个版本
+PrevVersion:
+    Text: 上个版本
+    Tooltip: 查看上个版本
+ShowAll:
+    Text: 显示所有
+    Tooltip: 显示所有可用软件
+Exit:
+    Text: 退出市场
+    Tooltip: 退出此界面并返回主界面
+
+OwnedPrice: 已拥有
+
+Upgrade: 升级
+AlreadyOwned: 已经拥有
+SendInstaller: 发送邮件
+ResendInstaller: 重发邮件
+
+SoftwarePurchased: 物品已购买
+HUDPurchased: 已安装 HUD 升级。
+InstallerPurchased: 物品已购买。在邮箱中查看您的软件。
+InstallerResent: 安装包已经发送到您的邮箱
+OldVersionDownloaded: 版本已下载
+
+NotEnoughMoney: 您没有足够的余额来购买此软件。
+NotEnoughMemory: 您没有足够的空间来存储此软件。
+NotEnoughRAM: 您没有足够的内存来应用此升级。
+
+HUDMissingAnalyser: 您需要一个 HUD_ConnectionAnalysis 升级才能购买任何绕过工具。
+HUDMissingLAN: 您需要一个 HUD_LanView 升级才能购买任何 LAN 工具。
+HUDMissingInjector: 您需要一个 HUD_ServiceInjector 升级才能购买任何终端服务套件。
+
+PrePatchFirst: 您必须修补 nano-drive 能力才能购买此物品。
+SYSUpgradeInstalled: 您已经拥有此驱动。
+
+OSNotEnoughMemory: 您的系统没有足够内存来运行此 OS。
+OSPurchased: 物品已购买。在更改之前，您必须重新登入您的网关。
