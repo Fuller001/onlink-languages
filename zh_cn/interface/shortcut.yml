@@ -1,0 +1,40 @@
+
+DebugInfo: 将硬件信息复制到剪切板
+DebugDraw: 绘图调试
+Refresh: 刷新界面
+DecreaseFontScale: 缩小字体
+IncreaseFontScale: 增大字体
+ScreenShot: 截取屏幕
+Exit: 退出游戏
+
+ToggleWorldMap: 切换大地图
+Disconnect: 断连
+
+Pause: 暂停
+NormalSpeed: 正常速度
+FastSpeed: 快进
+VeryFastSpeed: 加速快进
+
+WorkspacePanel: 工作区面板
+AdminPanel: 管理员面板
+StatusPanel: 特工状态
+AnalyserPanel: 连接分析器
+ConnectionManagerPanel: 连接管理器
+InboxPanel: 邮箱
+FinancePanel: 财务面板
+HardwarePanel: 硬件状态
+IrcClientPanel: IRC 客户端
+KeymapPanel: Key Mapper
+LanViewPanel: LAN 查看器
+MemoryPanel: 数据库
+TodoPanel: 任务邮箱
+MusicPanel: 音乐面板
+NotepadPanel: 记事本
+BiometricsPanel: 生物识别面板
+TerminalPanel: 终端面板
+ServiceInjectorPanel: 服务注入器面板
+PCSecurePanel: PC 安全面板
+
+ExecutableFileCallback: 执行 {{ misc_string }}
+
+IpCallback: 连接 {{ misc_string }}

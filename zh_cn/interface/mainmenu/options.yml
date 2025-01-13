@@ -1,0 +1,281 @@
+
+GraphicOptions:
+    text: 图形
+    tooltip: 修改图形选项。
+
+SoundOptions:
+    text: 声音
+    tooltip: 修改声音选项。
+
+GameplayOptions:
+    text: 游戏
+    tooltip: 修改游戏选项。
+
+UIOptions:
+    text: UI
+    tooltip: 修改 UI 选项。
+
+MainMenu:
+    text: 主菜单
+    tooltip: 返回到主菜单。
+
+# Graphics
+
+SafeMode:
+    text: 安全模式
+    tooltip: 启用图形安全模式进行故障排除。
+    
+SoftwareMouse:
+    text: 软鼠标
+    tooltip: 禁用/启用软鼠标。
+
+Display:
+    text: 显示器
+    tooltip: 选择你想使用的显示器。
+
+DisplayItemID:
+    text: 显示器 {{ misc_numeric }}
+    tooltip: 选择这个显示器。
+    
+DisplayItem:
+    text: {{ misc_string }}
+    tooltip: 选择这个显示器。
+
+Renderer:
+    text: 渲染器
+    tooltip: 选择渲染后端。
+
+ScreenMode:
+    text: 屏幕模式
+    tooltip: 选择期望的屏幕模式。
+
+ScreenModeWindowed:
+    text: 窗口化
+    tooltip: 在窗口中运行游戏。
+
+ScreenModeFullScreen:
+    text: 全屏
+    ooltip: 在全屏中运行游戏。
+
+ScreenModeBorderless:
+    text: 无边框
+    tooltip: 在无边框全屏中运行游戏。
+
+Resolution:
+    text: 分辨率
+    tooltip: 选择期望的屏幕分辨率。
+    
+ResolutionItem:
+    text: {{ misc_numeric }}x{{ misc_numeric2 }} ({{ misc_string }})
+    tooltip: 选择此分辨率。
+
+RefreshRate:
+    text: 刷新率
+    tooltip: 选择期望的刷新率。
+    
+RefreshRateItem:
+    text: {{misc_numeric}}
+    tooltip: 选择此刷新率。
+
+VSync:
+    text: 垂直同步
+    tooltip: 选择垂直同步模式。
+
+VSyncDisable:
+    text: 禁用
+    tooltip: 禁用垂直同步
+
+VSyncEnable:
+    text: 启用
+    tooltip: 启用垂直同步
+
+VSyncAdaptive:
+    text: 自适应
+    tooltip: 自适应垂直同步
+    
+ApplyChanges:
+    text: 应用变更
+    tooltip: 应用变更的选项。
+
+# Audio
+
+CoreTitle:
+    text: 内置歌曲
+    
+UserTitle:
+    text: 用户歌曲
+    
+Rewind:
+    tooltip: 按此处以重放上一首曲目
+    
+Play:
+    tooltip: 按此处以开始播放
+    
+Forward:
+    tooltip: 按此处以跳过这一首曲目
+    
+Stop:
+    tooltip: 按此处以停止播放
+    
+Repeat:
+    tooltip: 按此处以重复当前曲目
+    
+Randomize:
+    tooltip: 按此处以随机化播放列表
+    
+Seek:
+    tooltip: 按此处以在列表中查找
+  
+PlaylistDefaultTitle: 选择播放列表
+    
+PlaylistItem:
+    text: {{ misc_string }}
+    tooltip: 调整主音量
+
+MasterVolume:
+    text: 主音量
+    tooltip: 调整主音量
+
+MusicVolume:
+    text: 音乐音量
+    tooltip: 调整音乐音量
+
+SoundEffectVolume:
+    text: 音效音量
+    tooltip: 调整音效音量
+
+# Gameplay
+
+OriginalExperience:
+    text: 原始 Uplink 体验
+    tooltip: 新建用户将类似于原来的 Uplink 体验，但拥有 Onlink 的 UI 增强。
+
+UplinkOS:
+    text: UplinkOS 引擎
+    tooltip: 以 Uplink OS 重启
+
+EnhancedTaskManager:
+    text: 增强任务管理器
+    tooltip: 移除/添加更多按钮到任务管理器中
+
+LessMoneyTransfered:
+    text: 任务提供更少金钱
+    tooltip: 打开后，追踪转账任务获得的钱将更少。
+
+MinimalAmoutOfMissions:
+    text: 强制执行最少数量任务
+    tooltip: 游戏开始时，强制每个等级只能执行最少量的任务。
+
+AutoAttach:
+    text: 自动附加附件到邮件
+    tooltip: 在回复任务邮件时，自动附上相关的任务文件。
+
+CustomSeed:
+    text: 自定义种子
+    tooltip: 在开始新游戏时，隐藏/显示数字生成器种子输入界面
+
+# UI
+
+ShortcutTitle:
+    text: 快捷方式
+    
+shortcutKeyBind:
+    text: {{ misc_string }}
+    tooltip: 按此处以更改键位绑定
+    
+ShortcutItem:
+    text: {{ misc_string }}
+    tooltip: 将此操作绑定到快捷方式
+
+ShortcutPrevious:
+    tooltip: 显示上一个快捷方式界面
+    
+ShortcutAdd:
+    text: 添加快捷方式
+    tooltip: 按此处以添加一个快捷方式
+    
+ShortcutNext:
+    tooltip: 显示下一个快捷方式界面
+
+ThemeTitle:
+    text: 选择主题
+    tooltip: 选择期望使用的主题
+    
+ThemeItem:
+    text: {{ theme_name }}
+    tooltip: 使用由 {{ theme_author }} 制作的 {{ theme_name }} {{ theme_comment }}
+
+WorldMapSelection:
+    text: 选择世界地图
+    tooltip: 选择期望在游戏中使用的世界地图
+
+WorldMapSelectionAuto:
+    text: 自动
+    tooltip: 使用这个世界地图
+
+WorldMapSelectionItem:
+    text: {{ misc_string }}
+    tooltip: 使用这个世界地图
+
+WorldMapSelectionCurrent:
+    tooltip: 这是将会在游戏中使用的世界地图
+
+LanguageSelection:
+    text: 语言
+    tooltip: 选择语言
+    
+LanguageSelectionItem:
+    text: {{ misc_string }}
+    tooltip: 使用由 {{ misc_string2 }} 制作的 {{ misc_string }}
+
+ColourBlindSelection:
+    text: 色盲模式
+    tooltip: 选择色盲模式
+
+ColourBlind_Disabled:
+    text: 禁用
+    tooltip: 禁用色盲模式
+    
+ColourBlind_RedGreen:
+    text: 红 / 绿
+    tooltip: 选择这个模式
+    
+ColourBlind_YellowBlue:
+    text: 黄 / 蓝
+    tooltip: 选择这个模式
+    
+ColourBlind_Full:
+    text: 全色盲
+    tooltip: 选择这个模式
+
+FontScale:
+    text: 字体缩放
+    tooltip: 选择字体缩放程度
+
+HighlightColour:
+    text: 高亮链接颜色
+    hint: "#00000000"
+    tooltip: 输入默认的高亮链接颜色
+    
+HighlightColourItem:
+    tooltip: 高亮链接将会使用此颜色
+
+MissionColour:
+    text: 任务链接颜色
+    hint: "#00000000"
+    tooltip: 输入默认的任务链接颜色
+    
+MissionColourItem:
+    tooltip: 任务链接将会使用此颜色
+
+EnableAnimation:
+    text: 启用动画
+    tooltip: 禁用/启用游戏动画
+
+FastAnimation:
+    text: 快速动画
+    tooltip: 增加动画速度
+
+BorderOnButton:
+    text: 按钮边框
+    tooltip: 给所有按钮添加一个边框

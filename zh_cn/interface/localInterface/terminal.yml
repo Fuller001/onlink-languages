@@ -1,0 +1,9 @@
+---
+
+
+ErrorAuth: 需要授权
+ErrorDecode: 需要解码
+ErrorHook: 丢失钩子
+ErrorIdent: 无法辨识身份
+ErrorPackage: 软件包未安装
+ErrorUnknown: 未知错误

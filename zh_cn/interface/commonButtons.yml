@@ -1,0 +1,8 @@
+---
+ProceedButton:
+    Text: 继续
+    Tooltip: 完成后按下此处
+
+BackOutButton:
+    Text: 返回
+    Tooltip: 按下此处以返回上一个界面

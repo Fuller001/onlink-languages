@@ -1,0 +1,346 @@
+---
+close: 关闭
+closeHint: 关闭信息框
+yes: 是
+no: 否
+
+# Main Menu
+RetireConfirm:
+    type: Confirmation #don't translate this
+    subject: 隐退
+    body: 您确定要从名单上移除 "{{ misc_string }}" 吗?
+
+RetireNoTarget:
+    type: Simple
+    subject: 隐退
+    body: 未指定特工。从左边的列表里指定一个特工，或在 "name" 框中输入特工名称。
+
+RetireNotValid:
+    type: Simple
+    subject: 隐退
+    body: "{{ misc_string }}" 当前不在名单上。
+    
+# Options
+
+ScreenChanged:
+    type: Confirmation
+    subject: 保留变更 ?
+    body: |
+        您希望保持当前的变更吗?
+        变更会在 {{misc_numeric}} 秒内还原。
+
+# Pause
+UplinkPaused:
+    type: Simple
+    subject: 游戏已暂停
+    body: |
+        {{ misc_string }} 已暂停。
+        按下 Close 以继续。
+
+# Security triggers
+DeniedByProxy:
+    type: Simple
+    subject: {{ generic_error }}
+    body: 代理服务器拒绝了访问
+
+DeniedByFirewall:
+    type: Simple
+    subject: {{ generic_error }}
+    body: 防火墙拒绝了访问
+
+DeniedByASELink:
+    type: Simple
+    subject: {{ generic_error }}
+    body: 无法处理连接。
+
+DeniedByASEScreen:
+    type: Simple
+    subject: {{ generic_error }}
+    body: 无法初始化界面。
+
+DeniedByGateway:
+    type: Simple
+    subject: {{ generic_error }}
+    body: 主机无回应。
+
+DeniedByAccessControl:
+    type: Simple
+    subject: {{ misc_string }}
+    body: 不允许执行程序。请联系本地管理员获取帮助。
+
+DeniedByInsufficentAuth:
+    type: Simple
+    subject: {{ generic_error }}
+    body: 切换安全服务状态失败: 拒绝访问。
+
+DeniedBySeal:
+    type: Simple
+    subject: {{ generic_error }}
+    body: 主机无回应。
+
+# Local administration errors
+ConnectionTargetInvalid:
+    type: Simple
+    subject: Invalid IP
+    body: 此 IP 不可用。连接中止。
+
+ConnectionSwitchPhone:
+    type: Simple
+    subject: {{ generic_error }}
+    body: 无法停用音频流链接。请先断线。
+
+LocalLogBank:
+    type: Simple
+    subject: {{ generic_error }}
+    body: 网络链接活动时，不允许访问日志库。
+
+LocalConsole:
+    type: Simple
+    subject: {{ generic_error }}
+    body: 网络链接活动时，不允许访问控制台。
+
+StagingSwitch:
+    type: Simple
+    subject: {{ generic_error }}
+    body: 任意链接活动时，不允许访问 Staging 系统。
+
+InsufficentRAM_HUD:
+    type: Simple
+    subject: {{ generic_error }}
+    body: 没有足够的内存来启用 HUD 插件
+
+InsufficentRAM_KEXT:
+    type: Simple
+    subject: {{ generic_error }}
+    body: 没有足够的内存来启用内核扩展
+
+# Mail handling
+MailAlreadyDownloaded:
+    type: Simple
+    subject: {{ generic_error }}
+    body: 附件已从邮件服务器下载。
+
+MailNotEnoughSpace:
+    type: Simple
+    subject: {{ generic_error }}
+    body: 没有足够的数据空间来下载附件。
+
+# Account creations
+MissingUsername:
+    type: Simple
+    subject: {{ generic_error }}
+    body: 你必须输入一个用户名
+
+ExistingUsername:
+    type: Simple
+    subject: {{ generic_error }}
+    body: 你必须输入一个不重复用户名
+
+MissingPassword:
+    type: Simple
+    subject: {{ generic_error }}
+    body: 你必须输入一个密码
+
+PasswordMismatch:
+    type: Simple
+    subject: {{ generic_error }}
+    body: 两个密码必须相同
+
+MissingRealName:
+    type: Simple
+    subject: {{ generic_error }}
+    body: 请输入你的全名
+
+ExistingAgent:
+    type: Simple
+    subject: {{ generic_error }}
+    body: |
+        我们的记录显示
+        你已经注册为 Uplink 特工。
+
+InvalidCharacters:
+    type: Simple
+    subject: {{ generic_error }}
+    body: |
+        名称和用户名不能包含
+        任何这些字符:
+        {{ misc_string }}
+
+ReservedUser:
+    type: Simple
+    subject: {{ generic_error }}
+    body: 名称或用户名不能为 {{ account_admin }}, {{ account_readwrite }} 或 {{ account_readonly }}
+
+SaveFileLocked:
+    type: Simple
+    subject: {{ generic_error }}
+    body: |
+        我们无法将你的记录添加到数据库中。
+        请尝试另一个昵称或者等待我们的服务台调查。
+
+# Bank accounts
+BalanceNotZero:
+    type: Simple
+    subject: {{ generic_error }}
+    body: |
+        您的帐户无法关闭。
+        余额必须为零。
+
+LoanNotZero:
+    type: Simple
+    subject: {{ generic_error }}
+    body: |
+        您的帐户无法关闭。
+        贷款必须为零。
+
+# Records
+AcademicUpdate:
+    type: Simple
+    subject: {{ generic_success }}
+    body: Academic record updated
+
+ArrestAuthorised:
+    type: Simple
+    subject: 授权逮捕
+    body: |
+        接受授权
+        此人将在 {{ misc_numeric }} 小时内被捕。
+
+ArrestPersonIncarcerated:
+    type: Simple
+    subject: 逮捕未授权
+    body: |
+        拒绝授权
+        嫌疑人已被监禁。
+
+ArrestPersonInvalid:
+    type: Simple
+    subject: 逮捕未授权
+    body: |
+        拒绝授权
+        嫌疑人必须至少有 {{misc_numeric}} 个先前的定罪，并且必须违反假释(Broken parole)，才能远程授权逮捕。
+
+ArrestPersonDeceased:
+    type: Simple
+    subject: 拒绝逮捕
+    body: 此人已经死亡。
+
+ReleaseAuthorised:
+    type: Simple
+    subject: 授权释放
+    body: |
+        接受授权
+        此人将在 {{misc_numeric}} 小时后获释。
+
+ReleaseInvalid:
+    type: Simple
+    subject: 拒绝释放
+    body: 此人有一个犯罪记录。
+
+SocialUpdate:
+    type: Simple
+    subject: {{ generic_success }}
+    body: 社会保障记录更新。
+
+UnknownMarital:
+    type: Simple
+    subject: {{ generic_error }}
+    body: 婚姻状况未知。
+
+UnknownVital:
+    type: Simple
+    subject: {{ generic_error }}
+    body: 个人状态未知。
+
+MedicalUpdate:
+    type: Simple
+    subject: {{ generic_success }}
+    body: 医疗记录更新。
+
+DNSUpdate:
+    type: Simple
+    subject: {{ generic_success }}
+    body: 医疗记录更新。
+
+# Session key generation errors
+NotValidIP:
+    type: Simple
+    subject: {{ generic_error }}
+    body: 无法解析 IP
+
+NotValidTerminal:
+    type: Simple
+    subject: {{ generic_error }}
+    body: 计算机不在可接受的终端列表中
+
+NotATerminal:
+    type: Simple
+    subject: {{ generic_error }}
+    body: 无法使用内部计算机连接到 LAN
+
+NotValidSeed:
+    type: Simple
+    subject: {{ generic_error }}
+    body: 无效的种子值
+
+# Launch errors
+ProgramOOM:
+    type: Simple
+    subject: {{ generic_ok }}
+    body: 无法初始化: 内存溢出。
+
+ProgramUnreadable:
+    type: Simple
+    subject: {{ misc_string }}
+    body: 设备上没有剩余的空间。
+
+ProgramTruncated:
+    type: Simple
+    subject: {{ misc_string }}
+    body: 设备上没有剩余的空间。
+
+SessionKeyNoSpace:
+    type: Simple
+    subject: {{ generic_error }}
+    body: 设备上没有剩余的空间。
+
+TutorialMissing:
+    type: Simple
+    subject: {{ generic_error }}
+    body: 无法在数据库中找到教程程序
+
+# Software
+FaithSuccess:
+    type: Simple
+    subject: Faith
+    body: Revelation 已被清除
+
+FaithFail:
+    type: Simple
+    subject: Faith
+    body: 无法清除所有的 Revelation 进程
+
+FaithNoAction:
+    type: Simple
+    subject: Faith
+    body: Revelation 没有运行
+
+FaithOminous:
+    type: Simple
+    subject: F4*tH
+    body: Rev3l$ti0n 己*(#坡^%青!@滁?
+
+InstallerSuccess:
+    type: Simple
+    subject: 安装器
+    body: 软件成功安装。
+
+InstallerFail:
+    type: Simple
+    subject: {{ generic_error }}
+    body: 没有足够的内存来安装软件包。
+
+InstallerNoAction:
+    type: Simple
+    subject: {{ generic_error }}
+    body: 软件已经安装在此电脑上。

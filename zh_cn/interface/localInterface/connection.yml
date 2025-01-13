@@ -1,0 +1,53 @@
+---
+TitleBar:
+    Text: 连接管理器
+
+DisplayToggle:
+    Text: {{ generic_ip }}
+    Tooltip: 按下此按钮以切换名称与 IP 的显示
+
+FilterPrompt:
+    Tooltip: 在此处输入过滤规则
+    Hint: 过滤器
+
+Save:
+    Text: 保存
+    Tooltip: 保存当前的连线状态
+
+Load:
+    Text: 载入
+    Tooltip: 载入保存的连线状态
+
+Random:
+    Text: 随机
+    Tooltip: 从可用的目标中生成随机连线
+
+Reset:
+    Text: 重置
+    Tooltip: 重置当前连线
+
+Connect:
+    Tooltip: 使用当前连线设置
+
+Exit:
+    Text: 关闭
+    Tooltip: 关闭此界面
+
+# Keypad
+Undo:
+    Text: 删除
+    Tooltip: 删除上一个输入
+Clear:
+    Text: 清除
+    Tooltip: 清除所有输入
+Direct:
+    Text: 直连
+    Tooltip: 尝试直接连线到拨打的地址
+Bounce:
+    Text: 跳板
+    Tooltip: 尝试使用当前的跳板路径连线到拨打的地址
+
+ErrorConnected: 连线时无法更改链接。请先断开连线。
+ErrorNoConnection: 未建立连线。请在尝试连接之前添加一些链接。
+ErrorCannotBounce: 您无法使用没有外部服务的系统作为跳板。
+ErrorCannotRoute: 您无法路由到此系统。
