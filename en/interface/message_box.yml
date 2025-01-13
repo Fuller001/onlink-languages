@@ -134,7 +134,7 @@ MissingUsername:
 ExistingUsername:
     type: Simple
     subject: {{ generic_error }}
-    body: You must enter an unique username
+    body: Username already taken. Please choose a different username before continuing.
 
 MissingPassword:
     type: Simple
