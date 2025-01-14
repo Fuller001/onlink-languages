@@ -1,0 +1,29 @@
+---
+TitleBar:
+    Text: 连接分析器
+    Tooltip: 移除此界面
+
+LocalHost:
+    Text: 本地主机
+
+LocalHostIcon:
+    Tooltip: 显示您的家用电脑
+
+RemoteHost:
+    Text: 远程主机
+
+RemoteHostIcon:
+    Tooltip: 显示目标远程主机
+
+SecSystem:
+    Text: 分析中
+
+SecSystemIcon:
+    Tooltip: 显示安全系统
+
+PleaseWait: 分析中
+RunningGateway: 注意: 检测到默认网关
+RunningEBS: 检测到备份服务器的链接
+UnknownFilesystem: 警告: 陌生的文件系统
+
+
