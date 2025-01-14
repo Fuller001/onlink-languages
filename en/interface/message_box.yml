@@ -134,7 +134,7 @@ MissingUsername:
 ExistingUsername:
     type: Simple
     subject: {{ generic_error }}
-    body: You must enter an unique username
+    body: Username already taken. Please choose a different username before continuing.
 
 MissingPassword:
     type: Simple
@@ -263,6 +263,21 @@ DNSUpdate:
     body: Medical record updated.
 
 # Session key generation errors
+MissingIP:
+    type: Simple
+    subject: {{ generic_error }}
+    body: IP field should not be empty.
+    
+MissingMajorSeed:
+    type: Simple
+    subject: {{ generic_error }}
+    body: Major seed field should not be empty.
+    
+MissingMinorSeed:
+    type: Simple
+    subject: {{ generic_error }}
+    body: Minor seed field should not be empty.
+
 NotValidIP:
     type: Simple
     subject: {{ generic_error }}
