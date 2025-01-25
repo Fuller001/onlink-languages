@@ -1,0 +1,16 @@
+---
+UplinkPublic:
+  Connect: Establishing connection to UPLINK public access server...
+  Disconnect: Disconnecting from Uplink Public access server...
+  Acknowledge: Awaiting connection acknowledgment from UPLINK...
+Gateway:
+  Connect: Establishing connection to your GATEWAY computer...
+  Acknowledge: Awaiting connection acknowledgment from GATEWAY...
+
+LocalHost:
+  Title: {{ User }}
+  Description: {{ LocalHost }}
+
+RemoteHost:
+  Title:
+    Gateway: {{ Gateway }}
