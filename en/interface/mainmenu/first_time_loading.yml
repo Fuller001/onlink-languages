@@ -1,16 +1,61 @@
 ---
-UplinkPublic:
-  Connect: Establishing connection to UPLINK public access server...
-  Disconnect: Disconnecting from Uplink Public access server...
-  Acknowledge: Awaiting connection acknowledgment from UPLINK...
-Gateway:
-  Connect: Establishing connection to your GATEWAY computer...
-  Acknowledge: Awaiting connection acknowledgment from GATEWAY...
+Connection:
+  UplinkPublic:
+    Connect: Establishing connection to UPLINK public access server...
+    Disconnect: Disconnecting from Uplink Public access server...
+    Acknowledge: Awaiting connection acknowledgment from UPLINK...
+  Gateway:
+    Connect: Establishing connection to your GATEWAY computer...
+    Acknowledge: Awaiting connection acknowledgment from GATEWAY...
+  
+  LocalHost:
+    Title: {{ User }}
+    Description: {{ LocalHost }}
+  
+  RemoteHost:
+    Title:
+      Gateway: {{ Gateway }}
+    
 
-LocalHost:
-  Title: {{ User }}
-  Description: {{ LocalHost }}
+Download:
+  Title: Downloading UPLINK Operating System...
+  
+  Progress:
+    Tooltip: Shows the progress of the download
+    Steps:
+      - Downloading Core services
+      - Downloading Kernel
+      - Downloading Loader package
+      - Downloading Gateway package
+      - Downloading Memory package
+      - Downloading Status package
+      - Downloading Finance package
+      - Downloading Mail package
+      - Downloading Mission package
+      - Downloading Clock package
+      - Downloading Multitasking package
+      - Downloading Map package
+      - Downloading Global communications package
+      - Downloading Security package
+      - Downloading File utilities
+      - Downloading Tutorial daemon
+      - Downloading Remote renderer package
+      - Downloading Site connect package
 
-RemoteHost:
-  Title:
-    Gateway: {{ Gateway }}
+Validation:
+  Validate: {{ generic_ok }}
+  Checks:
+    - "Checking gateway HARDWARE : Alpha Ax086 60Ghz cpu..."
+    - "Checking gateway HARDWARE : K256 1024MQds modem..."
+    - "Checking gateway HARDWARE : 16 Gq DR-RAM memory..."
+    - "Verifying integrity of Uplink Operating System..."
+    - "Verifying security of Uplink Operating System..."
+    - "Installing UPLINK Operating system files..."
+    - "Initialising TSR programs in memory..."
+    - "Sending RUN signal to core Uplink Kernel..."
+    - "Checking Kernel Initialisation..."
+    - "Establishing Network communications protocols..."
+    - "Installing File_Copier..."
+    - "Installing File_Deleter..."
+    - "Initialising Task_Manager..."
+    - "Running Graphical User Interface..."
