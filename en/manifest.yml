@@ -1,0 +1,8 @@
+---
+manifest_version: 1
+
+# Computer
+NameGeneration: computer/names.yml
+
+# Interface
+FirstLoad: interface/mainmenu/first_time_loading.yml
