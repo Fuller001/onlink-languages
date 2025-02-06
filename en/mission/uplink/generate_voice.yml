@@ -1,6 +1,6 @@
 ---
-Subject: Acquire the voice sample of an individual
-Body: |
+subject_criminal: Acquire the voice sample of an individual
+body_criminal: |
     Due to a recent development, we find ourselves in need of obtaining a voice recording from {{ person_name }}.
     
     We want you to acquire the voice pattern of this person and provide it in your reply.
@@ -11,9 +11,26 @@ Body: |
     {{ employer_email }}
     			
     END
+WhySoMuchMoney_criminal: Recording devices are difficult for the public to acquire.
+
+subject_official: Provide a voice sample for an investigation
+body_official: |
+    An internal investigation is currently in need of information for this individual:
+    
+    NAME : {{ person_name }}
+    
+    {[He|She]} has protected {[his|her]} assets behind a voice recognition security.
+    Send us a voice sample to:
+    {{ employer_email }}
+    
+    END
+WhySoMuchMoney_official: Good work deserve proper payment.
+
+Subject: {% if mission_criminal %} {{ subject_criminal }} {% else %} {{ subject_official }} {% endif %}
+Body: {% if mission_criminal %} {{ body_criminal }} {% else %} {{ body_official }} {% endif %}
 
 WhoIsTheTarget: {[He|She]} is not anyone you would recognise.
-WhySoMuchMoney: Recording devices are difficult for the public to acquire.
+WhySoMuchMoney: {% if mission_criminal %} {{ WhySoMuchMoney_criminal }} {% else %} {{ WhySoMuchMoney_official }} {% endif %}
 
 OnNotCompletedDetails:
     FileMissing: There is no voice sample attached to your reply.
