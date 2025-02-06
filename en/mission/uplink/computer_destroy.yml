@@ -16,7 +16,7 @@ Body: |
 
 Details: |
     {{ Details }}
-    {% if target_type == LAN %}
+    {% if target_type & LAN %}
     
     The data is stored on a LAN.
     {% endif %}

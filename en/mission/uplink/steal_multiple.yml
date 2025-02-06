@@ -16,7 +16,7 @@ Details: |
     {{ Details }}
     
     You will need around {{ misc_numeric }} GigaQuads of space.
-    {% if target_type == LAN %}
+    {% if target_type & LAN %}
     The data is stored on a LAN.
     {% endif %}
 
