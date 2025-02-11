@@ -5,6 +5,7 @@ manifest_version: 1
 Common: common.yml
 
 # Computer
+Concept: computer/concepts.yml
 NameGeneration: computer/names.yml
 
 # Interfaces
