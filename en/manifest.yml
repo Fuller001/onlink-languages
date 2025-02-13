@@ -17,6 +17,8 @@ OptionsGraphic: interface/mainmenu/options.yml
 OptionsAudio: interface/mainmenu/options.yml
 OptionsTheme: interface/mainmenu/options.yml
 
+Admin: interface/localInterface/admin.yml
+
 # News
 ARCUnusualHiring: news/plot/main/act1scene2.yml
 UplinkAgentRaisesDoubt: news/plot/main/act1scene3.yml

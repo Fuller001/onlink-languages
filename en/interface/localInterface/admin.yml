@@ -1,0 +1,87 @@
+---
+admin_title:
+  Text: ADMINISTRATION
+  Tooltip: Remove the status screen
+
+admin_logs:
+  Text: Logs
+  Tooltip: View the log bank
+
+admin_console:
+  Text: Console
+  Tooltip: View the console
+
+admin_ramPage:
+  Text: RAM
+  Tooltip: Manage your RAM usage
+
+admin_gwPage:
+  Text: Gateways
+  Tooltip: Manage your gateways
+
+admin_hudTitle: Head Up Display
+admin_systemTitle: System
+admin_counterMeasuresTitle: Counter Measures
+admin_statisticsTitle: Statistics
+
+admin_sectionButton: |
+  {% if section == HeadUpDisplay  %}
+  {{ admin_hudTitle }}
+  {% elif section == System  %}
+  {{ admin_systemTitle }}
+  {% elif section == CounterMeasures  %}
+  {{ admin_counterMeasuresTitle }}
+  {% elif section == Statistics  %}
+  {{ admin_statisticsTitle }}
+  {% endif %}
+
+AdminRAMInfo: "Available RAM: {{ ram_available }} / {{ ram_size }} Gq"
+
+AdminRAMInfoTitles: |
+  Total RAM
+  Available RAM
+  In use by Core System
+  HUD
+  Security
+  Counter Measures
+  Running Programs    
+
+admin_ramTitles: |
+  {% if compactMode  %}
+  {{ AdminRAMInfo }}
+  {% else %}
+  {{ AdminRAMInfoTitles }}
+  {% endif %}
+
+admin_ramValues: |
+  {{ ram_size }} Gq
+  {{ ram_available }} Gq
+  {{ ram_system }} Gq
+  {{ ram_hud }} Gq
+  {{ ram_security }} Gq
+  {{ ram_counter_measure }} Gq
+  {{ ram_program }} Gq
+
+admin_sectionRAMTitles: {{ AdminRAMInfoTitles }}
+admin_sectionRAMValues: {{ admin_ramValues }}
+
+admin_gateway_status:
+  Tooltip: Show this gateway's status information in various screens
+
+admin_gateway_cpu:
+  Tooltip: Use this gateway's CPU power
+
+admin_gateway_nextUpdate:
+  Tooltip: Set this gateway as the recipient for future software and hardware purchases
+
+admin_gateway_databank:
+  Tooltip: Use this gateway's memory bank in the memory screen
+
+admin_gateway_staging:
+  Tooltip: Run software and connect from this gateway
+
+admin_hudDisableItems: You do not have any HUD extensions capable of being disabled
+
+admin_sysDisableItems: You do not have any kernel extensions installed
+
+admin_counter: You do not have any Counter Measures
