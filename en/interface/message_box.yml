@@ -31,7 +31,7 @@ ScreenChanged:
     The changes will be reverted in {{ misc_numeric }} seconds.
 
 # Pause
-UplinkPaused:
+GamePaused:
   Type: Simple
   Subject: Game Paused
   Body: |
