@@ -22,6 +22,8 @@ OptionsTheme: interface/mainmenu/options.yml
 Admin: interface/localInterface/admin.yml
 HUD: interface/localInterface/hud.yml
 
+SWSales: interface/remoteInterface/softwareSales.yml
+
 # News
 ARCUnusualHiring: news/plot/main/act1scene2.yml
 UplinkAgentRaisesDoubt: news/plot/main/act1scene3.yml
