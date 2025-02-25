@@ -10,6 +10,7 @@ NameGeneration: computer/names.yml
 
 # Interfaces
 MessageBoxContent: interface/message_box.yml
+UserIDBox: interface/userid.yml
 
 Unknown: interface/commonButtons.yml
 FirstLoad: interface/mainmenu/first_time_loading.yml
