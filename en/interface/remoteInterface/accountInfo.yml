@@ -23,7 +23,6 @@ Exit:
     Text: {{ generic_ok }}
     Tooltip: Return to the account management screen
 
-Accessing:
-    Text: Accessing...
+Accessing: Accessing...
 
 LoanRate: {{ misc_numeric }}% apr

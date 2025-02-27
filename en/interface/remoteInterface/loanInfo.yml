@@ -1,0 +1,34 @@
+---
+LoanField:
+  Hint: Enter the loan amount
+  Tooltip: Enter the loan amount
+
+LoanFieldInfo: Amount
+
+LoanMax: Max loan: {{ money_format }}
+LoanMaxUnknown: Max loan: {{ generic_unknown }}
+
+Borrow:
+  Text: Borrow
+  Tooltip: Click to borrow some money
+  
+BorrowMax:
+  Text: Borrow Max
+  Tooltip: Click to borrow the maximum amount of money
+
+RepayField:
+  Hint: Enter the amount to repay
+  Tooltip: Enter the amount to repay
+
+RepayFieldInfo: Amount
+
+RepayMax: Max Repay: {{ money_format }}
+RepayMaxUnknown: Max Repay: {{ generic_unknown }}
+
+Repay:
+  Text: Repay
+  Tooltip: Click to repay the loan with the amount specified
+
+RepayAll:
+  Text: Repay All
+  Tooltip: Click to fully repay the loan

@@ -23,6 +23,8 @@ OptionsTheme: interface/mainmenu/options.yml
 Admin: interface/localInterface/admin.yml
 HUD: interface/localInterface/hud.yml
 
+Account: interface/remoteInterface/accountInfo.yml
+Loans: interface/remoteInterface/loanInfo.yml
 SWSales: interface/remoteInterface/softwareSales.yml
 
 # News
