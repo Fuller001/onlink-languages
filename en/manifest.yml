@@ -6,6 +6,7 @@ Common: common.yml
 
 # Computer
 Concept: computer/concepts.yml
+Security: computer/security.yml
 NameGeneration: computer/names.yml
 
 # Interfaces

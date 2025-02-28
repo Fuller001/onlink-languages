@@ -1,0 +1,27 @@
+
+# Authentication types
+loginSecurity:
+  - type: Password
+    name:
+      - Admin Password verification
+      - Password verification
+      - Password
+  - type: UserPassword
+    name:
+      - UserID / password verification
+      - UserID / password
+      - UserID
+  - type: Cypher
+    name:
+      - Elliptic-Curve Encryption Cypher
+      - Elliptic-Curve Cypher
+      - Cypher
+  - type: Voice
+    name:
+      - Voice Print Identification
+      - Voice Print
+  - type: VDPIN
+    name:
+      - Virtual Dynamic Personal Identification Number
+      - Virtual Dynamic PIN
+      - VDPIN
