@@ -1,19 +1,15 @@
 ---
-DetailsTitle:
-    Text: Contact details
+Details: Contact details
 
-Director:
-    Text: MANAGING DIRECTOR
-
-Admin:
-    Text: ADMINISTRATOR
+DirectorTitle: MANAGING DIRECTOR
+AdminTitle: ADMINISTRATOR
 
 AddButton:
-    Tooltip: Add this phone number to your contact list
+  Tooltip: Add this phone number to your contact list
     
 Exit:
-    Text: {{ generic_back }}
-    Tooltip: Return to the main menu
+  Text: {{ generic_back }}
+  Tooltip: Return to the main menu
 
 Unlisted: Unlisted
 
