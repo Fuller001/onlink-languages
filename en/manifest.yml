@@ -4,6 +4,7 @@ version: 1
 Common: common.yml
 
 Data:
+  Software: software/common.yml
   Hardware: hardware/common.yml
 
 Computer:
