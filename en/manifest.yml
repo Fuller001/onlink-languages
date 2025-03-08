@@ -25,6 +25,7 @@ Interfaces:
   OptionsTheme: interface/mainmenu/options.yml
 
   Admin: interface/localInterface/admin.yml
+  Dialer: interface/localInterface/connection.yml
   HUD: interface/localInterface/hud.yml
 
   Account: interface/remoteInterface/accountInfo.yml
