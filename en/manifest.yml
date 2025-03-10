@@ -38,6 +38,7 @@ Interfaces:
   Account: interface/remoteInterface/accountInfo.yml
   BulletinBoard: interface/remoteInterface/bulletinBoard.yml
   CompanyInfo: interface/remoteInterface/companyInfo.yml
+  Contact: interface/remoteInterface/contactEmployer.yml
   Loans: interface/remoteInterface/loanInfo.yml
   SWSales: interface/remoteInterface/softwareSales.yml
   HWSales: interface/remoteInterface/hardwareSales.yml
