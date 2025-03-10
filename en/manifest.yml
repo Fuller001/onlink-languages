@@ -15,12 +15,14 @@ Computer:
   NameGeneration: computer/names.yml
 
 Interfaces:
+  MainMenu: interface/mainmenu/main_menu.yml
   MessageBoxContent: interface/message_box.yml
   Shortcuts: interface/shortcut.yml
   UserIDBox: interface/userid.yml
 
   Unknown: interface/commonButtons.yml
   FirstLoad: interface/mainmenu/first_time_loading.yml
+  Login: interface/mainmenu/login.yml
   Options: interface/mainmenu/options.yml
   OptionsGame: interface/mainmenu/options.yml
   OptionsGraphic: interface/mainmenu/options.yml

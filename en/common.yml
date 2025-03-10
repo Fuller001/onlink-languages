@@ -2,6 +2,7 @@
 generic_ok: OK
 generic_return: Return
 generic_back: Back
+generic_previous: Previous
 generic_next: Next
 generic_unknown: Unknown
 

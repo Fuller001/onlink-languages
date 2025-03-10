@@ -1,22 +1,38 @@
+---
 Bailout: |
-    On occasion, we find our users setting their screen resolutions
-    way too high, and finding themselves unable to reset them. As a
-    result, we've made this bailout switch. Click this button again to
-    reset your options to 800x600 windowed mode and forcibly close Onlink.
+  On occasion, we find our users setting their screen resolutions
+  way too high, and finding themselves unable to reset them. As a
+  result, we've made this bailout switch. Click this button again to
+  reset your options to 800x600 windowed mode and forcibly close Onlink.
 
-Login_Tooltip: Log in as this Agent
+Help: |
+  If you are registered as an Uplink Agent, enter your username and password below.
+  Otherwise, click on the New User button.
+  
+Previous: {{ generic_previous }}
+Next: {{ generic_next }}
+  
+SaveGameTitle: Valid User Names
+  
+SaveGameItem:
+  Tooltip: Log in as this Agent
 
-NewGame_Caption: New User
-NewGame_Tooltip: Create a new user's account
+NewGame:
+  Text: New User
+  Tooltip: Create a new user's account
 
-Retire_Caption: Retire
-Retire_Tooltip: Remove agents from the roster
+Retire:
+  Text: Retire
+  Tooltip: Remove agents from the roster
 
-MultiMonitor_Caption: Multi Monitor
-MultiMonitor_Tooltip: Multi Monitor
+MultiMonitor:
+  Text: Multi Monitor
+  Tooltip: Multi Monitor
 
-Options_Caption: Options
-Options_Tooltip: Advanced options
+Options:
+  Text: Options
+  Tooltip: Advanced options
 
-Exit_Caption: Exit
-Exit_Tooltip: Exit Onlink
+Exit:
+  Text: Exit
+  Tooltip: Exit Onlink
