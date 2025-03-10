@@ -4,6 +4,8 @@ version: 1
 Common: common.yml
 
 Data:
+  Calendar: calendar.yml
+  ShortcutSoftware: computer/executable_file_types.yml
   Software: software/common.yml
   Hardware: hardware/common.yml
 
@@ -14,6 +16,7 @@ Computer:
 
 Interfaces:
   MessageBoxContent: interface/message_box.yml
+  Shortcuts: interface/shortcut.yml
   UserIDBox: interface/userid.yml
 
   Unknown: interface/commonButtons.yml
