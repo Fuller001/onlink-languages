@@ -31,6 +31,7 @@ Interfaces:
   Analyser: interface/localInterface/analyser.yml
   Dialer: interface/localInterface/connection.yml
   HUD: interface/localInterface/hud.yml
+  Terminal: interface/localInterface/terminal.yml
 
   Account: interface/remoteInterface/accountInfo.yml
   CompanyInfo: interface/remoteInterface/companyInfo.yml

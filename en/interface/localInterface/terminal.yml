@@ -1,6 +1,4 @@
 ---
-
-
 ErrorAuth: Authentication required
 ErrorDecode: Decode required
 ErrorHook: Missing prior hook
