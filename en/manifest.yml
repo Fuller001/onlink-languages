@@ -36,6 +36,7 @@ Interfaces:
   Terminal: interface/localInterface/terminal.yml
 
   Account: interface/remoteInterface/accountInfo.yml
+  BulletinBoard: interface/remoteInterface/bulletinBoard.yml
   CompanyInfo: interface/remoteInterface/companyInfo.yml
   Loans: interface/remoteInterface/loanInfo.yml
   SWSales: interface/remoteInterface/softwareSales.yml

@@ -1,35 +1,35 @@
 ---
 Date:
-    Text: Date
-    Tooltip: This column shows the date the message was submitted
+  Text: Date
+  Tooltip: This column shows the date the message was submitted
 
 Payment:
-    Text: Payment
-    Tooltip: This column shows the amount promised by the client
+  Text: Payment
+  Tooltip: This column shows the amount promised by the client
 
 Tier:
-    Text: Tier
-    Tooltip: This column shows the mission tier
+  Text: Tier
+  Tooltip: This column shows the mission tier
 
 Difficulty:
-    Text: Difficulty
-    Tooltip: This column shows the estimated mission difficulty
+  Text: Difficulty
+  Tooltip: This column shows the estimated mission difficulty
 
 Subject:
-    Text: Subject
-    Tooltip: This column shows the subject of the message
+  Text: Subject
+  Tooltip: This column shows the subject of the message
         
 Accept:
-    Text: Accept
-    Tooltip: Accept this mission
+  Text: Accept
+  Tooltip: Accept this mission
 
 Contact:
-    Text: Contact
-    Tooltip: Contact the employer of this mission
+  Text: Contact
+  Tooltip: Contact the employer of this mission
 
 Exit:
-    Text: Exit BBS
-    Tooltip: Exit
+  Text: Exit BBS
+  Tooltip: Exit
         
 MessageTip: Read this Bulletin Board message
 
