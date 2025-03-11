@@ -47,7 +47,12 @@ Interfaces:
   SharesList: interface/remoteInterface/stockMarketList.yml
   SharesView: interface/remoteInterface/stockMarketView.yml
   SWSales: interface/remoteInterface/softwareSales.yml
+  SocialSecurity: interface/remoteInterface/socialRecord.yml
   Record: interface/remoteInterface/recordGeneric.yml
+  UserID: interface/remoteInterface/userPassword.yml
+  VoiceAnalysis: interface/remoteInterface/voiceAuth.yml
+  VoicePhone: interface/remoteInterface/voicePhone.yml
+  VSEC: interface/remoteInterface/vsec.yml
 
 News:
   ARCUnusualHiring: news/plot/main/act1scene2.yml
