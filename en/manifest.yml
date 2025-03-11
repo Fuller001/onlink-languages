@@ -41,10 +41,13 @@ Interfaces:
   Console: computer/console.yml
   Contact: interface/remoteInterface/contactEmployer.yml
   Disconnected: interface/remoteInterface/disconnected.yml
+  HWSales: interface/remoteInterface/hardwareSales.yml
   Loans: interface/remoteInterface/loanInfo.yml
   Password: interface/remoteInterface/password.yml
+  SharesList: interface/remoteInterface/stockMarketList.yml
+  SharesView: interface/remoteInterface/stockMarketView.yml
   SWSales: interface/remoteInterface/softwareSales.yml
-  HWSales: interface/remoteInterface/hardwareSales.yml
+  Record: interface/remoteInterface/recordGeneric.yml
 
 News:
   ARCUnusualHiring: news/plot/main/act1scene2.yml

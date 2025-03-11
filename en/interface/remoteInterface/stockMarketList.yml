@@ -1,17 +1,20 @@
 ---
-NameTitle:
-    Text: Company name
-PriceTitle:
-    Text: Price per share
-ChangeTitle:
-    Text: Change (Qtr)
+NameTitle: Company name
+
+PriceTitle: Price per share
+
+ChangeTitle: Change (Qtr)
+
 CompanyListing:
-    Tooltip: View this share in more detail
+  Tooltip: View this share in more detail
+
 Filter:
-    Text: Filter
-    Tooltip: Click here to apply the filter
+  Text: Filter
+  Tooltip: Click here to apply the filter
+
 FilterText:
-    Tooltip: Enter filter pattern here
+  Tooltip: Enter filter pattern here
+
 Exit:
-    Text: Close
-    Tooltip: Close this screen
+  Text: Close
+  Tooltip: Close this screen

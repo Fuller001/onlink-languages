@@ -1,16 +1,19 @@
 ---
 Previous:
-    Text: Previous
-    Tooltip: Scroll to the previous record
+  Text: {{ generic_previous }}
+  Tooltip: Scroll to the previous record
+
 Next:
-    Text: Next
-    Tooltip: Scroll to the next record
+  Text: {{ generic_next }}
+  Tooltip: Scroll to the next record
+
 Commit:
-    Text: Commit
-    Tooltip: Commit the changes you have made
+  Text: Commit
+  Tooltip: Commit the changes you have made
+
 Exit:
-    Text: Close
-    Tooltip: Close the records screen
+  Text: Close
+  Tooltip: Close the records screen
 
 GenericLoginType: Username
 BankLoginType: Account
