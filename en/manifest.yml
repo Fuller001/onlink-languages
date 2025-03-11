@@ -38,8 +38,11 @@ Interfaces:
   Account: interface/remoteInterface/accountInfo.yml
   BulletinBoard: interface/remoteInterface/bulletinBoard.yml
   CompanyInfo: interface/remoteInterface/companyInfo.yml
+  Console: computer/console.yml
   Contact: interface/remoteInterface/contactEmployer.yml
+  Disconnected: interface/remoteInterface/disconnected.yml
   Loans: interface/remoteInterface/loanInfo.yml
+  Password: interface/remoteInterface/password.yml
   SWSales: interface/remoteInterface/softwareSales.yml
   HWSales: interface/remoteInterface/hardwareSales.yml
 
