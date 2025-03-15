@@ -8,6 +8,7 @@ Data:
   ShortcutSoftware: computer/executable_file_types.yml
   Software: software/common.yml
   Hardware: hardware/common.yml
+  VitalRecords: vital_records.yml
 
 Computer:
   Concept: computer/concepts.yml
