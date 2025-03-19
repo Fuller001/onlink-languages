@@ -1,0 +1,15 @@
+---
+MainMenu:
+  Subtitle: Central Mainframe Main Menu
+  Access:
+    - Name: VPNKey
+      Text: VPN Session Key Server
+      Tooltip: Generate a key for access to the corporate LAN
+
+VPNKey:
+  Subtitle: VPN Key Service
+
+VPNMessage:
+  Subtitle: Create VPN Session Key
+  Text: Your session key has been created.
+  Next: {{ generic_ok }}

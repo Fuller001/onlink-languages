@@ -12,6 +12,7 @@ Data:
 
 Computer:
   Concept: computer/concepts.yml
+  CommonScreens: world/screens/commonScreens.yml
   Security: computer/security.yml
   NameGeneration: computer/names.yml
 

@@ -1,65 +1,88 @@
 ---
 MainTitle: {{ owner_name }}
+NextScreen: {{ generic_next }}
+PreviousScreen: {{ generic_back }}
 
 MainMenu:
-    Subtitle: Main Menu
-    
+  Subtitle: Main Menu
+  
 AdminMenu:
-    Menu: Admin
-    MenuTip: Enter administrative mode
-    Subtitle: Admin Menu
+  Menu: Admin
+  MenuTip: Enter administrative mode
+  Subtitle: Admin Menu
 
 MenuReturn:
-    Menu: Main Menu
-    MenuTip: Return to the main menu
+  Menu: Main Menu
+  MenuTip: Return to the main menu
 
 MessageScreen:
-    NextPage: {{ generic_next }}
-    PreviousPage: {{ generic_back }}
+  NextPage: {{ generic_next }}
+  PreviousPage: {{ generic_back }}
 
 MenuCompanyInfo:
-    Menu: Contact Us
-    MenuTip: View company contact information
+  Menu: Contact Us
+  MenuTip: View company contact information
 
 MarketSoftware:
-    Menu: Software Market
-    MenuTip: Buy new Software
-    Subtitle: Software Sales
+  Menu: Software Market
+  MenuTip: Buy new Software
+  Subtitle: Software Sales
 
 MarketHardware:
-    Menu: Hardware Market
-    MenuTip: Buy new Hardware
-    Subtitle: Hardware sales
+  Menu: Hardware Market
+  MenuTip: Buy new Hardware
+  Subtitle: Hardware sales
 
 FileServer:
-    Menu: File server
-    MenuTip: Access the file server
-    Subtitle: File Server
+  Menu: File server
+  MenuTip: Access the file server
+  Subtitle: File Server
 
 MenuSearchRecords:
-    Menu: Search Records
+  Menu: Search Records
 
 ViewRecords:
-    Menu: View records
-    MenuTip: View the records stored on this system
-    Subtitle: Records
+  Menu: View records
+  MenuTip: View the records stored on this system
+  Subtitle: Records
 
 LinksScreen:
-    Menu: View links
-    MenuTip: View all links available on this system
-    Subtitle: Links
+  Menu: View links
+  MenuTip: View all links available on this system
+  Subtitle: Links
 
 LogScreen:
-    Menu: View Logs
-    MenuTip: View the access logs on this system
-    Subtitle: Access Logs
+  Menu: View Logs
+  MenuTip: View the access logs on this system
+  Subtitle: Access Logs
 
 SecurityScreen:
-    Menu: Security
-    MenuTip: Enable and disable security systems
-    Subtitle: Security
+  Menu: Security
+  MenuTip: Enable and disable security systems
+  Subtitle: Security
 
 ConsoleScreen:
-    Menu: Console
-    MenuTip: Run a console
-    Subtitle: Console
+  Menu: Console
+  MenuTip: Run a console
+  Subtitle: Console
+
+HighSecurity:
+  Subtitle: Authorisation required
+
+UserID:
+  Subtitle: Log in
+
+Password:
+  Subtitle: Password authorisation required
+
+Cypher:
+  Subtitle: Enter elliptic-curve encryption cypher
+
+VoiceAnalysis:
+  Subtitle: Voice print analysis required
+
+VDPIN:
+  Subtitle: Virtual Dynamic Personal Identification Number
+
+VSEC:
+  Subtitle: VDPIN Secure
