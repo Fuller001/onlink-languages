@@ -109,6 +109,15 @@ CoreSongs:
 UserSongs:
   Text: User Songs
   
+Mute:
+  Tooltip: Click to mute all sounds
+  
+MuteMusic:
+  Tooltip: Click to mute music
+  
+MuteEffect:
+  Tooltip: Click to mute effects
+  
 Rewind:
   Tooltip: Click to replay last track
   
@@ -135,7 +144,21 @@ Playlist:
   Items:
     Generic:
       Text: {{ misc_string }}
-      Tooltip: Adjust the master volume
+      Tooltip: Set the active playlist
+
+SampleRateText:
+  Text: Sample Rate
+  Tooltip: Set the sample rate.
+
+SampleRate:
+  Tooltip: Set the sample rate.
+  Items:
+    Auto:
+      Text: Track Sample Rate
+      Tooltip: Use the track Sample Rate
+    Generic:
+      Text: {{ misc_numeric }}Hz
+      Tooltip: Set the Sample Rate
 
 MasterVolume:
   Text: Master Volume
