@@ -25,10 +25,10 @@ ConnectionFailed:
     
     Rent a new Gateway computer?
     
-  Previous: 
+  PreviousScreen: 
     Text: NO
     Tooltip: Click here to log out.
     
-  Next: 
+  NextScreen: 
     Text: YES
     Tooltip: Click here to rent a new Gateway.

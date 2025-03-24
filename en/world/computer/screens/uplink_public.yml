@@ -9,16 +9,16 @@ AboutUs:
     Our company also provides rental of essential gateway computers to all agents, which allow unparalleled security in a high risk environment.
     
     You are here because you wish to join this company.
-  Previous: {{ generic_ok }}
+  PreviousScreen: {{ generic_ok }}
 
 MainMenu:
   Subtitle: Public server Main Menu
 
-  Access:
-    - Name: AboutUs
+  AttachScreens:
+    - ID: AboutUs
       Text: Find out who we are and what we do.
       
-    - Name: Information
+    - ID: Information
       Text: Register as an Agent
       Tooltip: Click to register yourself as a new Uplink Agent.
 
@@ -35,11 +35,11 @@ Information:
     
     - You will be officially rated as an Uplink Agent, and we will monitor your progress. As your rating increases you will find new avenues of work become available.
   
-  Previous:
+  PreviousScreen:
     Text: {{ generic_cancel }}
     Tooltip: Cancel registration.
   
-  Next:
+  NextScreen:
     Text: {{ generic_continue }}
     Tooltip: Continue registration.
 
@@ -63,6 +63,6 @@ FinalizeRegistration:
     
     Rental of your Gateway computer will cost {{ misc_numeric2 }} credits a month.
 
-  Next:
+  NextScreen:
     Text: {{ generic_done }}
     Tooltip: Click here when finished.

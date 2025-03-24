@@ -16,9 +16,9 @@ Computer:
   NameGeneration: computer/names.yml
   Screens:
     Common: world/screens/commonScreens.yml
-    MainFrame: world/computer/mainframe.yml
-    GatewayLost: world/computer/uplink_public_gateway_lost.yml
-    UplinkPublic: world/computer/uplink_public.yml
+    MainFrame: world/computer/screens/mainframe.yml
+    GatewayLost: world/computer/screens/uplink_public_gateway_lost.yml
+    UplinkPublic: world/computer/screens/uplink_public.yml
 
 Interfaces:
   MainMenu: interface/mainmenu/main_menu.yml
