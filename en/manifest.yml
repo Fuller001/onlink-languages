@@ -17,8 +17,16 @@ Computer:
   Screens:
     Common: world/screens/commonScreens.yml
     MainFrame: world/computer/screens/mainframe.yml
-    GatewayLost: world/computer/screens/uplink_public_gateway_lost.yml
+    
     UplinkPublic: world/computer/screens/uplink_public.yml
+    GatewayLost: world/computer/screens/uplink_public_gateway_lost.yml
+    
+    UplinkInternal: world/computer/screens/uplink_internal.yml
+    UplinkHelp: world/computer/screens/uplink_help.yml
+    UplinkHelpGettingStarted: world/computer/screens/uplink_help/getting_started.yml
+    UplinkHelpConnections: world/computer/screens/uplink_help/connections.yml
+    UplinkHelpGateways: world/computer/screens/uplink_help/gateways.yml
+    UplinkHelpSecurity: world/computer/screens/uplink_help/security.yml
 
 Interfaces:
   MainMenu: interface/mainmenu/main_menu.yml

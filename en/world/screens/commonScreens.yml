@@ -86,3 +86,18 @@ VDPIN:
 
 VSEC:
   Subtitle: VDPIN Secure
+
+SWSales:
+  Menu: Software Market
+  MenuTip: Buy new Software
+  Subtitle: Software Sales
+
+HWSales:
+  Menu: Hardware Market
+  MenuTip: Buy new Hardware
+  Subtitle: Hardware sales
+
+Security:
+  Menu: Security
+  MenuTip: Enable and disable security systems
+  Subtitle: Security
