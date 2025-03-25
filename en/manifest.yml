@@ -27,6 +27,8 @@ Computer:
     UplinkHelpConnections: world/computer/screens/uplink_help/connections.yml
     UplinkHelpGateways: world/computer/screens/uplink_help/gateways.yml
     UplinkHelpSecurity: world/computer/screens/uplink_help/security.yml
+    
+    PhoneDatabase: world/computer/screens/phone_database.yml
 
 Interfaces:
   MainMenu: interface/mainmenu/main_menu.yml
