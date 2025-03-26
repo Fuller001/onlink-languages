@@ -16,10 +16,6 @@ MenuReturn:
   Menu: Main Menu
   MenuTip: Return to the main menu
 
-MessageScreen:
-  NextPage: {{ generic_next }}
-  PreviousPage: {{ generic_back }}
-
 MenuCompanyInfo:
   Menu: Contact Us
   MenuTip: View company contact information

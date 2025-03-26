@@ -61,6 +61,7 @@ Interfaces:
   Disconnected: interface/remoteInterface/disconnected.yml
   HWSales: interface/remoteInterface/hardwareSales.yml
   Loans: interface/remoteInterface/loanInfo.yml
+  Message: interface/remoteInterface/message.yml
   Password: interface/remoteInterface/password.yml
   SharesList: interface/remoteInterface/stockMarketList.yml
   SharesView: interface/remoteInterface/stockMarketView.yml
