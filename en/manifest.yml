@@ -30,6 +30,7 @@ Computer:
     
     PhoneDatabase: world/computer/screens/phone_database.yml
     StockMarket: world/computer/screens/stock_market.yml
+    Introversion: world/computer/screens/introversion.yml
 
 Interfaces:
   MainMenu: interface/mainmenu/main_menu.yml
