@@ -11,7 +11,6 @@ Intro:
 
 MainMenu:
   Menu: Exit
-  MenuTip: Return to the main menu
 
 Browse:
   Menu: Browse/Search
@@ -23,6 +22,3 @@ Record:
 Password:
   Menu: Admin
   MenuTip: Click here to modify the database
-
-AdminMenu:
-  Subtitle: Admin menu
