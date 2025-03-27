@@ -17,6 +17,7 @@ Computer:
   Screens:
     Common: world/screens/commonScreens.yml
     MainFrame: world/computer/screens/mainframe.yml
+    PrimaryServer: world/computer/screens/primary_server.yml
     
     UplinkPublic: world/computer/screens/uplink_public.yml
     GatewayLost: world/computer/screens/uplink_public_gateway_lost.yml

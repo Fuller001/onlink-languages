@@ -62,6 +62,15 @@ ConsoleScreen:
   Menu: Console
   MenuTip: Run a console
   Subtitle: Console
+  
+CompanyInfo:
+  Menu: Contact Us
+  MenuTip: View company contact information
+
+Record:
+  Menu: View records
+  MenuTip: View the records stored on this system
+  Subtitle: Records
 
 HighSecurity:
   Subtitle: Authorisation required
@@ -98,3 +107,8 @@ Security:
   Menu: Security
   MenuTip: Enable and disable security systems
   Subtitle: Security
+
+DataBank:
+  Menu: File server
+  MenuTip: Access the file server
+  Subtitle: File Server

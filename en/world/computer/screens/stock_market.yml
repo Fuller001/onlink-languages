@@ -35,6 +35,10 @@ Browse:
   
 ViewShares:
   Subtitle: View share details
+  
+ReturnToMainMenu:
+  Menu: Main Menu
+  MenuTip: Return to the main menu
 
 AdminMenu:
   AttachScreens:
