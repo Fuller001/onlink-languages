@@ -1,0 +1,7 @@
+---
+Welcome:
+  Subtitle: Public Sales Server
+  Text: {{ computer_name }}
+
+MainMenu:
+  Subtitle: Sales Server Main Menu
