@@ -3,59 +3,89 @@
 FullServerName: {{ owner_name }} {{ suffix }}
 FullServerPossessiveName: {{ owner_name }}'s {{ suffix }}
 
-# Computer Type
+# Ownership based on Computer Type
+ComputerMask: |
+  {% if computer_type & AgentGateway %} Uplink Gateway System
+  {% elif computer_type & PersonalComputer %} Unknown Personal Computer
+  {% elif computer_type & VoicePhone %} Unknown Phone Number
+  {% else %} Unknown Link
+  {% endif %}
+
+OwnerMask: Unknown Owner
+
+# TLD based on Computer Type
+company_short_type: |
+  {% if company_type == Academic %} edu
+  {% elif company_type == ServiceProvider %} net
+  {% elif company_type == Government %} gov
+  {% else %} com
+  {% endif %} 
+
+company_domain: {{ company_name | replace(' ', '-') | lower }}.{{ company_short_type }}
+
 PublicAccessServer:
-    Name: Public Access Server
+  Name: www.{{ company_domain }}
+  Alias: Public Access Server
+
+PublicSalesServer:
+  Name: www.{{ company_domain }}
+  Alias: Public Sales Server
 
 PublicNetworkServer:
-    Name: Network Access Server
+  Name: www.{{ company_domain }}
+  Alias: Network Access Server
 
 AccessTerminal:
-    Alias: Access Terminal
+  Name: terminal-{{ serial }}.{{ company_domain }}
+  Alias: Access Terminal
 
 InternalServices:
-    Name: Internal Services Machine
+  Name: internal.{{ company_domain }}
+  Alias: Internal Services Machine
 
 Mainframe:
-    Name: Central Mainframe
+  Name: mainframe.{{ company_domain }}
+  Alias: Central Mainframe
 
 BankServer:
-    Name: International Bank
+  Name: finance.{{ company_domain }}
+  Alias: International Bank
 
 FileServer:
-    Name: File Server
+  Name: ftp.{{ company_domain }}
+  Alias: File Server
 
 BackupServer:
-    Name: Backup Server
+  Name: backup.{{ company_domain }}
+  Alias: Backup Server
 
 CorporateGateway:
-    Name: Gateway System
-    LongName: Gateway Security System
+  Name: gateway.{{ company_domain }}
+  Alias: Gateway System
+  LongName: Gateway Security System
 
 LiftingServer:
-    Name: Lifting Server
-
-LiftingServer2:
-    Name: Lifting Server_
-    Alias: Lifting Server
+  Name: ls{{ serial }}.{{ company_domain }}
+  Alias: Lifting Server
 
 AclServer:
-    Name: Access Control System
+  Name: exec.{{ company_domain }}
+  Alias: Access Control System
 
 NameServer:
-    Name: Name Server
+  Name: ns{{ serial }}.{{ company_domain }}
+  Alias: Name Server
 
 ProjectServer:
-    Name: Project Server
+  Name: git.{{ company_domain }}
+  Alias: Project Server
 
 LanSystem:
-    Name: Local Area Network
-
-LanDialUp:
-    Name: LAN Dial Up access
+  Name: vpn.{{ company_domain }}
+  Alias: Local Area Network
 
 PersonalComputer:
-    Name: Personal Computer
+  Name: Personal Computer
 
 PersonalPhone:
-    Name: Phone Number
+  Name: Phone Number
