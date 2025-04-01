@@ -74,6 +74,8 @@ Interfaces:
   VoiceAnalysis: interface/remoteInterface/voiceAuth.yml
   VoicePhone: interface/remoteInterface/voicePhone.yml
   VSEC: interface/remoteInterface/vsec.yml
+  
+  SearchBox: interface/remoteInterface/searchRecord.yml
 
 News:
   ARCUnusualHiring: news/plot/main/act1scene2.yml
