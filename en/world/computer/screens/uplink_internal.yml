@@ -39,21 +39,3 @@ Rankings:
 AdminCypher:
   Menu: Admin
   MenuTip: Access Administrator services (security level 1 required)
-
-HardwareSuccess:
-  Subtitle: Hardware purchase successful
-  Text: |
-    Your requested hardware changes have been accepted. The maintenance will occur in the next 24 hours.
-    
-    You will be notified when the job is completed.
-  NextPage: Return
-
-HardwareFail:
-  Subtitle: Hardware purchase failed
-  Text: Your requested hardware changes could not be completed. It appears that you lack the funds to purchase all the requested hardware. As such, your transaction has been cancelled.
-  NextPage: Return
-
-HardwareCancel:
-  Subtitle: Hardware purchase cancelled
-  Text: No maintenance or transaction has occurred: No items were requested.
-  NextPage: Return

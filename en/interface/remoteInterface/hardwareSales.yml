@@ -80,3 +80,21 @@ RemoveInfo:
   NoComponent: Having no {{ hardware_type }} on a gateway is not allowed
   UpgradeNeededModem: This hardware is needed by the current modem and cannot be sold
   UpgradeNeededCooling: This hardware is needed by a cooling unit and cannot be sold
+
+PurchaseSuccess:
+  Subtitle: Hardware purchase successful
+  Text: |
+    Your requested hardware changes have been accepted. The maintenance will occur in the next 24 hours.
+    
+    You will be notified when the job is completed.
+  NextPage: {{ generic_return }}
+
+PurchaseFailure:
+  Subtitle: Hardware purchase failed
+  Text: Your requested hardware changes could not be completed. It appears that you lack the funds to purchase all the requested hardware. As such, your transaction has been cancelled.
+  NextPage: {{ generic_return }}
+
+PurchaseCancelled:
+  Subtitle: Hardware purchase cancelled
+  Text: No maintenance or transaction has occurred: No items were requested.
+  NextPage: {{ generic_return }}
