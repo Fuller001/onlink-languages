@@ -2,7 +2,8 @@
 HelpMenu:
   Menu: Help
   MenuTip: Read documents on a wide range of skills
-  MainTitle: Uplink Help
+  MenuBack: Help Menu
+  MenuBackTip: Return to help menu
   Subtitle: Help/
 
 MoreInfo:

@@ -4,15 +4,13 @@
 Connections:
   Menu: Secure Connections
   MenuTip: Info on establishing secure, untraceable connections
+  MainTitle: {{ owner_name }} Help
   Subtitle: Help/Secure Connections/
-  PreviousScreen:
-    Text: Help Menu
-    Tip: Return to help menu
 
 Intro:
   Menu: Introduction
   MenuTip: Introduction
-  MainTitle: {{ company_header }} Help
+  MainTitle: Secure Connections
   Subtitle: Help/Secure Connections/Introduction
   Text: |
     When you connect to a computer from your links screen, a direct connection is established between your Gateway and the computer. This type of connection is very easy to trace back to your Gateway. If a connection is traced back to your Gateway, you will receive blame for the crime and risk legal action. 
@@ -22,7 +20,7 @@ Intro:
 Bounce:
   Menu: Call bouncing
   MenuTip: Info on routing your call through multiple servers
-  MainTitle: {{ company_header }} Help
+  MainTitle: Secure Connections
   Subtitle: Help/Secure Connections/Call Bouncing
   Text: |
     The first step in establishing a secure untraceable connection is to route your connection through multiple servers all over the world. In order to trace you, the agents on the target machine will be forced to trace each link individually, which takes time. They will get you eventually, but it will take much longer and you will have warning before they finally get back to you.
@@ -34,7 +32,7 @@ Bounce:
 Active:
   Menu: Active Traces
   MenuTip: Info on the Active Traces that can be employed to track you
-  MainTitle: {{ company_header }} Help
+  MainTitle: Secure Connections
   Subtitle: Help/Secure Connections/Active Traces
   Text: |
     Whenever you begin to act suspiciously, the target machine will begin to trace you. Many computers are running security software which begins a trace on certain key actions - such as trying hundreds of passwords very fast (e.g. a Dictionary Hacker), deleting logs or use of the admin account.
@@ -44,7 +42,7 @@ Active:
 Passive:
   Menu: Passive Traces
   MenuTip: Info on the Passive Traces that can be employed to track you
-  MainTitle: {{ company_header }} Help
+  MainTitle: Secure Connections
   Subtitle: Help/Secure Connections/Passive Traces
   Text: |
     Whenever you use call bouncing to connect to a computer, you will leave logs behind on each computer used. Normally this is not a problem, but this information can be used against you. If you disconnect before an active trace has completed, the company that owned that computer may begin a Passive Trace.
@@ -56,7 +54,7 @@ Passive:
 Tracking:
   Menu: Trace Tracking
   MenuTip: Info on ways to monitor traces on your connection
-  MainTitle: {{ company_header }} Help
+  MainTitle: Secure Connections
   Subtitle: Help/Secure Connections/Trace Tracking
   Text: |
     Whilst you are hacking, it is inevitable that people will attempt to trace you. It is very important that you avoid being traced - this of course requires that you know how close you are to being traced at any point.
@@ -66,7 +64,7 @@ Tracking:
 ActiveTips:
   Menu: Active Tips
   MenuTip: How to avoid being traced by active traces
-  MainTitle: {{ company_header }} Help
+  MainTitle: Secure Connections
   Subtitle: Help/Secure Connections/Active Tips
   Text: |
     There are several important points to keep in mind when setting up connections. If done correctly, you can give yourself the extra few seconds needed to get the job done without being caught.
@@ -84,7 +82,7 @@ ActiveTips:
 PassiveTips:
   Menu: Passive Tips
   MenuTip: How to avoid being traced by passive traces
-  MainTitle: {{ company_header }} Help
+  MainTitle: Secure Connections
   Subtitle: Help/Secure Connections/Passive Tips
   Text: |
     There are several methods of preventing Passive traces from coming back to you. Here are some suggestions.

@@ -4,7 +4,8 @@ NextScreen: {{ generic_next }}
 PreviousScreen: {{ generic_back }}
 
 MainMenu:
-  MenuTip: Return to the main menu
+  MenuBack: Main Menu
+  MenuBackTip: Return to the main menu
   Subtitle: Main Menu
   
 AdminMenu:

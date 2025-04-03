@@ -2,15 +2,13 @@
 Gateways:
   Menu: Gateway Computers
   MenuTip: Info on the usage of your Gateway computer
+  MainTitle: {{ owner_name }} Help
   Subtitle: Help/Gateway Computers/
-  PreviousScreen:
-    Text: Help Menu
-    Tip: Return to help menu
 
 Intro:
   Menu: Introduction
   MenuTip: Introduction to the use of Gateway computers
-  MainTitle: {{ company_header }} Help
+  MainTitle: Gateway Computers
   Subtitle: Help/Gateway Computers/Introduction
   Text: |
     When an Uplink agent logs on to his local machine, the Uplink software on his computer establishes a direct connection to his Gateway computer and runs the Uplink Operating System on that Gateway. This allows each agent to retain a safe distance from his jumping off point onto the Web and provides virtual anonymity in the world - there is no way to trace an agent from a Gateway.
@@ -22,7 +20,7 @@ Intro:
 Reason:
   Menu: Why Use Gateways
   MenuTip: Info on the purpose of the Gateway
-  MainTitle: {{ company_header }} Help
+  MainTitle: Gateway Computers
   Subtitle: Help/Gateway Computers/Why Use Gateways
   Text: |
     A gateway computer gives total physical anonymity to all Uplink agents who use them. A gateway computer is programmed to automatically disconnect any connection that has been traced back to the Gateway, thus ensuring that an agent's physical location can never be determined. Gateway computers keep no logs of access identifying the user.
@@ -34,7 +32,7 @@ Reason:
 Spec:
   Menu: Physical specs
   MenuTip: Info on the physical specifications of a Gateway computer
-  MainTitle: {{ company_header }} Help
+  MainTitle: Gateway Computers
   Subtitle: Help/Gateway Computers/Physical Specifications
   Text: |
     Uplink Corporation owns several large offices around the world, which are used to house hundreds of Gateway computers. These computers are openly connected to the phone network, allowing agents to connect to them from any local computer. The buildings are under 24 hour guard. Engineering teams from Uplink Corporation routinely service the computers inside, installing new hardware when requested.
@@ -44,7 +42,7 @@ Spec:
 Upgrade:
   Menu: Upgrading Your Gateway
   MenuTip: Info on how to maintain your Gateway computer
-  MainTitle: {{ company_header }} Help
+  MainTitle: Gateway Computers
   Subtitle: Help/Gateway Computers/Upgrading Your Gateway
   Text: |
     You can order new hardware upgrades for your Gateway from the Hardware menu on the Uplink Internal Services System. All hardware will be installed within 24 hours by a certified Uplink technician. Available upgrades include faster processors, more memory capacity, higher speed connections to the Net, and many more.

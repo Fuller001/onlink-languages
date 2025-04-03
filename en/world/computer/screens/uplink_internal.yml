@@ -3,7 +3,9 @@ UplinkLogin:
   Subtitle: Internal Services System
 
 MainMenu:
-  Internal Services Main Menu
+  Subtitle: Internal Services Main Menu
+  MenuBack: Main Menu
+  MenuBackTip: Return to the main menu
 
 News:
   Menu: News Server

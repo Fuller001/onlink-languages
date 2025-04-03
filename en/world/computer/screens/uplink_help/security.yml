@@ -2,15 +2,13 @@
 Security:
   Menu: Security Systems
   MenuTip: Info on the various security systems in use
+  MainTitle: {{ owner_name }} Help
   Subtitle: Help/Security Systems/
-  PreviousScreen:
-    Text: Help Menu
-    Tip: Return to help menu
 
 Intro:
   Menu: Introduction
   MenuTip: Introduction to security systems
-  MainTitle: {{ company_header }} Help
+  MainTitle: Security Systems
   Subtitle: Help/Security Systems/Introduction
   Text: |
     As you accept more work from Uplink Corporation you will encounter more and more security systems of different types and strengths. All security systems are designed with one primary goal - to keep you out, and as an agent you must learn to bypass them.
@@ -22,7 +20,7 @@ Intro:
 Proxy:
   Menu: The Proxy
   MenuTip: Information on the Proxy security system
-  MainTitle: {{ company_header }} Help
+  MainTitle: Security Systems
   Subtitle: Help/Security Systems/The Proxy
   Text: |
     The primary purpose of the Proxy server is to stop unauthorised users from modifying records or logs. A system with a good Proxy server will permit you to examine records and logs but will not allow you to change them. As such, you will not be able to remove any logs of your actions, nor will you be able to make any alterations to any records on the target system.
@@ -32,7 +30,7 @@ Proxy:
 Firewall:
   Menu: The Firewall
   MenuTip: Information on the Firewall security system
-  MainTitle: {{ company_header }} Help
+  MainTitle: Security Systems
   Subtitle: Help/Security Systems/The Firewall
   Text: |
     The primary purpose of the Firewall is to prevent unauthorised usage of files on the target system. A good Firewall will stop you from copying, deleting or downloading any files located on the target computer.
@@ -42,7 +40,7 @@ Firewall:
 Monitor:
   Menu: The Monitor
   MenuTip: Information on the Monitor security system
-  MainTitle: {{ company_header }} Help
+  MainTitle: Security Systems
   Subtitle: Help/Security Systems/The Monitor
   Text: |
     Monitor systems are designed to detect unauthorised activity. They are usually triggered when a user attempts to hack a password, makes use of the Admin account, or starts deleting files. Once they have detected illegal activity they will sound the alarm and start an Active Trace on your connection. They will also flag your logs as suspicious.
@@ -54,7 +52,7 @@ Monitor:
 Voice:
   Menu: Voice Print ID Systems
   MenuTip: Information on voice print security
-  MainTitle: {{ company_header }} Help
+  MainTitle: Security Systems
   Subtitle: Help/Security Systems/Voice Print ID
   Text: |
     Many systems that require a specific person to log in use Voice Print technology. The user's voice is first sampled and analysed by the company, then digitised and encrypted onto their system. When that person logs in, (s)he reproduces a certain phrase or set of words. These are then analysed and compared.
@@ -64,7 +62,7 @@ Voice:
 Cypher:
   Menu: Elliptic Curve Systems
   MenuTip: Information on the Elliptic Curve system
-  MainTitle: {{ company_header }} Help
+  MainTitle: Security Systems
   Subtitle: Help/Security Systems/Elliptic Curve Security
   Text: |
     Faced with the growing threat of hackers, many companies have begun using Elliptic Curve Cryptography. A user on a system must input a large block of data in sequence, synchronised with the system. This cannot be done by hand - the timings must be perfect. Elliptic Curve Cryptography is popular due to the large amount of CPU power needed to force crack it.

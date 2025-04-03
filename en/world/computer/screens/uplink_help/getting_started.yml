@@ -2,15 +2,13 @@
 GettingStarted:
   Menu: Getting Started
   MenuTip: If you're new to this, you should read this section
+  MainTitle: {{ owner_name }} Help
   Subtitle: Help/Getting Started/
-  PreviousScreen:
-    Text: Help Menu
-    Tip: Return to help menu
 
 Intro:
   Menu: Introduction
   MenuTip: What this section is about
-  MainTitle: {{ company_header }} Help
+  MainTitle: Gateway Computers
   Subtitle: Help/Getting Started/Introduction
   Text: |
     This section of the help documents is designed to help new Uplink agents with their first few hours online.
@@ -22,7 +20,7 @@ Intro:
 Tools:
   Menu: Basic Tools
   MenuTip: Information on the first software tools to buy
-  MainTitle: {{ company_header }} Help
+  MainTitle: Gateway Computers
   Subtitle: Help/Getting Started/Basic Tools
   Text: |
     The basic tools that you will require for the Uplink Test mission will also be required for almost every other type of mission, so you will not be wasting your money when you buy these. We recommend you purchase these tools immediately as they will be essential.
@@ -36,7 +34,7 @@ Tools:
 Connection:
   Menu: The Connection
   MenuTip: Information on opening a connection to a target
-  MainTitle: {{ company_header }} Help
+  MainTitle: Gateway Computers
   Subtitle: Help/Getting Started/The Connection
   Text: |
     The Uplink Test Mission requires you to connect to the Uplink Test Machine and steal a file. You should not connect directly to it - they would be able to trace you very quickly. Instead, you should bounce our call around the world.
@@ -48,7 +46,7 @@ Connection:
 Breaking:
   Menu: Password Breaking
   MenuTip: Information on breaking the opening password
-  MainTitle: {{ company_header }} Help
+  MainTitle: Gateway Computers
   Subtitle: Help/Getting Started/Password Breaking
   Text: |
     Once connected to the Uplink Test Machine, you will see the main login screen. Since you do not have security clearance to use this machine, you will need to hack through this screen. Passwords can be broken in one of two ways - either using a dictionary hacker (which tries every English word from a large dictionary) or a password cracker, which takes longer but can break non-English-word passwords.
@@ -58,7 +56,7 @@ Breaking:
 Stealing:
   Menu: Stealing
   MenuTip: Information on stealing the files you need
-  MainTitle: {{ company_header }} Help
+  MainTitle: Gateway Computers
   Subtitle: Help/Getting Started/Stealing the File
   Text: |
     Once you are in the system, you should have no trouble accessing the file server and downloading the file you need (Use the File Copier and download the file 'uplink test data' into your memory banks). In many cases this might not be so easy - you may find that Firewall or Proxy systems are running, which will prevent you from just copying files easily. You will learn to bypass these in time.
@@ -70,7 +68,7 @@ Stealing:
 Hiding:
   Menu: Hide
   MenuTip: Information on covering your tracks
-  MainTitle: {{ company_header }} Help
+  MainTitle: Gateway Computers
   Subtitle: Help/Getting Started/Covering Your Tracks
   Text: |
     The final step in any hack is to cover your tracks.
@@ -82,7 +80,7 @@ Hiding:
 Missions:
   Menu: Missions
   MenuTip: Information on getting new mission contracts
-  MainTitle: {{ company_header }} Help
+  MainTitle: Gateway Computers
   Subtitle: Help/Getting Started/Future Missions
   Text: |
     The Uplink test mission is the easiest mission you will ever attempt. Once you feel good enough, connect to the Uplink Internal Services Machine and go to the Missions section. You will see some missions that are already available. You may be able to auto-accept some of them, and you will need to contact the employer to accept others. As your rating increases, more and more missions will appear here. You will find that you will need to upgrade your hardware and software before the more complex missions can be attempted.
