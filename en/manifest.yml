@@ -20,6 +20,7 @@ Computer:
     PublicBank: world/computer/screens/public_bank_server.yml
     PrimaryServer: world/computer/screens/primary_server.yml
     MainFrame: world/computer/screens/mainframe.yml
+    LiftingServer: world/computer/screens/lifting_server.yml
     
     UplinkPublic: world/computer/screens/uplink_public.yml
     GatewayLost: world/computer/screens/uplink_public_gateway_lost.yml
