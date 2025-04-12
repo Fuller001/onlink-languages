@@ -1,0 +1,37 @@
+---
+Welcome:
+  Subtitle: Research Centre
+  NextPage: {{ generic_ok }}
+  Text: |
+    Welcome to the Uplink Laboratories Research Centre.
+    
+    It is our intent with this server to explain some of the newest security systems available on the market and to detail both the advantages and disadvantages of using these systems.
+    
+    Uplink Laboratories is not owned nor operated by Uplink Corporation nor their affiliates and agents.
+    
+    Information given on this server is given specifically for academic purposes only.
+  
+Links:
+  Menu: Other Software Vendors
+  MenuTip: Find a vendor for consumer-grade software
+  Subtitle: Additional Software Vendors
+
+UplinkLabsResearch:
+  Menu: Knowledge Database
+  MenuTip: Read documents on a wide range security systems
+  MenuBack: Help Menu
+  MenuBackTip: Return to the Help Menu
+  Subtitle: Browsing Documentation
+  
+Statement:
+  Menu: Research Abstract
+  MenuTip: Our mission statement
+  Subtitle: Viewing Mission Statement
+  PreviousPage: {{ generic_return }}
+  Text: |
+    It is our intent with this server to explain some of the newest security systems available on the market 
+    and to detail both the advantages and disadvantages of using these systems.
+    
+    Uplink Laboratories is not owned nor operated by Uplink Corporation nor their affiliates and agents.
+    
+    Information given on this server is intended for academic purposes only.

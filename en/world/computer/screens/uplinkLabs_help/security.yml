@@ -1,0 +1,60 @@
+---
+SecuritySystems:
+  Menu: Security Systems
+  MenuTip: Information regarding new security systems that have shown up in recent months
+  Subtitle: Browsing Security System Information
+
+Limiter:
+  Menu: B. Monitor
+  MenuTip: Read about the Bandwidth Monitor
+  Subtitle: Viewing Bandwidth Monitor Information
+  Text: |
+    The Bandwidth Monitor is a relatively new security system aimed at protecting the machine against flood attacks.
+    
+    While active, this system will monitor the data flow for each connection and drop packets when data spike occurs. Connections that exhibit repeated spikes will be automatically disconnected.
+    
+    With a Bandwidth Monitor system running, the exploit used to brute-force a password will fail. As such, unless this security is defeated, accounts will remain protected.
+
+Sentry:
+  Menu: Sentry
+  MenuTip: Read about the Sentry
+  Subtitle: Viewing Sentry Information
+  Text: |
+    The Sentry is a security system that would seem benign at first glance. While it never blocks a user, it will fake modifications on its host.
+    
+    When it is active, this system tracks changes made to records and, if a deletion occurs, stores in a private part of the system the data affected, before allowing the process to continue as intended.
+    
+    After the user disconnects from the system, the sentry will automatically place the records back as if no deletion had ever occurred.
+    
+    While not active for a user accessing the machine directly, Sentry has been quite effective against hacks since its release.
+
+ASE:
+  Menu: Encryption
+  MenuTip: Read about the Encryption
+  Subtitle: Viewing Encryption Information
+  Text: |
+    While file encryption has been around for a long time, network encryption has remained an elusive dream. The new Encryption security system is the realisation of that dream.
+    
+    When active, this security will encrypt everything sent to a remotely connecting user. The source of the connection normally has a key to resolve this encryption. However, an attacker will receive a continuous stream of garbled text.
+    
+    It is possible to navigate a machine protected by the Encryption system, but any commands sent to it fail, as the system cannot interpret clear text instructions.
+
+VDPIN:
+  Menu: VDPIN
+  MenuTip: Read about the VDPIN system
+  Subtitle: Viewing VDPIN Information
+  Text: |
+    The Virtual Dynamic Personal Identification Number security system, also known as VDPIN, is a keypad entry system that has wreaked havoc amongst the hacker community. Armed with an automated keycode update system to keep designated target informed, it appears impenetrable at first glance. However, Uplink Laboratories has in its bank of information a forcing technique known as the X-25 attack.
+    
+    Security professionals may purchase a tool known as VDPIN Cracker to audit their own systems.
+
+VSEC:
+  Menu: VSEC
+  MenuTip: Read about the VSEC system
+  Subtitle: Viewing VSEC Information
+  Text: |
+    Almost immediately after the discovery of the X-25 attack that could leave every VDPIN system vulnerable, a new system was developed, written from the base up that only allows a certain number of keystrokes before sealing the system for a short amount of time. It is however lenient to a few keycode mistakes to prevent employees from being too often locked out.
+    
+    Once the system is sealed, it is not possible to get to any screen from any terminal until the seal is lifted.
+    
+    There are two known versions of the VSEC system. The first allows input to any button, and the second only allows input on active buttons. There are also rumors of a third version in development, but the details on such a such a system remain to be seen.

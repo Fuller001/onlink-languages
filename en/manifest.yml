@@ -35,6 +35,13 @@ Computer:
     StockMarket: world/computer/screens/stock_market.yml
     Introversion: world/computer/screens/introversion.yml
     Internic: world/computer/screens/internic.yml
+    
+    UplinkLabsSales: world/computer/screens/uplinklabs_research.yml
+    UplinkLabs_NetworkInformation: world/computer/screens/uplinkLabs_help/network.yml
+    UplinkLabs_ComputerSystems: world/computer/screens/uplinkLabs_help/computer.yml
+    UplinkLabs_SecuritySystems: world/computer/screens/uplinkLabs_help/security.yml
+    UplinkLabs_HardwareInformation: world/computer/screens/uplinkLabs_help/hardware.yml
+    UplinkLabs_HUDAndSoftware: world/computer/screens/uplinkLabs_help/software.yml
 
 Interfaces:
   MainMenu: interface/mainmenu/main_menu.yml

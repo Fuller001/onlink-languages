@@ -1,0 +1,63 @@
+---
+HUDAndSoftware:
+  Menu: HUD and Client Software
+  MenuTip: Information regarding new software that has shown up in recent months
+  Subtitle: Browsing Software Manuals
+
+HelpAdmin:
+  Menu: Administration Panel
+  MenuTip: Information regarding the Administration usage
+  Messages:
+    - Subtitle: Viewing Administration Interface Manual
+      Text: |
+        The Administration Interface is for the more discerning user, and is not intended for casual use, as one can do a lot of harm to their computer if they do not know how to use it properly.
+        
+        The Administration Interface is a project that was commissioned to Uplink Laboratories by the Uplink Corporation in mid 2018. Its purpose is for fine tune management of one or multiple owned systems.
+        
+        Thanks to an agreement with the Uplink Corporation, the Administration Interface is now bundled with the base UplinkOS package. It is still sold  as a cluster license for other operating systems. Only one license is required for any number of systems you own, but the included interface with the UplinkOS package cannot be used to administrate non-UplinkOS systems.
+        
+        Should you purchase a standard (non-UplinkOS) license, a licensing server will be installed on your active system. This allows the interface to be accessible from any machine you use, as long as your licensing server remains intact.
+        
+        Should your licensing server be destroyed for any reason, either via electronic attack or otherwise, you will lose access to the standard license. However, due to recent legislation, you may simply return to your vendor to re-download your licensing server and registration.
+    - Subtitle: Viewing Administration Interface Manual - RAM Management
+      Text: |
+        Upon opening the panel for the first time, you will be greeted with information regarding your memory status. Due to the nature of the panel's ability in regards to memory management, it is advised that it is one of the first panels installed on a new system, as it will allow you to disable system-intensive resources, allowing you to squeeze the most use out of any hardware limitations you might experience.
+        
+        HUD upgrades as well as kernel extensions and countermeasures may be disabled or restarted from the panel, freeing up resources. Please note that the administration panel itself cannot be disabled.
+        
+        Also note that due to the nature of HUD upgrades, most will continue to consume memory simply by being installed, but to a much lesser extent than if they were active. This also applies to system kernel upgrades, but not to counter measure systems, which will free all system resources used.
+    - Subtitle: Viewing Administration Interface Manual - Gateway Setup
+      Text: |
+        Any gateway attached to your home system can be networked directly to it. From the gateway setup screen, you may select different computers for raw processing power, default storage, default gateway (as "staging"), what system to upgrade hardware on or install software to and, for future purpose, the default development managing computer.
+        
+        When selecting a system as Staging, only programs on that system may be run. Similarly, only HUD and system upgrades on that system can be used. However, due to the ever-expanding tools available for computer experts, the system is a good option for building custom toolkits based what one might need at any given time.
+        
+        Another common use of the Staging system is as that of a "meatshield" or DMZ. Many notable experts use a fairly poor quality machine as a staging system because of the disposable nature of such a system in case they are attacked.
+
+ServiceInjector:
+  Menu: Service Injector
+  MenuTip: Information regarding the Terminal Services Injector upgrade
+  Subtitle: Viewing Service Injector Manual
+  Text: |
+    The Terminal Services Injector client has been around for a short while and can be quite confusing for newcomers with the slew of tools it uses to function.
+    
+    This client exploits a system vulnerability discovered recently to access systems that would normally reject any entrance. Due to the nature of such vulnerabilities, the tool will need to probe for the proper address and code to inject, granting access deeper and deeper into the system.
+    
+    Most system have their information reachable within the main menu, as it contains day to day operation tools.
+    
+    Admin access allows for advanced functionalities but is rarely required.
+    
+    Console access allows to reach to the deepest part of the system, but will be heavily protected. Fortunately, the console access is almost never required.
+    
+    For a basic access, the auth and common packages are more than sufficient.
+
+Denial:
+  Menu: Denial
+  MenuTip: Information regarding the denial tool
+  Subtitle: Viewing Denial Manual
+  Text: |
+    Denial can cause some confusion in its application, as its metrics are not well known.
+    
+    To properly use it, the tool must be installed on a target machine, and activated through the console. Once activated, a system restart will be necessary to have it enabled. At that moment, if you use the tool locally, it will report the system as part of the infected network.
+    
+    While using the tool is straightforward, the number of machines required to be effective is not. A safe estimation of the minimal amount of required systems is between 30 and 50. That estimate varies depending on the securities protecting the system that is targeted.
