@@ -18,6 +18,7 @@ Computer:
     Common: world/screens/commonScreens.yml
     PublicSales: world/computer/screens/public_sales.yml
     PublicBank: world/computer/screens/public_bank_server.yml
+    NameServer: world/computer/screens/name_server.yml
     PrimaryServer: world/computer/screens/primary_server.yml
     MainFrame: world/computer/screens/mainframe.yml
     LiftingServer: world/computer/screens/lifting_server.yml

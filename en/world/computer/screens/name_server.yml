@@ -1,0 +1,13 @@
+---
+MainMenu:
+  Subtitle: Nameserver Administration
+
+Links:
+  MenuTip: Click here to view the local links
+
+SearchDB:
+  Menu: Search DB
+  MenuTip: Click here to search for a DNS record
+
+Record:
+  Subtitle: View DNS record
