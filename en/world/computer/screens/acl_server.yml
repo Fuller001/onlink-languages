@@ -1,0 +1,20 @@
+---
+GetOut:
+  Subtitle: Access Control System
+  Text: No public log-ons permitted
+
+MainMenu:
+  Subtitle: Access Control System
+
+FileServer:
+  Maintitle: Access Control System
+  Subtitle: Data Bank
+
+Logs:
+  Maintitle: Access Control System
+
+VSEC:
+  Maintitle: Access Control System
+  
+Console:
+  Maintitle: Access Control System

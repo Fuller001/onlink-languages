@@ -7,4 +7,8 @@ MainMenu:
   Subtitle: Lifting Server Main Menu
 
 FileServer:
+  Maintitle: Lifting Server
   Subtitle: Data Bank
+
+Logs:
+  Maintitle: Lifting Server

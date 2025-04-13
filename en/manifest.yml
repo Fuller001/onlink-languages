@@ -21,6 +21,7 @@ Computer:
     PrimaryServer: world/computer/screens/primary_server.yml
     MainFrame: world/computer/screens/mainframe.yml
     LiftingServer: world/computer/screens/lifting_server.yml
+    ACLServer: world/computer/screens/acl_server.yml
     
     UplinkPublic: world/computer/screens/uplink_public.yml
     GatewayLost: world/computer/screens/uplink_public_gateway_lost.yml
