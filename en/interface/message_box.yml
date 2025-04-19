@@ -1,4 +1,6 @@
 ---
+{!Include ../common.yml !}
+
 Close:
   Text: Close
   Tooltip: Close the message box
