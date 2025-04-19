@@ -1,4 +1,6 @@
 ---
+{!Include ../common.yml!}
+
 Description: >
     {% if mission_type == Research %}
     steal_multiple/research.yml

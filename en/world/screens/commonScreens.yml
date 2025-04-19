@@ -1,4 +1,6 @@
 ---
+{!Include ../../common.yml !}
+
 MainTitle: {{ owner_name }}
 NextScreen: {{ generic_next }}
 PreviousScreen: {{ generic_back }}

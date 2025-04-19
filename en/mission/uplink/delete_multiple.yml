@@ -1,4 +1,6 @@
 ---
+{!Include ../common.yml!}
+
 Description: >
     {% if mission_type == Research %}
     delete_multiple/research.yml

@@ -1,4 +1,6 @@
 ---
+{!Include ../../../common.yml !}
+
 MainMenu:
   Subtitle: Welcome to our Online Banking Server
   

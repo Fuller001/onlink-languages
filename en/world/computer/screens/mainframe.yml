@@ -1,4 +1,6 @@
 ---
+{!Include ../../../common.yml !}
+
 MainMenu:
   Subtitle: Central Mainframe Main Menu
   Access:

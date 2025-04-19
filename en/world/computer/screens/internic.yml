@@ -1,4 +1,6 @@
 ---
+{!Include ../../../common.yml !}
+
 Welcome:
   Subtitle: InterNet Information Center
   Text: |

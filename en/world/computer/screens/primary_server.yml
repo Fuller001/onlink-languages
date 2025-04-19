@@ -1,4 +1,6 @@
 ---
+{!Include ../../../common.yml !}
+
 MainMenu:
   Subtitle: |
     {% if company_type == Industrial %} Heavy Industries

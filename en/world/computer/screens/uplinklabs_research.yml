@@ -1,4 +1,6 @@
 ---
+{!Include ../../../common.yml !}
+
 Welcome:
   Subtitle: Research Centre
   NextPage: {{ generic_ok }}

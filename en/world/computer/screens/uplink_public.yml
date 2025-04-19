@@ -1,4 +1,6 @@
 ---
+{!Include ../../../common.yml !}
+
 AboutUs:
   Subtitle: About us
   Text: |
