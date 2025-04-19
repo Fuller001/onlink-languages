@@ -1,6 +1,4 @@
 ---
-{!include common.yml}
-
 Connections:
   Menu: Secure Connections
   MenuTip: Info on establishing secure, untraceable connections
