@@ -1,4 +1,6 @@
 ---
+{!Include ../../common.yml !}
+
 Exit:
   Text: {{ generic_ok }}
   Tooltip: Click to close this screen

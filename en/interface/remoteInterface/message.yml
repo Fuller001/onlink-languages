@@ -1,4 +1,6 @@
 ---
+{!Include ../../common.yml !}
+
 SendMail:
   Text: Mail this to me
   Tip: Click to send this information to yourself in an email

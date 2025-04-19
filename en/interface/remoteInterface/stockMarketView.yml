@@ -1,4 +1,6 @@
 ---
+{!Include ../../common.yml !}
+
 Graph: Share value graph
 Table: Share values
 

@@ -1,4 +1,6 @@
 ---
+{!Include ../../common.yml !}
+
 Search:
   Text: {{ generic_ok }}
   Tip: Click here when done

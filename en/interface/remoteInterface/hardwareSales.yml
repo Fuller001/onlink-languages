@@ -1,4 +1,6 @@
 ---
+{!Include ../../common.yml !}
+
 Components:
   Generic: {{ hardware_name }}
   GenericInstallation: {{ hardware_name }} (pending installation)

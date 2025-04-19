@@ -1,4 +1,6 @@
 ---
+{!Include ../../common.yml !}
+
 LoanField:
   Hint: Enter the loan amount
   Tooltip: Enter the loan amount

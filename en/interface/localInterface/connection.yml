@@ -1,4 +1,6 @@
 ---
+{!Include ../../common.yml !}
+
 TitleBar: CONNECTION MANAGER
 
 DisplayToggle:

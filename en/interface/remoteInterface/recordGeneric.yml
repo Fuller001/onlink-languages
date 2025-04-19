@@ -1,4 +1,6 @@
 ---
+{!Include ../../common.yml !}
+
 Previous:
   Text: {{ generic_previous }}
   Tooltip: Scroll to the previous record

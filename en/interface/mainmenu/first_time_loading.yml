@@ -1,4 +1,7 @@
 ---
+{!Include ../../common.yml !}
+{!Include ../../computer/concepts.yml !}
+
 Connection:
   UplinkPublic:
     Connect: Establishing connection to UPLINK public access server...

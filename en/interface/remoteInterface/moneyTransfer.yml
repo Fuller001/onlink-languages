@@ -1,4 +1,6 @@
 ---
+{!Include ../../common.yml !}
+
 SourceAccount:
   Text: Acc No. (From)
   Tip: Shows the source account number

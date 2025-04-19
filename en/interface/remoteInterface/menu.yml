@@ -1,4 +1,6 @@
 ---
+{!Include ../../common.yml !}
+
 PreviousPage:
   Text: {{ generic_previous }}
   Tip: Go to the previous page

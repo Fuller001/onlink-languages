@@ -1,4 +1,6 @@
 ---
+{!Include ../../common.yml !}
+
 Date:
   Text: Date
   Tooltip: This column shows the date the message was submitted
