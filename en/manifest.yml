@@ -34,10 +34,10 @@ Computer:
     UplinkHelpGateways: world/computer/screens/uplink_help/gateways.yml
     UplinkHelpSecurity: world/computer/screens/uplink_help/security.yml
     
-    PhoneDatabase: world/computer/screens/phone_database.yml
+    DatabaseTelephone: world/computer/screens/database_phone.yml
     StockMarket: world/computer/screens/stock_market.yml
     Introversion: world/computer/screens/introversion.yml
-    Internic: world/computer/screens/internic.yml
+    InterNIC: world/computer/screens/internic.yml
     
     UplinkLabsSales: world/computer/screens/uplinklabs_research.yml
     UplinkLabs_NetworkInformation: world/computer/screens/uplinkLabs_help/network.yml
