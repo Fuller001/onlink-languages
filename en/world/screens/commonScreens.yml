@@ -59,7 +59,7 @@ LogScreen:
 SecurityScreen:
   Menu: Security
   MenuTip: Enable and disable security systems
-  Subtitle: Security
+  Subtitle: Security settings
 
 ConsoleScreen:
   Menu: Console
