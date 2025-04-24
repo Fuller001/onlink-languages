@@ -1,0 +1,43 @@
+---
+Credits:
+  MainTitle: Onlink
+  Subtitle: The Credits Machine
+  Messages:
+    - NextScreen: -->
+      Text: |
+        Produced by
+           FERROUS MOON
+        and
+           UPLINK LABORATORIES
+        
+        Miah Taylor -- Dynamic Go-getter, Genius
+        
+        Steven Noonan -- Man from Ireland
+        
+        Gauthier Picalausa -- Reviver of Projects
+        
+        Christopher Stephens -- Art Wizard
+        
+        TOTAL SOURCE FILES : {{ files_count }}
+        LINES OF CODE : {{ lines_count }}
+        STATISTICS LAST UPDATED: {{ date }}
+        
+        A-N-D  C-O-U-N-T-I-N-G
+    - PreviousScreen: <--
+      Text: |
+        In Loving Honour and Memory
+        I would like to dedicate this game to those whom I had lost over the years, and to those I found to help me when I was down on my luck.
+        
+        Viviano Uresti III
+        Always making certain I can see the finer things in life.
+        Those of you reading this owe it to him that Onlink is still in production.
+        
+        Marianne Betty Taylor -- 28 January 2005
+        Wrongfully taken from this world by another's self-serving agenda.
+        
+        Marie \"Usagi\" Gunsolus -- 02 July 2005
+        Lost due to my naivety, and in loss helped me find myself.
+        I will always remember you.
+        Those of you reading this owe it to her that Onlink ever started.
+        
+             -MJC
