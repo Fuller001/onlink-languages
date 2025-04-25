@@ -37,8 +37,9 @@ Computer:
     UplinkHelpGateways: world/computer/screens/uplink_help/gateways.yml
     UplinkHelpSecurity: world/computer/screens/uplink_help/security.yml
     
-    DatabaseTelephone: world/computer/screens/database_phone.yml
+    DatabaseGeneric: world/computer/screens/database_generic.yml
     DatabaseCriminal: world/computer/screens/database_criminal.yml
+    DatabaseTelephone: world/computer/screens/database_phone.yml
     StockMarket: world/computer/screens/stock_market.yml
     Introversion: world/computer/screens/introversion.yml
     InterNIC: world/computer/screens/internic.yml
