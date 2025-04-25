@@ -30,6 +30,7 @@ Computer:
     UplinkPublic: world/computer/screens/uplink_public.yml
     GatewayLost: world/computer/screens/uplink_public_gateway_lost.yml
     
+    UplinkTest: world/computer/screens/uplink_test.yml
     UplinkInternal: world/computer/screens/uplink_internal.yml
     UplinkHelp: world/computer/screens/uplink_help.yml
     UplinkHelpGettingStarted: world/computer/screens/uplink_help/getting_started.yml
