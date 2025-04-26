@@ -27,6 +27,9 @@ Computer:
     UplinkCredits: world/computer/screens/uplink_credits.yml
     OnlinkCredits: world/computer/screens/onlink_credits.yml
     
+    SteveJackson: world/computer/screens/steve_jackson.yml
+    OCP: world/computer/screens/ocp.yml
+    
     UplinkPublic: world/computer/screens/uplink_public.yml
     GatewayLost: world/computer/screens/uplink_public_gateway_lost.yml
     
