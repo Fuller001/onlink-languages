@@ -32,6 +32,7 @@ Computer:
     Protovision:  world/computer/screens/protovision.yml
     SteveJackson: world/computer/screens/steve_jackson.yml
     OCP: world/computer/screens/ocp.yml
+    FreeSoftware: world/computer/screens/free_software.yml
     
     UplinkPublic: world/computer/screens/uplink_public.yml
     GatewayLost: world/computer/screens/uplink_public_gateway_lost.yml
