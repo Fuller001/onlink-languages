@@ -29,6 +29,7 @@ Computer:
     UplinkCredits: world/computer/screens/uplink_credits.yml
     OnlinkCredits: world/computer/screens/onlink_credits.yml
     
+    Protovision:  world/computer/screens/protovision.yml
     SteveJackson: world/computer/screens/steve_jackson.yml
     OCP: world/computer/screens/ocp.yml
     
@@ -90,7 +91,9 @@ Interfaces:
   Menu: interface/remoteInterface/menu.yml
   Message: interface/remoteInterface/message.yml
   MoneyTransfer: interface/remoteInterface/moneyTransfer.yml
+  NuclearWar: interface/remoteInterface/nuclearWar.yml
   Password: interface/remoteInterface/password.yml
+  Protovision: interface/remoteInterface/protovision.yml
   SharesList: interface/remoteInterface/stockMarketList.yml
   SharesView: interface/remoteInterface/stockMarketView.yml
   SWSales: interface/remoteInterface/softwareSales.yml
