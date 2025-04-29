@@ -23,6 +23,8 @@ Computer:
     MainFrame: world/computer/screens/mainframe.yml
     LiftingServer: world/computer/screens/lifting_server.yml
     ACLServer: world/computer/screens/acl_server.yml
+
+    PlayerGateway: world/computer/screens/player_gateway.yml
     
     UplinkCredits: world/computer/screens/uplink_credits.yml
     OnlinkCredits: world/computer/screens/onlink_credits.yml
@@ -82,7 +84,7 @@ Interfaces:
   CompanyInfo: interface/remoteInterface/companyInfo.yml
   Console: computer/console.yml
   Contact: interface/remoteInterface/contactEmployer.yml
-  Disconnected: interface/remoteInterface/disconnected.yml
+  PlayerMessage: interface/remoteInterface/playerMessage.yml
   HWSales: interface/remoteInterface/hardwareSales.yml
   Loans: interface/remoteInterface/loanInfo.yml
   Menu: interface/remoteInterface/menu.yml
