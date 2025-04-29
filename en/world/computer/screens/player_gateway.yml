@@ -130,7 +130,8 @@ Message:
     Tip: Click to continue
     
 OfferTutorial:
-  Maintitle:
+  Maintitle: Gateway
+  Subtitle: Set up complete
   Text: |
     Your Gateway computer has been successfully set up and will accept only your username and password in the future. When you next start Uplink on your home computer, you will be connected automatically to this Gateway.
 
