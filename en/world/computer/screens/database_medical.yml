@@ -1,0 +1,17 @@
+---
+Intro:
+  Subtitle: No Unauthorised Access
+  Text: |
+    This system is not ready for use. Get out.
+    
+    
+        -Miah
+  NextScreen: Log in
+
+
+SearchRecord:
+  Subtitle: Search for Medical Records
+  Menu: View Records
+  
+Record:
+  Subtitle: Medical Records
