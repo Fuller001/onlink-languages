@@ -1,5 +1,5 @@
 ---
-{!Include ../../common.yml !}
+{!Include ../../../common.yml !}
 
 MainTitle: {{ owner_name }}
 NextScreen: {{ generic_next }}
@@ -114,3 +114,10 @@ UserRegistration:
 Account:
   MenuTip: View Account
   Subtitle: View Account 
+
+PersonalMail:
+  Menu: Access Emails
+  Subtitle: Emails
+
+Sanctum:
+  Menu: Inner Sanctum
