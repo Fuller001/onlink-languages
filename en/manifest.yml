@@ -77,6 +77,8 @@ Computer:
     Marie_PersonalComputer: world/computer/screens/marie_personal_computer.yml
     Vasilis_PersonalComputer: world/computer/screens/vasilis_personal_computer.yml
 
+    Andromeda: world/computer/screens/andromeda.yml
+
 Interfaces:
   MainMenu: interface/mainmenu/main_menu.yml
   MessageBoxContent: interface/message_box.yml

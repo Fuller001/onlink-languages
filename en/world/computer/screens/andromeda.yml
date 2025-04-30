@@ -1,0 +1,56 @@
+---
+Maintitle: {{ official_owner }}
+
+Welcome:
+  Text: |
+    
+    
+    
+    
+                              THE TIME IS NEAR
+
+MainMenu:
+ Subtitle: The time is near
+
+OurBeliefs:
+  Menu: Our beliefs
+  MenuTip: Our beliefs
+  Subtitle: Our Beliefs
+  PreviousScreen: .
+  Text: |
+    THE ANDROMEDA FOUNDATION IS BUILT ON ITS CORE FIVE BELIEFS
+
+    1. The Internet, once the saviour of free speech and anonymity, has been completely taken over by the evils of capitalism.
+
+    2. The common man has been reduced to a series of numbers and his life has been made an item of public record.
+
+    3. The Government is using the Internet to catalogue and control the population.
+
+    4. The destruction of the Anonymity of the Internet has removed with it the last remnants of Human creativity.
+
+    5. Fundamentally, the wide-spread usage of the Internet has led to a new class divide - Those that know, and those that do not.
+
+OurPeople:
+  Menu: Our people
+  MenuTip: Our people
+  Subtitle: Our People
+  PreviousScreen: .
+  Text: |
+    Removed for security purposes  
+    {% if original_experience %} effective from 12-Feb-2010
+    {% else %} effective from 12-Feb-2020
+    {% endif %}
+
+OurSupport:
+  Menu: Our support
+  MenuTip: Our support
+  Subtitle: Our Support
+  PreviousScreen: .
+  Text: |
+    It is heartening to know that we are not alone in our beliefs.
+
+    The Andromeda group has the support of a number of high profile people and organisations.
+
+    This puts us in a situation where we can make a real difference.
+
+    The time is near.
