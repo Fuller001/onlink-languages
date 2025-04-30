@@ -25,6 +25,7 @@ Computer:
     NameServer: world/computer/screens/name_server.yml
     PrimaryServer: world/computer/screens/primary_server.yml
     MainFrame: world/computer/screens/mainframe.yml
+    CorporateGateway: world/computer/screens/corporate_gateway.yml
     LiftingServer: world/computer/screens/lifting_server.yml
     ACLServer: world/computer/screens/acl_server.yml
 
