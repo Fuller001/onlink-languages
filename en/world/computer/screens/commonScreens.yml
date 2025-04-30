@@ -15,13 +15,10 @@ AdminMenu:
   MenuTip: Enter administrative mode
   Subtitle: Admin Menu
 
-MenuReturn:
-  Menu: Main Menu
-  MenuTip: Return to the main menu
-
-MenuCompanyInfo:
+CompanyInfo:
   Menu: Contact Us
   MenuTip: View company contact information
+  Subtitle: Company data
 
 MarketSoftware:
   Menu: Software Market
@@ -33,11 +30,6 @@ MarketHardware:
   MenuTip: Buy new Hardware
   Subtitle: Hardware sales
 
-FileServer:
-  Menu: File server
-  MenuTip: Access the file server
-  Subtitle: File Server
-
 MenuSearchRecords:
   Menu: Search Records
 
@@ -46,22 +38,17 @@ ViewRecords:
   MenuTip: View the records stored on this system
   Subtitle: Records
 
-LinksScreen:
+Links:
   Menu: View links
   MenuTip: View all links available on this system
   Subtitle: Links
 
-LogScreen:
+LogBank:
   Menu: View Logs
   MenuTip: View the access logs on this system
   Subtitle: Access Logs
 
-SecurityScreen:
-  Menu: Security
-  MenuTip: Enable and disable security systems
-  Subtitle: Security settings
-
-ConsoleScreen:
+Console:
   Menu: Console
   MenuTip: Run a console
   Subtitle: Console
@@ -109,7 +96,7 @@ HWSales:
 Security:
   Menu: Security
   MenuTip: Enable and disable security systems
-  Subtitle: Security
+  Subtitle: Security settings
 
 DataBank:
   Menu: File server

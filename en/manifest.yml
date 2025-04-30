@@ -15,7 +15,11 @@ Computer:
   Security: computer/security.yml
   NameGeneration: computer/names.yml
   Screens:
-    Common: world/screens/commonScreens.yml
+    Common: world/computer/screens/commonScreens.yml
+
+    Terminal: world/computer/screens/terminal.yml
+    PublicAccess: world/computer/screens/public_access.yml
+    NetworkAccess: world/computer/screens/network_access.yml
     PublicSales: world/computer/screens/public_sales.yml
     PublicBank: world/computer/screens/public_bank_server.yml
     NameServer: world/computer/screens/name_server.yml
@@ -34,6 +38,8 @@ Computer:
     OCP: world/computer/screens/ocp.yml
     FreeSoftware: world/computer/screens/free_software.yml
     
+    PhoneExchange: world/computer/screens/phone_exchange.yml
+
     UplinkPublic: world/computer/screens/uplink_public.yml
     GatewayLost: world/computer/screens/uplink_public_gateway_lost.yml
     
