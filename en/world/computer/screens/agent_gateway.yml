@@ -1,0 +1,26 @@
+---
+{!Include ../../../common.yml !}
+
+MainTitle: {{ company_owner }}
+
+UserID:
+  Subtitle: External Router
+
+FileServer:
+  Menu: View Files
+  MenuTip: Access the memory banks
+
+Information:
+  Subtitle: Gateway Information
+  Menu: Information
+  MenuTip: View hardware information
+  BackScreen: {{ generic_ok }}
+  Text: |
+      Gateway: {{ gateway_name }}
+      
+      CPU: {{ gateway_cpu }} x 100GHz
+      Memory: {{ gateway_memory }} GigaQuads
+      Modem: {{ gateway_modem }} GQ/s
+      
+      Type: Auxiliary
+      Agent: {{ owner_name }}

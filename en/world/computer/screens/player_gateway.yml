@@ -1,7 +1,7 @@
 ---
 {!Include ../../../common.yml !}
 
-Message:
+PlayerMessage:
   Messages:
     - ID: FirstTime
       Text: UPLINK Operating System successfully started on Gateway
