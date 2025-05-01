@@ -1,0 +1,17 @@
+---
+Maintitle: {{ computer_name }}
+
+PasswordBox:
+  Subtitle: Speak friend, and enter
+
+MainMenu:
+  Subtitle: Menu
+  
+Files:
+  Subtitle: Filez
+  Menu: Filez
+  MenuTip: Mess with my files
+
+Emails:
+  Subtitle: eMailz
+  MenuTip: Edit my mail settings

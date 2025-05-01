@@ -78,6 +78,8 @@ Computer:
     Vasilis_PersonalComputer: world/computer/screens/vasilis_personal_computer.yml
 
     Andromeda: world/computer/screens/andromeda.yml
+    PlotAgentPC: world/computer/screens/plot_agent_pc.yml
+    PlotAgentPCDead: world/computer/screens/plot_agent_pc_dead.yml
 
 Interfaces:
   MainMenu: interface/mainmenu/main_menu.yml
@@ -113,6 +115,7 @@ Interfaces:
   MoneyTransfer: interface/remoteInterface/moneyTransfer.yml
   NuclearWar: interface/remoteInterface/nuclearWar.yml
   Password: interface/remoteInterface/password.yml
+  PlotAgentEmail: interface/remoteInterface/plotAgentEmail.yml
   Protovision: interface/remoteInterface/protovision.yml
   SharesList: interface/remoteInterface/stockMarketList.yml
   SharesView: interface/remoteInterface/stockMarketView.yml
