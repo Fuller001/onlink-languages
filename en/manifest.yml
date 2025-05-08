@@ -14,6 +14,7 @@ Computer:
   Concept: computer/concepts.yml
   Security: computer/security.yml
   NameGeneration: computer/names.yml
+  LanSystems: computer/lan_systems.yml
   Screens:
     Common: world/computer/screens/commonScreens.yml
 
@@ -81,6 +82,20 @@ Computer:
     PlotAgentPC: world/computer/screens/plot_agent_pc.yml
     PlotAgentPCDead: world/computer/screens/plot_agent_pc_dead.yml
 
+    LANRouter: world/computer/screens/lan/router.yml
+    LANHub: world/computer/screens/lan/hub.yml
+    LANTerminal: world/computer/screens/lan/terminal.yml
+    LANLock: world/computer/screens/lan/lock.yml
+    LANAuthServer: world/computer/screens/lan/authserver.yml
+    LANMainServer: world/computer/screens/lan/mainserver.yml
+    LANLogServer: world/computer/screens/lan/logserver.yml
+    LANIsolationBridge: world/computer/screens/lan/isolationbridge.yml
+    LANModem: world/computer/screens/lan/modem.yml
+    LANSessionKeyServer: world/computer/screens/lan/sessionkeyserver.yml
+    LANWirelessTransmitter: world/computer/screens/lan/wirelesstransmitter.yml
+    LANWirelessReceiver: world/computer/screens/lan/wirelessreceiver.yml
+    LANFaxPrinter: world/computer/screens/lan/faxprinter.yml
+
 Interfaces:
   MainMenu: interface/mainmenu/main_menu.yml
   MessageBoxContent: interface/message_box.yml
@@ -100,6 +115,7 @@ Interfaces:
   Analyser: interface/localInterface/analyser.yml
   Dialer: interface/localInterface/connection.yml
   HUD: interface/localInterface/hud.yml
+  LAN: interface/localInterface/lanview.yml
   Terminal: interface/localInterface/terminal.yml
 
   Account: interface/remoteInterface/accountInfo.yml
@@ -109,6 +125,7 @@ Interfaces:
   Contact: interface/remoteInterface/contactEmployer.yml
   PlayerMessage: interface/remoteInterface/playerMessage.yml
   HWSales: interface/remoteInterface/hardwareSales.yml
+  LockControl: interface/remoteInterface/lanlockcontrol.yml
   Loans: interface/remoteInterface/loanInfo.yml
   Menu: interface/remoteInterface/menu.yml
   Message: interface/remoteInterface/message.yml

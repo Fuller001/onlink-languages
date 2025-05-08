@@ -1,0 +1,72 @@
+---
+Unknown:
+  Name: Unknown System
+  Description: An unknown system. Probe this system to find out more.
+
+Router:
+  Name: Router
+  Description: The public entry point to this LAN. The main external Internet connection runs through here.
+  
+Hub:
+  Name: Hub
+  Description: Connects numerous separate systems together.
+  
+Switch:
+  Name: Switch
+  Description: Connects two computer systems together.
+  
+Terminal:
+  Name: Terminal
+  Description: A system inside the company, used by the employees.
+  
+MainServer:
+  Name: Main Server
+  Description: The central controlling computer system.
+  
+MailServer:
+  Name: Mail Server
+  Description: Stores employees personal emails, messages and address books.
+  
+FileServer:
+  Name: File Server
+  Description: The central file repository of the Network.
+  
+AuthServer:
+  Name: Authentication Server
+  Description: Directly controls the status of a Lock system, permitting or denying access.
+  
+Lock:
+  Name: Lock
+  Description: Prevents any access to the systems behind the lock when activated.
+  
+DeadLock:
+  Name: Dead Lock
+  Description: An advanced lock that physically breaks connection when engaged. Cannot be interacted with unless unlocked. Uses a dedicated connection to its controller.
+  
+Bridge:
+  Name: Isolation Bridge
+  Description: Toggles the status of two Lock systems on the network.
+  
+Modem:
+  Name: Modem
+  Description: Can be used as an external access point to the network.
+  
+SessionKeyServer:
+  Name: Session Key Server
+  Description: A session key server.
+  
+Transmitter:
+  Name: Wireless Transmitter
+  Description: Can be used to connect to a Wireless receiver on the network.
+  
+Receiver:
+  Name: Wireless Receiver
+  Description: Can be accessed by a Wireless transmitter on the network.
+  
+FaxPrinter:
+  Name: Fax Printer
+  Description: A fax printer.
+  
+LogServer:
+  Name: Log Server
+  Description: A log server. Stores all access logs for this LAN.

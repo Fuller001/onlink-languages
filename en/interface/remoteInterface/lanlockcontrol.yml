@@ -1,0 +1,45 @@
+---
+BridgeInfo: Isolation bridge accessed
+
+BridgeEnable: Enable Isolation Bridge
+BridgeDisable: Disable Isolation Bridge
+
+BridgeEnableTip: Enable the bridge (disconnecting Router)
+BridgeDisableTip: Disable the bridge (enable Router)
+
+AuthServerInfo: |
+  Access to authentication server systems granted.
+  Please proceed with caution.
+
+AuthServerEnable: Enable Security Locks
+AuthServerDisable: Disable Security Locks
+
+AuthServerEnableTip: Enable certain locks on this Local Area Network
+AuthServerDisableTip: Disable certain locks on this Local Area Network
+  
+Info: |
+  {% if system_type == Bridge %} {{ BridgeInfo }}
+  {% elif system_type == AuthServer %} {{ AuthServerInfo }}
+  {% endif %}
+
+Controls:
+  Text: |
+    {% if system_type == Bridge %}
+      {% if is_engaged %} {{ BridgeDisable }}
+      {% else %} {{ BridgeEnable }}
+      {% endif %}
+    {% elif system_type == AuthServer %}
+      {% if is_engaged %} {{ AuthServerDisable }}
+      {% else %} {{ AuthServerEnable }}
+      {% endif %}
+    {% endif %}
+  Tip: |
+    {% if system_type == Bridge %}
+      {% if is_engaged %} {{ BridgeDisableTip }}
+      {% else %} {{ BridgeEnableTip }}
+      {% endif %}
+    {% elif system_type == AuthServer %}
+      {% if is_engaged %} {{ AuthServerDisableTip }}
+      {% else %} {{ AuthServerEnableTip }}
+      {% endif %}
+    {% endif %}

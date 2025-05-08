@@ -1,0 +1,79 @@
+---
+Title:
+  Text: LOCAL AREA NETWORK
+  Tooltip: Remove the LAN screen
+  
+MainView: No Local Area Network (LAN) detected.
+
+TargetUnknownSystem: Target this unknown system
+TargetSystem: Target this system
+
+AccessBridge: Access Bridge
+LeaveBridge: Leave Bridge
+
+SysAdmin: |
+  {% if admin_state == Curious %} The System Administrator has logged on
+  {% elif admin_state == Searching %} The System Administrator is searching for you
+  {% elif admin_state == FoundYou %} The System Administrator has found you
+  {% endif %}
+
+Status: Status: {% if breached %} Breached {% else %} Secure {% endif %}
+
+Information: {% if system_type == Modem %} Local Dial-up number : {% endif %} {{ information }}
+
+Reset:
+  Text: Reset
+  Tip: Reset the current LAN connection
+
+Connect:
+  Text: Access
+  Tip: Access the currently selected system
+
+ScrollUp:
+  Text: ^
+  Tip: Scroll up
+  
+ScrollDown:
+  Text: v
+  Tip: Scroll down
+  
+ScrollLeft:
+  Text: <
+  Tip: Scroll left
+  
+ScrollRight:
+  Text: >
+  Tip: Scroll right
+
+LanShow:
+  Text: Show
+  Tip: Reveal Lan
+  
+# highlight info
+
+Locks: Locks
+Unlocks: Unlocks
+
+Controller: Controller
+
+Guarding: Guarding
+GuardedBy: Guarded By
+
+Reachable: Reachable
+AccessPoint: Access Point
+
+BridgedTo: Bridged To
+BridgedSource: Bridged Source
+
+ValidSubnet: Valid Subnet
+
+# Cheats
+
+SelectCluster: Select a cluster
+SelectClusterIndex: Select a cluster index
+
+ClusterInfo:
+  Text: Cluster {{ cluster_path }}
+  Tip: Select this lan cluster
+
+GenerateLAN: Generate this LAN

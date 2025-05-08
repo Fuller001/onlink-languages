@@ -1,0 +1,12 @@
+---
+Message:
+  Subtitle: Wireless LAN Receiver
+  Text: |
+    Wireless connection successfully established.
+    
+    Checking receiver systems : OK
+    Checking frequency range : OK
+    Incoming signal strength : 90%
+    
+    Maximum LAN system bandwidth : 50Gq/s\
+    Maximum LAN system latency : 400ms
