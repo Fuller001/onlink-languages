@@ -1,7 +1,7 @@
 ---
 {!Include ../../common.yml !}
 
-TitleBar: CONNECTION MANAGER
+Title: CONNECTION MANAGER
 
 DisplayToggle:
   Text: {{ generic_ip }}
