@@ -1,7 +1,7 @@
 ---
 search_record: |
-  {% if record_type == SocialSecurity %} Search for a social security record
-  {% elif record_type == Academic %} Search for an academic record
+  {% if ID == DatabaseSocial %} Search for a social security record
+  {% elif ID == DatabaseAcademic %} Search for an academic record
   {% endif %}
 
 Intro:

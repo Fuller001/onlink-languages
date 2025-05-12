@@ -58,7 +58,8 @@ Computer:
     UplinkHelpGateways: world/computer/screens/uplink_help/gateways.yml
     UplinkHelpSecurity: world/computer/screens/uplink_help/security.yml
     
-    DatabaseGeneric: world/computer/screens/database_generic.yml
+    DatabaseSocial: world/computer/screens/database_generic.yml
+    DatabaseAcademic: world/computer/screens/database_generic.yml
     DatabaseCriminal: world/computer/screens/database_criminal.yml
     DatabaseTelephone: world/computer/screens/database_phone.yml
     DatabaseMedical: world/computer/screens/database_medical.yml
