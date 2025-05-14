@@ -24,68 +24,107 @@ company_short_type: |
 company_domain: {{ company_name | replace(' ', '-') | lower }}.{{ company_short_type }}
 
 PublicAccessServer:
-  Name: www.{{ company_domain }}
+  FQDN: www.{{ company_domain }}
   Alias: Public Access Server
 
 PublicSalesServer:
-  Name: www.{{ company_domain }}
+  FQDN: www.{{ company_domain }}
   Alias: Public Sales Server
 
 PublicNetworkServer:
-  Name: www.{{ company_domain }}
+  FQDN: www.{{ company_domain }}
   Alias: Network Access Server
 
 AccessTerminal:
-  Name: terminal-{{ serial }}.{{ company_domain }}
+  FQDN: terminal-{{ computer_serial }}.{{ company_domain }}
   Alias: Access Terminal
 
 InternalServices:
-  Name: internal.{{ company_domain }}
+  FQDN: internal.{{ company_domain }}
   Alias: Internal Services Machine
 
 Mainframe:
-  Name: mainframe.{{ company_domain }}
+  FQDN: mainframe.{{ company_domain }}
   Alias: Central Mainframe
 
 BankServer:
-  Name: finance.{{ company_domain }}
+  FQDN: finance.{{ company_domain }}
   Alias: International Bank
 
 FileServer:
-  Name: ftp.{{ company_domain }}
+  FQDN: ftp.{{ company_domain }}
   Alias: File Server
 
 BackupServer:
-  Name: backup.{{ company_domain }}
+  FQDN: backup.{{ company_domain }}
   Alias: Backup Server
 
 CorporateGateway:
-  Name: gateway.{{ company_domain }}
+  FQDN: gateway.{{ company_domain }}
   Alias: Gateway System
   LongName: Gateway Security System
 
 LiftingServer:
-  Name: ls{{ serial }}.{{ company_domain }}
+  FQDN: ls{{ computer_serial }}.{{ company_domain }}
   Alias: Lifting Server
 
 AclServer:
-  Name: exec.{{ company_domain }}
+  FQDN: exec.{{ company_domain }}
   Alias: Access Control System
 
 NameServer:
-  Name: ns{{ serial }}.{{ company_domain }}
-  Alias: Name Server
+  FQDN: ns{{ computer_serial }}.{{ company_domain }}
+  Alias: FQDN Server
 
 ProjectServer:
-  Name: git.{{ company_domain }}
+  FQDN: git.{{ company_domain }}
   Alias: Project Server
 
 LanSystem:
-  Name: vpn.{{ company_domain }}
+  FQDN: vpn.{{ company_domain }}
   Alias: Local Area Network
 
 PersonalComputer:
-  Name: Personal Computer
+  FQDN: Personal Computer
 
 PersonalPhone:
-  Name: Phone Number
+  FQDN: Phone Number
+
+# Static computer names
+
+Introversion:
+  FQDN: www.introversion.co.uk
+  Alias: Introversion Software
+
+InterNIC:
+  FQDN: internic.net
+  Alias: InterNIC
+  
+PhoneExchange:
+  FQDN: ite.net
+  Alias: International Telephone Exchange
+
+DatabaseTelephone:
+  FQDN: ofcom.gov
+  Alias: International Telephone Database
+  
+DatabaseCriminal:
+  FQDN: justice.gov
+  Alias: Global Criminal Database
+
+DatabaseSocial:
+  FQDN: ssa.gov
+  Alias: Social Security Database
+  
+DatabaseAcademic:
+  FQDN: ed.gov
+  Alias: International Academic Database
+  
+DatabaseMedical:
+  FQDN: med.gov
+  Alias: Global Medical Database
+
+StockMarket:
+  FQDN: stockexchange.com
+  Alias: International Stock Market
+
