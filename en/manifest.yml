@@ -13,6 +13,7 @@ Data:
 Computer:
   Concept: computer/concepts.yml
   Security: computer/security.yml
+  GatewayUsage: computer/gatewayUsage.yml
   NameGeneration: computer/names.yml
   LanSystems: computer/lan_systems.yml
   Screens:

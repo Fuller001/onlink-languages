@@ -1,59 +1,55 @@
 ---
+{!Include ../../computer/gatewayUsage.yml !}
+
 Title:
   Text: ADMINISTRATION
-  Tooltip: Remove the status screen
+  Tip: Remove the status screen
 
-admin_logs:
+Logs:
   Text: Logs
-  Tooltip: View the log bank
+  Tip: View the log bank
 
-admin_console:
+Console:
   Text: Console
-  Tooltip: View the console
+  Tip: View the console
 
-admin_ramPage:
-  Text: RAM
-  Tooltip: Manage your RAM usage
+Tabs:
+  Items:
+    RAMManagement:
+      Text: RAM
+      Tip: Manage your RAM usage
+    GatewayManagement:
+      Text: Gateways
+      Tip: Manage your gateways
 
-admin_gwPage:
-  Text: Gateways
-  Tooltip: Manage your gateways
+HUDTitle: Head Up Display
+SystemTitle: System
+CounterMeasuresTitle: Counter Measures
+StatisticsTitle: Statistics
 
-admin_hudTitle: Head Up Display
-admin_systemTitle: System
-admin_counterMeasuresTitle: Counter Measures
-admin_statisticsTitle: Statistics
-
-admin_sectionButton: |
+SectionTitle: |
   {% if section == HeadUpDisplay  %}
-  {{ admin_hudTitle }}
+  {{ HUDTitle }}
   {% elif section == System  %}
-  {{ admin_systemTitle }}
+  {{ SystemTitle }}
   {% elif section == CounterMeasures  %}
-  {{ admin_counterMeasuresTitle }}
+  {{ CounterMeasuresTitle }}
   {% elif section == Statistics  %}
-  {{ admin_statisticsTitle }}
+  {{ StatisticsTitle }}
   {% endif %}
 
-AdminRAMInfo: "Available RAM: {{ ram_available }} / {{ ram_size }} Gq"
+RAMInfo: "Available RAM: {{ ram_available }} / {{ ram_size }} Gq"
 
-AdminRAMInfoTitles: |
+RAMTitles: |
   Total RAM
   Available RAM
   In use by Core System
   HUD
   Security
   Counter Measures
-  Running Programs    
+  Running Programs 
 
-admin_ramTitles: |
-  {% if compactMode  %}
-  {{ AdminRAMInfo }}
-  {% else %}
-  {{ AdminRAMInfoTitles }}
-  {% endif %}
-
-admin_ramValues: |
+RAMValues: |
   {{ ram_size }} Gq
   {{ ram_available }} Gq
   {{ ram_system }} Gq
@@ -62,26 +58,31 @@ admin_ramValues: |
   {{ ram_counter_measure }} Gq
   {{ ram_program }} Gq
 
-admin_sectionRAMTitles: {{ AdminRAMInfoTitles }}
-admin_sectionRAMValues: {{ admin_ramValues }}
+UsageStatus:
+  Text: {{ Status }}
+  Tip: Show this gateway's status information in various screens
 
-admin_gateway_status:
-  Tooltip: Show this gateway's status information in various screens
+UsagePowerHouse:
+  Text: {{ PowerHouse }}
+  Tip: Use this gateway's CPU power
+  
+UsageUpdate:
+  Text: {{ Update }}
+  Tip: Set this gateway as the recipient for future software and hardware purchases
+  
+UsageServer:
+  Text: {{ Server }}
+  Tip: Show this gateway's status information in various screens
+  
+UsageStaging:
+  Text: {{ Staging }}
+  Tip: Use this gateway's memory bank in the memory screen
+  
+UsageDevelopment:
+  Text: {{ Development }}
 
-admin_gateway_cpu:
-  Tooltip: Use this gateway's CPU power
+NoHUDItems: You do not have any HUD extensions capable of being disabled
 
-admin_gateway_nextUpdate:
-  Tooltip: Set this gateway as the recipient for future software and hardware purchases
+NoSysItems: You do not have any kernel extensions installed
 
-admin_gateway_databank:
-  Tooltip: Use this gateway's memory bank in the memory screen
-
-admin_gateway_staging:
-  Tooltip: Run software and connect from this gateway
-
-admin_hudDisableItems: You do not have any HUD extensions capable of being disabled
-
-admin_sysDisableItems: You do not have any kernel extensions installed
-
-admin_counter: You do not have any Counter Measures
+NoCounterMeasureItems: You do not have any Counter Measures

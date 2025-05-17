@@ -1,4 +1,4 @@
-
+---
 # Authentication types
 loginSecurity:
   - type: Password
