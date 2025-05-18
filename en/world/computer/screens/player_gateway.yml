@@ -17,8 +17,10 @@ PlayerMessage:
         
         
         Server Message: Your connection bandwidth has been exceeded.
+    
     - ID: BounceNodeDead
       Text: Connection terminated: No route to host.
+    
     - ID: ConnectionFailed
       Maintitle: Failed to establish connection
       Subtitle: External connections not permitted
@@ -63,8 +65,10 @@ PlayerMessage:
 
     - ID: GatewayTerminatesConnection
       Text: Connection terminated by Gateway
+    
     - ID: RemoteHostTerminatesConnection
       Text:  Connection terminated by remote host
+    
     - ID: Timeout
       Text: Connection terminated: Timed out: No response from host.
     
