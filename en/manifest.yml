@@ -190,6 +190,7 @@ Messages:
   License: message/payload/license.yml
   PackageRevelation: message/payload/package_revelation.yml
   PackageTracker: message/payload/package_tracker.yml
+  Darwinia: message/flat/darwinia.yml
 
   UplinkRankUp: message/agent/uplinkRankUp.yml
   UplinkRankDown: message/agent/uplinkRankDown.yml
