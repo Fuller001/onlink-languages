@@ -1,0 +1,65 @@
+---
+{!Include ../../common.yml !}
+
+Title:
+  Text: MAILBOX
+  Tip: Remove the screen.
+
+Link:
+  Tip: Connect to this link.
+  
+StoreLink:
+  Tip: Store this link.
+  
+DeleteLink:
+  Tip: Delete this link.
+  
+StoreAll:
+  Tip: Click here to add all listed links to your list.
+
+RemoveAll:
+  Text: Remove All
+
+RemoveAllConfirm: !REMOVE ALL!
+  
+PhoneField: Phone Number
+IPField: IP Address
+
+IPTitle: |
+  {% if linkType == PlayerPhone %} {{ PhoneField }}
+  {% else %} {{ IPField }}
+  {% endif %}
+
+PhoneNameField: Stored Contact Name
+PCNameField: Computer Name
+
+NameTitle: |
+  {% if linkType == PlayerPhone %} {{ PhoneNameField }}
+  {% else %} {{ PCNameField }}
+  {% endif %}
+
+PhoneCategory: Phone Numbers
+PCCategory: Personal Computers
+
+LinkExpired: This link has expired
+
+HighlightAll:
+  Text: Un/Highlight All
+  
+Options:
+  Text: Options
+  
+ShowAll:
+  Text: Show/Hide All
+
+FilterHeader:
+  Text: Filter
+
+Filter:
+  Hint: Filter
+  Tip: Enter filter pattern here.
+
+Close:
+  Text: {{ generic_close }}
+  Tip: Close this screen.
+  

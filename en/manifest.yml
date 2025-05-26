@@ -116,8 +116,12 @@ Interfaces:
   Admin: interface/localInterface/admin.yml
   Analyser: interface/localInterface/analyser.yml
   Dialer: interface/localInterface/connection.yml
+  EventQueue: interface/localInterface/eventQueue.yml
   HUD: interface/localInterface/hud.yml
+  Inbox: interface/localInterface/inbox.yml
+  KeyMapper: interface/localInterface/keymapper.yml
   LAN: interface/localInterface/lanview.yml
+  Links: interface/localInterface/links.yml
   Terminal: interface/localInterface/terminal.yml
 
   Account: interface/remoteInterface/accountInfo.yml
