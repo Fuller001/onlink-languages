@@ -70,7 +70,12 @@ DeniedByAccessControl:
   Subject: {{ misc_string }}
   Body: Program execution not permitted. Contact your local administrator for assistance.
 
-DeniedByInsufficentAuth:
+DeniedByInsufficentAuthFileserver:
+  Type: Simple
+  Subject: {{ generic_error }}
+  Body: Insufficient Authentication level for file server: Access is denied.
+
+DeniedByInsufficentAuthSecurity:
   Type: Simple
   Subject: {{ generic_error }}
   Body: Failed to toggle security service: Access is denied.
@@ -306,6 +311,11 @@ NotValidSeed:
   Body: Invalid seed value
 
 # Launch errors
+ProgramInsufficentCPU:
+  Type: Simple
+  Subject: {{ generic_ok }}
+  Body: Could not initialise: CPU reservation failed.
+
 ProgramOOM:
   Type: Simple
   Subject: {{ generic_ok }}
@@ -314,12 +324,12 @@ ProgramOOM:
 ProgramUnreadable:
   Type: Simple
   Subject: {{ misc_string }}
-  Body: No space left on device.
+  Body: Could not initialise: Unable to locate .code section of program.
 
 ProgramTruncated:
   Type: Simple
   Subject: {{ misc_string }}
-  Body: No space left on device.
+  Body: Program catastrophically aborted: Invalid range.
 
 SessionKeyNoSpace:
   Type: Simple
