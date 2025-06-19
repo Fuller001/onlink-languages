@@ -1,0 +1,167 @@
+---
+{!Include ../../../common.yml !}
+
+PlayerMessage:
+  Messages:
+    - ID: FirstTime
+      Text: UPLINK Operating System successfully started on Gateway
+    
+    - ID: WelcomeBack
+      Maintitle: Gateway
+      Subtitle: Log on complete
+      Text: Welcome back to your Gateway
+
+    - ID: BandwitdhExceeded
+      Text: |
+        Connection terminated by remote host
+        
+        
+        Server Message: Your connection bandwidth has been exceeded.
+    
+    - ID: BounceNodeDead
+      Text: Connection terminated: No route to host.
+    
+    - ID: ConnectionFailed
+      Maintitle: Failed to establish connection
+      Subtitle: External connections not permitted
+      Text: |
+        The computer you tried to access will not accept external connections.
+        
+        Only connections from trusted internal systems will be allowed to connect.
+        
+        If you wish to establish a connection to this system, you must first route your connection through a trusted system owned by the same company.
+        
+    - ID: ConnectionLost
+      Maintitle: Error
+      Subtitle: Connection Lost
+      Text: The connection to your wireless router has been terminated.
+    
+    - ID: DNSError
+      Maintitle: Could not establish connection
+      Subtitle: System not found
+      Text: |
+        The IP address you specified did not have a valid computer host.
+        
+        Domain servers report the IP address given has not yet been assigned.
+
+    - ID: Error404
+      Maintitle: Error 404
+      Subtitle: System not found
+      Text: |
+        The IP address you specified did not have a valid computer host.
+        
+        The system may be temporarily out of action and may return shortly.
+    
+    - ID: GatewayExchanged
+      Maintitle: Gateway
+      Subtitle: Upgrade complete
+      Text: |
+        Congratulations agent - your new gateway is now operational your old one is already being dismantled.
+        
+        If you view your hardware profile through the administration interface you should see the new gateway in place.
+        If you experience any problems with this new system, please get in contact with us at Problems@UplinkCorporation.net.
+        
+        Please note that if you were performing multiple gateway upgrades, you may need to log out and back in again for them to take effect. You will receive another email if the need arises.
+
+    - ID: GatewayTerminatesConnection
+      Text: Connection terminated by Gateway
+    
+    - ID: RemoteHostTerminatesConnection
+      Text:  Connection terminated by remote host
+    
+    - ID: Timeout
+      Text: Connection terminated: Timed out: No response from host.
+    
+    - ID: HostInLockdown
+      Maintitle: Failed to establish connection
+      Subtitle: Connection Refused - Maintenance Mode
+      Text: |
+        The computer you tried to access will not accept connections at this time. Connection refusal response implies that the system is presently in maintenance mode.
+        
+        Systems usually lock themselves down when they have either recovered from a serious error, or have been infected and thus isolated. Maintenance mode is usually fully automated with an email sent to the listed administrator. Worst case scenarios usually take six hours for a system to complete its self preservation routines.
+        
+        If you continue to be unable to connect to this system, you should contact the administrator via email, which you can retrieve from the company's public access server.
+
+    - ID: RemoteIsHostile
+      Maintitle: Connection Canceled
+      Subtitle: Process halted by Network Enhancement Suite
+      Text: |
+        The connection attempt was canceled by the gateway's network stack. This can happen if the stack believes you to be directly connecting to a server that is in a defensive state.
+        
+        Please try your connection again later. If you believe this warning to be erroneous, you may also hold SHIFT to bypass this warning when connecting, or disable Network Enhancement in your administration panel.
+
+    - ID: InMaintenance
+      Maintitle: Connection Rejected
+      Text: |
+        The connection attempt was rejected by the remote host.
+        
+        Returned status code indicates that the remote host is presently under maintenance. Please wait a couple minutes before reattempting your connection.    
+
+    - ID: InnerSanctum
+      Text: |
+        Connection terminated by remote host
+        
+        
+        Server Message: Tread not where Angels dare.
+
+    - ID: NewGateway
+      Maintitle: Gateway
+      Subtitle: Upgrade complete
+      Text: |
+        Congratulations agent - your are now using your new gateway and your old one is already being dismantled.
+        
+        If you view your hardware profile you should see the new gateway in place.
+        If you experience any problems with this new system, please get in contact with us at Problems@UplinkCorporation.net.
+        
+    - ID: NumberNotInService
+      Maintitle: Error
+      Subtitle: Number not found
+      Text: |
+        The number you have dialed has not been recognised.
+        Please check and try again.
+
+    - ID: VPNMissing
+      Maintitle: Failed to establish connection
+      Subtitle: Connection Refused - Invalid Host
+      Text: |
+        The computer you tried to access will not accept connections outside of its VPN. Only connections from trusted access points will be allowed to connect.
+        
+        If you wish to establish a connection to this system, you must first route your connection through a trusted system with a matching session key.
+
+
+  NextScreen:
+    Text: {{ generic_ok }}
+    Tip: Click to continue
+    
+OfferTutorial:
+  Maintitle: Gateway
+  Subtitle: Set up complete
+  Text: |
+    Your Gateway computer has been successfully set up and will accept only your username and password in the future. When you next start Uplink on your home computer, you will be connected automatically to this Gateway.
+
+    In your mailbox you will find a message from Uplink Corporation, with some useful IP addresses.
+    You will also find the Uplink Test Mission, which will allow you to practice hacking.
+
+    WOULD YOU LIKE TO RUN THE TUTORIAL?
+    (Recommended for first time users)
+
+  NextScreen:
+    Text: {{ generic_yes }}
+    Tip: Run the tutorial
+
+  PreviousScreen:
+    Text: {{ generic_no }}
+    Tip: Skip the tutorial and return to the main screen
+
+Links:
+  Maintitle: Gateway
+  Subtitle: Click on a link to quick-connect to that site
+
+FileServer:
+  Maintitle: Gateway
+
+Logs:
+  Maintitle: Gateway
+
+Console:
+  Maintitle: Gateway

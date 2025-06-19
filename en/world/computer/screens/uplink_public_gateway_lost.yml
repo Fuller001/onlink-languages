@@ -1,0 +1,34 @@
+---
+technician_expert: Our technician has reported a fault with one of the component. {[He|She]} wasn't able to prevent the destruction of your component. {[He|She]} suffered no injuries.
+  
+technician_skilled: During the maintenance of your gateway, an incident occurred preventing our technician to continue {[his|her]} task. Unfortunately, this incident caused the destruction of your gateway. Our employee barely dodged danger and only received small injuries.
+  
+technician_beginner: |
+  It appears that the cause might be linked to a recent hardware update that you had requested. 
+  During maintenance, our technician may have mishandled some components, causing 
+  the destruction of your gateway and seriously injuring our employee. Fortunately, {[his|her]} life is no longer in danger. {[He|She]} will however not be working with us in the future.
+  
+no_technician: This may be due to a fault in our communications lines, and if this is the case then we apologise and ask you to try again later.
+
+ConnectionFailed:
+  Subtitle: Gateway connection failed
+  Text: |
+    We have been unable to connect you to your Gateway computer.
+    
+    {% if expertise == Expert %} {{ technician_expert }}
+    {% elif expertise == Skilled %} {{ technician_skilled }}
+    {% elif expertise == Beginner %} {{ technician_beginner }}
+    {% else %} {{ no_technician }}
+    {% endif %}
+    
+    We are aware that Uplink Agents occasionally suffer 'difficulties' with their Gateway systems and sometimes require a new one as a result. If this is the case, click YES below and we will assign you a new gateway. (There will be an administrative charge of {{ misc_numeric }} credits if you take this action.) Otherwise, click NO to log off and try again later.
+    
+    Rent a new Gateway computer?
+    
+  PreviousScreen: 
+    Text: NO
+    Tooltip: Click here to log out.
+    
+  NextScreen: 
+    Text: YES
+    Tooltip: Click here to rent a new Gateway.

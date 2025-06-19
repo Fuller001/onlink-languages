@@ -1,0 +1,4 @@
+---
+Welcome:
+  Subtitle: Public Access Server
+  Text: {{ computer_name }}

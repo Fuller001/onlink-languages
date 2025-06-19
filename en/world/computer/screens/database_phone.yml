@@ -1,0 +1,26 @@
+---
+{!Include ../../../common.yml !}
+
+Intro:
+  Subtitle: Unauthorised Access will be punished
+  Text: |
+    This is a Government owned computer system - all attempts at illegal access will be severely punished to the full extent of the law.
+    
+    Welcome to the International Telephone Database.
+    
+    The Directory Services by this computer are free and open to all.
+  NextScreen: {{ generic_proceed }}
+
+MainMenu:
+  Menu: Exit
+
+Browse:
+  Menu: Browse/Search
+  MenuTip: Click here to use a list of all listed Phone Numbers
+  
+Record:
+  Subtitle: View Telephone Record
+
+Password:
+  Menu: Admin
+  MenuTip: Click here to modify the database

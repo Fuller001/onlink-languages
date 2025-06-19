@@ -1,4 +1,6 @@
 ---
+{!Include ../common.yml!}
+
 Description: >
     {% if mission_type == Research %}
     delete_multiple/research.yml
@@ -15,7 +17,7 @@ Description: >
 Details: |
     {{ Details }}
     
-    {% if target_type == LAN %}
+    {% if target_type & LAN %}
     The data is stored on a LAN.
     {% endif %}
 
@@ -34,7 +36,7 @@ OnFailureDetails: |
 WhoIsTheTarget: The data is owned by {{ company_name }}
 WhySoMuchMoney: The data will be well protected.
 HowSecure: >
-    {% if target_type == LAN %}
+    {% if target_type & LAN %}
     The target is a LAN and will be well protected.
     {% else %}
     {{ HowSecure }}

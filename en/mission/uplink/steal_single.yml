@@ -1,4 +1,6 @@
 ---
+{!Include ../common.yml!}
+
 Subject:
     - Steal important data from a rival company's file server
     - Access a remote system and copy important data files

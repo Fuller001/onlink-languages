@@ -3,59 +3,128 @@
 FullServerName: {{ owner_name }} {{ suffix }}
 FullServerPossessiveName: {{ owner_name }}'s {{ suffix }}
 
-# Computer Type
+# Ownership based on Computer Type
+ComputerMask: |
+  {% if computer_type & AgentGateway %} Uplink Gateway System
+  {% elif computer_type & PersonalComputer %} Unknown Personal Computer
+  {% elif computer_type & VoicePhone %} Unknown Phone Number
+  {% else %} Unknown Link
+  {% endif %}
+
+OwnerMask: Unknown Owner
+
+# TLD based on Computer Type
+company_short_type: |
+  {% if company_type == Academic %} edu
+  {% elif company_type == ServiceProvider %} net
+  {% elif company_type == Government %} gov
+  {% else %} com
+  {% endif %} 
+
+company_domain: {{ company_name | replace(' ', '-') | lower }}.{{ company_short_type }}
+
 PublicAccessServer:
-    Name: Public Access Server
+  FQDN: www.{{ company_domain }}
+  Alias: Public Access Server
+
+PublicSalesServer:
+  FQDN: www.{{ company_domain }}
+  Alias: Public Sales Server
 
 PublicNetworkServer:
-    Name: Network Access Server
+  FQDN: www.{{ company_domain }}
+  Alias: Network Access Server
 
 AccessTerminal:
-    Alias: Access Terminal
+  FQDN: terminal-{{ computer_serial }}.{{ company_domain }}
+  Alias: Access Terminal
 
 InternalServices:
-    Name: Internal Services Machine
+  FQDN: internal.{{ company_domain }}
+  Alias: Internal Services Machine
 
 Mainframe:
-    Name: Central Mainframe
+  FQDN: mainframe.{{ company_domain }}
+  Alias: Central Mainframe
 
 BankServer:
-    Name: International Bank
+  FQDN: finance.{{ company_domain }}
+  Alias: International Bank
 
 FileServer:
-    Name: File Server
+  FQDN: ftp.{{ company_domain }}
+  Alias: File Server
 
 BackupServer:
-    Name: Backup Server
+  FQDN: backup.{{ company_domain }}
+  Alias: Backup Server
 
 CorporateGateway:
-    Name: Gateway System
-    LongName: Gateway Security System
+  FQDN: gateway.{{ company_domain }}
+  Alias: Gateway System
+  LongName: Gateway Security System
 
 LiftingServer:
-    Name: Lifting Server
-
-LiftingServer2:
-    Name: Lifting Server_
-    Alias: Lifting Server
+  FQDN: ls{{ computer_serial }}.{{ company_domain }}
+  Alias: Lifting Server
 
 AclServer:
-    Name: Access Control System
+  FQDN: exec.{{ company_domain }}
+  Alias: Access Control System
 
 NameServer:
-    Name: Name Server
+  FQDN: ns{{ computer_serial }}.{{ company_domain }}
+  Alias: FQDN Server
 
 ProjectServer:
-    Name: Project Server
+  FQDN: git.{{ company_domain }}
+  Alias: Project Server
 
 LanSystem:
-    Name: Local Area Network
-
-LanDialUp:
-    Name: LAN Dial Up access
+  FQDN: vpn.{{ company_domain }}
+  Alias: Local Area Network
 
 PersonalComputer:
-    Name: Personal Computer
+  FQDN: Personal Computer
 
 PersonalPhone:
-    Name: Phone Number
+  FQDN: Phone Number
+
+# Static computer names
+
+Introversion:
+  FQDN: www.introversion.co.uk
+  Alias: Introversion Software
+
+InterNIC:
+  FQDN: internic.net
+  Alias: InterNIC
+  
+PhoneExchange:
+  FQDN: ite.net
+  Alias: International Telephone Exchange
+
+DatabaseTelephone:
+  FQDN: ofcom.gov
+  Alias: International Telephone Database
+  
+DatabaseCriminal:
+  FQDN: justice.gov
+  Alias: Global Criminal Database
+
+DatabaseSocial:
+  FQDN: ssa.gov
+  Alias: Social Security Database
+  
+DatabaseAcademic:
+  FQDN: ed.gov
+  Alias: International Academic Database
+  
+DatabaseMedical:
+  FQDN: med.gov
+  Alias: Global Medical Database
+
+StockMarket:
+  FQDN: stockexchange.com
+  Alias: International Stock Market
+

@@ -1,0 +1,16 @@
+---
+HelpMenu:
+  Menu: Help
+  MenuTip: Read documents on a wide range of skills
+  MenuBack: Help Menu
+  MenuBackTip: Return to help menu
+  Subtitle: Help/
+
+MoreInfo:
+  Menu: Additional Information
+  MenuTip: Where you can find more information
+  Subtitle: Help/Additional Information
+  Text: |
+    While we have gone through a significant amount of knowledge regarding security systems you will face, not all advanced systems were covered.
+    
+    In place of extending these sections, we thought it would be more convenient to direct you over to the Uplink Laboratories Research Centre. On their server you will find additional information explaining newer technologies in further detail.

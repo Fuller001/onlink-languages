@@ -1,8 +1,8 @@
 ---
 ProceedButton:
-    Text: Proceed
-    Tooltip: Click here when done
+  Text: Proceed
+  Tooltip: Click here when done
 
 BackOutButton:
-    Text: Back
-    Tooltip: Click to go back to the previous screen
+  Text: Back
+  Tooltip: Click to go back to the previous screen

@@ -1,0 +1,39 @@
+---
+{!Include ../../../common.yml !}
+
+Welcome:
+  Subtitle: InterNet Information Center
+  Text: |
+    Welcome to the Internet Information Center
+    
+    Use of this service is free and open to all.
+  NextScreen: {{ generic_proceed }}
+
+MainMenu:
+  Menu: Exit
+  MenuTip: Return to the main menu
+  Subtitle: Main Menu
+  
+Links:
+  Menu: Browse/Search
+  MenuTip: Click here to use a list of all public IPs
+  Subtitle: Search List
+
+AdminAuth:
+  Menu: Admin
+  MenuTip: Click here to modify the database
+  Subtitle: Password authorisation required
+
+Logs:
+  Menu: Access Logs
+  MenuTip: Click here to view access logs
+  Subtitle: Log Screen
+
+DNSRecords:
+  Menu: DNS Records
+  MenuTip: Click here to view DNS records
+  Subtitle: View DNS record
+
+InternalRouting:
+  Subtitle: Name Services
+  Text: Routing your connection...

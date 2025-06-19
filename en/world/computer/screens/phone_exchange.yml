@@ -1,0 +1,10 @@
+---
+{!Include ../../../common.yml !}
+
+Links:
+  Subtitle: Select Desired Target
+  
+Forwarding:
+  Subtitle: Telephony Services
+  Text: Routing your call...
+  NextScreen: {{ generic_proceed }}

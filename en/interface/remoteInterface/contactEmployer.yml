@@ -1,46 +1,22 @@
 ---
-Date:
-    Text: Date
-    Tooltip: This column shows the date the message was submitted
+Question:
+  Tooltip: Click to ask this question
+  
+ContactTitle: Secure Communication Channel open
 
-Payment:
-    Text: Payment
-    Tooltip: This column shows the amount promised by the client
-
-Tier:
-    Text: Tier
-    Tooltip: This column shows the mission tier
-
-Difficulty:
-    Text: Difficulty
-    Tooltip: This column shows the estimated mission difficulty
-
-Subject:
-    Text: Subject
-    Tooltip: This column shows the subject of the message
-        
-Accept:
-    Text: Accept
-    Tooltip: Accept this mission
-
-Contact:
-    Text: Contact
-    Tooltip: Contact the employer of this mission
-
-Exit:
-    Text: Exit BBS
-    Tooltip: Exit
+System: System
+Anonymous: Anonymous
 
 ConferenceInit: |
-    Secure online communication channel established, Port 80"
-    Running SCi V2.6, copyright Frontier Communications Ltd
-    Conference online
+  Secure online communication channel established, Port 80
+  Running SCi V2.6, copyright Frontier Communications Ltd
+  Conference online
 
 EnterChat: User "{{ misc_string }}" has entered the conference
 
 EmployerIntro: |
-    Thank you for your time, agent.
-    How can we help?
+  Thank you for your time, agent.
+  How can we help?
 
 WhySoMuch: Why so much money?
 WhoIsTarget: Who is the target?
@@ -49,30 +25,47 @@ MoreMoney: I want more money
 HalfMoney: I want half the money now
 AllMoney: I want all the money now
 
+AlreadyAgreedMoreMoney: We've already agreed on the amount.
+RejectMoreMoney: I'm afraid we can't offer you any more money.
+AgreeMoreMoney: OK, we'll give you {{ misc_numeric }}c because of your reputation.
+
+AlreadyAgreedPayment: We've already agreed on payment.
+RejectHalfNow: I'm afraid I can't agree to that.
+AgreeHalfNow: |
+ {% if original_experience %} OK, agreed.
+ {% else %} I think we can do that. In exchange, we expect the mission to be done within 48 hours.
+ {% endif %}
+ 
+RejectAllNow: No way - do you think I'm stupid?
+AgreeAllNow: |
+ {% if original_experience %} OK, since you have such an excellent record.
+ {% else %} You do have an excellent record. We'll give you the full payment up front as long as the mission is completed within 24 hours.
+ {% endif %}
+
 AcceptMission: OK, agreed.
 RejectMission: No thanks.
 
 HowSecureVeryLow: |
-    The security will be non-existent.
-    We don't anticipate you experiencing much resistance.
+  The security will be non-existent.
+  We don't anticipate you experiencing much resistance.
 HowSecureLow: |
-    The security will be low.
-    You may encounter proxy servers or firewalls.
+  The security will be low.
+  You may encounter proxy servers or firewalls.
 HowSecureModerate: |
-    There will be some defense in action.
-    You will likely run into proxies or firewalls.
+  There will be some defense in action.
+  You will likely run into proxies or firewalls.
 HowSecureHigh: |
-    We expect security to be high.
-    You will certainly find some counter-measures in use.
+  We expect security to be high.
+  You will certainly find some counter-measures in use.
 HowSecureVeryHigh: |
-    Security will be very tight.
-    You will encounter multiple upgraded countermeasures.
+  Security will be very tight.
+  You will encounter multiple upgraded countermeasures.
 HowSecureExtreme: |
-    Security will be extremely high.
-    You will be working against several advanced countermeasures.");
+  Security will be extremely high.
+  You will be working against several advanced countermeasures.");
 HowSecureExperimental: |
-    Security will be state-of-the-art.
-    You will probably find experimental countermeasures not publicly available.
+  Security will be state-of-the-art.
+  You will probably find experimental countermeasures not publicly available.
 
 MissionExpired: The mission is not available anymore.
 

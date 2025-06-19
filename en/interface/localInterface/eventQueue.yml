@@ -1,0 +1,14 @@
+---
+Title:
+  Text: EVENT QUEUE
+  Tip: Remove the screen.
+
+EventElement:
+  Tip: Click to see the details of this event.
+
+RemoveElement:
+  Tip: Click to delete this event.
+
+DateInfo:
+  Tip: Click to close.
+

@@ -1,0 +1,12 @@
+---
+{!Include ../../common.yml !}
+
+Location: Simulate attack on this site
+
+HelpText: |
+  Greetings Professor Falken.
+  Shall we play a game?
+
+Close:
+  Text: {{ generic_close }}
+  Tip: How about a nice game of chess?

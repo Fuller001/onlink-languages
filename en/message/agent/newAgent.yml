@@ -4,18 +4,18 @@ Subject: Welcome to Uplink
 Body: |
     Your details have been entered into our account. Congratulations, you are now an officially rated Uplink Agent.
     
-    {% if game_type == Uplink %}
+    {% if original_experience %}
     We recommend you complete the Uplink Test mission before attempting any real work.
     
     {% endif %}
     Your first stopping off point should be the Uplink Internal Services System. Once there, log in and click on "help", followed by "getting started".
     
-    {% if game_type == Onlink %}
+    {% if not original_experience %}
     We have also included a link to a company where you can purchase tools that are not restricted to our agents. You may find them useful, but none are required to work for us.
     
     {% endif %}   
     Good luck.
-    {% if game_type == Onlink %}
+    {% if not original_experience %}
     
     P.S. From the Directorate: You may want to at one point visit our affiliates over at the Uplink Laboratories Research Centre. They work on cutting edge technology and can offer a great number of applications and boosts that we cannot.
     

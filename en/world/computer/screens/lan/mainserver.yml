@@ -1,0 +1,14 @@
+---
+Maintitle: Main Server
+
+Welcome:
+  Maintitle: {{ owner_name }}
+  Subtitle: Local Area Network
+  Text: |
+    MAIN SERVER ACCESSED
+    
+    External connection to Main Server granted.
+    This connection is being logged.
+    
+    If you are not authorised to have access to this LAN system
+    then you will be caught and prosecuted under the full force of the International Data Security Treaty, 2006.

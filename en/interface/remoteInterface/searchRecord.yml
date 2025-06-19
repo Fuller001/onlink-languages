@@ -1,0 +1,22 @@
+---
+{!Include ../../common.yml !}
+
+Search:
+  Text: {{ generic_ok }}
+  Tip: Click here when done
+
+Cancel:
+  Text: {{ generic_cancel }}
+  Tip: Click here to return to the menu
+
+InputBox:
+  Hint: Enter name here
+  Tip: Type the name of the person to search for here
+
+InputBox_computer:
+  Hint: Enter name or IP here
+  Tip: Type the name or IP of the computer to search for here
+
+InputBox_phone:
+  Hint: Enter owner or number here
+  Tip: Type the phone number to search for here

@@ -1,0 +1,58 @@
+---
+{!Include ../../../common.yml !}
+
+MainMenu:
+  Subtitle: |
+    {% if company_type == Industrial %} Heavy Industries
+    {% elif company_type == Commercial %} Corporate Network
+    {% elif company_type == Financial %} Financial Services
+    {% elif company_type == Academic %} Research Partners
+    {% elif company_type == ServiceProvider %} Internet Services
+    {% elif company_type == Government %} Government Services
+    {% else %} {% abort %}
+    {% endif %}
+
+AboutUs:
+  Menu: About Us
+  MenuTip: Our Mission Statement
+  Subtitle: Company data
+
+EmployeeLogin:
+  Menu: Employee Login
+  MenuTip: Login to your work account
+  Subtitle: Employee Log in
+
+EmployeeMenu:
+  Subtitle: Internal Services Main Menu
+
+EmployeeLogout:
+  Menu: Exit
+  MenuTip: Return to the main menu
+
+AdminMenu:
+  AttachScreens:
+    - ID: EmployeeMenu
+      Text: {{ generic_back }}
+
+VendorLogin:
+  Menu: Vendor Login
+  MenuTip: Login to your vendor account
+  Subtitle: Vendor Log in
+
+VendorMenu:
+  Subtitle: Vendor Services
+
+InternalRouting:
+  Subtitle: Internal Routing
+  Text: Routing...
+
+EmployeeLogout:
+  Menu: Exit
+  MenuTip: Return to the main menu
+  
+DropBox:
+  Subtitle: Vendor Access
+  
+VendorLogout:
+  Menu: Logout
+  MenuTip: Log out your session and return the the main menu

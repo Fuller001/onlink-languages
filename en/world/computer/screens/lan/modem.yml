@@ -1,0 +1,15 @@
+---
+PasswordBox:
+  Maintitle: Modem
+
+Info:
+  Subtitle: Local Area Network
+  Text: |
+    LAN DIAL-UP ACCESSED
+    
+    Phone charges incurred will be your own.
+    Our company is not responsible for your misuse of this LAN system.
+    Welcome to our LAN.
+    If you are not an authorised user you must disconnect now or risk legal action and jail time.
+    
+    The local dial-up number is {{ misc_string }}."

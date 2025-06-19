@@ -1,17 +1,20 @@
 ---
-Graph:
-    Text: Share value graph
-Table:
-    Text: Share values
+{!Include ../../common.yml !}
+
+Graph: Share value graph
+Table: Share values
+
 Buy:
-    Text: Buy
-    Tooltip: Click to buy shares in this company
+  Text: Buy
+  Tooltip: Click to buy shares in this company
+
 Sell:
-    Text: Sell
-    Tooltip: Click to sell shares in this company
+  Text: Sell
+  Tooltip: Click to sell shares in this company
+
 Exit:
-    Text: Close
-    Tooltip: Return to the share listing
+  Text: Close
+  Tooltip: Return to the share listing
 
 ViewTitle: Viewing {{ company_name }} shares
 TimeAxis: Time

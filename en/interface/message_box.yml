@@ -1,361 +1,378 @@
 ---
-close: Close
-closeHint: Close the message box
-yes: Yes
-no: No
+{!Include ../common.yml !}
+
+Close:
+  Text: Close
+  Tooltip: Close the message box
+Yes: Yes
+No: No
 
 # Main Menu
 RetireConfirm:
-    type: Confirmation #don't translate this
-    subject: Retire
-    body: Are you sure you want to remove "{{ misc_string }}" from the roster?
+  Type: Confirmation #don't translate this
+  Subject: Retire
+  Body: Are you sure you want to remove "{{ misc_string }}" from the roster?
 
 RetireNoTarget:
-    type: Simple
-    subject: Retire
-    body: No agent specified. Either select an agent from the list on the left or type an agent name in the 'Name' field.
+  Type: Simple
+  Subject: Retire
+  Body: No agent specified. Either select an agent from the list on the left or type an agent name in the 'Name' field.
 
 RetireNotValid:
-    type: Simple
-    subject: Retire
-    body: "{{ misc_string }}" is not currently on the roster.
-    
+  Type: Simple
+  Subject: Retire
+  Body: "{{ misc_string }}" is not currently on the roster.
+  
 # Options
-
 ScreenChanged:
-    type: Confirmation
-    subject: Keep Changes ?
-    body: |
-        Do you wish to keep the current Changes ?
-        The changes will be reverted in {{misc_numeric}} seconds.
+  Type: Confirmation
+  Subject: Keep Changes ?
+  Body: |
+    Do you wish to keep the current Changes ?
+    The changes will be reverted in {{ misc_numeric }} seconds.
 
 # Pause
-UplinkPaused:
-    type: Simple
-    subject: Game Paused
-    body: |
-        {{ misc_string }} is paused.
-        Click Close to continue.
+GamePaused:
+  Type: Simple
+  Subject: Game Paused
+  Body: |
+    {{ misc_string }} is paused.
+    Click Close to continue.
 
 # Security triggers
 DeniedByProxy:
-    type: Simple
-    subject: {{ generic_error }}
-    body: Denied access by Proxy Server
+  Type: Simple
+  Subject: {{ generic_error }}
+  Body: Denied access by Proxy Server
 
 DeniedByFirewall:
-    type: Simple
-    subject: {{ generic_error }}
-    body: Denied access by Firewall
+  Type: Simple
+  Subject: {{ generic_error }}
+  Body: Denied access by Firewall
 
 DeniedByASELink:
-    type: Simple
-    subject: {{ generic_error }}
-    body: Unable to process link.
+  Type: Simple
+  Subject: {{ generic_error }}
+  Body: Unable to process link.
 
 DeniedByASEScreen:
-    type: Simple
-    subject: {{ generic_error }}
-    body: Could not initialize screen.
+  Type: Simple
+  Subject: {{ generic_error }}
+  Body: Could not initialize screen.
 
 DeniedByGateway:
-    type: Simple
-    subject: {{ generic_error }}
-    body: Host is not responding.
+  Type: Simple
+  Subject: {{ generic_error }}
+  Body: Host is not responding.
 
 DeniedByAccessControl:
-    type: Simple
-    subject: {{ misc_string }}
-    body: Program execution not permitted. Contact your local administrator for assistance.
+  Type: Simple
+  Subject: {{ misc_string }}
+  Body: Program execution not permitted. Contact your local administrator for assistance.
 
-DeniedByInsufficentAuth:
-    type: Simple
-    subject: {{ generic_error }}
-    body: Failed to toggle security service: Access is denied.
+DeniedByInsufficentAuthFileserver:
+  Type: Simple
+  Subject: {{ generic_error }}
+  Body: Insufficient Authentication level for file server: Access is denied.
+
+DeniedByInsufficentAuthSecurity:
+  Type: Simple
+  Subject: {{ generic_error }}
+  Body: Failed to toggle security service: Access is denied.
 
 DeniedBySeal:
-    type: Simple
-    subject: {{ generic_error }}
-    body: Host is not responding.
+  Type: Simple
+  Subject: {{ generic_error }}
+  Body: Host is not responding.
 
 # Local administration errors
 ConnectionTargetInvalid:
-    type: Simple
-    subject: Invalid IP
-    body: This IP is invalid. Connection aborted.
+  Type: Simple
+  Subject: Invalid IP
+  Body: This IP is invalid. Connection aborted.
 
 ConnectionSwitchPhone:
-    type: Simple
-    subject: {{ generic_error }}
-    body: Cannot deactivate audio stream connection. Disconnect first.
+  Type: Simple
+  Subject: {{ generic_error }}
+  Body: Cannot deactivate audio stream connection. Disconnect first.
 
 LocalLogBank:
-    type: Simple
-    subject: {{ generic_error }}
-    body: Log bank access not permitted while network connection is active.
+  Type: Simple
+  Subject: {{ generic_error }}
+  Body: Log bank access not permitted while network connection is active.
 
 LocalConsole:
-    type: Simple
-    subject: {{ generic_error }}
-    body: Console access not permitted while network connection is active.
+  Type: Simple
+  Subject: {{ generic_error }}
+  Body: Console access not permitted while network connection is active.
 
 StagingSwitch:
-    type: Simple
-    subject: {{ generic_error }}
-    body: Cannot change staging system while any connection is active.
+  Type: Simple
+  Subject: {{ generic_error }}
+  Body: Cannot change staging system while any connection is active.
 
 InsufficentRAM_HUD:
-    type: Simple
-    subject: {{ generic_error }}
-    body: Not enough RAM to enable HUD plugin
+  Type: Simple
+  Subject: {{ generic_error }}
+  Body: Not enough RAM to enable HUD plugin
 
 InsufficentRAM_KEXT:
-    type: Simple
-    subject: {{ generic_error }}
-    body: Not enough RAM to enable kernel extension
+  Type: Simple
+  Subject: {{ generic_error }}
+  Body: Not enough RAM to enable kernel extension
 
 # Mail handling
 MailAlreadyDownloaded:
-    type: Simple
-    subject: {{ generic_error }}
-    body: Attachment already downloaded from the mail server.
+  Type: Simple
+  Subject: {{ generic_error }}
+  Body: Attachment already downloaded from the mail server.
 
 MailNotEnoughSpace:
-    type: Simple
-    subject: {{ generic_error }}
-    body: Not enough space on databank to download attachment.
+  Type: Simple
+  Subject: {{ generic_error }}
+  Body: Not enough space on databank to download attachment.
 
 # Account creations
 MissingUsername:
-    type: Simple
-    subject: {{ generic_error }}
-    body: You must enter an username
+  Type: Simple
+  Subject: {{ generic_error }}
+  Body: You must enter an username
 
 ExistingUsername:
-    type: Simple
-    subject: {{ generic_error }}
-    body: Username already taken. Please choose a different username before continuing.
+  Type: Simple
+  Subject: {{ generic_error }}
+  Body: Username already taken. Please choose a different username before continuing.
 
 MissingPassword:
-    type: Simple
-    subject: {{ generic_error }}
-    body: You must enter a password
+  Type: Simple
+  Subject: {{ generic_error }}
+  Body: You must enter a password
 
 PasswordMismatch:
-    type: Simple
-    subject: {{ generic_error }}
-    body: The two passwords must be identical
+  Type: Simple
+  Subject: {{ generic_error }}
+  Body: The two passwords must be identical
 
 MissingRealName:
-    type: Simple
-    subject: {{ generic_error }}
-    body: Please enter your full name
+  Type: Simple
+  Subject: {{ generic_error }}
+  Body: Please enter your full name
 
 ExistingAgent:
-    type: Simple
-    subject: {{ generic_error }}
-    body: |
-        Our records show you are already
-        registered as an Uplink agent.
+  Type: Simple
+  Subject: {{ generic_error }}
+  Body: |
+    Our records show you are already
+    registered as an Uplink agent.
 
 InvalidCharacters:
-    type: Simple
-    subject: {{ generic_error }}
-    body: |
-        Names or usernames cannot contain
-        any of these characters:
-        {{ misc_string }}
+  Type: Simple
+  Subject: {{ generic_error }}
+  Body: |
+    Names or usernames cannot contain
+    any of these characters:
+    {{ misc_string }}
 
 ReservedUser:
-    type: Simple
-    subject: {{ generic_error }}
-    body: Names or usernames cannot be {{ account_admin }}, {{ account_readwrite }} or {{ account_readonly }}
+  Type: Simple
+  Subject: {{ generic_error }}
+  Body: Names or usernames cannot be {{ account_admin }}, {{ account_readwrite }} or {{ account_readonly }}
 
 SaveFileLocked:
-    type: Simple
-    subject: {{ generic_error }}
-    body: |
-        We were not able to add your record into our database.
-        Please try a different nickname or wait for our service desk to investigate.
+  Type: Simple
+  Subject: {{ generic_error }}
+  Body: |
+    We were not able to add your record into our database.
+    Please try a different nickname or wait for our service desk to investigate.
 
 # Bank accounts
 BalanceNotZero:
-    type: Simple
-    subject: {{ generic_error }}
-    body: |
-        Your account cannot be closed.
-        The balance must be zero.
+  Type: Simple
+  Subject: {{ generic_error }}
+  Body: |
+    Your account cannot be closed.
+    The balance must be zero.
 
 LoanNotZero:
-    type: Simple
-    subject: {{ generic_error }}
-    body: |
-        Your account cannot be closed.
-        The loan must be zero.
+  Type: Simple
+  Subject: {{ generic_error }}
+  Body: |
+    Your account cannot be closed.
+    The loan must be zero.
+
+MissingTransferField:
+  Type: Simple
+  Subject: {{ generic_error }}
+  Body: You must first fill out all of the fields before making a transfer.
 
 # Records
 AcademicUpdate:
-    type: Simple
-    subject: {{ generic_success }}
-    body: Academic record updated
+  Type: Simple
+  Subject: {{ generic_success }}
+  Body: Academic record updated
 
 ArrestAuthorised:
-    type: Simple
-    subject: Arrest Authorised
-    body: |
-        Authorisation Accepted
-        This person will be arrested in {{ misc_numeric }} hours.
+  Type: Simple
+  Subject: Arrest Authorised
+  Body: |
+    Authorisation Accepted
+    This person will be arrested in {{ misc_numeric }} hours.
 
 ArrestPersonIncarcerated:
-    type: Simple
-    subject: Arrest Not Authorised
-    body: |
-        Authorisation rejected
-        Suspect is already incarcerated.
+  Type: Simple
+  Subject: Arrest Not Authorised
+  Body: |
+    Authorisation rejected
+    Suspect is already incarcerated.
 
 ArrestPersonInvalid:
-    type: Simple
-    subject: Arrest Not Authorised
-    body: |
-        Authorisation rejected
-        A suspect must have at least {{ misc_numeric }} prior convictions and must have broken parole before an arrest can be authorised remotely.
+  Type: Simple
+  Subject: Arrest Not Authorised
+  Body: |
+    Authorisation rejected
+    A suspect must have at least {{ misc_numeric }} prior convictions and must have broken parole before an arrest can be authorised remotely.
 
 ArrestPersonDeceased:
-    type: Simple
-    subject: Arrest Rejected
-    body: This person is deceased.
+  Type: Simple
+  Subject: Arrest Rejected
+  Body: This person is deceased.
 
 ReleaseAuthorised:
-    type: Simple
-    subject: Release Authorised
-    body: |
-        Authorisation Accepted
-        This person will be released in {{ misc_numeric }} hours.
+  Type: Simple
+  Subject: Release Authorised
+  Body: |
+    Authorisation Accepted
+    This person will be released in {{ misc_numeric }} hours.
 
 ReleaseInvalid:
-    type: Simple
-    subject: Release Rejected
-    body: This person has a criminal record.
+  Type: Simple
+  Subject: Release Rejected
+  Body: This person has a criminal record.
 
 SocialUpdate:
-    type: Simple
-    subject: {{ generic_success }}
-    body: Social Security Record updated
+  Type: Simple
+  Subject: {{ generic_success }}
+  Body: Social Security Record updated
 
 UnknownMarital:
-    type: Simple
-    subject: {{ generic_error }}
-    body: Unknown Marital Status.
+  Type: Simple
+  Subject: {{ generic_error }}
+  Body: Unknown Marital Status.
 
 UnknownVital:
-    type: Simple
-    subject: {{ generic_error }}
-    body: Unknown Personal Status.
+  Type: Simple
+  Subject: {{ generic_error }}
+  Body: Unknown Personal Status.
 
 MedicalUpdate:
-    type: Simple
-    subject: {{ generic_success }}
-    body: Medical record updated.
+  Type: Simple
+  Subject: {{ generic_success }}
+  Body: Medical record updated.
 
 DNSUpdate:
-    type: Simple
-    subject: {{ generic_success }}
-    body: Medical record updated.
+  Type: Simple
+  Subject: {{ generic_success }}
+  Body: Medical record updated.
 
 # Session key generation errors
 MissingIP:
-    type: Simple
-    subject: {{ generic_error }}
-    body: IP field should not be empty.
-    
+  Type: Simple
+  Subject: {{ generic_error }}
+  Body: IP field should not be empty.
+  
 MissingMajorSeed:
-    type: Simple
-    subject: {{ generic_error }}
-    body: Major seed field should not be empty.
-    
+  Type: Simple
+  Subject: {{ generic_error }}
+  Body: Major seed field should not be empty.
+  
 MissingMinorSeed:
-    type: Simple
-    subject: {{ generic_error }}
-    body: Minor seed field should not be empty.
+  Type: Simple
+  Subject: {{ generic_error }}
+  Body: Minor seed field should not be empty.
 
 NotValidIP:
-    type: Simple
-    subject: {{ generic_error }}
-    body: IP could not be resolved
+  Type: Simple
+  Subject: {{ generic_error }}
+  Body: IP could not be resolved
 
 NotValidTerminal:
-    type: Simple
-    subject: {{ generic_error }}
-    body: Computer is not in the accepted terminals list
+  Type: Simple
+  Subject: {{ generic_error }}
+  Body: Computer is not in the accepted terminals list
 
 NotATerminal:
-    type: Simple
-    subject: {{ generic_error }}
-    body: Cannot connect to LANs with internal computers
+  Type: Simple
+  Subject: {{ generic_error }}
+  Body: Cannot connect to LANs with internal computers
 
 NotValidSeed:
-    type: Simple
-    subject: {{ generic_error }}
-    body: Invalid seed value
+  Type: Simple
+  Subject: {{ generic_error }}
+  Body: Invalid seed value
 
 # Launch errors
+ProgramInsufficentCPU:
+  Type: Simple
+  Subject: {{ generic_ok }}
+  Body: Could not initialise: CPU reservation failed.
+
 ProgramOOM:
-    type: Simple
-    subject: {{ generic_ok }}
-    body: Could not initialise: Out of memory
+  Type: Simple
+  Subject: {{ generic_ok }}
+  Body: Could not initialise: Out of memory
 
 ProgramUnreadable:
-    type: Simple
-    subject: {{ misc_string }}
-    body: No space left on device.
+  Type: Simple
+  Subject: {{ misc_string }}
+  Body: Could not initialise: Unable to locate .code section of program.
 
 ProgramTruncated:
-    type: Simple
-    subject: {{ misc_string }}
-    body: No space left on device.
+  Type: Simple
+  Subject: {{ misc_string }}
+  Body: Program catastrophically aborted: Invalid range.
 
 SessionKeyNoSpace:
-    type: Simple
-    subject: {{ generic_error }}
-    body: No space left on device.
+  Type: Simple
+  Subject: {{ generic_error }}
+  Body: No space left on device.
 
 TutorialMissing:
-    type: Simple
-    subject: {{ generic_error }}
-    body: Could not find Tutorial program in databank
+  Type: Simple
+  Subject: {{ generic_error }}
+  Body: Could not find Tutorial program in databank
 
 # Software
 FaithSuccess:
-    type: Simple
-    subject: Faith
-    body: Revelation has been purged
+  Type: Simple
+  Subject: Faith
+  Body: Revelation has been purged
 
 FaithFail:
-    type: Simple
-    subject: Faith
-    body: Not all Revelation processes could be purged
+  Type: Simple
+  Subject: Faith
+  Body: Not all Revelation processes could be purged
 
 FaithNoAction:
-    type: Simple
-    subject: Faith
-    body: Revelation is not running locally
+  Type: Simple
+  Subject: Faith
+  Body: Revelation is not running locally
 
 FaithOminous:
-    type: Simple
-    subject: F4*tH
-    body: Rev3l$ti0n h4s b3eN pur&3d
+  Type: Simple
+  Subject: F4*tH
+  Body: Rev3l$ti0n h4s b3eN pur&3d
 
 InstallerSuccess:
-    type: Simple
-    subject: Installer
-    body: Software successfully installed.
+  Type: Simple
+  Subject: Installer
+  Body: Software successfully installed.
 
 InstallerFail:
-    type: Simple
-    subject: {{ generic_error }}
-    body: Not enough RAM available to install package.
+  Type: Simple
+  Subject: {{ generic_error }}
+  Body: Not enough RAM available to install package.
 
 InstallerNoAction:
-    type: Simple
-    subject: {{ generic_error }}
-    body: Software is already installed on this system.
+  Type: Simple
+  Subject: {{ generic_error }}
+  Body: Software is already installed on this system.

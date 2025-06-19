@@ -1,0 +1,123 @@
+---
+{!Include ../../../common.yml !}
+
+MainTitle: {{ owner_name }}
+NextScreen: {{ generic_next }}
+PreviousScreen: {{ generic_back }}
+
+MainMenu:
+  MenuBack: Main Menu
+  MenuBackTip: Return to the main menu
+  Subtitle: Main Menu
+  
+AdminMenu:
+  Menu: Admin
+  MenuTip: Enter administrative mode
+  Subtitle: Admin Menu
+
+CompanyInfo:
+  Menu: Contact Us
+  MenuTip: View company contact information
+  Subtitle: Company data
+
+MarketSoftware:
+  Menu: Software Market
+  MenuTip: Buy new Software
+  Subtitle: Software Sales
+
+MarketHardware:
+  Menu: Hardware Market
+  MenuTip: Buy new Hardware
+  Subtitle: Hardware sales
+
+MenuSearchRecords:
+  Menu: Search Records
+
+ViewRecords:
+  Menu: View records
+  MenuTip: View the records stored on this system
+  Subtitle: Records
+
+Links:
+  Menu: View links
+  MenuTip: View all links available on this system
+  Subtitle: Links
+
+LogBank:
+  Menu: View Logs
+  MenuTip: View the access logs on this system
+  Subtitle: Access Logs
+
+Console:
+  Menu: Console
+  MenuTip: Run a console
+  Subtitle: Console
+  
+CompanyInfo:
+  Menu: Contact Us
+  MenuTip: View company contact information
+
+Record:
+  Menu: View records
+  MenuTip: View the records stored on this system
+  Subtitle: Records
+
+HighSecurity:
+  Subtitle: Authorisation required
+
+UserID:
+  Subtitle: Log in
+
+Password:
+  Subtitle: Password authorisation required
+
+Cypher:
+  Subtitle: Enter elliptic-curve encryption cypher
+
+VoiceAnalysis:
+  Subtitle: Voice print analysis required
+
+VDPIN:
+  Subtitle: Virtual Dynamic Personal Identification Number
+
+VSEC:
+  Subtitle: VDPIN Secure
+
+SWSales:
+  Menu: Software Market
+  MenuTip: Buy new Software
+  Subtitle: Software Sales
+
+HWSales:
+  Menu: Hardware Market
+  MenuTip: Buy new Hardware
+  Subtitle: Hardware sales
+
+Security:
+  Menu: Security
+  MenuTip: Enable and disable security systems
+  Subtitle: Security settings
+
+DataBank:
+  Menu: File server
+  MenuTip: Access the file server
+  Subtitle: File Server
+
+MoneyTransfer:
+  MenuTip: Wire credits to another account
+  Subtitle: Transfer money
+
+UserRegistration:
+  Menu: Create New Account
+  MenuTip: Create a new account
+
+Account:
+  MenuTip: View Account
+  Subtitle: View Account 
+
+PersonalMail:
+  Menu: Access Emails
+  Subtitle: Emails
+
+Sanctum:
+  Menu: Inner Sanctum

@@ -1,97 +1,102 @@
 ---
+{!Include ../../common.yml !}
+
 Components:
-    CPU: CPU
-    RAM: RAM
-    Modem: modem
-    Memory: memory
-    Security: security
-    Upgrade: upgrade
-    Cooler: cooler
+  Generic: {{ hardware_name }}
+  GenericInstallation: {{ hardware_name }} (pending installation)
+  GenericPurchase: {{ hardware_name }} (pending purchase)
+  GenericEmpty: Empty {{ hardware_type }} slot
+  CPUCooled: {{ hardware_name }} (Overclocked with assistance from {{ cooler_name }})
+  CPUCooledInstallation: {{ GenericInstallation }} (Overclocked with assistance from {{ cooler_name }})
+  CPUCooledPurchase: {{ GenericPurchase }} (Overclocked with assistance from {{ cooler_name }})
 
-    PowerSupplyUnit: Power Supply Unit
-
-    Generic: {{ hardware_name }}
-    GenericInstallation: {{ hardware_name }} (pending installation)
-    GenericPurchase: {{ hardware_name }} (pending purchase)
-    GenericEmpty: Empty {{ hardware_type }} slot
-    CPUCooled: {{ hardware_name }} (Overclocked with assistance from {{ cooler_name }})
-    CPUCooledInstallation: {{ GenericInstallation }} (Overclocked with assistance from {{ cooler_name }})
-    CPUCooledPurchase: {{ GenericPurchase }} (Overclocked with assistance from {{ cooler_name }})
-
-
-    MemoryDescription: |
-        {{ hardware_name }}
-        
-        {{ memory_amount }} Gigaquads of storage space
+  MemoryDescription: |
+    {{ hardware_name }}
+    
+    {{ memory_amount }} Gigaquads of storage space
 
 HardwareMenu:
-    Info: Select this hardware option
-    CPUList: Display CPU list
-    CoolerList: Display cooling system list
-    RAMList: Display RAM chips list
-    ModemList: Display modem components list
-    MemoryList: Display memory chips list
-    SecurityList: Display security upgrades list
-    UpgradeList: Display upgrades list
-    Background: No Hardware Available
+  ItemInfo: Select this hardware option
+  CPUList: Display CPU list
+  CoolerList: Display cooling system list
+  RAMList: Display RAM chips list
+  ModemList: Display modem components list
+  MemoryList: Display memory chips list
+  SecurityList: Display security upgrades list
+  UpgradeList: Display upgrades list
+  Background: No Hardware Available
 
 Deselect: Deselect
 
-Cancel: Cancel
-CancelTooltip: Click to exit this menu
+Cancel:
+  Text: {{ generic_cancel }}
+  Tooltip: Click to exit this menu
     
-Buy:
-    CompleteOrder: Complete order
-    CompleteOrderInfo: Click to finalize your purchase
+CompleteOrder:
+  Text: Complete order
+  Tooltip: Click to finalize your purchase
 
-    ClearOrder: Clear order
-    ClearOrderInfo: Click to remove all planned changes
-
-    PaymentDescription: "{{ company_name }} hardware sale: {{ hardware_name }}"
+ClearOrder:
+  Text: Clear order
+  Tooltip: Click to remove all planned changes
+  
+PaymentDescription: "{{ company_name }} hardware sale: {{ hardware_name }}"
 
 Replace:
-    Generic: Replace
-    Info:
-        Generic: Click to replace a component. A refund will be transferred after maintenance completion.
-        
-        NoReplacementNeeded: No replacement needed
-        Planned: Replacement Planned
+  Text: Replace
+  Tooltip: Click to replace a component. A refund will be transferred after maintenance completion.
+  
+ReplaceInfo:
+  NoReplacementNeeded: No replacement needed
+  Planned: Replacement Planned
 
-        ReplaceModem: Replace Modem First
-        ReplaceCooler: Replace Cooler First
+  ReplaceModem: Replace Modem First
+  ReplaceCooler: Replace Cooler First
 
 Add:
-    Generic: Add
-    Info:
-        Generic: Click to add a component to the order
+  Text: Add
+  Tooltip: Click to add a component to the order
 
-        Added: Added to order
-
-        NoSatelliteReceiver: Your Gateway lacks the Satellite Receiver required for this upgrade.
-        NoQBitReceiver: Your Gateway lacks the q-Bit Receiver required for this upgrade.
-        NoEnoughBandwidth: Your gateway does not have sufficient bandwidth to run a modem of this speed.
-    
-        NanoPatchMissing: All nano-driven CPUs require a {{ misc_numeric }} Gq patch found in software upgrades.
-        HyperPatchMissing: This CPU requires a {{ misc_numeric }} Gq patch to boot.sys in order to prevent it from overheating.
-    
-        PatchMissingSource: {{ patch_info }} You can find it in software upgrades.
-        PatchMissingRemoteSource: {{ patch_info }} You can find it in software upgrades at {{ company_name }}.
-    
-        MemoryFull: You cannot fit this amount of memory in your gateway.
-        DeviceAlreadyOwned: You already have this device installed.
-    
-        HardwareNotSupported: You do not have supporting hardware on your gateway for this upgrade.
-
-        SecurityDeviceNoMemory: You cannot fit this security device in your gateway, you need at least {{ misc_numeric }} Gq of free memory for the driver.
+AddInfo:
+  Added: Added to order
+  NoSatelliteReceiver: Your Gateway lacks the Satellite Receiver required for this upgrade.
+  NoQBitReceiver: Your Gateway lacks the q-Bit Receiver required for this upgrade.
+  NoEnoughBandwidth: Your gateway does not have sufficient bandwidth to run a modem of this speed.
+  NanoPatchMissing: All nano-driven CPUs require a {{ misc_numeric }} Gq patch found in software upgrades.
+  HyperPatchMissing: This CPU requires a {{ misc_numeric }} Gq patch to boot.sys in order to prevent it from overheating.
+  PatchMissingSource: {{ patch_info }} You can find it in software upgrades.
+  PatchMissingRemoteSource: {{ patch_info }} You can find it in software upgrades at {{ company_name }}.
+  MemoryFull: You cannot fit this amount of memory in your gateway.
+  DeviceAlreadyOwned: You already have this device installed.
+  HardwareNotSupported: You do not have supporting hardware on your gateway for this upgrade.
+  SecurityDeviceNoMemory: You cannot fit this security device in your gateway, you need at least {{ misc_numeric }} Gq of free memory for the driver.
 
 Remove:
-    Generic: Remove
-    Info:
-        Generic: Click to sell this component when the order is complete
+  Text: Remove
+  Tooltip: Click to sell this component when the order is complete
 
-        RemoveCooler: Remove cooler first
-        Planned: Removal Planned
+RemoveInfo:
+  RemoveCooler: Remove cooler first
+  Planned: Removal Planned
 
-        NoComponent: Having no {{ hardware_type }} on a gateway is not allowed
-        UpgradeNeededModem: This hardware is needed by the current modem and cannot be sold
-        UpgradeNeededCooling: This hardware is needed by a cooling unit and cannot be sold
+  NoComponent: Having no {{ hardware_type }} on a gateway is not allowed
+  UpgradeNeededModem: This hardware is needed by the current modem and cannot be sold
+  UpgradeNeededCooling: This hardware is needed by a cooling unit and cannot be sold
+
+PurchaseSuccess:
+  Subtitle: Hardware purchase successful
+  Text: |
+    Your requested hardware changes have been accepted. The maintenance will occur in the next 24 hours.
+    
+    You will be notified when the job is completed.
+  NextPage: {{ generic_return }}
+
+PurchaseFailure:
+  Subtitle: Hardware purchase failed
+  Text: Your requested hardware changes could not be completed. It appears that you lack the funds to purchase all the requested hardware. As such, your transaction has been cancelled.
+  NextPage: {{ generic_return }}
+
+PurchaseCancelled:
+  Subtitle: Hardware purchase cancelled
+  Text: No maintenance or transaction has occurred: No items were requested.
+  NextPage: {{ generic_return }}

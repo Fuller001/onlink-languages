@@ -1,0 +1,15 @@
+---
+Maintitle: Log Server
+
+Welcome:
+  Maintitle: {{ owner_name }}
+  Subtitle: Local Area Network
+  Text: |
+    External access to LOG server granted.
+    
+    Checking Operating System : OK
+    Checking File LAN system : OK
+    Checking LOG integrity : OK
+    
+    Warning: Only the Sys admin has access to this LAN system.
+    All attempted hacks will be logged ;)

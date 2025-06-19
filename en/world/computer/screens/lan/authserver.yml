@@ -1,0 +1,20 @@
+---
+Maintitle: Authentication Server
+
+Welcome:
+  Maintitle: {{ owner_name }}
+  Subtitle: Local Area Network
+  Text: |
+    AUTHENTICATION SERVER ACCESSED
+    
+    Authentication Server dedicated server software running
+    One user currently detected online
+    Incoming ports check OK
+    Outgoing ports check OK
+    Target Lock systems check OK
+    
+    If you are not the LAN system administrator you must disconnect now or you will be punished to the full extent of the law.
+    All access to this LAN system is logged and checked on a daily basis.
+
+Control:
+  Subtitle: Authentication Server

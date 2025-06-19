@@ -1,0 +1,21 @@
+---
+Title:
+  Text: MAILBOX
+  Tip: Remove the screen.
+
+EmailElement:
+  Tip: Click to read this email
+
+RemoveElement:
+  Tip: Click to delete this email.
+
+Filter:
+  Hint: Filter
+  Tip: Enter filter pattern here.
+
+ClearFilter:
+  Tip: Clear the filter.
+
+RemoveEmails:
+  Text: Remove Emails
+  Tip: Click to delete all the emails

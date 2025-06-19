@@ -1,0 +1,8 @@
+---
+{!Include ../../common.yml !}
+
+Exit:
+  Text: {{ generic_ok }}
+  Tooltip: Click to close this screen
+
+RevokedListStart: Your username and password was revoked on these systems:

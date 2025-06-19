@@ -1,8 +1,7 @@
 ---
-Attempts:
-    Text: |
-        {% if misc_numeric > 1 %}
-        {{ misc_numeric }} attempts left
-        {% else %}
-        {{ misc_numeric }} attempt left
-        {% endif %}
+Attempts: |
+  {% if misc_numeric > 1 %}
+  {{ misc_numeric }} attempts left
+  {% else %}
+  {{ misc_numeric }} attempt left
+  {% endif %}

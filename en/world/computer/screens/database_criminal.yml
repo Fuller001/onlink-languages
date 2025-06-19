@@ -1,0 +1,27 @@
+---
+Intro:
+  Subtitle: Unauthorised Access will be punished
+  Text: |
+    This is a Government owned computer system - all attempts at illegal access will be severely punished to the full extent of the law.
+    
+    An Elliptic-Curve encryption cypher will be required for full system access.
+    
+    Valid User Accounts
+    ====================
+    
+    admin     - Complete system wide access
+    readwrite  - Read/Write access to all records
+    readonly   - Read only access to all records
+  NextScreen: Log in
+
+
+SearchRecord:
+  Subtitle: Search for Criminal Record
+  Menu: Search Records
+  
+Record:
+  Subtitle: View Criminal Records
+
+Password:
+  Menu: Admin
+  MenuTip: Click here to modify the database

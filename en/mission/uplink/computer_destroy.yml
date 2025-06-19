@@ -1,4 +1,6 @@
 ---
+{!Include ../common.yml!}
+
 Subject: Elite agent required for destruction of computer system
 Body: |
     One of our competitors has made the critical mistake of becoming over dependent on one of their primary computer systems, and we intend to take advantage of this oversight.
@@ -16,7 +18,7 @@ Body: |
 
 Details: |
     {{ Details }}
-    {% if target_type == LAN %}
+    {% if target_type & LAN %}
     
     The data is stored on a LAN.
     {% endif %}

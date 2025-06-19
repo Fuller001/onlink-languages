@@ -1,0 +1,88 @@
+---
+{!Include ../../computer/gatewayUsage.yml !}
+
+Title:
+  Text: ADMINISTRATION
+  Tip: Remove the status screen
+
+Logs:
+  Text: Logs
+  Tip: View the log bank
+
+Console:
+  Text: Console
+  Tip: View the console
+
+Tabs:
+  Items:
+    RAMManagement:
+      Text: RAM
+      Tip: Manage your RAM usage
+    GatewayManagement:
+      Text: Gateways
+      Tip: Manage your gateways
+
+HUDTitle: Head Up Display
+SystemTitle: System
+CounterMeasuresTitle: Counter Measures
+StatisticsTitle: Statistics
+
+SectionTitle: |
+  {% if section == HeadUpDisplay  %}
+  {{ HUDTitle }}
+  {% elif section == System  %}
+  {{ SystemTitle }}
+  {% elif section == CounterMeasures  %}
+  {{ CounterMeasuresTitle }}
+  {% elif section == Statistics  %}
+  {{ StatisticsTitle }}
+  {% endif %}
+
+RAMInfo: "Available RAM: {{ ram_available }} / {{ ram_size }} Gq"
+
+RAMTitles: |
+  Total RAM
+  Available RAM
+  In use by Core System
+  HUD
+  Security
+  Counter Measures
+  Running Programs 
+
+RAMValues: |
+  {{ ram_size }} Gq
+  {{ ram_available }} Gq
+  {{ ram_system }} Gq
+  {{ ram_hud }} Gq
+  {{ ram_security }} Gq
+  {{ ram_counter_measure }} Gq
+  {{ ram_program }} Gq
+
+UsageStatus:
+  Text: {{ Status }}
+  Tip: Show this gateway's status information in various screens
+
+UsagePowerHouse:
+  Text: {{ PowerHouse }}
+  Tip: Use this gateway's CPU power
+  
+UsageUpdate:
+  Text: {{ Update }}
+  Tip: Set this gateway as the recipient for future software and hardware purchases
+  
+UsageServer:
+  Text: {{ Server }}
+  Tip: Show this gateway's status information in various screens
+  
+UsageStaging:
+  Text: {{ Staging }}
+  Tip: Use this gateway's memory bank in the memory screen
+  
+UsageDevelopment:
+  Text: {{ Development }}
+
+NoHUDItems: You do not have any HUD extensions capable of being disabled
+
+NoSysItems: You do not have any kernel extensions installed
+
+NoCounterMeasureItems: You do not have any Counter Measures

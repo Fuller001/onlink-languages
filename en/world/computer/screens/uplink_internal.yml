@@ -1,0 +1,41 @@
+---
+UplinkLogin:
+  Subtitle: Internal Services System
+
+MainMenu:
+  Subtitle: Internal Services Main Menu
+  MenuBack: Main Menu
+  MenuBackTip: Return to the main menu
+
+News:
+  Menu: News Server
+  MenuTip: Read the latest news
+  Subtitle: News server
+
+MissionList:
+  Menu: Mission List
+  MenuTip: View a list of available missions
+
+ExchangeGateway:
+  Menu: Gateway Market
+  MenuTip: Exchange your gateway for a better model
+  Subtitle: Exchange gateway
+
+MarketGateway:
+  Menu: Auxiliary Gateways
+  MenuTip: Purchase an auxiliary gateway
+  Subtitle: Auxiliary gateway
+
+Faith:
+  Menu: Faith Progress
+  MenuTip: Shows the latest known versions of Faith and Revelation
+  Subtitle: Faith V Revelation
+
+Rankings:
+  Menu: Rankings
+  MenuTip: View the scores of the finest Uplink agents
+  Subtitle: Agent Rankings
+
+AdminCypher:
+  Menu: Admin
+  MenuTip: Access Administrator services (security level 1 required)

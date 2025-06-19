@@ -1,0 +1,31 @@
+---
+MainTitle: Personal Computer
+
+GetOut:
+  MainTitle: maskedCompanyNameCheck
+  SubTitle: Personal Computer
+  Text: |
+    No external log-ins permitted.
+    Please leave now.
+
+FileServer:
+  Menu: Access Files
+
+
+#OwnerInfo:
+#  Menu: Owner Information
+
+#SystemInfo:
+#  Menu: System Information
+
+VoiceAnalysis:
+  MainTitle: maskedCompanyNameCheck
+
+#CommonLinks:
+#  Menu: Common Links
+
+#FinanceInformation:
+#  Menu: Finance Information
+
+#UninstallSoftware:
+#  Menu: Uninstall Software

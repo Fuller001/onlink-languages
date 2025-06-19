@@ -1,0 +1,112 @@
+---
+{!Include ../../../common.yml !}
+
+Auth:
+  Subtitle: Game Server
+
+WarGames:
+  Subtitle: WarGames
+  
+Hints:
+  Subtitle: Hints
+  Messages:
+    - Text: |
+        I seem to remember something of them...
+        
+        It seems to me their front-man was always speaking of Sol.
+        
+        They guard its secret, I'm told. He used to tell me that I always saw Sol setting, but never understood that it set only to rise again. To this day I am still not certain what he meant.
+        
+        He said she was much better... looked to the future instead of the past. Isn't that what his setting Sol means? How could that be better?
+        
+        I remember his favoured student. Spoke with an accent. He said his student didn't see Sol at all, and that was the perfect way to be if he ever wanted to see it for was in its whole.
+        
+        I wish I knew what happened to them. I can't even find the student anymore. Would help if I knew his full name. I can barely remember his first.
+        
+        Vasilis? Vasilidos? Vasiliades?
+        
+        I guess it doesn't matter, anyway. That's what he always said; "Shigata ga nai."
+        
+        Maybe I do understand, after all. I just wish I could know for sure.
+      NextScreen: ->
+    - Text: |
+        It is said that Creation is synonymous with Destruction.
+        
+        Perhaps a sharp enough jog to Life can cause new knowledge...
+        
+        
+        
+        ...and untold rewards.
+      NextScreen: {{ generic_ok }}
+      PreviousScreen: '.'
+    - Text: |
+        Once more the storm is howling, and half hid
+        Under this cradle-hood and coverlid
+        My child sleeps on. There is no obstacle
+        But Gregory's wood and one bare hill
+        Whereby the haystack- and roof-levelling wind.
+        Bred on the Atlantic, can be stayed;
+        And for an hour I have walked and prayed
+        Because of the great gloom that is in my mind.
+        I have walked and prayed for this young child an hour
+        And heard the sea-wind scream upon the tower,
+        And-under the arches of the bridge, and scream
+        In the elms above the flooded stream;
+        Imagining in excited reverie
+        That the future years had come,
+        Dancing to a frenzied drum,
+        Out of the murderous innocence of the sea.
+      NextScreen: ->
+      PreviousScreen: <-
+    - Text: |
+        May she be granted beauty and yet not
+        Beauty to make a stranger's eye distraught,
+        Or hers before a looking-glass, for such,
+        Being made beautiful overmuch,
+        Consider beauty a sufficient end,
+        Lose natural kindness and maybe
+        The heart-revealing intimacy
+        That chooses right, and never find a friend.
+        Helen being chosen found life flat and dull
+        And later had much trouble from a fool,
+        While that great Queen, that rose out of the spray,
+        Being fatherless could have her way
+        Yet chose a bandy-legged smith for man.
+        It's certain that fine women eat
+        A crazy salad with their meat
+        Whereby the Horn of plenty is undone.
+        In courtesy I'd have her chiefly learned;
+        Hearts are not had as a gift but hearts are earned
+        By those that are not entirely beautiful;
+        Yet many, that have played the fool
+        For beauty's very self, has charm made wise.
+      NextScreen: ->
+      PreviousScreen: <-
+    - Text: |
+        Have I not seen the loveliest woman born
+        Out of the mouth of plenty's horn,
+        Because of her opinionated mind
+        Barter that horn and every good
+        By quiet natures understood
+        For an old bellows full of angry wind?
+        Considering that, all hatred driven hence,
+        The soul recovers radical innocence
+        And learns at last that it is self-delighting,
+        Self-appeasing, self-affrighting,
+        And that its own sweet will is Heaven's will;
+        She can, though every face should scowl
+        And every windy quarter howl
+        Or every bellows burst, be happy Still.
+        And may her bridegroom bring her to a house
+        Where all's accustomed, ceremonious;
+        For arrogance and hatred are the wares
+        Peddled in the thoroughfares.
+        How but in custom and in ceremony
+        Are innocence and beauty born?
+        Ceremony's a name for the rich horn,
+        And custom for the spreading laurel tree.
+      NextScreen: {{ generic_ok }}
+      PreviousScreen: <-
+
+ThermonuclearWar:
+  Subtitle: Global Thermonuclear War

@@ -1,53 +1,55 @@
 ---
-TitleBar:
-    Text: CONNECTION MANAGER
+{!Include ../../common.yml !}
+
+Title: CONNECTION MANAGER
 
 DisplayToggle:
-    Text: {{ generic_ip }}
-    Tooltip: Click this button to toggle between IP and name display
+  Text: {{ generic_ip }}
+  Tooltip: Click this button to toggle between IP and name display
 
 FilterPrompt:
-    Tooltip: Enter filter pattern here
-    Hint: Filter
+  Tooltip: Enter filter pattern here
+  Hint: Filter
 
 Save:
-    Text: Save
-    Tooltip: Save the current connection
+  Text: Save
+  Tooltip: Save the current connection
 
 Load:
-    Text: Load
-    Tooltip: Load saved connection
+  Text: Load
+  Tooltip: Load saved connection
 
 Random:
-    Text: Random
-    Tooltip: Generate a random connection from available targets
+  Text: Random
+  Tooltip: Generate a random connection from available targets
 
 Reset:
-    Text: Reset
-    Tooltip: Reset current connection
+  Text: Reset
+  Tooltip: Reset current connection
 
 Connect:
-    Tooltip: Use current connection setup
+  Tooltip: Use current connection setup
 
 Exit:
-    Text: Close
-    Tooltip: Close this window
+  Text: Close
+  Tooltip: Close this window
 
 # Keypad
 Undo:
-    Text: Undo
-    Tooltip: Undo last key entry
+  Text: Undo
+  Tooltip: Undo last key entry
 Clear:
-    Text: Clear
-    Tooltip: Clear all key entries
+  Text: Clear
+  Tooltip: Clear all key entries
 Direct:
-    Text: Direct
-    Tooltip: Attempt to connect directly to dialed address
+  Text: Direct
+  Tooltip: Attempt to connect directly to dialed address
 Bounce:
-    Text: Bounce
-    Tooltip: Attempt to connect to dialed address using current saved bounce path
+  Text: Bounce
+  Tooltip: Attempt to connect to dialed address using current saved bounce path
 
-ErrorConnected: You cannot alter a connection while connected. Please disconnect first.
-ErrorNoConnection: No connection has been set. Please add some links before trying to connect.
-ErrorCannotBounce: You cannot bounce through a system without externally facing services.
-ErrorCannotRoute: You cannot route to this system.
+Errors:
+  Connected: You cannot alter a connection while connected. Please disconnect first.
+  NoConnection: No connection has been set. Please add some links before trying to connect.
+  CannotBounce: You cannot bounce through a system without externally facing services.
+  CannotRoute: You cannot route to this system.

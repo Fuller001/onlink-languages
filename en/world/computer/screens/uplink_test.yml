@@ -1,0 +1,15 @@
+---
+Intro:
+  Subtitle: Welcome to the Uplink Test Machine
+  Text: |
+    This will be your first opportunity to hack into a real computer system with real defenses. There is no point in trying to hack a real computer system until you can do the Uplink Test in your sleep.
+    
+    You will be traced during your attempts, so remember to monitor the communications lines, however no action will be taken against you should you be traced.
+    
+    HINT : Never connect directly to your target server. Bounce your connection around the world - it will make you much harder to track and give you more time to complete your work.
+    
+    Remember that you will leave logs on the computers you use as relays (which can be traced back to you) - ideally your connection should use a computer which allows you easy and risk free log access, so you can erase your tracks without fear of punishment.
+  NextScreen: Start the test
+  
+UserID:
+  Subtitle: Test machine

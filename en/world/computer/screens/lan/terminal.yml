@@ -1,0 +1,23 @@
+---
+Maintitle: LAN Terminal
+
+Welcome:
+  Maintitle: {{ owner_name }}
+  Subtitle: Local Area Network
+  Text: |
+    TERMINAL ACCESSED
+    
+    Password verification will be required for further systems access.
+    All activity through these terminals is logged and analysed on a daily basis.
+    
+    If you are not a registered employee of this company then you must disconnect now, or legal charges may be brought against you.
+
+Info:
+  Subtitle: ACCESS GRANTED
+  Text: |
+    All security verification checks out OK.
+    You are now authorised to use this Terminal system.
+    
+    Please respect the wishes and needs of other users, and report any suspected illegal activity to the system administrator.
+    
+    {{ misc_string }}

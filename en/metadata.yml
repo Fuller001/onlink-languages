@@ -1,6 +1,4 @@
-
-Name: English
-Author: Ferrous Moon
-
-#FontFallback:
-#    Dungeon: dungeon.ttf
+---
+Language: English
+Authors: Chris Delay and Ferrous Moon
+Manifest: manifest.yml

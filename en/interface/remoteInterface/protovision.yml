@@ -1,0 +1,24 @@
+---
+{!Include ../../common.yml !}
+
+Message:
+  Text: |
+    Falken's maze
+    Black jack
+    Gin rummy
+    hearts
+    bridge
+    checkers
+    chess
+    poker
+    fighter combat
+    guerrilla engagement
+    desert warfare
+    air-to-ground actions
+    theatrewide tactical warfare
+    theatrewide biotoxic and chemical warfare
+    Global Thermonuclear War
+
+Close:
+  Text: {{ generic_close }}
+  Tip: Close this screen

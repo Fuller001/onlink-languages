@@ -1,0 +1,30 @@
+---
+{!Include ../../common.yml !}
+
+Title:
+  Text: Keyboard Mapper
+  Tip: Remove the key mapper screen.
+
+RegisterShortcut:
+  Text: Register shortcut
+  Tip: Click to register a new shortcut.
+
+RegisterShortcutInfo: Press in a key combination.
+RegisterShortcutError: Invalid Shortcut.
+RegisterShortcutCancel: {{ generic_cancel }}
+
+AssignShortcutInfo: Click on any HUD element or item below to assign a shortcut.
+
+AssignShortcutScreenshot:
+  Text: Screenshot
+  Tip: assign this shortcut to take a screenshot.
+
+AssignShortcutExit:
+  Text: Exit
+  Tip: assign this shortcut to exit the game when pressed.
+  
+AssignShortcutCheats:
+  Text: Cheats
+  Tip: assign this shortcut to open the cheat menu.
+  
+AssignShortcutCancel: {{ generic_cancel }}

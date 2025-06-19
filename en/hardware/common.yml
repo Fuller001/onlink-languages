@@ -3,3 +3,31 @@ hardware_description: |
   {{ Name }}
   
   {{ Description }}
+
+CPU:
+  Name: CPU
+  Unit: Ghz
+  
+Memory:
+  Name: Memory
+  Unit: Gq
+  
+RAM:
+  Name: RAM
+  Unit: Gq
+  
+Modem:
+  Name: Modem
+  Unit: Gq / s
+
+Security:
+  Name: Security
+
+Upgrade:
+  Name: Upgrade
+  
+Cooler:
+  Name: Cooler
+  
+PowerSupplyUnit:
+  Name: Power Supply Unit

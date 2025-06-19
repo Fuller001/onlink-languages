@@ -1,0 +1,10 @@
+---
+{!Include ../../common.yml !}
+
+SendMail:
+  Text: Mail this to me
+  Tip: Click to send this information to yourself in an email
+
+Back: {{ generic_back }}
+Next: {% if has_next_page %} {{ generic_next }} {% else %} {{ generic_ok }} {% endif %}
+Return: {{ generic_return }}

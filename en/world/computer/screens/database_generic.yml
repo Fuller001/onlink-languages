@@ -1,0 +1,26 @@
+---
+search_record: |
+  {% if ID == DatabaseSocial %} Search for a social security record
+  {% elif ID == DatabaseAcademic %} Search for an academic record
+  {% endif %}
+
+Intro:
+  Subtitle: Unauthorised Access will be punished
+  Text: |
+    This is a Government owned computer system - all attempts at illegal access will be severely punished to the full extent of the law.
+    
+    Valid User Accounts
+    ====================
+    
+    admin     - Complete system wide access
+    readwrite - Read/Write access to all records
+    readonly  - Read only access to all records
+  NextScreen: Log in
+
+
+SearchRecord:
+  Subtitle: {{ search_record }}
+  Menu: Search Records
+  
+Record:
+  Subtitle: View Record

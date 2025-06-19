@@ -1,0 +1,4 @@
+---
+Phone:
+  MainTitle: maskedCompanyNameCheck
+  Subtitle: {{ computer_ip }}

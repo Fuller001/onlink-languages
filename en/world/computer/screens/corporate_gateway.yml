@@ -1,0 +1,10 @@
+---
+Maintitle: Gateway Security System
+
+Welcome:
+  Maintitle: {{ owner_name }}
+  Subtitle: {{ Maintitle }}
+  Text: No external log-ins permitted.
+  
+VSEC:
+  Menu: Admin Menu    
