@@ -1,110 +1,114 @@
 ---
 hud_software:
-  Tooltip: Run a software application
+  Tip: Run a software application
 
 hud_mainMenu:
-  Tooltip: Close any connections and log off
+  Tip: Close any connections and log off
 
 hud_topLeftClick:
-  Tooltip: Close any connections and log off
+  Tip: Close any connections and log off
 
 hud_date:
-  Tooltip: Shows the current Date and Time
+  Tip: Shows the current Date and Time
 
 hud_location:
-  Tooltip: Shows your current Uplink location
+  Text: Not Connected
+  Tip: Shows your current Uplink location
 
-hud_speed 0:
-  Tooltip: Run at PAUSED speed
+hud_speed Paused:
+  Tip: Run at PAUSED speed
     
-hud_speed 1:
-  Tooltip: Run at NORMAL speed
+hud_speed Normal:
+  Tip: Run at NORMAL speed
     
-hud_speed 2:
-  Tooltip: Run at FAST speed
+hud_speed Fast:
+  Tip: Run at FAST speed
     
-hud_speed 3:
-  Tooltip: Run at VERYFAST speed
+hud_speed MegaFast:
+  Tip: Run at VERYFAST speed
+    
+hud_speed OhMyGod:
+  Tip: Run at OH-MY-GOD speed (DEBUG ONLY)
 
 hud_note:
-  Tooltip: Edit this note
+  Tip: Edit this note
 
 hud_pc:
   Text: Workspaces
-  Tooltip: Shows your active workspaces
+  Tip: Shows your active workspaces
 
 hud_admin:
   Text: Administration Interface
-  Tooltip: Show the administration panel
+  Tip: Show the administration panel
 
 hud_keypad:
   Text: Connection Manager
-  Tooltip: Show the connection manager
+  Tip: Show the connection manager
 
 hud_notepad:
   Text: Notepad
-  Tooltip: Shows your personal notes
+  Tip: Shows your personal notes
 
 hud_hardware:
   Text: Hardware
-  Tooltip: Show the hardware installed in your gateway
+  Tip: Show the hardware installed in your gateway
 
 hud_memory:
   Text: Memory
-  Tooltip: Show your memory banks
+  Tip: Show your memory banks
 
 hud_status:
   Text: Status
-  Tooltip: Show your status in the World
+  Tip: Show your status in the World
 
 hud_finance:
   Text: Finances
-  Tooltip: Show your financial situation
+  Tip: Show your financial situation
 
 hud_todo:
   Text: Mission List
-  Tooltip: Check the status of your missions
+  Tip: Check the status of your missions
 
 hud_inbox:
   Text: Mail Archive
-  Tooltip: Browse your old emails
+  Tip: Browse your old emails
 
 hud_keymap:
   Text: Key Mapper
-  Tooltip: Show your shortcut key mapper
+  Tip: Show your shortcut key mapper
 
 hud_music:
   Text: Music List
-  Tooltip: Show your music controller
+  Tip: Show your music controller
 
 hud_bio:
   Text: Metrics
-  Tooltip: Show the metrics panel
+  Tip: Show the metrics panel
 
 hud_terminal:
   Text: Terminal Server
-  Tooltip: Show the terminal client
+  Tip: Show the terminal client
 
 hud_ircClient:
   Text: IRC Client
-  Tooltip: Show the IRC Client
+  Tip: Show the IRC Client
   
 hud_analyser:
   Text: Connection Analyser
-  Tooltip: Show the connection analyser
+  Tip: Show the connection analyser
 
 hud_lanView:
   Text: LAN View
-  Tooltip: Show the LAN Viewer
+  Tip: Show the LAN Viewer
 
 hud_serviceInjector:
   Text: Service Injector
-  Tooltip: Show the terminal services injector panel
+  Tip: Show the terminal services injector panel
 
 hud_pcSecure:
   Text: PC Secure
-  Tooltip: Show the PC Secure panel
+  Tip: Show the PC Secure panel
 
 hud_programmer:
   Text: C++ Client
-  Tooltip: Show the C++ client
+  Tip: Show the C++ client
