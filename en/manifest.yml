@@ -5,13 +5,13 @@ Common: common.yml
 
 Data:
   Calendar: calendar.yml
-  ShortcutSoftware: computer/executable_file_types.yml
   Software: software/common.yml
   Hardware: hardware/common.yml
   VitalRecords: vital_records.yml
 
 Computer:
-  Concept: computer/concepts.yml
+  ExecutableFileTypes: computer/executable_file_types.yml
+  Concepts: computer/concepts.yml
   Security: computer/security.yml
   GatewayUsage: computer/gatewayUsage.yml
   NameGeneration: computer/names.yml
