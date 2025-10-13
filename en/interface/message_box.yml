@@ -376,3 +376,8 @@ InstallerNoAction:
   Type: Simple
   Subject: {{ generic_error }}
   Body: Software is already installed on this system.
+
+LocalOnly:
+  Type: Simple
+  Subject: {{ generic_error }}
+  Body: You can only use this tool on your own system.

@@ -58,6 +58,9 @@ RAMValues: |
   {{ ram_counter_measure }} Gq
   {{ ram_program }} Gq
 
+SelectGateway:
+  Tip: Select this gateway
+
 UsageStatus:
   Text: {{ Status }}
   Tip: Show this gateway's status information in various screens

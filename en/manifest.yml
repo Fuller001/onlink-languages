@@ -122,6 +122,7 @@ Interfaces:
   KeyMapper: interface/localInterface/keymapper.yml
   LAN: interface/localInterface/lanview.yml
   Links: interface/localInterface/links.yml
+  Sound: interface/localInterface/sound.yml
   Task: interface/localInterface/tasks.yml
   Terminal: interface/localInterface/terminal.yml
 
@@ -152,6 +153,8 @@ Interfaces:
   VSEC: interface/remoteInterface/vsec.yml
   
   SearchBox: interface/remoteInterface/searchRecord.yml
+  
+  TaskVoiceAnalyser: interface/task/voice_analyser.yml
 
 News:
   ARCUnusualHiring: news/plot/main/act1scene2.yml

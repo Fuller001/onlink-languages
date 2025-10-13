@@ -1,0 +1,69 @@
+---
+Title:
+  Text: Music Player
+  Tip: Click to close this interface
+
+CoreSongs:
+  Text: Core Songs
+  
+UserSongs:
+  Text: User Songs
+  
+Mute:
+  Tip: Click to mute all sounds
+  
+MuteMusic:
+  Tip: Click to mute music
+  
+MuteEffect:
+  Tip: Click to mute effects
+  
+Rewind:
+  Tip: Click to replay the last track
+  
+Play:
+  Tip: Click to play the music
+  
+Forward:
+  Tip: Click to skip to the next track
+  
+Stop:
+  Tip: Click to stop the music
+  
+Repeat:
+  Tip: Click to repeat current track
+  
+Shuffle:
+  Tip: Click to randomize the music
+  
+Seek:
+  Tip: Click to seek in the track
+  
+Playlist:
+  Items:
+    Generic:
+      Text: {{ misc_string }}
+      Tooltip: Set the active playlist
+  
+SampleRate:
+  Text: Sample Rate
+  Tip: Set the sample rate.
+  Items:
+    Auto:
+      Text: Auto
+      Tip: Use the default track sample rate
+    Generic:
+      Text: {{ misc_numeric }}Hz
+      Tip: Set the sample rate
+
+MasterVolume:
+  Text: Master Volume
+  Tip: Adjust the master volume
+
+MusicVolume:
+  Text: Music Volume
+  Tip: Adjust the music volume
+
+SoundEffectVolume:
+  Text: Sound Effect Volume
+  Tip: Adjust the sound effect volume

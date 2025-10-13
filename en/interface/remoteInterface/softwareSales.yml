@@ -3,61 +3,61 @@ Tabs:
   Items:
     Owned:
       Text: Owned
-      Tooltip: Click to show owned software
+      Tip: Click to show owned software
     Software:
       Text: Software
-      Tooltip: Click to show new software
+      Tip: Click to show new software
     Upgrades:
       Text: Upgrades
-      Tooltip: Click to show new upgrades
+      Tip: Click to show new upgrades
 
 NameColumn:
   Text: Name
-  Tooltip: This column shows the name of the item for sale
+  Tip: This column shows the name of the item for sale
 VersionColumn:
   Text: Version
-  Tooltip: This column shows the version number of the software
+  Tip: This column shows the version number of the software
 CostColumn:
   Text: Cost
-  Tooltip: This column shows the cost of the item in credits
+  Tip: This column shows the cost of the item in credits
 SizeColumn:
   Text: Size
-  Tooltip: This column shows the space required for this item
+  Tip: This column shows the space required for this item
 RAMColumn:
   Text: RAM
-  Tooltip: This column shows the RAM required for this item per execution, if applicable
+  Tip: This column shows the RAM required for this item per execution, if applicable
 
 Purchase:
   Text: Purchase
-  Tooltip: Purchase this item
+  Tip: Purchase this item
 Prerequisite:
   Text: Prerequisite
-  Tooltip: Jump To the prerequisite for this item
+  Tip: Jump To the prerequisite for this item
 Download:
   Text: Download
-  Tooltip: Download this version
+  Tip: Download this version
 
 Downloaded:
   Text: Downloaded
-  Tooltip: This version is on your databank
+  Tip: This version is on your databank
 
 NextVersion:
   Text: Next Version
-  Tooltip: View next version
+  Tip: View next version
 PrevVersion:
   Text: Previous Version
-  Tooltip: View previous version
+  Tip: View previous version
 
 Exit:
   Text: Exit Market
-  Tooltip: Close the screen and return to the main menu
+  Tip: Close the screen and return to the main menu
 
 DownloadAll:
   Text: Download All
-  Tooltip: Download all owned softwares
+  Tip: Download all owned softwares
 MaxVersion:
   Text: Max Version
-  Tooltip: Jump to the last version
+  Tip: Jump to the last version
 
 OwnedPrice: Owned
 
