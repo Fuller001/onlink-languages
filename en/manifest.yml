@@ -99,6 +99,7 @@ Computer:
     LANFaxPrinter: world/computer/screens/lan/faxprinter.yml
 
 Interfaces:
+  TypeInfo: interface/types.yml
   MainMenu: interface/mainmenu/main_menu.yml
   MessageBoxContent: interface/message_box.yml
   Shortcuts: interface/shortcut.yml
