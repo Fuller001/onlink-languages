@@ -1,0 +1,40 @@
+---
+VoiceSample:
+  Unknown: Unknown Voice Sample
+  Default: "{{ misc_string }}'s Voice Sample"
+
+Progress:
+  Awaiting: Awaiting voice input...
+  Awaitingv2: Awaiting voice or data input...
+  Recording: Recording voice pattern...
+  Analysing: Analysing voice recording...
+  Reproducing: Reproducing voice sample...
+  Saved: Voice pattern saved.
+  SaveFailure: Voice pattern save failed.
+
+  
+  Downloading: Downloading {{ misc_numeric }}% ...
+  DownloadingCompleted: |
+    Downloading complete.
+    Playback ready.  
+
+  AnalysisFailed: |
+    Not enough voice sampling.
+    Please try again.
+  AnalysisFailedv2: |
+    Not enough voice sampling.
+    Please try again or input data from file.
+  AnalysisCompleted: |
+    Voice analysis complete.
+    Playback ready.
+    
+  PlaybackCompleted: |
+    Finished playing back.
+    Press play to repeat.
+
+Title:
+  Text: Voice Analyser
+  Tip: Click to move this application
+  
+Close:
+  Tip: Close the analyser software

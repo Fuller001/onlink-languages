@@ -1,0 +1,36 @@
+---
+TextLinkActionTypes:
+  Add:
+    Text: Add
+    Tip: Add Link to favorites.
+  Connect:
+    Text: Connect
+    Tip: Connect to this IP.
+
+TextPresentationTypes:
+  Raw:
+    Text: Raw
+    Tip: Show the text as is.
+  WYSIWYG:
+    Text: WYSIWYG
+    Tip: Show the text with all the visual effects.
+  Mixed:
+    Text: Mixed
+    Tip: Show the text with all the visual effects except for the line the cursor is on.
+    
+ColourBlindTypes:
+  Disabled:
+    Text: Disabled
+    Tip: Disable ColourBlind mode.
+    
+  RedGreen:
+    Text: Red / Green
+    Tip: Select this mode.
+    
+  YellowBlue:
+    Text: Yellow / Blue
+    Tip: Select this mode.
+    
+  Full:
+    Text: Full
+    Tip: Select this mode.

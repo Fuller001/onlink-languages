@@ -1,65 +1,65 @@
 ---
 GraphicAccess:
   Text: Graphics
-  Tooltip: Edit GRAPHICS options.
+  Tip: Edit GRAPHICS options.
 
 SoundAccess:
   Text: Sound
-  Tooltip: Edit SOUND options.
+  Tip: Edit SOUND options.
 
 GameplayAccess:
   Text: Gameplay
-  Tooltip: Edit GAMEPLAY options.
+  Tip: Edit GAMEPLAY options.
 
 UIAccess:
   Text: UI
-  Tooltip: Edit User Interface options.
+  Tip: Edit User Interface options.
 
 MainMenu:
   Text: Main menu
-  Tooltip: Return to the main menu.
+  Tip: Return to the main menu.
 
 ApplyChanges:
   Text: Apply Changes
-  Tooltip: Apply option changes.
+  Tip: Apply option changes.
 
 # Graphics
 
 SafeMode:
   Text: Safe Mode
-  Tooltip: Enables graphical safe mode for troubleshooting.
+  Tip: Enables graphical safe mode for troubleshooting.
   
 SoftwareMouse:
   Text: Software Mouse
-  Tooltip: Disable/Enable the software mouse.
+  Tip: Disable/Enable the software mouse.
 
 Display:
   Text: Display Monitor
-  Tooltip: Select the monitor you wish to use.
+  Tip: Select the monitor you wish to use.
   Items:
     GenericID:
       Text: Monitor {{ misc_numeric }}
-      Tooltip: Select this Monitor.
+      Tip: Select this Monitor.
       
     GenericName:
       Text: {{ misc_string }}
-      Tooltip: Select this Monitor.
+      Tip: Select this Monitor.
 
 Renderer:
   Text: Renderer
-  Tooltip: Select the rendering backend.
+  Tip: Select the rendering backend.
   Items:
     Generic:
       Text: {{ misc_string }}
-      Tooltip: Select this Renderer.
+      Tip: Select this Renderer.
 
 ScreenMode:
   Text: Screen Mode
-  Tooltip: Select your desired screen resolution.
+  Tip: Select your desired screen resolution.
   Items:
     Windowed:
       Text: Windowed
-      Tooltip: Run the game in a window.
+      Tip: Run the game in a window.
 
     FullScreen:
       Text: Full Screen
@@ -67,140 +67,69 @@ ScreenMode:
     
     Borderless:
       Text: Borderless
-      Tooltip: Run the game in a borderless full screen window.
+      Tip: Run the game in a borderless full screen window.
 
 Resolution:
   Text: Resolution
-  Tooltip: Select your desired screen resolution.
+  Tip: Select your desired screen resolution.
   Items:
     Generic:
       Text: {{ misc_numeric }}x{{ misc_numeric2 }} ({{ misc_string }})
-      Tooltip: Select this resolution.
+      Tip: Select this resolution.
 
 RefreshRate:
   Text: Refresh Rate
-  Tooltip: Select your desired refresh rate.
+  Tip: Select your desired refresh rate.
   Items:
     Generic:
       Text: {{misc_numeric}}
-      Tooltip: Select this refresh rate.
+      Tip: Select this refresh rate.
 
 VSync:
   Text: VSync
-  Tooltip: Select the vertical Synchronization mode.
+  Tip: Select the vertical Synchronization mode.
   Items:
     Disable:
       Text: Disable
-      Tooltip: Disable VSync
+      Tip: Disable VSync
 
     Enable:
       Text: Enable
-      Tooltip: Enable VSync
+      Tip: Enable VSync
     
     Adaptive:
       Text: Adaptive
-      Tooltip: Adaptive VSync
-
-# Audio
-
-CoreSongs:
-  Text: Core Songs
-  
-UserSongs:
-  Text: User Songs
-  
-Mute:
-  Tooltip: Click to mute all sounds
-  
-MuteMusic:
-  Tooltip: Click to mute music
-  
-MuteEffect:
-  Tooltip: Click to mute effects
-  
-Rewind:
-  Tooltip: Click to replay last track
-  
-Play:
-  Tooltip: Click to play the music
-  
-Forward:
-  Tooltip: Click to skip to next track
-  
-Stop:
-  Tooltip: Click to stop the music
-  
-Repeat:
-  Tooltip: Click to repeat current track
-  
-Randomize:
-  Tooltip: Click to randomize the music playlist
-  
-Seek:
-  Tooltip: Click to seek in the track
-  
-Playlist:
-  Text: Select Playlist
-  Items:
-    Generic:
-      Text: {{ misc_string }}
-      Tooltip: Set the active playlist
-
-SampleRateText:
-  Text: Sample Rate
-  Tooltip: Set the sample rate.
-
-SampleRate:
-  Tooltip: Set the sample rate.
-  Items:
-    Auto:
-      Text: Track Sample Rate
-      Tooltip: Use the track Sample Rate
-    Generic:
-      Text: {{ misc_numeric }}Hz
-      Tooltip: Set the Sample Rate
-
-MasterVolume:
-  Text: Master Volume
-  Tooltip: Adjust the master volume
-
-MusicVolume:
-  Text: Music Volume
-  Tooltip: Adjust the music volume
-
-SoundEffectVolume:
-  Text: Sound Effect Volume
-  Tooltip: Adjust the sound effect volume
+      Tip: Adaptive VSync
 
 # Gameplay
 
 OriginalExperience:
   Text: Original Uplink Experience
-  Tooltip: The next new user will resemble the original Uplink, but with Onlink's ui enhancements.
+  Tip: The next new user will resemble the original Uplink, but with Onlink's ui enhancements.
 
 UplinkOS:
   Text: UplinkOS Engine
-  Tooltip: Restart the game and launch as Uplink OS
+  Tip: Restart the game and launch as Uplink OS
 
 EnhancedTaskManager:
   Text: Enhance Task Manager
-  Tooltip: Removes/Adds more buttons to the task manager
+  Tip: Removes/Adds more buttons to the task manager
 
 LessMoneyTransferred:
   Text: Missions generate less money
-  Tooltip: Trace a Balance Transfer mission will generates less money when on
+  Tip: Trace a Balance Transfer mission will generates less money when on
 
 MinimalAmountOfMissions:
   Text: Forced minimal amount of missions
-  Tooltip: Force a minimal amount of missions for each tier at the start of the game.
+  Tip: Force a minimal amount of missions for each tier at the start of the game.
 
 AutoAttach:
   Text: Auto-attach mission file to emails
-  Tooltip: When replying to a mission email, the associated mission file will be attached.
+  Tip: When replying to a mission email, the associated mission file will be attached.
 
 CustomSeed:
   Text: Custom seed
-  Tooltip: Hide/Show the number generator seed input screen at the start of a new game
+  Tip: Hide/Show the number generator seed input screen at the start of a new game
 
 # UI
 
@@ -209,101 +138,98 @@ Shortcuts:
   Items:
     KeyBind:
       Text: {{ misc_string }}
-      Tooltip: Click to change the key binding
+      Tip: Click to change the key binding
   
     Generic:
       Text: {{ misc_string }}
-      Tooltip: Bind This action to the shortcut
+      Tip: Bind This action to the shortcut
 
 ShortcutPrevious:
-  Tooltip: Display the previous shortcut page
+  Tip: Display the previous shortcut page
   
 ShortcutAdd:
   Text: Add Shortcut
-  Tooltip: Click to add a shortcut
+  Tip: Click to add a shortcut
   
 ShortcutNext:
-  Tooltip: Display the next shortcut page
+  Tip: Display the next shortcut page
 
 ThemeSelection:
   Text: Theme Selection
-  Tooltip: Select the UI theme you wish to use
+  Tip: Select the UI theme you wish to use
   Items:
     Generic:
       Text: {{ theme_name }}
-      Tooltip: Select {{ theme_name }} by {{ theme_author }} {{ theme_comment }}
+      Tip: Select {{ theme_name }} by {{ theme_author }} {{ theme_comment }}
 
 WorldMapSelection:
   Text: World Map Selection
-  Tooltip: Select the world map you wish to use in game
+  Tip: Select the world map you wish to use in game
   Items:
     Auto:
       Text: Auto
-      Tooltip: Select this world map
+      Tip: Select this world map
 
     Generic:
       Text: {{ misc_string }}
-      Tooltip: Select this world map
+      Tip: Select this world map
 
 WorldMapSelectionCurrent:
-  Tooltip: This is the world map that will be used in game
+  Tip: This is the world map that will be used in game
 
 LanguageSelection:
   Text: Language
-  Tooltip: Select the language
+  Tip: Select the language
   Items:
     Generic:
       Text: {{ misc_string }}
-      Tooltip: Select {{ misc_string }}, By {{ misc_string2 }}
+      Tip: Select {{ misc_string }}, By {{ misc_string2 }}
 
 ColourBlind:
   Text: Colour Blind Mode
-  Tooltip: Select the colour blind mode
-  Items:
-    Disabled:
-      Text: Disabled
-      Tooltip: Disable ColourBlind mode.
-      
-    RedGreen:
-      Text: Red / Green
-      Tooltip: Select this mode.
-      
-    YellowBlue:
-      Text: Yellow / Blue
-      Tooltip: Select this mode.
-      
-    Full:
-      Text: Full
-      Tooltip: Select this mode.
+  Tip: Select the colour blind mode
 
 FontScale:
   Text: Font Scale
-  Tooltip: Set the Font Scale
+  Tip: Set the Font Scale
 
 HighlightColour:
   Text: Link Highlight Colour
   Hint: "#00000000"
-  Tooltip: Type in the default highlight colour for links
+  Tip: Type in the default highlight colour for links
   
 HighlightColourItem:
-  Tooltip: This colour will be used to highlight links
+  Tip: This colour will be used to highlight links
 
 MissionColour:
   Text: Link With Mission Colour
   Hint: "#00000000"
-  Tooltip: Type in the default mission colour for links
+  Tip: Type in the default mission colour for links
   
 MissionColourItem:
-  Tooltip: This colour will be used on links with missions
+  Tip: This colour will be used on links with missions
 
 EnableAnimation:
   Text: Enable Animation
-  Tooltip: Disable/Enable the game animations
+  Tip: Disable/Enable the game animations
 
 FastAnimation:
   Text: Faster Animation
-  Tooltip: Increase the animation speed
+  Tip: Increase the animation speed
 
 BorderOnButton:
   Text: Border on buttons
-  Tooltip: Add a border on every buttons
+  Tip: Add a border on every buttons
+
+TextPresentation:
+  Text: Text presentation
+  Tip: Set how the text will be presented in a textbox.
+
+TextEditPresentation:
+  Text: Text presentation for edit
+  Tip: Set how the text will be presented when editing.
+
+TextLinkAction:
+  Text: Default Link Action
+  Tip: Set the default action when ctrl+click a link in text.
+
